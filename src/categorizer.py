@@ -188,7 +188,7 @@ def categorize(items: list, config: dict) -> list:
         return items
 
     llm_cfg = config.get("llm", {})
-    model = llm_cfg.get("model", "gemini-2.5-flash-lite")
+    model = llm_cfg.get("model", "gemini-3.5-flash-lite")
     batch_size = int(llm_cfg.get("batch_size", 20))
     max_retries = int(llm_cfg.get("max_retries", 3))
     categories = config.get("categories", ["Genel"])

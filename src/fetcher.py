@@ -58,14 +58,15 @@ def _fetch_source(source: dict, cutoff: datetime) -> List[FetchedItem]:
 
     Args:
         source: config.yml'deki tek bir kaynak sözlüğü
-                {"name": ..., "url": ..., "enabled": ...}
+                {"name": ..., "url": ..., "enabled": ..., "max_items": ...}
         cutoff: Bu tarihten önce yayınlanan haberler atlanır (UTC)
 
     Returns:
-        FetchedItem listesi (boş olabilir)
+        FetchedItem listesi (boş olabilir, max_items ile sınırlı)
     """
     name = source["name"]
     url = source["url"]
+    max_items = source.get("max_items")  # None ise limit yok
     items: List[FetchedItem] = []
 
     logger.info("Çekiliyor: %s (%s)", name, url)
@@ -135,7 +136,13 @@ def _fetch_source(source: dict, cutoff: datetime) -> List[FetchedItem]:
             url_hash=_compute_hash(link),
         ))
 
-    logger.info("  → %d haber bulundu (son 24 saat): %s", len(items), name)
+        # max_items limitine ulaşıldıysa dur
+        if max_items and len(items) >= max_items:
+            logger.debug("max_items=%d limitine ulaşıldı: %s", max_items, name)
+            break
+
+    limit_str = f" (max_items={max_items} ile sınırlı)" if max_items else ""
+    logger.info("  → %d haber bulundu (son 24 saat)%s: %s", len(items), limit_str, name)
     return items
 
 

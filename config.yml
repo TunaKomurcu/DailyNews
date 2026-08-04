@@ -7,22 +7,27 @@ sources:
   - name: "arXiv AI"
     url: "https://rss.arxiv.org/rss/cs.AI"
     enabled: true
+    max_items: 10
 
   - name: "OpenAI Blog"
     url: "https://openai.com/blog/rss.xml"
     enabled: true
+    max_items: 10
 
   - name: "Anthropic Blog"
     url: "https://www.anthropic.com/rss.xml"
     enabled: true
+    max_items: 10
 
   - name: "Hacker News AI"
     url: "https://hnrss.org/newest?q=AI+LLM+machine+learning&points=20"
     enabled: true
+    max_items: 10
 
   - name: "TechCrunch AI"
     url: "https://techcrunch.com/category/artificial-intelligence/feed/"
     enabled: true
+    max_items: 10
 
 # -----------------------------------------------------------------------------
 # Kategoriler — LLM'in atayabileceği tüm geçerli değerler.
@@ -42,7 +47,7 @@ categories:
 # LLM ayarları
 # -----------------------------------------------------------------------------
 llm:
-  model: "gemini-2.5-flash"
+  model: "gemini-3.5-flash-lite"
   batch_size: 20          # Tek API çağrısında kaç haber gönderileceği
   max_retries: 3          # 429 / geçici hata durumunda maksimum yeniden deneme
 
