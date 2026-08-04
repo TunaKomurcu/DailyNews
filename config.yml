@@ -14,13 +14,14 @@ sources:
     enabled: true
     max_items: 10
 
-  - name: "Anthropic Blog"
-    url: "https://www.anthropic.com/rss.xml"
+  - name: "The Decoder"
+    url: "https://the-decoder.com/feed/"
     enabled: true
     max_items: 10
+    # Not: Anthropic RSS kaldırdı (tüm URL'ler 404). Yerine The Decoder eklendi.
 
-  - name: "Hacker News AI"
-    url: "https://hnrss.org/newest?q=AI+LLM+machine+learning&points=20"
+  - name: "Hacker News"
+    url: "https://news.ycombinator.com/rss"
     enabled: true
     max_items: 10
 
