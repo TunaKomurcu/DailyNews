@@ -1,4 +1,158 @@
 {
-  "last_updated": null,
-  "items": []
+  "last_updated": "2026-08-04T11:45:49Z",
+  "items": [
+    {
+      "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
+      "url": "https://arxiv.org/abs/2608.00001",
+      "summary": "arXiv:2608.00001v1 Announce Type: new Abstract: This research note revisits Leibniz&#x27;s mill, Turing&#x27;s imitation game, and Searle&#x27;s Chinese Room through the Conservation-Congruent Encoding (CCE) framework. It formalises a toy symbolic setting in which successful behaviour is measured by task performan…",
+      "published": "2026-08-04T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "c1342f0457942d4e",
+      "category": "Araştırma"
+    },
+    {
+      "title": "AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent",
+      "url": "https://arxiv.org/abs/2608.00003",
+      "summary": "arXiv:2608.00003v1 Announce Type: new Abstract: Computational Fluid Dynamics (CFD) plays an important role in modern engineering, but using open-source solvers such as OpenFOAM requires considerable knowledge and skills, as well as time-consuming configuration file setup. To reduce this burden, we p…",
+      "published": "2026-08-04T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "b9416bd81ef974c6",
+      "category": "Mühendislik/Mimari"
+    },
+    {
+      "title": "Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis",
+      "url": "https://arxiv.org/abs/2608.00006",
+      "summary": "arXiv:2608.00006v1 Announce Type: new Abstract: Large Language Models (LLMs), a part of artificial intelligence (AI), are increasingly being adopted by Small and Medium Enterprises (SMEs) to enhance question-answering capabilities and support business decision-making processes. However, hallucinatio…",
+      "published": "2026-08-04T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "f7dc9b12db57fb7a",
+      "category": "Araştırma"
+    },
+    {
+      "title": "Energy Efficiency of Locally Deployed LLMs: A Preliminary Quantitative GPU Power Benchmark on Consumer Hardware",
+      "url": "https://arxiv.org/abs/2608.00008",
+      "summary": "arXiv:2608.00008v1 Announce Type: new Abstract: The local deployment of large language models (LLMs) is gaining traction due to privacy concerns and the desire for on-premise inference. However, the energy costs on consumer hardware remain poorly characterized, as most benchmarks focus solely on acc…",
+      "published": "2026-08-04T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "0eae32ae03d6f0eb",
+      "category": "Araştırma"
+    },
+    {
+      "title": "CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection",
+      "url": "https://arxiv.org/abs/2608.00014",
+      "summary": "arXiv:2608.00014v1 Announce Type: new Abstract: Evaluating Large Language Models (LLMs) incurs prohibitive computational overhead during continuous development processes. While coreset selection accelerates evaluation, existing methods either suffer from a severe ``cold start&#x27;&#x27; bottleneck requiring…",
+      "published": "2026-08-04T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "3fce4b61dc286b94",
+      "category": "Araştırma"
+    },
+    {
+      "title": "Optimization and Constraint Modeling using LLMs with a Retrieval Augmented Generation Process",
+      "url": "https://arxiv.org/abs/2608.00015",
+      "summary": "arXiv:2608.00015v1 Announce Type: new Abstract: Both optimization modeling and constraint modeling are non-trivial problems requiring deep domain expertise and proficiency in modeling formalism languages. Despite their importance across logistics, healthcare, and supply chain management, current lar…",
+      "published": "2026-08-04T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "970b7a65b627b0c1",
+      "category": "Araştırma"
+    },
+    {
+      "title": "Memory Reward Inflation in Self-Improving LLM Agents",
+      "url": "https://arxiv.org/abs/2608.00017",
+      "summary": "arXiv:2608.00017v1 Announce Type: new Abstract: Self-improving LLM agents increasingly learn from experience without updating any weights. Each episode is stored in an external memory, scored, and retrieved for similar future tasks to shape later behavior. Viewed through a reward lens, the stored sc…",
+      "published": "2026-08-04T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "e6ffe48eb1b057ea",
+      "category": "Araştırma"
+    },
+    {
+      "title": "Request-Level Energy Attribution for Batched LLM Serving",
+      "url": "https://arxiv.org/abs/2608.00026",
+      "summary": "arXiv:2608.00026v1 Announce Type: new Abstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require request-level energy charges. Existing inference-energy bench…",
+      "published": "2026-08-04T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "738f82510acbe914",
+      "category": "Mühendislik/Mimari"
+    },
+    {
+      "title": "Motif-Mamba: network motif improved mamba for long-range sequence modeling",
+      "url": "https://arxiv.org/abs/2608.00027",
+      "summary": "arXiv:2608.00027v1 Announce Type: new Abstract: Efficient long-sequence modeling remains a central challenge for large language models, as self-attention scales quadratically with sequence length. Mamba offers a linear-time alternative through selective state space recurrence, but its predominantly…",
+      "published": "2026-08-04T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "4e7220b8a489470f",
+      "category": "Araştırma"
+    },
+    {
+      "title": "Nova: An End-to-End MLIR Compiler for Deep Learning",
+      "url": "https://arxiv.org/abs/2608.00029",
+      "summary": "arXiv:2608.00029v1 Announce Type: new Abstract: The performance of deep learning models at scale relies heavily on how effectively high-level mathematical operations are mapped to underlying physical hardware. While high-level tensor frameworks provide flexible abstractions for model design, their e…",
+      "published": "2026-08-04T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "5fd17826ad52499a",
+      "category": "Mühendislik/Mimari"
+    },
+    {
+      "title": "Apple is getting this wrong",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+      "published": "2026-08-03T22:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "4a9b73e77846b899",
+      "category": "Kullanıcıyı Etkileyen"
+    },
+    {
+      "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+      "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+      "summary": "After a quarter that delivered $1 billion in profit, Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises.",
+      "published": "2026-08-03T23:19:50+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "7211733b387463b8",
+      "category": "Ürün/Şirket Haberleri"
+    },
+    {
+      "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
+      "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
+      "summary": "AWS now allows vibe-coding tool Superblocks to be embedded into the private clouds of AWS customers. It&#x27;s another step toward decoupling apps from models.",
+      "published": "2026-08-03T20:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "c6d88a384f716d9f",
+      "category": "Yatırım/Startup"
+    },
+    {
+      "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+      "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+      "summary": "Design Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.",
+      "published": "2026-08-03T19:28:57+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "48d481f903a72548",
+      "category": "Yatırım/Startup"
+    },
+    {
+      "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
+      "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
+      "summary": "OpenAI’s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue.",
+      "published": "2026-08-03T19:09:56+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "36b848ebfe85795e",
+      "category": "Genel"
+    },
+    {
+      "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
+      "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
+      "summary": "Apple’s long-awaited AI overhaul finally makes Siri the assistant it was always supposed to be. Yet it arrives at a moment when simply being a capable AI assistant no longer feels revolutionary.",
+      "published": "2026-08-03T18:43:43+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "3f08d262e7dd3e90",
+      "category": "Kullanıcıyı Etkileyen"
+    },
+    {
+      "title": "Congress’ favorite AI tool? ChatGPT",
+      "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+      "summary": "House spending records show OpenAI&#x27;s ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent communications.",
+      "published": "2026-08-03T16:40:55+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "60b0b1a035ad8462",
+      "category": "Regülasyon/Politika"
+    }
+  ]
 }
