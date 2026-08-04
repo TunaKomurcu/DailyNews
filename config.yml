@@ -1,0 +1,62 @@
+# =============================================================================
+# Günlük AI Haber Toplayıcı — Yapılandırma
+# Yeni kaynak eklemek veya çıkarmak için yalnızca bu dosyayı düzenleyin.
+# =============================================================================
+
+sources:
+  - name: "arXiv AI"
+    url: "https://rss.arxiv.org/rss/cs.AI"
+    enabled: true
+
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss.xml"
+    enabled: true
+
+  - name: "Anthropic Blog"
+    url: "https://www.anthropic.com/rss.xml"
+    enabled: true
+
+  - name: "Hacker News AI"
+    url: "https://hnrss.org/newest?q=AI+LLM+machine+learning&points=20"
+    enabled: true
+
+  - name: "TechCrunch AI"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    enabled: true
+
+# -----------------------------------------------------------------------------
+# Kategoriler — LLM'in atayabileceği tüm geçerli değerler.
+# Son eleman "Genel" her zaman fallback olarak kullanılır; kaldırmayın.
+# -----------------------------------------------------------------------------
+categories:
+  - "Araştırma"
+  - "Mühendislik/Mimari"
+  - "Ürün/Şirket Haberleri"
+  - "Kullanıcıyı Etkileyen"
+  - "Regülasyon/Politika"
+  - "Yatırım/Startup"
+  - "Açık Kaynak"
+  - "Genel"
+
+# -----------------------------------------------------------------------------
+# LLM ayarları
+# -----------------------------------------------------------------------------
+llm:
+  model: "gemini-2.5-flash-lite"
+  batch_size: 20          # Tek API çağrısında kaç haber gönderileceği
+  max_retries: 3          # 429 / geçici hata durumunda maksimum yeniden deneme
+
+# -----------------------------------------------------------------------------
+# Veri yönetimi
+# -----------------------------------------------------------------------------
+history_days: 7           # Kaç günlük haber geçmişte tutulsun
+summary_max_chars: 300    # Özet metninin maksimum karakter sayısı
+output_max_kb: 500        # Üretilen HTML'nin maksimum boyutu (KB)
+
+# -----------------------------------------------------------------------------
+# Dosya yolları (proje kökünden göreli)
+# -----------------------------------------------------------------------------
+paths:
+  history: "data/history.json"
+  output_html: "docs/index.html"
+  template: "templates/index.html.j2"

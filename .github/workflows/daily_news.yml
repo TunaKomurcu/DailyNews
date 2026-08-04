@@ -1,0 +1,43 @@
+name: Daily AI News
+
+on:
+  schedule:
+    - cron: '0 4 * * *'    # 04:00 UTC = 07:00 Turkey time (UTC+3)
+  workflow_dispatch:         # Manuel tetikleme (Actions sekmesinden)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write        # docs/ ve data/ klasörlerini commit etmek için
+
+    steps:
+      # ── 1. Kodu çek ─────────────────────────────────────────────
+      - name: Kodu çek
+        uses: actions/checkout@v4
+
+      # ── 2. Python kur ───────────────────────────────────────────
+      - name: Python 3.11 kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # ── 3. Bağımlılıkları yükle ─────────────────────────────────
+      - name: Bağımlılıkları yükle
+        run: pip install -r requirements.txt
+
+      # ── 4. Haberleri çek ve sayfayı oluştur ─────────────────────
+      - name: Haberleri çek ve sayfayı oluştur
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python -m src.main
+
+      # ── 5. Değişiklikleri commit et ve push et ───────────────────
+      - name: Değişiklikleri commit et
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/index.html data/history.json
+          git diff --staged --quiet || git commit -m "chore: günlük haber güncellemesi $(date -u +%Y-%m-%d)"
+          git push
