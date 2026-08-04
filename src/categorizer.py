@@ -2,10 +2,10 @@
 categorizer.py — Google Gemini API ile haber kategorilendirme.
 
 Tasarım kararları (design.md §3.4):
-  - Model: gemini-2.5-flash-lite (ücretsiz katman: 15 RPM, 1000/gün)
+  - Model: gemini-2.5-flash (ücretsiz katman: 10 RPM, 1000/gün)
   - 20'lik batch'ler — tek prompt, tek API çağrısı
   - Satır sayısı doğrulaması: eşleşmezse tüm batch → "Genel"
-  - Exponential backoff: 429/geçici hata → 1s→2s→4s→8s, max 3 retry
+  - Exponential backoff: 429/geçici hata → retry_delay veya 1s→2s→4s, max 3 retry
   - Geçersiz kategori adı → "Genel" fallback
   - GEMINI_API_KEY ortam değişkeni yoksa açıklayıcı hatayla dur
 """
@@ -137,7 +137,21 @@ def _categorize_batch(
             )
 
             if is_rate_limit or is_transient:
-                wait = 2 ** attempt  # 1s, 2s, 4s
+                # API yanıtında retryDelay varsa onu kullan, yoksa exponential backoff
+                retry_delay = None
+                try:
+                    import json as _json
+                    # exc_str içinde retryDelay saniye değeri olabilir
+                    delay_match = re.search(r"retryDelay.*?'(\d+)s'", exc_str)
+                    if delay_match:
+                        retry_delay = int(delay_match.group(1)) + 2  # biraz ekstra
+                except Exception:
+                    pass
+
+                wait = retry_delay if retry_delay else 2 ** attempt  # 1s, 2s, 4s
+                # Rate limit için minimum 7s bekle (10 RPM = 6s/istek, güvenli taraf)
+                if is_rate_limit:
+                    wait = max(wait, 7)
                 logger.warning(
                     "API hatası (deneme %d/%d): %s — %ds bekleniyor.",
                     attempt + 1, max_retries, exc_str[:120], wait,
@@ -199,9 +213,10 @@ def categorize(items: list, config: dict) -> list:
         for item, category in zip(batch, assigned):
             item.category = category
 
-        # Batch'ler arası bekleme — rate limit koruması
+        # Batch'ler arası bekleme — ücretsiz katman 10 RPM = max 1 istek/6s
+        # 7s bekleyerek güvenli tarafta kalıyoruz
         if batch_start + batch_size < len(items):
-            time.sleep(1)
+            time.sleep(7)
 
     categorized_counts: dict[str, int] = {}
     for item in items:

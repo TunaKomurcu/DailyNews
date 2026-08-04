@@ -84,7 +84,7 @@ Görev 1 → Görev 2 → Görev 3, 4, 5, 6, 7 (paralel) → Görev 8 → Görev
 
 ### Görev 6: LLM Kategorileştirme Modülü
 
-- [ ] 1. src/categorizer.py dosyasını oluştur, google-genai SDK ile gemini-2.5-flash-lite bağlantısı
+- [ ] 1. src/categorizer.py dosyasını oluştur, google-genai SDK ile gemini-2.5-flash bağlantısı
 - [ ] 2. 20'lik batch prompt oluştur ve API'ye gönder
 - [ ] 3. Satır sayısı doğrulaması ekle: eşleşmezse tüm batch Genel kategorisine düşür ve WARNING log yaz
 - [ ] 4. Exponential backoff uygula: 429/geçici hata için 1s, 2s, 4s bekleme, max 3 retry

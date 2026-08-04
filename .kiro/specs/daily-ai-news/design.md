@@ -161,7 +161,7 @@ Her RSS kaynağından son 24 saatin haberlerini çeker.
 
 ### `categorizer.py` — Gemini Kategori Atayıcı
 
-Model: `gemini-2.5-flash-lite` (ücretsiz: 15 RPM, 1000/gün)
+Model: `gemini-2.5-flash` (ücretsiz: 15 RPM, 1000/gün)
 
 - 20'lik batch'ler halinde numaralı prompt gönderilir
 - Yanıt satır sayısı gönderilen başlık sayısıyla tam eşleşmezse tüm batch `"Genel"` atanır
@@ -172,7 +172,7 @@ from google import genai
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
 response = client.models.generate_content(
-    model="gemini-2.5-flash-lite",
+    model="gemini-2.5-flash",
     contents=prompt,
 )
 ```

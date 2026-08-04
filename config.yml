@@ -42,7 +42,7 @@ categories:
 # LLM ayarları
 # -----------------------------------------------------------------------------
 llm:
-  model: "gemini-2.5-flash-lite"
+  model: "gemini-2.5-flash"
   batch_size: 20          # Tek API çağrısında kaç haber gönderileceği
   max_retries: 3          # 429 / geçici hata durumunda maksimum yeniden deneme
 
