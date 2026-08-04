@@ -1,25 +1,75 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="tr" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Günlük Haberler — {{ date_label }}</title>
   <style>
+    /* ── CSS Variables (tema sistemi) ── */
+    :root {
+      --bg:          #f5f7fa;
+      --bg-card:     #ffffff;
+      --bg-nav:      #ffffff;
+      --bg-header:   linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      --text:        #1a1a2e;
+      --text-muted:  #6b7280;
+      --text-meta:   #95a5a6;
+      --border:      #e8ecf0;
+      --accent:      #4fc3f7;
+      --accent-dark: #1a6ea8;
+      --link:        #2980b9;
+      --shadow:      rgba(0,0,0,0.08);
+      --badge-bg:    #eef2f7;
+      --badge-text:  #555;
+      --search-bg:   #f0f4f8;
+    }
+    [data-theme="dark"] {
+      --bg:          #0f1117;
+      --bg-card:     #1a1d27;
+      --bg-nav:      #1a1d27;
+      --bg-header:   linear-gradient(135deg, #0a0a14 0%, #0d1020 100%);
+      --text:        #e2e8f0;
+      --text-muted:  #94a3b8;
+      --text-meta:   #64748b;
+      --border:      #2d3748;
+      --accent:      #38bdf8;
+      --accent-dark: #7dd3fc;
+      --link:        #60a5fa;
+      --shadow:      rgba(0,0,0,0.4);
+      --badge-bg:    #2d3748;
+      --badge-text:  #cbd5e1;
+      --search-bg:   #252836;
+    }
+
+    /* ── Kategori renkleri ── */
+    :root {
+      --cat-arastirma:    #7c3aed;
+      --cat-muhendislik:  #0891b2;
+      --cat-urun:         #d97706;
+      --cat-kullanici:    #059669;
+      --cat-regulasyon:   #dc2626;
+      --cat-yatirim:      #b45309;
+      --cat-acik-kaynak:  #16a34a;
+      --cat-genel:        #6b7280;
+    }
+
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #f5f7fa;
-      color: #1a1a2e;
+      background: var(--bg);
+      color: var(--text);
       line-height: 1.6;
+      transition: background 0.2s, color 0.2s;
     }
 
     /* ── Header ── */
     header {
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      background: var(--bg-header);
       color: #e0e0e0;
       padding: 2rem 1rem 1.5rem;
       text-align: center;
+      position: relative;
     }
     header h1 {
       font-size: 1.8rem;
@@ -27,18 +77,75 @@
       letter-spacing: -0.5px;
       color: #ffffff;
     }
-    header h1 span { color: #4fc3f7; }
+    header h1 span { color: var(--accent); }
     .meta {
       margin-top: 0.5rem;
       font-size: 0.85rem;
       color: #90a4b7;
     }
 
+    /* ── Tema toggle butonu ── */
+    #theme-toggle {
+      position: absolute;
+      top: 1.1rem;
+      right: 1.1rem;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 8px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.35rem 0.6rem;
+      transition: background 0.2s;
+      line-height: 1;
+    }
+    #theme-toggle:hover { background: rgba(255,255,255,0.22); }
+
+    /* ── Arama kutusu ── */
+    .search-bar {
+      background: var(--bg-nav);
+      border-bottom: 1px solid var(--border);
+      padding: 0.6rem 1rem;
+    }
+    .search-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      position: relative;
+    }
+    #search-input {
+      width: 100%;
+      padding: 0.5rem 0.75rem 0.5rem 2.2rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--search-bg);
+      color: var(--text);
+      font-size: 0.88rem;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    #search-input:focus { border-color: var(--accent); }
+    #search-input::placeholder { color: var(--text-muted); }
+    .search-icon {
+      position: absolute;
+      left: 0.65rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      pointer-events: none;
+    }
+    #search-count {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.3rem;
+      min-height: 1.2em;
+    }
+
     /* ── Nav ── */
     nav {
-      background: #ffffff;
-      border-bottom: 2px solid #e8ecf0;
-      padding: 0.75rem 1rem;
+      background: var(--bg-nav);
+      border-bottom: 2px solid var(--border);
+      padding: 0.65rem 1rem;
       position: sticky;
       top: 0;
       z-index: 100;
@@ -48,45 +155,49 @@
       margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
-      gap: 0.4rem;
+      gap: 0.35rem;
       align-items: center;
     }
     .nav-label {
-      font-size: 0.75rem;
+      font-size: 0.72rem;
       font-weight: 600;
-      color: #7f8c8d;
+      color: var(--text-muted);
       text-transform: uppercase;
       letter-spacing: 0.5px;
-      margin-right: 0.25rem;
+      margin-right: 0.2rem;
     }
-    nav a {
-      display: inline-block;
-      padding: 0.25rem 0.65rem;
+    nav a.cat-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      padding: 0.22rem 0.6rem;
       border-radius: 999px;
-      font-size: 0.78rem;
+      font-size: 0.76rem;
       font-weight: 500;
       text-decoration: none;
-      background: #eef2f7;
-      color: #34495e;
-      transition: background 0.15s, color 0.15s;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      transition: background 0.15s, color 0.15s, opacity 0.15s;
       white-space: nowrap;
+      border: 1.5px solid transparent;
     }
-    nav a:hover { background: #4fc3f7; color: #fff; }
-    .count-badge {
-      display: inline-block;
-      background: #bdc3c7;
+    nav a.cat-link:hover {
+      background: var(--accent);
       color: #fff;
+      border-color: var(--accent);
+    }
+    .count-badge {
+      background: rgba(0,0,0,0.12);
       border-radius: 999px;
-      font-size: 0.68rem;
-      padding: 0 0.4rem;
-      margin-left: 0.2rem;
-      vertical-align: middle;
+      font-size: 0.65rem;
+      padding: 0 0.35rem;
+      font-weight: 600;
     }
 
     /* ── Main ── */
     main {
       max-width: 900px;
-      margin: 2rem auto;
+      margin: 1.5rem auto;
       padding: 0 1rem;
     }
 
@@ -97,102 +208,151 @@
     .section-header {
       display: flex;
       align-items: center;
-      gap: 0.75rem;
+      gap: 0.6rem;
       margin-bottom: 1rem;
       padding-bottom: 0.5rem;
-      border-bottom: 2px solid #e8ecf0;
+      border-bottom: 2.5px solid var(--border);
+    }
+    .section-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
     }
     .section-icon {
-      font-size: 1.4rem;
+      font-size: 1.25rem;
       line-height: 1;
     }
     section h2 {
-      font-size: 1.15rem;
+      font-size: 1.05rem;
       font-weight: 700;
-      color: #2c3e50;
+      color: var(--text);
     }
     .section-count {
-      font-size: 0.8rem;
-      color: #95a5a6;
+      font-size: 0.78rem;
+      color: var(--text-meta);
       font-weight: 400;
     }
 
-    /* ── News list ── */
+    /* ── Kategori renk dot'ları ── */
+    [data-cat="arastirma"]    .section-dot { background: var(--cat-arastirma); }
+    [data-cat="muhendislik-mimari"] .section-dot { background: var(--cat-muhendislik); }
+    [data-cat="urun-sirket-haberleri"] .section-dot { background: var(--cat-urun); }
+    [data-cat="kullanici-etkileyen"] .section-dot { background: var(--cat-kullanici); }  /* tr: kullanıcıyı etkileyen */
+    [data-cat="regulasyon-politika"] .section-dot { background: var(--cat-regulasyon); }
+    [data-cat="yatirim-startup"] .section-dot { background: var(--cat-yatirim); }
+    [data-cat="acik-kaynak"] .section-dot { background: var(--cat-acik-kaynak); }
+    [data-cat="genel"] .section-dot { background: var(--cat-genel); }
+
+    /* Sol border rengi bölüm başlığında */
+    [data-cat="arastirma"]    .section-header { border-bottom-color: var(--cat-arastirma); }
+    [data-cat="muhendislik-mimari"] .section-header { border-bottom-color: var(--cat-muhendislik); }
+    [data-cat="urun-sirket-haberleri"] .section-header { border-bottom-color: var(--cat-urun); }
+    [data-cat="kullanici-etkileyen"] .section-header { border-bottom-color: var(--cat-kullanici); }
+    [data-cat="regulasyon-politika"] .section-header { border-bottom-color: var(--cat-regulasyon); }
+    [data-cat="yatirim-startup"] .section-header { border-bottom-color: var(--cat-yatirim); }
+    [data-cat="acik-kaynak"] .section-header { border-bottom-color: var(--cat-acik-kaynak); }
+
+    /* ── Haber listesi ── */
     ul {
       list-style: none;
       display: flex;
       flex-direction: column;
-      gap: 0.75rem;
+      gap: 0.6rem;
     }
-    li {
-      background: #ffffff;
-      border: 1px solid #e8ecf0;
+    li.news-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 0.9rem 1.1rem;
+      padding: 0.85rem 1.1rem;
       transition: box-shadow 0.15s, border-color 0.15s;
     }
-    li:hover {
-      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-      border-color: #4fc3f7;
+    li.news-item:hover {
+      box-shadow: 0 2px 12px var(--shadow);
+      border-color: var(--accent);
     }
+    li.news-item.hidden { display: none; }
+
     .item-title a {
-      font-size: 0.97rem;
+      font-size: 0.95rem;
       font-weight: 600;
-      color: #2980b9;
+      color: var(--link);
       text-decoration: none;
       line-height: 1.4;
     }
-    .item-title a:hover { text-decoration: underline; color: #1a6ea8; }
+    .item-title a:hover { text-decoration: underline; color: var(--accent-dark); }
     .item-meta {
       margin-top: 0.3rem;
-      font-size: 0.75rem;
-      color: #95a5a6;
+      font-size: 0.73rem;
+      color: var(--text-meta);
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem;
+      gap: 0.4rem;
       align-items: center;
     }
     .source-badge {
-      background: #eef2f7;
-      color: #555;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      background: var(--badge-bg);
+      color: var(--badge-text);
       border-radius: 4px;
-      padding: 0.1rem 0.45rem;
+      padding: 0.1rem 0.4rem;
       font-weight: 500;
+      font-size: 0.72rem;
+    }
+    .source-favicon {
+      width: 12px;
+      height: 12px;
+      border-radius: 2px;
+      object-fit: contain;
     }
     .item-summary {
-      margin-top: 0.45rem;
-      font-size: 0.83rem;
-      color: #555e6b;
+      margin-top: 0.4rem;
+      font-size: 0.82rem;
+      color: var(--text-muted);
       line-height: 1.5;
     }
     .tr-summary {
-      color: #2c6e49;
+      color: #16a34a;
       font-style: italic;
     }
+    [data-theme="dark"] .tr-summary { color: #4ade80; }
 
     /* ── Footer ── */
     footer {
       text-align: center;
       padding: 2rem 1rem;
       font-size: 0.78rem;
-      color: #95a5a6;
-      border-top: 1px solid #e8ecf0;
+      color: var(--text-meta);
+      border-top: 1px solid var(--border);
     }
-    footer a { color: #4fc3f7; text-decoration: none; }
+    footer a { color: var(--accent); text-decoration: none; }
     footer a:hover { text-decoration: underline; }
+
+    /* ── Arama: eşleşme yok mesajı ── */
+    .no-results {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      display: none;
+    }
 
     /* ── Responsive ── */
     @media (max-width: 600px) {
-      header h1 { font-size: 1.35rem; }
-      li { padding: 0.75rem 0.85rem; }
-      .item-title a { font-size: 0.9rem; }
-      nav a { font-size: 0.72rem; padding: 0.2rem 0.5rem; }
+      header h1 { font-size: 1.3rem; }
+      li.news-item { padding: 0.7rem 0.85rem; }
+      .item-title a { font-size: 0.88rem; }
+      nav a.cat-link { font-size: 0.7rem; padding: 0.18rem 0.45rem; }
+      #theme-toggle { top: 0.75rem; right: 0.75rem; font-size: 1rem; }
     }
   </style>
 </head>
 <body>
 
 <header>
+  <button id="theme-toggle" aria-label="Temayı değiştir" title="Karanlık/aydınlık mod">🌙</button>
   <h1><span>AI</span> Günlük Haberler</h1>
   <p class="meta">
     {{ date_label }} &nbsp;·&nbsp;
@@ -201,13 +361,21 @@
   </p>
 </header>
 
+<div class="search-bar">
+  <div class="search-inner">
+    <span class="search-icon">🔍</span>
+    <input type="search" id="search-input" placeholder="Haberlerde ara..." autocomplete="off" aria-label="Haberlerde ara">
+  </div>
+  <div class="search-inner"><div id="search-count"></div></div>
+</div>
+
 <nav aria-label="Kategori gezintisi">
   <div class="nav-inner">
     <span class="nav-label">Kategoriler</span>
     {% for cat in category_order %}
       {% if categories[cat] %}
-        <a href="#{{ cat | slugify }}">
-          {{ cat }}
+        <a class="cat-link" href="#{{ cat | slugify }}">
+          {{ cat | category_icon }} {{ cat }}
           <span class="count-badge">{{ categories[cat] | length }}</span>
         </a>
       {% endif %}
@@ -216,10 +384,13 @@
 </nav>
 
 <main>
+  <p class="no-results" id="no-results">Aramanızla eşleşen haber bulunamadı.</p>
+
   {% for cat in category_order %}
     {% if categories[cat] %}
-    <section id="{{ cat | slugify }}" aria-labelledby="heading-{{ cat | slugify }}">
+    <section id="{{ cat | slugify }}" data-cat="{{ cat | slugify }}" aria-labelledby="heading-{{ cat | slugify }}">
       <div class="section-header">
+        <span class="section-dot" aria-hidden="true"></span>
         <span class="section-icon" aria-hidden="true">{{ cat | category_icon }}</span>
         <h2 id="heading-{{ cat | slugify }}">
           {{ cat }}
@@ -228,14 +399,21 @@
       </div>
       <ul>
         {% for item in categories[cat] %}
-        <li>
+        <li class="news-item" data-title="{{ item.title | lower }}" data-summary="{{ item.tr_summary | default('') | lower }}">
           <div class="item-title">
             <a href="{{ item.url }}"
                target="_blank"
                rel="noopener noreferrer">{{ item.title }}</a>
           </div>
           <div class="item-meta">
-            <span class="source-badge">{{ item.source_name }}</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain={{ item.url }}&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              {{ item.source_name }}
+            </span>
             <span>{{ item.published | format_date }}</span>
           </div>
           {% if item.tr_summary is defined and item.tr_summary %}
@@ -254,11 +432,72 @@
 <footer>
   <p>
     Otomatik olarak oluşturuldu &nbsp;·&nbsp;
-    Kaynak: <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://github.com/TunaKomurcu/DailyNews" target="_blank" rel="noopener noreferrer">GitHub</a>
     &nbsp;·&nbsp;
-    Veriler: arXiv, OpenAI, Anthropic, Hacker News, TechCrunch
+    arXiv · OpenAI · The Decoder · Hacker News · TechCrunch · VentureBeat · Hugging Face · MIT Tech Review · DeepMind
   </p>
 </footer>
+
+<script>
+  // ── Tema (karanlık / aydınlık mod) ──────────────────────────────────────
+  const html = document.documentElement;
+  const toggleBtn = document.getElementById('theme-toggle');
+
+  function applyTheme(theme) {
+    html.setAttribute('data-theme', theme);
+    toggleBtn.textContent = theme === 'dark' ? '☀️' : '🌙';
+    toggleBtn.setAttribute('title', theme === 'dark' ? 'Aydınlık moda geç' : 'Karanlık moda geç');
+  }
+
+  // localStorage'dan kayıtlı tema veya sistem tercihi
+  const saved = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  applyTheme(saved || (prefersDark ? 'dark' : 'light'));
+
+  toggleBtn.addEventListener('click', () => {
+    const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    localStorage.setItem('theme', next);
+    applyTheme(next);
+  });
+
+  // ── Arama ────────────────────────────────────────────────────────────────
+  const searchInput = document.getElementById('search-input');
+  const searchCount = document.getElementById('search-count');
+  const noResults   = document.getElementById('no-results');
+  const allItems    = document.querySelectorAll('li.news-item');
+  const allSections = document.querySelectorAll('main section');
+
+  searchInput.addEventListener('input', () => {
+    const query = searchInput.value.trim().toLowerCase();
+    let visibleCount = 0;
+
+    allItems.forEach(item => {
+      const title   = item.dataset.title   || '';
+      const summary = item.dataset.summary || '';
+      const matches = !query || title.includes(query) || summary.includes(query);
+      item.classList.toggle('hidden', !matches);
+      if (matches) visibleCount++;
+    });
+
+    // Tüm haberleri gizlenmiş section'ları sakla
+    allSections.forEach(section => {
+      const visible = section.querySelectorAll('li.news-item:not(.hidden)').length;
+      section.style.display = visible === 0 ? 'none' : '';
+    });
+
+    // Sonuç bilgisi
+    if (query) {
+      searchCount.textContent = visibleCount
+        ? visibleCount + ' haber bulundu'
+        : '';
+      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    } else {
+      searchCount.textContent = '';
+      noResults.style.display = 'none';
+      allSections.forEach(s => s.style.display = '');
+    }
+  });
+</script>
 
 </body>
 </html>
