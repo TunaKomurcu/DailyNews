@@ -148,7 +148,10 @@ def _fetch_source(source: dict, cutoff: datetime) -> List[FetchedItem]:
 
 def fetch_all(sources: list) -> List[FetchedItem]:
     """
-    Tüm etkin kaynaklardan son 24 saatin haberlerini çeker.
+    Tüm etkin kaynaklardan son 24 saatin haberlerini paralel olarak çeker.
+
+    ThreadPoolExecutor ile her kaynak eş zamanlı çekilir.
+    9 kaynak sıralı ~40s → paralel ~8s.
 
     Args:
         sources: config.yml'deki sources listesi
@@ -156,17 +159,39 @@ def fetch_all(sources: list) -> List[FetchedItem]:
     Returns:
         Tüm kaynaklardan birleştirilmiş FetchedItem listesi
     """
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
     cutoff = datetime.now(tz=timezone.utc) - timedelta(hours=24)
     logger.info("24 saat kesim zamanı (UTC): %s", cutoff.isoformat())
 
+    active_sources = [s for s in sources if s.get("enabled", True)]
+
+    if not active_sources:
+        logger.warning("Etkin kaynak bulunamadı.")
+        return []
+
+    # Her kaynak için ayrı thread — I/O bound işlem, GIL sorun değil
+    results: dict[str, List[FetchedItem]] = {}
+    with ThreadPoolExecutor(max_workers=len(active_sources)) as executor:
+        future_to_name = {
+            executor.submit(_fetch_source, source, cutoff): source["name"]
+            for source in active_sources
+        }
+        for future in as_completed(future_to_name):
+            name = future_to_name[future]
+            try:
+                results[name] = future.result()
+            except Exception as exc:  # noqa: BLE001
+                logger.warning("Thread hatası: %s — %s", name, exc)
+                results[name] = []
+
+    # Orijinal kaynak sırasını koru (as_completed sırasız döner)
     all_items: List[FetchedItem] = []
+    for source in active_sources:
+        all_items.extend(results.get(source["name"], []))
 
-    for source in sources:
-        if not source.get("enabled", True):
-            logger.info("Devre dışı kaynak atlandı: %s", source.get("name"))
-            continue
-        items = _fetch_source(source, cutoff)
-        all_items.extend(items)
-
-    logger.info("Toplam çekilen haber: %d", len(all_items))
+    logger.info(
+        "Toplam çekilen haber: %d (%d kaynak paralel)",
+        len(all_items), len(active_sources),
+    )
     return all_items
