@@ -339,6 +339,50 @@
       display: none;
     }
 
+    /* ── Öne çıkan haberler ── */
+    .featured-section {
+      margin-bottom: 2.5rem;
+    }
+    .featured-header {
+      border-bottom-color: #f59e0b !important;
+    }
+    .featured-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 0.75rem;
+    }
+    .featured-item {
+      border-left: 3px solid #f59e0b;
+    }
+    .cat-pill {
+      display: inline-block;
+      font-size: 0.68rem;
+      padding: 0.1rem 0.45rem;
+      border-radius: 999px;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      font-weight: 500;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+    }
+
+    /* ── Konu grubu badge ── */
+    .topic-badge {
+      display: inline-block;
+      font-size: 0.68rem;
+      padding: 0.1rem 0.45rem;
+      border-radius: 4px;
+      background: #dbeafe;
+      color: #1d4ed8;
+      font-weight: 500;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+    }
+    [data-theme="dark"] .topic-badge {
+      background: #1e3a5f;
+      color: #93c5fd;
+    }
+
     /* ── Responsive ── */
     @media (max-width: 600px) {
       header h1 { font-size: 1.3rem; }
@@ -372,6 +416,12 @@
 <nav aria-label="Kategori gezintisi">
   <div class="nav-inner">
     <span class="nav-label">Kategoriler</span>
+    {% if featured %}
+    <a class="cat-link" href="#one-cikanlar" style="border-color: #f59e0b; background: #fef3c7; color: #92400e;">
+      ⭐ Öne Çıkanlar
+      <span class="count-badge">{{ featured | length }}</span>
+    </a>
+    {% endif %}
     {% for cat in category_order %}
       {% if categories[cat] %}
         <a class="cat-link" href="#{{ cat | slugify }}">
@@ -385,6 +435,46 @@
 
 <main>
   <p class="no-results" id="no-results">Aramanızla eşleşen haber bulunamadı.</p>
+
+  {% if featured %}
+  <section id="one-cikanlar" class="featured-section" aria-labelledby="heading-featured">
+    <div class="section-header featured-header">
+      <span class="section-icon" aria-hidden="true">⭐</span>
+      <h2 id="heading-featured">
+        Bugünün Öne Çıkanları
+        <span class="section-count">({{ featured | length }} haber)</span>
+      </h2>
+    </div>
+    <ul class="featured-list">
+      {% for item in featured %}
+      <li class="news-item featured-item" data-title="{{ item.title | lower }}" data-summary="{{ item.tr_summary | default('') | lower }}">
+        <div class="item-title">
+          <a href="{{ item.url }}"
+             target="_blank"
+             rel="noopener noreferrer">{{ item.title }}</a>
+          <span class="cat-pill">{{ item.category | category_icon }} {{ item.category }}</span>
+        </div>
+        <div class="item-meta">
+          <span class="source-badge">
+            <img class="source-favicon"
+                 src="https://www.google.com/s2/favicons?domain={{ item.url }}&sz=16"
+                 alt=""
+                 loading="lazy"
+                 onerror="this.style.display='none'">
+            {{ item.source_name }}
+          </span>
+          <span>{{ item.published | format_date }}</span>
+        </div>
+        {% if item.tr_summary is defined and item.tr_summary %}
+        <p class="item-summary tr-summary">🇹🇷 {{ item.tr_summary }}</p>
+        {% elif item.summary %}
+        <p class="item-summary">{{ item.summary }}</p>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
 
   {% for cat in category_order %}
     {% if categories[cat] %}
@@ -404,6 +494,10 @@
             <a href="{{ item.url }}"
                target="_blank"
                rel="noopener noreferrer">{{ item.title }}</a>
+            {% set item_hash = item.url_hash if item.url_hash is defined else '' %}
+            {% if item_hash and topic_groups is defined and item_hash in topic_groups %}
+            <span class="topic-badge" title="Birden fazla kaynak bu konuyu haberleştirdi">🔗 Çoklu kaynak</span>
+            {% endif %}
           </div>
           <div class="item-meta">
             <span class="source-badge">

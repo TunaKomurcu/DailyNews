@@ -6,12 +6,14 @@ Tasarım kararları (design.md §3.6):
     Jinja2'nin ek escape'i &amp;amp; gibi çift-escape hatası üretir.
   - 500KB boyut kontrolü: önce özet 150 karaktere kırp, hâlâ büyükse kaldır.
   - Tüm dış linkler rel="noopener noreferrer" ile template'de tanımlı.
+  - Öne çıkan haberler: bugünün haberleri arasından kategori başına en yeni 1 haber.
+  - Konu gruplama: başlık token overlap ile ilgili haberler gruplandırılır.
 """
 
 import logging
 import re
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import List
 
@@ -160,6 +162,121 @@ def _make_date_label(dt: datetime) -> str:
     return f"{dt.day} {_TR_MONTHS[dt.month]} {dt.year}"
 
 
+# ── Öne çıkan haberler ───────────────────────────────────────────────────────
+
+# Önemsiz kelimeler — başlık karşılaştırmasından çıkarılır
+_STOP_WORDS = {
+    "a", "an", "the", "and", "or", "of", "in", "to", "for", "on",
+    "with", "is", "are", "was", "be", "by", "as", "at", "from",
+    "that", "this", "it", "new", "using", "how", "via", "what",
+}
+
+
+def _title_tokens(title: str) -> set:
+    """Başlığı anlamlı token setine çevirir (küçük harf, stop word filtreli)."""
+    words = re.findall(r"[a-zA-Z]{3,}", title.lower())
+    return {w for w in words if w not in _STOP_WORDS}
+
+
+def _pick_featured(items: list, max_featured: int = 6) -> list:
+    """
+    Bugünün haberleri arasından öne çıkanları seçer.
+
+    Kural: her kategoriden en yeni 1 haber, toplam max_featured adete kadar.
+    Bugün yayınlanmış haber yoksa son 48 saate genişler.
+    """
+    now = datetime.now(tz=timezone.utc)
+    cutoffs = [now - timedelta(hours=24), now - timedelta(hours=48)]
+
+    def _get_pub(item):
+        pub = item.get("published") if isinstance(item, dict) else getattr(item, "published", None)
+        if isinstance(pub, str):
+            try:
+                return datetime.fromisoformat(pub.replace("Z", "+00:00"))
+            except ValueError:
+                return datetime.min.replace(tzinfo=timezone.utc)
+        return pub or datetime.min.replace(tzinfo=timezone.utc)
+
+    for cutoff in cutoffs:
+        recent = [i for i in items if _get_pub(i) >= cutoff]
+        if len(recent) >= 3:
+            break
+    else:
+        recent = sorted(items, key=_get_pub, reverse=True)[:max_featured]
+
+    # Kategori başına en yeni 1 haber seç
+    seen_cats: set = set()
+    featured = []
+    for item in sorted(recent, key=_get_pub, reverse=True):
+        cat = item.get("category") if isinstance(item, dict) else getattr(item, "category", "Genel")
+        if cat not in seen_cats:
+            seen_cats.add(cat)
+            featured.append(item)
+        if len(featured) >= max_featured:
+            break
+
+    return featured
+
+
+def _find_topic_groups(items: list, min_overlap: int = 2) -> dict:
+    """
+    Başlık token overlap ile ilişkili haberleri gruplar.
+
+    Returns:
+        dict: url_hash → group_id (aynı group_id'ye sahip haberler ilişkili)
+              Grupsuz haberler dict'e dahil edilmez.
+    """
+    if not items:
+        return {}
+
+    def _get_hash(item):
+        return item.get("url_hash") if isinstance(item, dict) else getattr(item, "url_hash", "")
+
+    def _get_title(item):
+        return item.get("title") if isinstance(item, dict) else getattr(item, "title", "")
+
+    tokens_by_hash = {
+        _get_hash(item): _title_tokens(_get_title(item))
+        for item in items
+    }
+
+    hashes = list(tokens_by_hash.keys())
+    group_id = 0
+    hash_to_group: dict = {}
+    group_of: dict = {}  # hash → group_id
+
+    for i in range(len(hashes)):
+        for j in range(i + 1, len(hashes)):
+            h1, h2 = hashes[i], hashes[j]
+            t1, t2 = tokens_by_hash[h1], tokens_by_hash[h2]
+            if len(t1) < 2 or len(t2) < 2:
+                continue
+            overlap = len(t1 & t2)
+            if overlap >= min_overlap:
+                # İkisi de grupsuzsa → yeni grup
+                g1 = group_of.get(h1)
+                g2 = group_of.get(h2)
+                if g1 is None and g2 is None:
+                    group_id += 1
+                    group_of[h1] = group_id
+                    group_of[h2] = group_id
+                elif g1 is not None and g2 is None:
+                    group_of[h2] = g1
+                elif g2 is not None and g1 is None:
+                    group_of[h1] = g2
+                # İkisi de farklı grupta ise — küçüğü büyüğe birleştir
+                elif g1 != g2:
+                    old, new = max(g1, g2), min(g1, g2)
+                    for h, g in group_of.items():
+                        if g == old:
+                            group_of[h] = new
+
+    # Sadece 2+ üyeli grupları döndür
+    from collections import Counter
+    group_sizes = Counter(group_of.values())
+    return {h: g for h, g in group_of.items() if group_sizes[g] >= 2}
+
+
 # ── Ana fonksiyon ────────────────────────────────────────────────────────────
 
 def render(items: list, config: dict) -> None:
@@ -191,13 +308,23 @@ def render(items: list, config: dict) -> None:
     categories = _group_by_category(working_items, category_order)
     total_count = sum(len(v) for v in categories.values())
 
-    html_str = template.render(
-        categories=categories,
-        category_order=category_order,
-        total_count=total_count,
-        generated_at=generated_at,
-        date_label=date_label,
-    )
+    # Öne çıkan haberler ve konu grupları
+    featured = _pick_featured(working_items, max_featured=int(config.get("featured_count", 6)))
+    topic_groups = _find_topic_groups(working_items)
+    logger.info("Öne çıkan: %d haber, İlgili grup: %d haber", len(featured), len(topic_groups))
+
+    def _render(cats, w_items):
+        return template.render(
+            categories=cats,
+            category_order=category_order,
+            total_count=total_count,
+            generated_at=generated_at,
+            date_label=date_label,
+            featured=featured,
+            topic_groups=topic_groups,
+        )
+
+    html_str = _render(categories, working_items)
 
     max_bytes = output_max_kb * 1024
 
@@ -209,13 +336,7 @@ def render(items: list, config: dict) -> None:
         )
         working_items = _trim_summaries(working_items, max_chars=150)
         categories = _group_by_category(working_items, category_order)
-        html_str = template.render(
-            categories=categories,
-            category_order=category_order,
-            total_count=total_count,
-            generated_at=generated_at,
-            date_label=date_label,
-        )
+        html_str = _render(categories, working_items)
 
     # 500KB kontrolü — Adım 2: özetleri tamamen kaldır
     if len(html_str.encode("utf-8")) > max_bytes:
@@ -225,13 +346,7 @@ def render(items: list, config: dict) -> None:
         )
         working_items = _clear_summaries(working_items)
         categories = _group_by_category(working_items, category_order)
-        html_str = template.render(
-            categories=categories,
-            category_order=category_order,
-            total_count=total_count,
-            generated_at=generated_at,
-            date_label=date_label,
-        )
+        html_str = _render(categories, working_items)
 
     # Çıktıyı yaz
     out = Path(output_path)
