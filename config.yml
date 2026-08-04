@@ -30,6 +30,26 @@ sources:
     enabled: true
     max_items: 10
 
+  - name: "VentureBeat AI"
+    url: "https://venturebeat.com/category/ai/feed/"
+    enabled: true
+    max_items: 10
+
+  - name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+    enabled: true
+    max_items: 10
+
+  - name: "MIT Technology Review"
+    url: "https://www.technologyreview.com/topic/artificial-intelligence/feed/"
+    enabled: true
+    max_items: 10
+
+  - name: "Google DeepMind"
+    url: "https://deepmind.google/blog/rss.xml"
+    enabled: true
+    max_items: 10
+
 # -----------------------------------------------------------------------------
 # Kategoriler — LLM'in atayabileceği tüm geçerli değerler.
 # Son eleman "Genel" her zaman fallback olarak kullanılır; kaldırmayın.
