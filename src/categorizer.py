@@ -1,15 +1,18 @@
 """
-categorizer.py — Google Gemini API ile haber kategorilendirme.
+categorizer.py — Google Gemini API ile haber kategorilendirme ve Türkçe özet üretimi.
 
-Tasarım kararları (design.md §3.4):
-  - Model: gemini-2.5-flash (ücretsiz katman: 10 RPM, 1000/gün)
+Tasarım kararları:
+  - Model: gemini-3.5-flash-lite (ücretsiz katman: 10 RPM, 1000/gün)
   - 20'lik batch'ler — tek prompt, tek API çağrısı
-  - Satır sayısı doğrulaması: eşleşmezse tüm batch → "Genel"
+  - Her haber için aynı çağrıda hem kategori hem Türkçe özet üretilir
+  - Yanıt formatı: "KategoriAdı | Türkçe özet cümlesi"
+  - Satır sayısı doğrulaması: eşleşmezse tüm batch → "Genel", boş özet
   - Exponential backoff: 429/geçici hata → retry_delay veya 1s→2s→4s, max 3 retry
   - Geçersiz kategori adı → "Genel" fallback
   - GEMINI_API_KEY ortam değişkeni yoksa açıklayıcı hatayla dur
 """
 
+import html
 import logging
 import os
 import re
@@ -18,17 +21,22 @@ from typing import List
 
 logger = logging.getLogger(__name__)
 
-# Prompt şablonu — başlıklar numaralandırılmış satırlar olarak eklenir
+# Prompt şablonu — her haber için kategori + Türkçe özet birlikte isteniyor
 _PROMPT_TEMPLATE = """\
-Aşağıdaki {n} haber başlığını verilen kategorilerden birine ata.
+Aşağıdaki {n} haber başlığını analiz et.
+
+Her başlık için şunu döndür (pipe karakteriyle ayrılmış, tek satır):
+  KategoriAdı | Türkçe özet cümlesi
 
 Kategoriler: {categories}
 
 Kurallar:
-- Her satır için YALNIZCA kategori adını döndür (başka hiçbir şey yazma)
+- Her satır YALNIZCA şu formatta olmalı: KategoriAdı | Türkçe özet
+- Türkçe özet tam olarak 1 cümle, maksimum 120 karakter
+- Emin olamadığın kategoriler için "Genel" kullan
 - Satır sırası gönderdiğimle AYNI olmalı
-- Emin olamadığın haberler için "Genel" yaz
 - Toplam {n} satır döndür, ne eksik ne fazla
+- Pipe karakteri (|) yalnızca ayırıcı olarak kullanılmalı
 
 Haberler:
 {titles}"""
@@ -50,36 +58,53 @@ def _build_client():
     return genai.Client(api_key=api_key)
 
 
-def _parse_response(response_text: str, expected_count: int, valid_categories: set) -> List[str]:
+def _parse_response(
+    response_text: str,
+    expected_count: int,
+    valid_categories: set,
+) -> List[tuple]:
     """
-    Gemini yanıtını satırlara ayırır ve doğrular.
+    Gemini yanıtını satırlara ayırır, her satırı (kategori, tr_summary) tuple'ına parse eder.
 
-    Satır sayısı expected_count ile eşleşmezse None döndürür
-    (çağıran kod tüm batch'i "Genel" yapacak).
+    Beklenen format her satır için: "KategoriAdı | Türkçe özet cümlesi"
 
-    Her satırdaki kategori adı valid_categories'de yoksa "Genel" atar.
+    Satır sayısı expected_count ile eşleşmezse boş liste döndürür
+    (çağıran kod tüm batch'i "Genel" + boş özet yapacak).
+
+    Kategori adı valid_categories'de yoksa "Genel" atar.
     """
-    # Boş satırları ve baştaki/sondaki boşlukları temizle
     lines = [ln.strip() for ln in response_text.strip().splitlines()]
     lines = [ln for ln in lines if ln]
 
-    # Bazen Gemini "1. Araştırma" gibi numaralı yanıt verebilir — sayıyı sıyır
+    # Bazen numaralı yanıt gelebilir: "1. Araştırma | özet" → sayıyı sıyır
     cleaned: List[str] = []
     for line in lines:
-        # "1. Kategori" veya "1) Kategori" formatını temizle
         m = re.match(r"^\d+[.)]\s*(.+)$", line)
         cleaned.append(m.group(1).strip() if m else line)
 
     if len(cleaned) != expected_count:
-        return []  # Satır sayısı uyuşmuyor → çağıran "Genel" yapacak
+        return []
 
-    result: List[str] = []
-    for cat in cleaned:
-        if cat in valid_categories:
-            result.append(cat)
+    result: List[tuple] = []
+    for line in cleaned:
+        if "|" in line:
+            parts = line.split("|", 1)
+            cat = parts[0].strip()
+            tr_sum = parts[1].strip()
         else:
+            # Pipe yoksa sadece kategori var, özet boş
+            cat = line.strip()
+            tr_sum = ""
+
+        if cat not in valid_categories:
             logger.debug("Bilinmeyen kategori '%s' → 'Genel'", cat)
-            result.append("Genel")
+            cat = "Genel"
+
+        # Türkçe özeti güvenli hale getir
+        tr_sum = html.escape(tr_sum[:150])  # max 150 karakter
+
+        result.append((cat, tr_sum))
+
     return result
 
 
@@ -89,12 +114,12 @@ def _categorize_batch(
     model: str,
     categories: List[str],
     max_retries: int,
-) -> List[str]:
+) -> List[tuple]:
     """
     Tek bir batch (≤20 başlık) için Gemini API çağrısını yapar.
+    Her haber için (kategori, tr_summary) tuple'ı döndürür.
 
-    Başarısız olursa (retry tükenir veya satır uyuşmazlığı) tüm batch
-    için "Genel" listesi döndürür.
+    Başarısız olursa tüm batch için ("Genel", "") tuple listesi döndürür.
     """
     valid_categories = set(categories)
     n = len(titles)
@@ -116,19 +141,17 @@ def _categorize_batch(
             parsed = _parse_response(result_text, n, valid_categories)
 
             if not parsed:
-                # Satır sayısı uyuşmazlığı
                 lines_got = len([ln for ln in result_text.strip().splitlines() if ln.strip()])
                 logger.warning(
                     "Batch satır sayısı uyuşmazlığı — beklenen: %d, gelen: %d. "
                     "Tüm batch 'Genel' atandı.",
                     n, lines_got,
                 )
-                return ["Genel"] * n
+                return [("Genel", "")] * n
 
             return parsed
 
         except Exception as exc:  # noqa: BLE001
-            # 429 veya geçici hata kontrolü
             exc_str = str(exc)
             is_rate_limit = "429" in exc_str or "RESOURCE_EXHAUSTED" in exc_str.upper()
             is_transient = any(
@@ -137,19 +160,15 @@ def _categorize_batch(
             )
 
             if is_rate_limit or is_transient:
-                # API yanıtında retryDelay varsa onu kullan, yoksa exponential backoff
                 retry_delay = None
                 try:
-                    import json as _json
-                    # exc_str içinde retryDelay saniye değeri olabilir
                     delay_match = re.search(r"retryDelay.*?'(\d+)s'", exc_str)
                     if delay_match:
-                        retry_delay = int(delay_match.group(1)) + 2  # biraz ekstra
+                        retry_delay = int(delay_match.group(1)) + 2
                 except Exception:
                     pass
 
-                wait = retry_delay if retry_delay else 2 ** attempt  # 1s, 2s, 4s
-                # Rate limit için minimum 7s bekle (10 RPM = 6s/istek, güvenli taraf)
+                wait = retry_delay if retry_delay else 2 ** attempt
                 if is_rate_limit:
                     wait = max(wait, 7)
                 logger.warning(
@@ -159,7 +178,6 @@ def _categorize_batch(
                 time.sleep(wait)
                 last_exc = exc
             else:
-                # Beklenmeyen hata — retry'a gerek yok
                 logger.error("Beklenmeyen API hatası: %s", exc_str[:200])
                 last_exc = exc
                 break
@@ -168,7 +186,7 @@ def _categorize_batch(
         "%d deneme başarısız. Batch 'Genel' atandı. Son hata: %s",
         max_retries, last_exc,
     )
-    return ["Genel"] * n
+    return [("Genel", "")] * n
 
 
 def categorize(items: list, config: dict) -> list:
@@ -210,8 +228,9 @@ def categorize(items: list, config: dict) -> list:
 
         assigned = _categorize_batch(client, titles, model, categories, max_retries)
 
-        for item, category in zip(batch, assigned):
+        for item, (category, tr_summary) in zip(batch, assigned):
             item.category = category
+            item.tr_summary = tr_summary
 
         # Batch'ler arası bekleme — ücretsiz katman 10 RPM = max 1 istek/6s
         # 7s bekleyerek güvenli tarafta kalıyoruz

@@ -39,11 +39,12 @@ class NewsItem:
     """
     title: str        # html.escape() uygulanmış başlık
     url: str          # Doğrulanmış URL (geçersizse "#")
-    summary: str      # html.escape() uygulanmış, kesilmiş özet
+    summary: str      # html.escape() uygulanmış, kesilmiş özet (orijinal dil)
     published: datetime  # Timezone-aware UTC
     source_name: str  # html.escape() uygulanmış kaynak adı
     url_hash: str     # Değişmez — fetcher'dan geliyor
     category: str     # Başlangıçta "Genel"; categorizer günceller
+    tr_summary: str = ""  # Gemini tarafından üretilen Türkçe özet (1 cümle)
 
 
 def _sanitize_url(url: str) -> str:

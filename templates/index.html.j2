@@ -165,6 +165,10 @@
       color: #555e6b;
       line-height: 1.5;
     }
+    .tr-summary {
+      color: #2c6e49;
+      font-style: italic;
+    }
 
     /* ── Footer ── */
     footer {
@@ -234,7 +238,9 @@
             <span class="source-badge">{{ item.source_name }}</span>
             <span>{{ item.published | format_date }}</span>
           </div>
-          {% if item.summary %}
+          {% if item.tr_summary is defined and item.tr_summary %}
+          <p class="item-summary tr-summary">🇹🇷 {{ item.tr_summary }}</p>
+          {% elif item.summary %}
           <p class="item-summary">{{ item.summary }}</p>
           {% endif %}
         </li>
