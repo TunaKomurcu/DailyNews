@@ -1,25 +1,75 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="tr" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Günlük Haberler — 4 Ağustos 2026</title>
+  <title>AI Günlük Haberler — 5 Ağustos 2026</title>
   <style>
+    /* ── CSS Variables (tema sistemi) ── */
+    :root {
+      --bg:          #f5f7fa;
+      --bg-card:     #ffffff;
+      --bg-nav:      #ffffff;
+      --bg-header:   linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      --text:        #1a1a2e;
+      --text-muted:  #6b7280;
+      --text-meta:   #95a5a6;
+      --border:      #e8ecf0;
+      --accent:      #4fc3f7;
+      --accent-dark: #1a6ea8;
+      --link:        #2980b9;
+      --shadow:      rgba(0,0,0,0.08);
+      --badge-bg:    #eef2f7;
+      --badge-text:  #555;
+      --search-bg:   #f0f4f8;
+    }
+    [data-theme="dark"] {
+      --bg:          #0f1117;
+      --bg-card:     #1a1d27;
+      --bg-nav:      #1a1d27;
+      --bg-header:   linear-gradient(135deg, #0a0a14 0%, #0d1020 100%);
+      --text:        #e2e8f0;
+      --text-muted:  #94a3b8;
+      --text-meta:   #64748b;
+      --border:      #2d3748;
+      --accent:      #38bdf8;
+      --accent-dark: #7dd3fc;
+      --link:        #60a5fa;
+      --shadow:      rgba(0,0,0,0.4);
+      --badge-bg:    #2d3748;
+      --badge-text:  #cbd5e1;
+      --search-bg:   #252836;
+    }
+
+    /* ── Kategori renkleri ── */
+    :root {
+      --cat-arastirma:    #7c3aed;
+      --cat-muhendislik:  #0891b2;
+      --cat-urun:         #d97706;
+      --cat-kullanici:    #059669;
+      --cat-regulasyon:   #dc2626;
+      --cat-yatirim:      #b45309;
+      --cat-acik-kaynak:  #16a34a;
+      --cat-genel:        #6b7280;
+    }
+
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #f5f7fa;
-      color: #1a1a2e;
+      background: var(--bg);
+      color: var(--text);
       line-height: 1.6;
+      transition: background 0.2s, color 0.2s;
     }
 
     /* ── Header ── */
     header {
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      background: var(--bg-header);
       color: #e0e0e0;
       padding: 2rem 1rem 1.5rem;
       text-align: center;
+      position: relative;
     }
     header h1 {
       font-size: 1.8rem;
@@ -27,18 +77,75 @@
       letter-spacing: -0.5px;
       color: #ffffff;
     }
-    header h1 span { color: #4fc3f7; }
+    header h1 span { color: var(--accent); }
     .meta {
       margin-top: 0.5rem;
       font-size: 0.85rem;
       color: #90a4b7;
     }
 
+    /* ── Tema toggle butonu ── */
+    #theme-toggle {
+      position: absolute;
+      top: 1.1rem;
+      right: 1.1rem;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 8px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.35rem 0.6rem;
+      transition: background 0.2s;
+      line-height: 1;
+    }
+    #theme-toggle:hover { background: rgba(255,255,255,0.22); }
+
+    /* ── Arama kutusu ── */
+    .search-bar {
+      background: var(--bg-nav);
+      border-bottom: 1px solid var(--border);
+      padding: 0.6rem 1rem;
+    }
+    .search-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      position: relative;
+    }
+    #search-input {
+      width: 100%;
+      padding: 0.5rem 0.75rem 0.5rem 2.2rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--search-bg);
+      color: var(--text);
+      font-size: 0.88rem;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    #search-input:focus { border-color: var(--accent); }
+    #search-input::placeholder { color: var(--text-muted); }
+    .search-icon {
+      position: absolute;
+      left: 0.65rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      pointer-events: none;
+    }
+    #search-count {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.3rem;
+      min-height: 1.2em;
+    }
+
     /* ── Nav ── */
     nav {
-      background: #ffffff;
-      border-bottom: 2px solid #e8ecf0;
-      padding: 0.75rem 1rem;
+      background: var(--bg-nav);
+      border-bottom: 2px solid var(--border);
+      padding: 0.65rem 1rem;
       position: sticky;
       top: 0;
       z-index: 100;
@@ -48,45 +155,49 @@
       margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
-      gap: 0.4rem;
+      gap: 0.35rem;
       align-items: center;
     }
     .nav-label {
-      font-size: 0.75rem;
+      font-size: 0.72rem;
       font-weight: 600;
-      color: #7f8c8d;
+      color: var(--text-muted);
       text-transform: uppercase;
       letter-spacing: 0.5px;
-      margin-right: 0.25rem;
+      margin-right: 0.2rem;
     }
-    nav a {
-      display: inline-block;
-      padding: 0.25rem 0.65rem;
+    nav a.cat-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      padding: 0.22rem 0.6rem;
       border-radius: 999px;
-      font-size: 0.78rem;
+      font-size: 0.76rem;
       font-weight: 500;
       text-decoration: none;
-      background: #eef2f7;
-      color: #34495e;
-      transition: background 0.15s, color 0.15s;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      transition: background 0.15s, color 0.15s, opacity 0.15s;
       white-space: nowrap;
+      border: 1.5px solid transparent;
     }
-    nav a:hover { background: #4fc3f7; color: #fff; }
-    .count-badge {
-      display: inline-block;
-      background: #bdc3c7;
+    nav a.cat-link:hover {
+      background: var(--accent);
       color: #fff;
+      border-color: var(--accent);
+    }
+    .count-badge {
+      background: rgba(0,0,0,0.12);
       border-radius: 999px;
-      font-size: 0.68rem;
-      padding: 0 0.4rem;
-      margin-left: 0.2rem;
-      vertical-align: middle;
+      font-size: 0.65rem;
+      padding: 0 0.35rem;
+      font-weight: 600;
     }
 
     /* ── Main ── */
     main {
       max-width: 900px;
-      margin: 2rem auto;
+      margin: 1.5rem auto;
       padding: 0 1rem;
     }
 
@@ -97,158 +208,300 @@
     .section-header {
       display: flex;
       align-items: center;
-      gap: 0.75rem;
+      gap: 0.6rem;
       margin-bottom: 1rem;
       padding-bottom: 0.5rem;
-      border-bottom: 2px solid #e8ecf0;
+      border-bottom: 2.5px solid var(--border);
+    }
+    .section-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
     }
     .section-icon {
-      font-size: 1.4rem;
+      font-size: 1.25rem;
       line-height: 1;
     }
     section h2 {
-      font-size: 1.15rem;
+      font-size: 1.05rem;
       font-weight: 700;
-      color: #2c3e50;
+      color: var(--text);
     }
     .section-count {
-      font-size: 0.8rem;
-      color: #95a5a6;
+      font-size: 0.78rem;
+      color: var(--text-meta);
       font-weight: 400;
     }
 
-    /* ── News list ── */
+    /* ── Kategori renk dot'ları ── */
+    [data-cat="arastirma"]    .section-dot { background: var(--cat-arastirma); }
+    [data-cat="muhendislik-mimari"] .section-dot { background: var(--cat-muhendislik); }
+    [data-cat="urun-sirket-haberleri"] .section-dot { background: var(--cat-urun); }
+    [data-cat="kullanici-etkileyen"] .section-dot { background: var(--cat-kullanici); }  /* tr: kullanıcıyı etkileyen */
+    [data-cat="regulasyon-politika"] .section-dot { background: var(--cat-regulasyon); }
+    [data-cat="yatirim-startup"] .section-dot { background: var(--cat-yatirim); }
+    [data-cat="acik-kaynak"] .section-dot { background: var(--cat-acik-kaynak); }
+    [data-cat="genel"] .section-dot { background: var(--cat-genel); }
+
+    /* Sol border rengi bölüm başlığında */
+    [data-cat="arastirma"]    .section-header { border-bottom-color: var(--cat-arastirma); }
+    [data-cat="muhendislik-mimari"] .section-header { border-bottom-color: var(--cat-muhendislik); }
+    [data-cat="urun-sirket-haberleri"] .section-header { border-bottom-color: var(--cat-urun); }
+    [data-cat="kullanici-etkileyen"] .section-header { border-bottom-color: var(--cat-kullanici); }
+    [data-cat="regulasyon-politika"] .section-header { border-bottom-color: var(--cat-regulasyon); }
+    [data-cat="yatirim-startup"] .section-header { border-bottom-color: var(--cat-yatirim); }
+    [data-cat="acik-kaynak"] .section-header { border-bottom-color: var(--cat-acik-kaynak); }
+
+    /* ── Haber listesi ── */
     ul {
       list-style: none;
       display: flex;
       flex-direction: column;
-      gap: 0.75rem;
+      gap: 0.6rem;
     }
-    li {
-      background: #ffffff;
-      border: 1px solid #e8ecf0;
+    li.news-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 0.9rem 1.1rem;
+      padding: 0.85rem 1.1rem;
       transition: box-shadow 0.15s, border-color 0.15s;
     }
-    li:hover {
-      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-      border-color: #4fc3f7;
+    li.news-item:hover {
+      box-shadow: 0 2px 12px var(--shadow);
+      border-color: var(--accent);
     }
+    li.news-item.hidden { display: none; }
+
     .item-title a {
-      font-size: 0.97rem;
+      font-size: 0.95rem;
       font-weight: 600;
-      color: #2980b9;
+      color: var(--link);
       text-decoration: none;
       line-height: 1.4;
     }
-    .item-title a:hover { text-decoration: underline; color: #1a6ea8; }
+    .item-title a:hover { text-decoration: underline; color: var(--accent-dark); }
     .item-meta {
       margin-top: 0.3rem;
-      font-size: 0.75rem;
-      color: #95a5a6;
+      font-size: 0.73rem;
+      color: var(--text-meta);
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem;
+      gap: 0.4rem;
       align-items: center;
     }
     .source-badge {
-      background: #eef2f7;
-      color: #555;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      background: var(--badge-bg);
+      color: var(--badge-text);
       border-radius: 4px;
-      padding: 0.1rem 0.45rem;
+      padding: 0.1rem 0.4rem;
       font-weight: 500;
+      font-size: 0.72rem;
+    }
+    .source-favicon {
+      width: 12px;
+      height: 12px;
+      border-radius: 2px;
+      object-fit: contain;
     }
     .item-summary {
-      margin-top: 0.45rem;
-      font-size: 0.83rem;
-      color: #555e6b;
+      margin-top: 0.4rem;
+      font-size: 0.82rem;
+      color: var(--text-muted);
       line-height: 1.5;
     }
+    .tr-summary {
+      color: #16a34a;
+      font-style: italic;
+    }
+    [data-theme="dark"] .tr-summary { color: #4ade80; }
 
     /* ── Footer ── */
     footer {
       text-align: center;
       padding: 2rem 1rem;
       font-size: 0.78rem;
-      color: #95a5a6;
-      border-top: 1px solid #e8ecf0;
+      color: var(--text-meta);
+      border-top: 1px solid var(--border);
     }
-    footer a { color: #4fc3f7; text-decoration: none; }
+    footer a { color: var(--accent); text-decoration: none; }
     footer a:hover { text-decoration: underline; }
+    .archive-links {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.4rem;
+      align-items: center;
+    }
+    .archive-label {
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-right: 0.25rem;
+    }
+    .archive-link {
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      background: var(--badge-bg);
+      color: var(--badge-text) !important;
+      font-size: 0.75rem;
+      transition: background 0.15s;
+    }
+    .archive-link:hover, .archive-link[aria-current="page"] {
+      background: var(--accent);
+      color: #fff !important;
+      text-decoration: none !important;
+    }
+
+    /* ── Arama: eşleşme yok mesajı ── */
+    .no-results {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      display: none;
+    }
+
+    /* ── Öne çıkan haberler ── */
+    .featured-section {
+      margin-bottom: 2.5rem;
+    }
+    .featured-header {
+      border-bottom-color: #f59e0b !important;
+    }
+    .featured-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 0.75rem;
+    }
+    .featured-item {
+      border-left: 3px solid #f59e0b;
+    }
+    .cat-pill {
+      display: inline-block;
+      font-size: 0.68rem;
+      padding: 0.1rem 0.45rem;
+      border-radius: 999px;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      font-weight: 500;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+    }
+
+    /* ── Konu grubu badge ── */
+    .topic-badge {
+      display: inline-block;
+      font-size: 0.68rem;
+      padding: 0.1rem 0.45rem;
+      border-radius: 4px;
+      background: #dbeafe;
+      color: #1d4ed8;
+      font-weight: 500;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+    }
+    [data-theme="dark"] .topic-badge {
+      background: #1e3a5f;
+      color: #93c5fd;
+    }
 
     /* ── Responsive ── */
     @media (max-width: 600px) {
-      header h1 { font-size: 1.35rem; }
-      li { padding: 0.75rem 0.85rem; }
-      .item-title a { font-size: 0.9rem; }
-      nav a { font-size: 0.72rem; padding: 0.2rem 0.5rem; }
+      header h1 { font-size: 1.3rem; }
+      li.news-item { padding: 0.7rem 0.85rem; }
+      .item-title a { font-size: 0.88rem; }
+      nav a.cat-link { font-size: 0.7rem; padding: 0.18rem 0.45rem; }
+      #theme-toggle { top: 0.75rem; right: 0.75rem; font-size: 1rem; }
     }
   </style>
 </head>
 <body>
 
 <header>
+  <button id="theme-toggle" aria-label="Temayı değiştir" title="Karanlık/aydınlık mod">🌙</button>
   <h1><span>AI</span> Günlük Haberler</h1>
   <p class="meta">
-    4 Ağustos 2026 &nbsp;·&nbsp;
-    17 haber &nbsp;·&nbsp;
-    Son güncelleme: 2026-08-04 11:45 UTC
+    5 Ağustos 2026 &nbsp;·&nbsp;
+    44 haber &nbsp;·&nbsp;
+    Son güncelleme: 2026-08-05 06:32 UTC
   </p>
 </header>
+
+<div class="search-bar">
+  <div class="search-inner">
+    <span class="search-icon">🔍</span>
+    <input type="search" id="search-input" placeholder="Haberlerde ara..." autocomplete="off" aria-label="Haberlerde ara">
+  </div>
+  <div class="search-inner"><div id="search-count"></div></div>
+</div>
 
 <nav aria-label="Kategori gezintisi">
   <div class="nav-inner">
     <span class="nav-label">Kategoriler</span>
     
+    <a class="cat-link" href="#one-cikanlar" style="border-color: #f59e0b; background: #fef3c7; color: #92400e;">
+      ⭐ Öne Çıkanlar
+      <span class="count-badge">6</span>
+    </a>
+    
+    
       
-        <a href="#arastirma">
-          Araştırma
-          <span class="count-badge">7</span>
+        <a class="cat-link" href="#arastirma">
+          🔬 Araştırma
+          <span class="count-badge">12</span>
         </a>
       
     
       
-        <a href="#muhendislik-mimari">
-          Mühendislik/Mimari
+        <a class="cat-link" href="#muhendislik-mimari">
+          ⚙️ Mühendislik/Mimari
+          <span class="count-badge">4</span>
+        </a>
+      
+    
+      
+        <a class="cat-link" href="#urun-sirket-haberleri">
+          🏢 Ürün/Şirket Haberleri
+          <span class="count-badge">9</span>
+        </a>
+      
+    
+      
+        <a class="cat-link" href="#kullaniciyi-etkileyen">
+          👥 Kullanıcıyı Etkileyen
+          <span class="count-badge">4</span>
+        </a>
+      
+    
+      
+        <a class="cat-link" href="#regulasyon-politika">
+          ⚖️ Regülasyon/Politika
+          <span class="count-badge">4</span>
+        </a>
+      
+    
+      
+        <a class="cat-link" href="#yatirim-startup">
+          💰 Yatırım/Startup
+          <span class="count-badge">6</span>
+        </a>
+      
+    
+      
+        <a class="cat-link" href="#acik-kaynak">
+          🌐 Açık Kaynak
           <span class="count-badge">3</span>
         </a>
       
     
       
-        <a href="#urun-sirket-haberleri">
-          Ürün/Şirket Haberleri
-          <span class="count-badge">1</span>
-        </a>
-      
-    
-      
-        <a href="#kullaniciyi-etkileyen">
-          Kullanıcıyı Etkileyen
+        <a class="cat-link" href="#genel">
+          📰 Genel
           <span class="count-badge">2</span>
-        </a>
-      
-    
-      
-        <a href="#regulasyon-politika">
-          Regülasyon/Politika
-          <span class="count-badge">1</span>
-        </a>
-      
-    
-      
-        <a href="#yatirim-startup">
-          Yatırım/Startup
-          <span class="count-badge">2</span>
-        </a>
-      
-    
-      
-    
-      
-        <a href="#genel">
-          Genel
-          <span class="count-badge">1</span>
         </a>
       
     
@@ -256,26 +509,191 @@
 </nav>
 
 <main>
+  <p class="no-results" id="no-results">Aramanızla eşleşen haber bulunamadı.</p>
+
+  
+  <section id="one-cikanlar" class="featured-section" aria-labelledby="heading-featured">
+    <div class="section-header featured-header">
+      <span class="section-icon" aria-hidden="true">⭐</span>
+      <h2 id="heading-featured">
+        Bugünün Öne Çıkanları
+        <span class="section-count">(6 haber)</span>
+      </h2>
+    </div>
+    <ul class="featured-list">
+      
+      <li class="news-item featured-item" data-title="the sale of electronic arts has been finalized" data-summary="electronic arts şirketinin satış süreci resmi olarak tamamlandı.">
+        <div class="item-title">
+          <a href="https://www.bbc.com/news/articles/cjejyl34345o"
+             target="_blank"
+             rel="noopener noreferrer">The sale of Electronic Arts has been finalized</a>
+          <span class="cat-pill">🏢 Ürün/Şirket Haberleri</span>
+        </div>
+        <div class="item-meta">
+          <span class="source-badge">
+            <img class="source-favicon"
+                 src="https://www.google.com/s2/favicons?domain=https://www.bbc.com/news/articles/cjejyl34345o&sz=16"
+                 alt=""
+                 loading="lazy"
+                 onerror="this.style.display='none'">
+            Hacker News
+          </span>
+          <span>5 Ağustos 2026, 04:51</span>
+        </div>
+        
+        <p class="item-summary tr-summary">🇹🇷 Electronic Arts şirketinin satış süreci resmi olarak tamamlandı.</p>
+        
+      </li>
+      
+      <li class="news-item featured-item" data-title="zero-mem: zero-token memory operations for llm agents" data-summary="llm ajanları için sıfır token tüketen bellek operasyonları geliştirildi.">
+        <div class="item-title">
+          <a href="https://arxiv.org/abs/2607.29377"
+             target="_blank"
+             rel="noopener noreferrer">Zero-Mem: Zero-Token Memory Operations for LLM Agents</a>
+          <span class="cat-pill">🔬 Araştırma</span>
+        </div>
+        <div class="item-meta">
+          <span class="source-badge">
+            <img class="source-favicon"
+                 src="https://www.google.com/s2/favicons?domain=https://arxiv.org/abs/2607.29377&sz=16"
+                 alt=""
+                 loading="lazy"
+                 onerror="this.style.display='none'">
+            Hacker News
+          </span>
+          <span>5 Ağustos 2026, 04:36</span>
+        </div>
+        
+        <p class="item-summary tr-summary">🇹🇷 LLM ajanları için sıfır token tüketen bellek operasyonları geliştirildi.</p>
+        
+      </li>
+      
+      <li class="news-item featured-item" data-title="ip and dns leaks in webkit affecting proxy browsers and icloud private relay" data-summary="webkit&#x27;teki ip ve dns sızıntıları proxy tarayıcıları ve gizli geçişleri etkiliyor.">
+        <div class="item-title">
+          <a href="https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/"
+             target="_blank"
+             rel="noopener noreferrer">IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay</a>
+          <span class="cat-pill">👥 Kullanıcıyı Etkileyen</span>
+        </div>
+        <div class="item-meta">
+          <span class="source-badge">
+            <img class="source-favicon"
+                 src="https://www.google.com/s2/favicons?domain=https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/&sz=16"
+                 alt=""
+                 loading="lazy"
+                 onerror="this.style.display='none'">
+            Hacker News
+          </span>
+          <span>4 Ağustos 2026, 23:31</span>
+        </div>
+        
+        <p class="item-summary tr-summary">🇹🇷 WebKit&#x27;teki IP ve DNS sızıntıları proxy tarayıcıları ve gizli geçişleri etkiliyor.</p>
+        
+      </li>
+      
+      <li class="news-item featured-item" data-title="spacex has bought $329m worth of tesla megapacks so far this year" data-summary="spacex bu yıl şimdiye kadar 329 milyon dolarlık tesla megapack satın aldı.">
+        <div class="item-title">
+          <a href="https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/"
+             target="_blank"
+             rel="noopener noreferrer">SpaceX has bought $329M worth of Tesla Megapacks so far this year</a>
+          <span class="cat-pill">💰 Yatırım/Startup</span>
+        </div>
+        <div class="item-meta">
+          <span class="source-badge">
+            <img class="source-favicon"
+                 src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/&sz=16"
+                 alt=""
+                 loading="lazy"
+                 onerror="this.style.display='none'">
+            TechCrunch AI
+          </span>
+          <span>4 Ağustos 2026, 21:07</span>
+        </div>
+        
+        <p class="item-summary tr-summary">🇹🇷 SpaceX bu yıl şimdiye kadar 329 milyon dolarlık Tesla Megapack satın aldı.</p>
+        
+      </li>
+      
+      <li class="news-item featured-item" data-title="the golden age of british ice cream" data-summary="britanya&#x27;da dondurma sektörünün yaşadığı altın çağ ve piyasa dinamikleri.">
+        <div class="item-title">
+          <a href="https://www.vittlesmagazine.com/p/the-golden-age-of-british-ice-cream"
+             target="_blank"
+             rel="noopener noreferrer">The Golden Age of British Ice Cream</a>
+          <span class="cat-pill">📰 Genel</span>
+        </div>
+        <div class="item-meta">
+          <span class="source-badge">
+            <img class="source-favicon"
+                 src="https://www.google.com/s2/favicons?domain=https://www.vittlesmagazine.com/p/the-golden-age-of-british-ice-cream&sz=16"
+                 alt=""
+                 loading="lazy"
+                 onerror="this.style.display='none'">
+            Hacker News
+          </span>
+          <span>4 Ağustos 2026, 18:25</span>
+        </div>
+        
+        <p class="item-summary tr-summary">🇹🇷 Britanya&#x27;da dondurma sektörünün yaşadığı altın çağ ve piyasa dinamikleri.</p>
+        
+      </li>
+      
+      <li class="news-item featured-item" data-title="this year&#x27;s pulitzer prizes saw a record number of winners disclose ai use" data-summary="bu yılki pulitzer ödülleri&#x27;nde rekor sayıda kazanan yapay zeka kullanımı açıkladı.">
+        <div class="item-title">
+          <a href="https://the-decoder.com/this-years-pulitzer-prizes-saw-a-record-number-of-winners-disclose-ai-use/"
+             target="_blank"
+             rel="noopener noreferrer">This year&#x27;s Pulitzer Prizes saw a record number of winners disclose AI use</a>
+          <span class="cat-pill">⚖️ Regülasyon/Politika</span>
+        </div>
+        <div class="item-meta">
+          <span class="source-badge">
+            <img class="source-favicon"
+                 src="https://www.google.com/s2/favicons?domain=https://the-decoder.com/this-years-pulitzer-prizes-saw-a-record-number-of-winners-disclose-ai-use/&sz=16"
+                 alt=""
+                 loading="lazy"
+                 onerror="this.style.display='none'">
+            The Decoder
+          </span>
+          <span>4 Ağustos 2026, 17:26</span>
+        </div>
+        
+        <p class="item-summary tr-summary">🇹🇷 Bu yılki Pulitzer Ödülleri&#x27;nde rekor sayıda kazanan yapay zeka kullanımı açıkladı.</p>
+        
+      </li>
+      
+    </ul>
+  </section>
+  
+
   
     
-    <section id="arastirma" aria-labelledby="heading-arastirma">
+    <section id="arastirma" data-cat="arastirma" aria-labelledby="heading-arastirma">
       <div class="section-header">
+        <span class="section-dot" aria-hidden="true"></span>
         <span class="section-icon" aria-hidden="true">🔬</span>
         <h2 id="heading-arastirma">
           Araştırma
-          <span class="section-count">(7 haber)</span>
+          <span class="section-count">(12 haber)</span>
         </h2>
       </div>
       <ul>
         
-        <li>
+        <li class="news-item" data-title="revisiting classic thought experiments to measure consciousness for artificial intelligence safety" data-summary="">
           <div class="item-title">
             <a href="https://arxiv.org/abs/2608.00001"
                target="_blank"
                rel="noopener noreferrer">Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety</a>
+            
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">arXiv AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://arxiv.org/abs/2608.00001&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              arXiv AI
+            </span>
             <span>4 Ağustos 2026, 04:00</span>
           </div>
           
@@ -283,14 +701,25 @@
           
         </li>
         
-        <li>
+        <li class="news-item" data-title="enhancing llms with context-specific knowledge for mitigating misinformation in smes: a rag-based modeling and analysis" data-summary="">
           <div class="item-title">
             <a href="https://arxiv.org/abs/2608.00006"
                target="_blank"
                rel="noopener noreferrer">Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis</a>
+            
+            
+            <span class="topic-badge" title="Birden fazla kaynak bu konuyu haberleştirdi">🔗 Çoklu kaynak</span>
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">arXiv AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://arxiv.org/abs/2608.00006&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              arXiv AI
+            </span>
             <span>4 Ağustos 2026, 04:00</span>
           </div>
           
@@ -298,14 +727,23 @@
           
         </li>
         
-        <li>
+        <li class="news-item" data-title="energy efficiency of locally deployed llms: a preliminary quantitative gpu power benchmark on consumer hardware" data-summary="">
           <div class="item-title">
             <a href="https://arxiv.org/abs/2608.00008"
                target="_blank"
                rel="noopener noreferrer">Energy Efficiency of Locally Deployed LLMs: A Preliminary Quantitative GPU Power Benchmark on Consumer Hardware</a>
+            
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">arXiv AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://arxiv.org/abs/2608.00008&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              arXiv AI
+            </span>
             <span>4 Ağustos 2026, 04:00</span>
           </div>
           
@@ -313,14 +751,23 @@
           
         </li>
         
-        <li>
+        <li class="news-item" data-title="cot-core: accelerating llm evaluation via cot-aware coreset selection" data-summary="">
           <div class="item-title">
             <a href="https://arxiv.org/abs/2608.00014"
                target="_blank"
                rel="noopener noreferrer">CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection</a>
+            
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">arXiv AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://arxiv.org/abs/2608.00014&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              arXiv AI
+            </span>
             <span>4 Ağustos 2026, 04:00</span>
           </div>
           
@@ -328,14 +775,25 @@
           
         </li>
         
-        <li>
+        <li class="news-item" data-title="optimization and constraint modeling using llms with a retrieval augmented generation process" data-summary="">
           <div class="item-title">
             <a href="https://arxiv.org/abs/2608.00015"
                target="_blank"
                rel="noopener noreferrer">Optimization and Constraint Modeling using LLMs with a Retrieval Augmented Generation Process</a>
+            
+            
+            <span class="topic-badge" title="Birden fazla kaynak bu konuyu haberleştirdi">🔗 Çoklu kaynak</span>
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">arXiv AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://arxiv.org/abs/2608.00015&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              arXiv AI
+            </span>
             <span>4 Ağustos 2026, 04:00</span>
           </div>
           
@@ -343,14 +801,25 @@
           
         </li>
         
-        <li>
+        <li class="news-item" data-title="memory reward inflation in self-improving llm agents" data-summary="">
           <div class="item-title">
             <a href="https://arxiv.org/abs/2608.00017"
                target="_blank"
                rel="noopener noreferrer">Memory Reward Inflation in Self-Improving LLM Agents</a>
+            
+            
+            <span class="topic-badge" title="Birden fazla kaynak bu konuyu haberleştirdi">🔗 Çoklu kaynak</span>
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">arXiv AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://arxiv.org/abs/2608.00017&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              arXiv AI
+            </span>
             <span>4 Ağustos 2026, 04:00</span>
           </div>
           
@@ -358,14 +827,23 @@
           
         </li>
         
-        <li>
+        <li class="news-item" data-title="motif-mamba: network motif improved mamba for long-range sequence modeling" data-summary="">
           <div class="item-title">
             <a href="https://arxiv.org/abs/2608.00027"
                target="_blank"
                rel="noopener noreferrer">Motif-Mamba: network motif improved mamba for long-range sequence modeling</a>
+            
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">arXiv AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://arxiv.org/abs/2608.00027&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              arXiv AI
+            </span>
             <span>4 Ağustos 2026, 04:00</span>
           </div>
           
@@ -373,29 +851,161 @@
           
         </li>
         
+        <li class="news-item" data-title="third-party cyber evaluations involving openai models" data-summary="openai modellerini içeren üçüncü taraf siber güvenlik değerlendirmeleri inceleniyor.">
+          <div class="item-title">
+            <a href="https://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
+               target="_blank"
+               rel="noopener noreferrer">Third-party cyber evaluations involving OpenAI models</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://openai.com/index/third-party-cyber-evaluations-involving-openai-models&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              OpenAI Blog
+            </span>
+            <span>4 Ağustos 2026, 19:00</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 OpenAI modellerini içeren üçüncü taraf siber güvenlik değerlendirmeleri inceleniyor.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="eight myths on software engineering and genai" data-summary="yazılım mühendisliği ve üretken yapay zeka hakkındaki sekiz yaygın efsane.">
+          <div class="item-title">
+            <a href="https://queue.acm.org/detail.cfm?id=3807963"
+               target="_blank"
+               rel="noopener noreferrer">Eight Myths on Software Engineering and GenAI</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://queue.acm.org/detail.cfm?id=3807963&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              Hacker News
+            </span>
+            <span>4 Ağustos 2026, 23:50</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Yazılım mühendisliği ve üretken yapay zeka hakkındaki sekiz yaygın efsane.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="zigbee vs. matter over thread:understanding iot protocol performance in practice" data-summary="zigbee ve matter over thread protokollerinin performans karşılaştırması incelendi.">
+          <div class="item-title">
+            <a href="https://arxiv.org/abs/2603.04221"
+               target="_blank"
+               rel="noopener noreferrer">Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://arxiv.org/abs/2603.04221&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              Hacker News
+            </span>
+            <span>5 Ağustos 2026, 00:10</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Zigbee ve Matter over Thread protokollerinin performans karşılaştırması incelendi.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="zero-mem: zero-token memory operations for llm agents" data-summary="llm ajanları için sıfır token tüketen bellek operasyonları geliştirildi.">
+          <div class="item-title">
+            <a href="https://arxiv.org/abs/2607.29377"
+               target="_blank"
+               rel="noopener noreferrer">Zero-Mem: Zero-Token Memory Operations for LLM Agents</a>
+            
+            
+            <span class="topic-badge" title="Birden fazla kaynak bu konuyu haberleştirdi">🔗 Çoklu kaynak</span>
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://arxiv.org/abs/2607.29377&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              Hacker News
+            </span>
+            <span>5 Ağustos 2026, 04:36</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 LLM ajanları için sıfır token tüketen bellek operasyonları geliştirildi.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="open-weight ai models are catching up to the frontier. the safety gap remains." data-summary="açık ağırlıklı yapay zeka modelleri gelişiyor ancak güvenlik açığı devam ediyor.">
+          <div class="item-title">
+            <a href="https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/"
+               target="_blank"
+               rel="noopener noreferrer">Open-weight AI models are catching up to the frontier. The safety gap remains.</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
+            <span>4 Ağustos 2026, 20:05</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Açık ağırlıklı yapay zeka modelleri gelişiyor ancak güvenlik açığı devam ediyor.</p>
+          
+        </li>
+        
       </ul>
     </section>
     
   
     
-    <section id="muhendislik-mimari" aria-labelledby="heading-muhendislik-mimari">
+    <section id="muhendislik-mimari" data-cat="muhendislik-mimari" aria-labelledby="heading-muhendislik-mimari">
       <div class="section-header">
+        <span class="section-dot" aria-hidden="true"></span>
         <span class="section-icon" aria-hidden="true">⚙️</span>
         <h2 id="heading-muhendislik-mimari">
           Mühendislik/Mimari
-          <span class="section-count">(3 haber)</span>
+          <span class="section-count">(4 haber)</span>
         </h2>
       </div>
       <ul>
         
-        <li>
+        <li class="news-item" data-title="autofoam: the self-refining autonomous openfoam agent" data-summary="">
           <div class="item-title">
             <a href="https://arxiv.org/abs/2608.00003"
                target="_blank"
                rel="noopener noreferrer">AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent</a>
+            
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">arXiv AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://arxiv.org/abs/2608.00003&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              arXiv AI
+            </span>
             <span>4 Ağustos 2026, 04:00</span>
           </div>
           
@@ -403,14 +1013,23 @@
           
         </li>
         
-        <li>
+        <li class="news-item" data-title="request-level energy attribution for batched llm serving" data-summary="">
           <div class="item-title">
             <a href="https://arxiv.org/abs/2608.00026"
                target="_blank"
                rel="noopener noreferrer">Request-Level Energy Attribution for Batched LLM Serving</a>
+            
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">arXiv AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://arxiv.org/abs/2608.00026&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              arXiv AI
+            </span>
             <span>4 Ağustos 2026, 04:00</span>
           </div>
           
@@ -418,14 +1037,23 @@
           
         </li>
         
-        <li>
+        <li class="news-item" data-title="nova: an end-to-end mlir compiler for deep learning" data-summary="">
           <div class="item-title">
             <a href="https://arxiv.org/abs/2608.00029"
                target="_blank"
                rel="noopener noreferrer">Nova: An End-to-End MLIR Compiler for Deep Learning</a>
+            
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">arXiv AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://arxiv.org/abs/2608.00029&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              arXiv AI
+            </span>
             <span>4 Ağustos 2026, 04:00</span>
           </div>
           
@@ -433,29 +1061,67 @@
           
         </li>
         
+        <li class="news-item" data-title="is the future of data centers portable? runware builds a pod to find out" data-summary="runware, taşınabilir veri merkezlerinin geleceğini test etmek için özel bir pod inşa etti.">
+          <div class="item-title">
+            <a href="https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/"
+               target="_blank"
+               rel="noopener noreferrer">Is the future of data centers portable? Runware builds a pod to find out</a>
+            
+            
+            <span class="topic-badge" title="Birden fazla kaynak bu konuyu haberleştirdi">🔗 Çoklu kaynak</span>
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
+            <span>4 Ağustos 2026, 13:00</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Runware, taşınabilir veri merkezlerinin geleceğini test etmek için özel bir pod inşa etti.</p>
+          
+        </li>
+        
       </ul>
     </section>
     
   
     
-    <section id="urun-sirket-haberleri" aria-labelledby="heading-urun-sirket-haberleri">
+    <section id="urun-sirket-haberleri" data-cat="urun-sirket-haberleri" aria-labelledby="heading-urun-sirket-haberleri">
       <div class="section-header">
+        <span class="section-dot" aria-hidden="true"></span>
         <span class="section-icon" aria-hidden="true">🏢</span>
         <h2 id="heading-urun-sirket-haberleri">
           Ürün/Şirket Haberleri
-          <span class="section-count">(1 haber)</span>
+          <span class="section-count">(9 haber)</span>
         </h2>
       </div>
       <ul>
         
-        <li>
+        <li class="news-item" data-title="after killer quarter, palantir ceo alex karp calls ai industry ‘marxist’" data-summary="">
           <div class="item-title">
             <a href="https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/"
                target="_blank"
                rel="noopener noreferrer">After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’</a>
+            
+            
+            <span class="topic-badge" title="Birden fazla kaynak bu konuyu haberleştirdi">🔗 Çoklu kaynak</span>
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">TechCrunch AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
             <span>3 Ağustos 2026, 23:19</span>
           </div>
           
@@ -463,29 +1129,235 @@
           
         </li>
         
+        <li class="news-item" data-title="openai fires back at apple&#x27;s trade secret lawsuit with chat logs showing apple employees kept texting their former colleague" data-summary="openai, eski çalışan mesajlarını içeren sohbet loglarıyla apple&#x27;a yanıt verdi.">
+          <div class="item-title">
+            <a href="https://the-decoder.com/openai-fires-back-at-apples-trade-secret-lawsuit-with-chat-logs-showing-apple-employees-kept-texting-their-former-colleague/"
+               target="_blank"
+               rel="noopener noreferrer">OpenAI fires back at Apple&#x27;s trade secret lawsuit with chat logs showing Apple employees kept texting their former colleague</a>
+            
+            
+            <span class="topic-badge" title="Birden fazla kaynak bu konuyu haberleştirdi">🔗 Çoklu kaynak</span>
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://the-decoder.com/openai-fires-back-at-apples-trade-secret-lawsuit-with-chat-logs-showing-apple-employees-kept-texting-their-former-colleague/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              The Decoder
+            </span>
+            <span>4 Ağustos 2026, 10:22</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 OpenAI, eski çalışan mesajlarını içeren sohbet loglarıyla Apple&#x27;a yanıt verdi.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="pi&#x27;s minimalism is its advantage" data-summary="pi asistanının minimalizm odaklı yaklaşımı ona büyük bir avantaj sağlıyor.">
+          <div class="item-title">
+            <a href="https://earendil.com/posts/pi-autoresearch-and-databricks/"
+               target="_blank"
+               rel="noopener noreferrer">Pi&#x27;s Minimalism Is Its Advantage</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://earendil.com/posts/pi-autoresearch-and-databricks/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              Hacker News
+            </span>
+            <span>4 Ağustos 2026, 22:22</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Pi asistanının minimalizm odaklı yaklaşımı ona büyük bir avantaj sağlıyor.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="the sale of electronic arts has been finalized" data-summary="electronic arts şirketinin satış süreci resmi olarak tamamlandı.">
+          <div class="item-title">
+            <a href="https://www.bbc.com/news/articles/cjejyl34345o"
+               target="_blank"
+               rel="noopener noreferrer">The sale of Electronic Arts has been finalized</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://www.bbc.com/news/articles/cjejyl34345o&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              Hacker News
+            </span>
+            <span>5 Ağustos 2026, 04:51</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Electronic Arts şirketinin satış süreci resmi olarak tamamlandı.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="duckdb – data power tools for your laptop, now in clojure (2023)" data-summary="duckdb veri analiz araçları artık clojure programlama dilini destekliyor.">
+          <div class="item-title">
+            <a href="https://techascent.com/blog/just-ducking-around.html"
+               target="_blank"
+               rel="noopener noreferrer">DuckDB – Data power tools for your laptop, now in Clojure (2023)</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techascent.com/blog/just-ducking-around.html&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              Hacker News
+            </span>
+            <span>4 Ağustos 2026, 22:09</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 DuckDB veri analiz araçları artık Clojure programlama dilini destekliyor.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="meet wrinkles, an app that uncovers the hidden stories of the places around you" data-summary="wrinkles uygulaması bulunduğunuz yerlerin gizli hikayelerini ortaya çıkarıyor.">
+          <div class="item-title">
+            <a href="https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/"
+               target="_blank"
+               rel="noopener noreferrer">Meet Wrinkles, an app that uncovers the hidden stories of the places around you</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
+            <span>4 Ağustos 2026, 19:34</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Wrinkles uygulaması bulunduğunuz yerlerin gizli hikayelerini ortaya çıkarıyor.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="nvidia doesn’t mess around: a week after open ai industry group formed, it’s already showing progress" data-summary="nvidia, açık yapay zeka grubu kurulduktan bir hafta sonra ilk ilerlemelerini gösterdi.">
+          <div class="item-title">
+            <a href="https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/"
+               target="_blank"
+               rel="noopener noreferrer">Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress</a>
+            
+            
+            <span class="topic-badge" title="Birden fazla kaynak bu konuyu haberleştirdi">🔗 Çoklu kaynak</span>
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
+            <span>4 Ağustos 2026, 19:28</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Nvidia, açık yapay zeka grubu kurulduktan bir hafta sonra ilk ilerlemelerini gösterdi.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="spotify expands ai remix and covers project with merlin partnership" data-summary="spotify, merlin ortaklığıyla yapay zeka remix ve cover projesini genişletiyor.">
+          <div class="item-title">
+            <a href="https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/"
+               target="_blank"
+               rel="noopener noreferrer">Spotify expands AI remix and covers project with Merlin partnership</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
+            <span>4 Ağustos 2026, 15:50</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Spotify, Merlin ortaklığıyla yapay zeka remix ve cover projesini genişletiyor.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="elon musk spends half his time talking robots and ai on tesla earnings calls" data-summary="elon musk, tesla kazanç çağrılarının yarısında robotlar ve yapay zekadan bahsediyor.">
+          <div class="item-title">
+            <a href="https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/"
+               target="_blank"
+               rel="noopener noreferrer">Elon Musk spends half his time talking robots and AI on Tesla earnings calls</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
+            <span>4 Ağustos 2026, 15:20</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Elon Musk, Tesla kazanç çağrılarının yarısında robotlar ve yapay zekadan bahsediyor.</p>
+          
+        </li>
+        
       </ul>
     </section>
     
   
     
-    <section id="kullaniciyi-etkileyen" aria-labelledby="heading-kullaniciyi-etkileyen">
+    <section id="kullaniciyi-etkileyen" data-cat="kullaniciyi-etkileyen" aria-labelledby="heading-kullaniciyi-etkileyen">
       <div class="section-header">
+        <span class="section-dot" aria-hidden="true"></span>
         <span class="section-icon" aria-hidden="true">👥</span>
         <h2 id="heading-kullaniciyi-etkileyen">
           Kullanıcıyı Etkileyen
-          <span class="section-count">(2 haber)</span>
+          <span class="section-count">(4 haber)</span>
         </h2>
       </div>
       <ul>
         
-        <li>
+        <li class="news-item" data-title="apple is getting this wrong" data-summary="">
           <div class="item-title">
             <a href="https://openai.com/index/apple-is-getting-this-wrong"
                target="_blank"
                rel="noopener noreferrer">Apple is getting this wrong</a>
+            
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">OpenAI Blog</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://openai.com/index/apple-is-getting-this-wrong&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              OpenAI Blog
+            </span>
             <span>3 Ağustos 2026, 22:00</span>
           </div>
           
@@ -493,14 +1365,23 @@
           
         </li>
         
-        <li>
+        <li class="news-item" data-title="apple finally fixed siri. so why does it feel anticlimactic?" data-summary="">
           <div class="item-title">
             <a href="https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/"
                target="_blank"
                rel="noopener noreferrer">Apple finally fixed Siri. So why does it feel anticlimactic?</a>
+            
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">TechCrunch AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
             <span>3 Ağustos 2026, 18:43</span>
           </div>
           
@@ -508,29 +1389,89 @@
           
         </li>
         
+        <li class="news-item" data-title="ip and dns leaks in webkit affecting proxy browsers and icloud private relay" data-summary="webkit&#x27;teki ip ve dns sızıntıları proxy tarayıcıları ve gizli geçişleri etkiliyor.">
+          <div class="item-title">
+            <a href="https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/"
+               target="_blank"
+               rel="noopener noreferrer">IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              Hacker News
+            </span>
+            <span>4 Ağustos 2026, 23:31</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 WebKit&#x27;teki IP ve DNS sızıntıları proxy tarayıcıları ve gizli geçişleri etkiliyor.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="apple says more ex-employees may have taken confidential data to openai" data-summary="apple, eski çalışanların openai&#x27;a gizli veri sızdırmış olabileceğini belirtti.">
+          <div class="item-title">
+            <a href="https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/"
+               target="_blank"
+               rel="noopener noreferrer">Apple says more ex-employees may have taken confidential data to OpenAI</a>
+            
+            
+            <span class="topic-badge" title="Birden fazla kaynak bu konuyu haberleştirdi">🔗 Çoklu kaynak</span>
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
+            <span>4 Ağustos 2026, 14:03</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Apple, eski çalışanların OpenAI&#x27;a gizli veri sızdırmış olabileceğini belirtti.</p>
+          
+        </li>
+        
       </ul>
     </section>
     
   
     
-    <section id="regulasyon-politika" aria-labelledby="heading-regulasyon-politika">
+    <section id="regulasyon-politika" data-cat="regulasyon-politika" aria-labelledby="heading-regulasyon-politika">
       <div class="section-header">
+        <span class="section-dot" aria-hidden="true"></span>
         <span class="section-icon" aria-hidden="true">⚖️</span>
         <h2 id="heading-regulasyon-politika">
           Regülasyon/Politika
-          <span class="section-count">(1 haber)</span>
+          <span class="section-count">(4 haber)</span>
         </h2>
       </div>
       <ul>
         
-        <li>
+        <li class="news-item" data-title="congress’ favorite ai tool? chatgpt" data-summary="">
           <div class="item-title">
             <a href="https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/"
                target="_blank"
                rel="noopener noreferrer">Congress’ favorite AI tool? ChatGPT</a>
+            
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">TechCrunch AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
             <span>3 Ağustos 2026, 16:40</span>
           </div>
           
@@ -538,29 +1479,113 @@
           
         </li>
         
+        <li class="news-item" data-title="this year&#x27;s pulitzer prizes saw a record number of winners disclose ai use" data-summary="bu yılki pulitzer ödülleri&#x27;nde rekor sayıda kazanan yapay zeka kullanımı açıkladı.">
+          <div class="item-title">
+            <a href="https://the-decoder.com/this-years-pulitzer-prizes-saw-a-record-number-of-winners-disclose-ai-use/"
+               target="_blank"
+               rel="noopener noreferrer">This year&#x27;s Pulitzer Prizes saw a record number of winners disclose AI use</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://the-decoder.com/this-years-pulitzer-prizes-saw-a-record-number-of-winners-disclose-ai-use/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              The Decoder
+            </span>
+            <span>4 Ağustos 2026, 17:26</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Bu yılki Pulitzer Ödülleri&#x27;nde rekor sayıda kazanan yapay zeka kullanımı açıkladı.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="silicon valley’s rift over open source pushes back contemplated white house bans on chinese ai" data-summary="açık kaynak anlaşmazlığı, beyaz saray&#x27;ın çin yapay zeka yasaklarını erteliyor.">
+          <div class="item-title">
+            <a href="https://the-decoder.com/silicon-valleys-rift-over-open-source-pushes-back-contemplated-white-house-bans-on-chinese-ai/"
+               target="_blank"
+               rel="noopener noreferrer">Silicon Valley’s rift over open source pushes back contemplated White House bans on Chinese AI</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://the-decoder.com/silicon-valleys-rift-over-open-source-pushes-back-contemplated-white-house-bans-on-chinese-ai/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              The Decoder
+            </span>
+            <span>4 Ağustos 2026, 12:23</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Açık kaynak anlaşmazlığı, Beyaz Saray&#x27;ın Çin yapay zeka yasaklarını erteliyor.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="texas halts new data centers as governor calls for audits" data-summary="teksas, valinin denetim talebi üzerine yeni veri merkezi projelerini durdurdu.">
+          <div class="item-title">
+            <a href="https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/"
+               target="_blank"
+               rel="noopener noreferrer">Texas halts new data centers as governor calls for audits</a>
+            
+            
+            <span class="topic-badge" title="Birden fazla kaynak bu konuyu haberleştirdi">🔗 Çoklu kaynak</span>
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
+            <span>4 Ağustos 2026, 15:42</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Teksas, valinin denetim talebi üzerine yeni veri merkezi projelerini durdurdu.</p>
+          
+        </li>
+        
       </ul>
     </section>
     
   
     
-    <section id="yatirim-startup" aria-labelledby="heading-yatirim-startup">
+    <section id="yatirim-startup" data-cat="yatirim-startup" aria-labelledby="heading-yatirim-startup">
       <div class="section-header">
+        <span class="section-dot" aria-hidden="true"></span>
         <span class="section-icon" aria-hidden="true">💰</span>
         <h2 id="heading-yatirim-startup">
           Yatırım/Startup
-          <span class="section-count">(2 haber)</span>
+          <span class="section-count">(6 haber)</span>
         </h2>
       </div>
       <ul>
         
-        <li>
+        <li class="news-item" data-title="aws is helping vibe-coding startup superblocks, and the implications are big" data-summary="">
           <div class="item-title">
             <a href="https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/"
                target="_blank"
                rel="noopener noreferrer">AWS is helping vibe-coding startup Superblocks, and the implications are big</a>
+            
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">TechCrunch AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
             <span>3 Ağustos 2026, 20:00</span>
           </div>
           
@@ -568,18 +1593,127 @@
           
         </li>
         
-        <li>
+        <li class="news-item" data-title="design arena creators raise $7.9 million to bring taste to ai models" data-summary="">
           <div class="item-title">
             <a href="https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/"
                target="_blank"
                rel="noopener noreferrer">Design Arena creators raise $7.9 million to bring taste to AI models</a>
+            
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">TechCrunch AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
             <span>3 Ağustos 2026, 19:28</span>
           </div>
           
           <p class="item-summary">Design Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="google moves billions in anthropic chip risk off its balance sheet" data-summary="google, anthropic çip riskine ait milyarlarca doları bilanço dışına taşıdı.">
+          <div class="item-title">
+            <a href="https://the-decoder.com/google-moves-billions-in-anthropic-chip-risk-off-its-balance-sheet/"
+               target="_blank"
+               rel="noopener noreferrer">Google moves billions in Anthropic chip risk off its balance sheet</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://the-decoder.com/google-moves-billions-in-anthropic-chip-risk-off-its-balance-sheet/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              The Decoder
+            </span>
+            <span>4 Ağustos 2026, 16:38</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Google, Anthropic çip riskine ait milyarlarca doları bilanço dışına taşıdı.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="anthropic locks in $10 billion of compute from volta, a cloud startup that didn&#x27;t exist six months ago" data-summary="anthropic, yeni kurulan bulut girişimi volta&#x27;dan 10 milyar dolarlık altyapı aldı.">
+          <div class="item-title">
+            <a href="https://the-decoder.com/anthropic-locks-in-10-billion-of-compute-from-volta-a-cloud-startup-that-didnt-exist-six-months-ago/"
+               target="_blank"
+               rel="noopener noreferrer">Anthropic locks in $10 billion of compute from Volta, a cloud startup that didn&#x27;t exist six months ago</a>
+            
+            
+            <span class="topic-badge" title="Birden fazla kaynak bu konuyu haberleştirdi">🔗 Çoklu kaynak</span>
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://the-decoder.com/anthropic-locks-in-10-billion-of-compute-from-volta-a-cloud-startup-that-didnt-exist-six-months-ago/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              The Decoder
+            </span>
+            <span>4 Ağustos 2026, 15:21</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Anthropic, yeni kurulan bulut girişimi Volta&#x27;dan 10 milyar dolarlık altyapı aldı.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="spacex has bought $329m worth of tesla megapacks so far this year" data-summary="spacex bu yıl şimdiye kadar 329 milyon dolarlık tesla megapack satın aldı.">
+          <div class="item-title">
+            <a href="https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/"
+               target="_blank"
+               rel="noopener noreferrer">SpaceX has bought $329M worth of Tesla Megapacks so far this year</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
+            <span>4 Ağustos 2026, 21:07</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 SpaceX bu yıl şimdiye kadar 329 milyon dolarlık Tesla Megapack satın aldı.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="anthropic signs $10b deal with ai cloud startup volta" data-summary="anthropic, yapay zeka bulut girişimi volta ile 10 milyar dolarlık anlaşma imzaladı.">
+          <div class="item-title">
+            <a href="https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/"
+               target="_blank"
+               rel="noopener noreferrer">Anthropic signs $10B deal with AI cloud startup Volta</a>
+            
+            
+            <span class="topic-badge" title="Birden fazla kaynak bu konuyu haberleştirdi">🔗 Çoklu kaynak</span>
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
+            <span>4 Ağustos 2026, 19:48</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Anthropic, yapay zeka bulut girişimi Volta ile 10 milyar dolarlık anlaşma imzaladı.</p>
           
         </li>
         
@@ -588,30 +1722,150 @@
     
   
     
-  
-    
-    <section id="genel" aria-labelledby="heading-genel">
+    <section id="acik-kaynak" data-cat="acik-kaynak" aria-labelledby="heading-acik-kaynak">
       <div class="section-header">
-        <span class="section-icon" aria-hidden="true">📰</span>
-        <h2 id="heading-genel">
-          Genel
-          <span class="section-count">(1 haber)</span>
+        <span class="section-dot" aria-hidden="true"></span>
+        <span class="section-icon" aria-hidden="true">🌐</span>
+        <h2 id="heading-acik-kaynak">
+          Açık Kaynak
+          <span class="section-count">(3 haber)</span>
         </h2>
       </div>
       <ul>
         
-        <li>
+        <li class="news-item" data-title="mistral&#x27;s shieldstral: 3b open-weights model for multimodal moderation" data-summary="mistral, çok modlu moderasyon için 3b parametreli shieldstral modelini duyurdu.">
+          <div class="item-title">
+            <a href="https://mistral.ai/news/shieldstral/"
+               target="_blank"
+               rel="noopener noreferrer">Mistral&#x27;s Shieldstral: 3B open-weights model for multimodal moderation</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://mistral.ai/news/shieldstral/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              Hacker News
+            </span>
+            <span>4 Ağustos 2026, 16:36</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Mistral, çok modlu moderasyon için 3B parametreli Shieldstral modelini duyurdu.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="show hn: simple algorithm and color space to generate diverse skin tones" data-summary="farklı ten tonları üretmek için basit bir algoritma ve renk uzayı sunuldu.">
+          <div class="item-title">
+            <a href="https://toneyalexander.github.io/inclusive-color-space/"
+               target="_blank"
+               rel="noopener noreferrer">Show HN: Simple algorithm and color space to generate diverse skin tones</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://toneyalexander.github.io/inclusive-color-space/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              Hacker News
+            </span>
+            <span>4 Ağustos 2026, 15:16</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Farklı ten tonları üretmek için basit bir algoritma ve renk uzayı sunuldu.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="deploy local agents everywhere with lfm2.5-2.6b" data-summary="lfm2.5-2.6b modeliyle yerel yapay zeka ajanlarını her yerde kolayca çalıştırın.">
+          <div class="item-title">
+            <a href="https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
+               target="_blank"
+               rel="noopener noreferrer">Deploy local agents everywhere with LFM2.5-2.6B</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              Hugging Face Blog
+            </span>
+            <span>4 Ağustos 2026, 13:58</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 LFM2.5-2.6B modeliyle yerel yapay zeka ajanlarını her yerde kolayca çalıştırın.</p>
+          
+        </li>
+        
+      </ul>
+    </section>
+    
+  
+    
+    <section id="genel" data-cat="genel" aria-labelledby="heading-genel">
+      <div class="section-header">
+        <span class="section-dot" aria-hidden="true"></span>
+        <span class="section-icon" aria-hidden="true">📰</span>
+        <h2 id="heading-genel">
+          Genel
+          <span class="section-count">(2 haber)</span>
+        </h2>
+      </div>
+      <ul>
+        
+        <li class="news-item" data-title="influencers draw backlash for attending openai’s first luxury trip" data-summary="">
           <div class="item-title">
             <a href="https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/"
                target="_blank"
                rel="noopener noreferrer">Influencers draw backlash for attending OpenAI’s first luxury trip</a>
+            
+            
           </div>
           <div class="item-meta">
-            <span class="source-badge">TechCrunch AI</span>
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              TechCrunch AI
+            </span>
             <span>3 Ağustos 2026, 19:09</span>
           </div>
           
           <p class="item-summary">OpenAI’s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue.</p>
+          
+        </li>
+        
+        <li class="news-item" data-title="the golden age of british ice cream" data-summary="britanya&#x27;da dondurma sektörünün yaşadığı altın çağ ve piyasa dinamikleri.">
+          <div class="item-title">
+            <a href="https://www.vittlesmagazine.com/p/the-golden-age-of-british-ice-cream"
+               target="_blank"
+               rel="noopener noreferrer">The Golden Age of British Ice Cream</a>
+            
+            
+          </div>
+          <div class="item-meta">
+            <span class="source-badge">
+              <img class="source-favicon"
+                   src="https://www.google.com/s2/favicons?domain=https://www.vittlesmagazine.com/p/the-golden-age-of-british-ice-cream&sz=16"
+                   alt=""
+                   loading="lazy"
+                   onerror="this.style.display='none'">
+              Hacker News
+            </span>
+            <span>4 Ağustos 2026, 18:25</span>
+          </div>
+          
+          <p class="item-summary tr-summary">🇹🇷 Britanya&#x27;da dondurma sektörünün yaşadığı altın çağ ve piyasa dinamikleri.</p>
           
         </li>
         
@@ -624,11 +1878,84 @@
 <footer>
   <p>
     Otomatik olarak oluşturuldu &nbsp;·&nbsp;
-    Kaynak: <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://github.com/TunaKomurcu/DailyNews" target="_blank" rel="noopener noreferrer">GitHub</a>
     &nbsp;·&nbsp;
-    Veriler: arXiv, OpenAI, Anthropic, Hacker News, TechCrunch
+    arXiv · OpenAI · The Decoder · Hacker News · TechCrunch · VentureBeat · Hugging Face · MIT Tech Review · DeepMind
   </p>
+  
+  <div class="archive-links">
+    <span class="archive-label">📅 Arşiv:</span>
+    
+    <a href="archive/2026-08-05.html" class="archive-link"
+       >
+      5 Ağustos 2026
+    </a>
+    
+  </div>
+  
+  
 </footer>
+
+<script>
+  // ── Tema (karanlık / aydınlık mod) ──────────────────────────────────────
+  const html = document.documentElement;
+  const toggleBtn = document.getElementById('theme-toggle');
+
+  function applyTheme(theme) {
+    html.setAttribute('data-theme', theme);
+    toggleBtn.textContent = theme === 'dark' ? '☀️' : '🌙';
+    toggleBtn.setAttribute('title', theme === 'dark' ? 'Aydınlık moda geç' : 'Karanlık moda geç');
+  }
+
+  // localStorage'dan kayıtlı tema veya sistem tercihi
+  const saved = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  applyTheme(saved || (prefersDark ? 'dark' : 'light'));
+
+  toggleBtn.addEventListener('click', () => {
+    const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    localStorage.setItem('theme', next);
+    applyTheme(next);
+  });
+
+  // ── Arama ────────────────────────────────────────────────────────────────
+  const searchInput = document.getElementById('search-input');
+  const searchCount = document.getElementById('search-count');
+  const noResults   = document.getElementById('no-results');
+  const allItems    = document.querySelectorAll('li.news-item');
+  const allSections = document.querySelectorAll('main section');
+
+  searchInput.addEventListener('input', () => {
+    const query = searchInput.value.trim().toLowerCase();
+    let visibleCount = 0;
+
+    allItems.forEach(item => {
+      const title   = item.dataset.title   || '';
+      const summary = item.dataset.summary || '';
+      const matches = !query || title.includes(query) || summary.includes(query);
+      item.classList.toggle('hidden', !matches);
+      if (matches) visibleCount++;
+    });
+
+    // Tüm haberleri gizlenmiş section'ları sakla
+    allSections.forEach(section => {
+      const visible = section.querySelectorAll('li.news-item:not(.hidden)').length;
+      section.style.display = visible === 0 ? 'none' : '';
+    });
+
+    // Sonuç bilgisi
+    if (query) {
+      searchCount.textContent = visibleCount
+        ? visibleCount + ' haber bulundu'
+        : '';
+      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    } else {
+      searchCount.textContent = '';
+      noResults.style.display = 'none';
+      allSections.forEach(s => s.style.display = '');
+    }
+  });
+</script>
 
 </body>
 </html>
