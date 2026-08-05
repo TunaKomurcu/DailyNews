@@ -25,7 +25,7 @@ from src.fetcher import fetch_all
 from src.deduplicator import deduplicate, update_history, load_all_items
 from src.sanitizer import sanitize_all
 from src.categorizer import categorize
-from src.renderer import render
+from src.renderer import render, render_archive_page, build_archive_index, get_items_for_date
 
 # ── Logging yapılandırması ───────────────────────────────────────────────────
 
@@ -124,7 +124,16 @@ def main() -> None:
 
     # ── 8. HTML Üret ─────────────────────────────────────────────
     logger.info("Adım 8/8 — docs/index.html üretiliyor...")
-    render(all_items, config)
+    from datetime import date as _date
+    today_str = _date.today().strftime("%Y-%m-%d")
+    today_items = get_items_for_date(all_items, today_str)
+    if today_items:
+        render_archive_page(today_items, today_str, config)
+    else:
+        logger.info("Bugun arsiv atlandi")
+    archive_links = build_archive_index(config)
+    logger.info("Arsiv: %d gun", len(archive_links))
+    render(all_items, config, archive_links=archive_links)
 
     # ── Özet ─────────────────────────────────────────────────────
     elapsed = time.time() - start_time

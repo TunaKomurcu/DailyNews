@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Günlük Haberler — {{ date_label }}</title>
+  <title>{% if is_archive %}Arşiv: {{ date_label }} — AI Haberler{% else %}AI Günlük Haberler — {{ date_label }}{% endif %}</title>
   <style>
     /* ── CSS Variables (tema sistemi) ── */
     :root {
@@ -329,6 +329,32 @@
     }
     footer a { color: var(--accent); text-decoration: none; }
     footer a:hover { text-decoration: underline; }
+    .archive-links {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.4rem;
+      align-items: center;
+    }
+    .archive-label {
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-right: 0.25rem;
+    }
+    .archive-link {
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      background: var(--badge-bg);
+      color: var(--badge-text) !important;
+      font-size: 0.75rem;
+      transition: background 0.15s;
+    }
+    .archive-link:hover, .archive-link[aria-current="page"] {
+      background: var(--accent);
+      color: #fff !important;
+      text-decoration: none !important;
+    }
 
     /* ── Arama: eşleşme yok mesajı ── */
     .no-results {
@@ -397,7 +423,7 @@
 
 <header>
   <button id="theme-toggle" aria-label="Temayı değiştir" title="Karanlık/aydınlık mod">🌙</button>
-  <h1><span>AI</span> Günlük Haberler</h1>
+  <h1><span>AI</span> {% if is_archive %}Arşiv: {{ date_label }}{% else %}Günlük Haberler{% endif %}</h1>
   <p class="meta">
     {{ date_label }} &nbsp;·&nbsp;
     {{ total_count }} haber &nbsp;·&nbsp;
@@ -530,6 +556,22 @@
     &nbsp;·&nbsp;
     arXiv · OpenAI · The Decoder · Hacker News · TechCrunch · VentureBeat · Hugging Face · MIT Tech Review · DeepMind
   </p>
+  {% if archive_links %}
+  <div class="archive-links">
+    <span class="archive-label">📅 Arşiv:</span>
+    {% for link in archive_links %}
+    <a href="{{ link.url }}" class="archive-link"
+       {% if is_archive and archive_date == link.date %}aria-current="page"{% endif %}>
+      {{ link.label }}
+    </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% if is_archive %}
+  <p style="margin-top:0.75rem">
+    <a href="../index.html">← Bugünün haberlerine dön</a>
+  </p>
+  {% endif %}
 </footer>
 
 <script>

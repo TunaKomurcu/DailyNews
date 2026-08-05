@@ -279,13 +279,14 @@ def _find_topic_groups(items: list, min_overlap: int = 2) -> dict:
 
 # ── Ana fonksiyon ────────────────────────────────────────────────────────────
 
-def render(items: list, config: dict) -> None:
+def render(items: list, config: dict, archive_links: list = None) -> None:
     """
     NewsItem / dict listesinden docs/index.html üretir.
 
     Args:
-        items:  history.json'dan yüklenen tüm haberler (son 7 gün)
-        config: config.yml içeriği
+        items:         history.json'dan yüklenen tüm haberler (son 7 gün)
+        config:        config.yml içeriği
+        archive_links: build_archive_index()'ten gelen arşiv linkleri
     """
     paths = config.get("paths", {})
     output_path = paths.get("output_html", "docs/index.html")
@@ -322,6 +323,9 @@ def render(items: list, config: dict) -> None:
             date_label=date_label,
             featured=featured,
             topic_groups=topic_groups,
+            is_archive=False,
+            archive_date=None,
+            archive_links=archive_links or [],
         )
 
     html_str = _render(categories, working_items)
@@ -358,3 +362,125 @@ def render(items: list, config: dict) -> None:
         "docs/index.html üretildi: %d haber, %d KB (%s)",
         total_count, final_kb, output_path,
     )
+
+
+# ── Arşiv fonksiyonları ──────────────────────────────────────────────────────
+
+def render_archive_page(items: list, date_str: str, config: dict) -> None:
+    """
+    Belirli bir güne ait haberleri docs/archive/YYYY-MM-DD.html olarak yazar.
+
+    Args:
+        items:    O güne ait haberler (dict listesi)
+        date_str: "2026-08-04" formatında tarih
+        config:   config.yml içeriği
+    """
+    paths = config.get("paths", {})
+    docs_dir = Path(paths.get("output_html", "docs/index.html")).parent
+    template_path = paths.get("template", "templates/index.html.j2")
+    output_max_kb = int(config.get("output_max_kb", 500))
+    category_order = config.get("categories", ["Genel"])
+
+    templates_dir = str(Path(template_path).parent)
+    template_name = Path(template_path).name
+
+    archive_dir = docs_dir / "archive"
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    output_path = archive_dir / f"{date_str}.html"
+
+    try:
+        dt = datetime.fromisoformat(date_str)
+    except ValueError:
+        dt = datetime.now(tz=timezone.utc)
+
+    date_label = _make_date_label(dt)
+    generated_at = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d %H:%M")
+
+    env = _build_env(templates_dir)
+    template = env.get_template(template_name)
+
+    working_items = list(items)
+    categories = _group_by_category(working_items, category_order)
+    total_count = sum(len(v) for v in categories.values())
+    topic_groups = _find_topic_groups(working_items)
+
+    html_str = template.render(
+        categories=categories,
+        category_order=category_order,
+        total_count=total_count,
+        generated_at=generated_at,
+        date_label=date_label,
+        featured=[],         # Arşiv sayfasında öne çıkanlar yok
+        topic_groups=topic_groups,
+        is_archive=True,
+        archive_date=date_str,
+        archive_links=[],
+    )
+
+    if len(html_str.encode("utf-8")) > output_max_kb * 1024:
+        working_items = _trim_summaries(working_items, max_chars=150)
+        categories = _group_by_category(working_items, category_order)
+        html_str = template.render(
+            categories=categories, category_order=category_order,
+            total_count=total_count, generated_at=generated_at,
+            date_label=date_label, featured=[], topic_groups=topic_groups,
+            is_archive=True, archive_date=date_str, archive_links=[],
+        )
+
+    output_path.write_text(html_str, encoding="utf-8")
+    logger.info("Arşiv sayfası üretildi: %s (%d haber)", output_path.name, total_count)
+
+
+def build_archive_index(config: dict) -> list:
+    """
+    docs/archive/ klasöründeki tüm YYYY-MM-DD.html dosyalarını tarar,
+    tarih sırasında (yeniden eskiye) arşiv link listesi döndürür.
+
+    Returns:
+        [{"date": "2026-08-04", "label": "4 Ağustos 2026", "url": "archive/2026-08-04.html"}, ...]
+    """
+    paths = config.get("paths", {})
+    docs_dir = Path(paths.get("output_html", "docs/index.html")).parent
+    archive_dir = docs_dir / "archive"
+
+    if not archive_dir.exists():
+        return []
+
+    links = []
+    for f in sorted(archive_dir.glob("[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].html"), reverse=True):
+        date_str = f.stem  # "2026-08-04"
+        try:
+            dt = datetime.fromisoformat(date_str)
+            label = _make_date_label(dt)
+        except ValueError:
+            label = date_str
+        links.append({
+            "date": date_str,
+            "label": label,
+            "url": f"archive/{f.name}",
+        })
+
+    return links
+
+
+def get_items_for_date(all_items: list, date_str: str) -> list:
+    """
+    Tüm geçmiş haberler arasından belirli bir güne ait olanları döndürür.
+
+    Args:
+        all_items: history.json'dan yüklenen tüm haberler
+        date_str:  "2026-08-04" formatında tarih
+
+    Returns:
+        O güne ait haber listesi
+    """
+    result = []
+    for item in all_items:
+        pub = item.get("published") if isinstance(item, dict) else getattr(item, "published", None)
+        if isinstance(pub, str):
+            if pub.startswith(date_str):
+                result.append(item)
+        elif isinstance(pub, datetime):
+            if pub.strftime("%Y-%m-%d") == date_str:
+                result.append(item)
+    return result
