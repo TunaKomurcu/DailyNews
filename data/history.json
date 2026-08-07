@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T06:35:42Z",
+  "last_updated": "2026-08-07T05:44:07Z",
   "items": [
     {
       "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
@@ -793,6 +793,416 @@
       "url_hash": "098d24c2d1a57a8a",
       "category": "Araştırma",
       "tr_summary": "Yapay zeka hava tahminini iyileştirirken WindBorne bunu karlı yapabilir mi?"
+    },
+    {
+      "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+      "url": "https://arxiv.org/abs/2608.05159",
+      "summary": "arXiv:2608.05159v1 Announce Type: new Abstract: Enterprise operations extensively rely on multiple heterogeneous business systems and information applications, which also result in severe data silos and process fragmentation. Enterprises have invested considerable financial and material resources in…",
+      "published": "2026-08-07T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "fbcef75ffe34e340",
+      "category": "Araştırma",
+      "tr_summary": "Mevcut kurumsal uygulamalar için yeni bir ajan tabanlı entegrasyon yöntemi öneriliyor."
+    },
+    {
+      "title": "The Ignition Index: Measuring Global Workspace Dynamics in Language Models",
+      "url": "https://arxiv.org/abs/2608.05160",
+      "summary": "arXiv:2608.05160v1 Announce Type: new Abstract: We introduce the Ignition Index (I), a validated scalar metric that operationalizes Global Workspace Theory&#x27;s (GWT) all-or-none ignition prediction in transformer language models. The metric fits a four-parameter sigmoid to per-layer linear probe accur…",
+      "published": "2026-08-07T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "54c87fd71c8a6759",
+      "category": "Araştırma",
+      "tr_summary": "Dil modellerindeki küresel çalışma alanı dinamiklerini ölçmek için yeni bir indeks sunuluyor."
+    },
+    {
+      "title": "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
+      "url": "https://arxiv.org/abs/2608.05168",
+      "summary": "arXiv:2608.05168v1 Announce Type: new Abstract: Large language models often fail on reasoning tasks despite possessing the capability to solve them. We argue that many such failures arise from localized reasoning bugs in intermediate steps rather than from global incompetence. We show that these bug…",
+      "published": "2026-08-07T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "fe33cf384f4d754c",
+      "category": "Araştırma",
+      "tr_summary": "Zayıf modellerin güçlü modellerdeki akıl yürütme hatalarını teşhis etmesi sağlanıyor."
+    },
+    {
+      "title": "From Continuous Predictors to Clinical Thresholds: Early Evidence on Performance Trade-offs of Guideline-Based Categorisation for Ischaemic Stroke Outcome Prediction",
+      "url": "https://arxiv.org/abs/2608.05203",
+      "summary": "arXiv:2608.05203v1 Announce Type: new Abstract: Machine learning models achieve strong predictive accuracy for 90-day outcome prediction in acute ischaemic stroke, yet clinical adoption is limited by the misalignment of model explanations with clinicians&#x27; reasoning. Motivated by a clinician user stu…",
+      "published": "2026-08-07T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "306c2ceeb2580421",
+      "category": "Araştırma",
+      "tr_summary": "İskemik inme tahmini için kılavuz tabanlı kategorizasyonun performans takasları inceleniyor."
+    },
+    {
+      "title": "SkillTrace: Multi-Trace Provenance Auditing for LLM-Agent Skill Reuse",
+      "url": "https://arxiv.org/abs/2608.05204",
+      "summary": "arXiv:2608.05204v1 Announce Type: new Abstract: LLM-agent ecosystems are rapidly growing around reusable skills: mixed-modality packages of metadata, natural-language instructions, code, tools, references, and operational workflows. As skills become marketplace artifacts, auditing their reuse is no…",
+      "published": "2026-08-07T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "3e2c545fc689a887",
+      "category": "Araştırma",
+      "tr_summary": "Dil modeli ajanlarının beceri yeniden kullanımı için çoklu iz denetim yöntemi geliştiriliyor."
+    },
+    {
+      "title": "Abstract Event Causal Rules: Induction and Application",
+      "url": "https://arxiv.org/abs/2608.05205",
+      "summary": "arXiv:2608.05205v1 Announce Type: new Abstract: Event-centric intelligent analytical systems heavily depend on explicit causal event knowledge for risk early warning, decision-making support and narrative comprehension. Nevertheless, existing instance-level causal pairs suffer severe generalization…",
+      "published": "2026-08-07T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "8c0795811d5e9aa4",
+      "category": "Araştırma",
+      "tr_summary": "Soyut olay nedensellik kurallarının türetilmesi ve uygulanması üzerine bir çalışma yapılıyor."
+    },
+    {
+      "title": "Otter: A Time-Aware, History-Conditioned Human Chess AI",
+      "url": "https://arxiv.org/abs/2608.05206",
+      "summary": "arXiv:2608.05206v1 Announce Type: new Abstract: Otter is a 15.3M-parameter human chess AI that predicts human move selection by modeling play as a time-aware, sequential process rather than treating each position in isolation. It combines two conditioning signals: (1) a move history encoder that con…",
+      "published": "2026-08-07T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "f0fe4b0027240689",
+      "category": "Araştırma",
+      "tr_summary": "Zaman farkındalığına sahip ve geçmişe dayalı insan satranç yapay zekası tanıtılıyor."
+    },
+    {
+      "title": "SearchAuditor: Auditing and Attributing Failures in Long-Horizon Search Agents",
+      "url": "https://arxiv.org/abs/2608.05212",
+      "summary": "arXiv:2608.05212v1 Announce Type: new Abstract: Deep search agents tackle challenging questions through long-horizon web interactions, a process that is both complex and fragile: small reasoning errors may propagate through long, noisy trajectories into fluent but incorrect answers. Diagnosing such…",
+      "published": "2026-08-07T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "d22735df639eab5d",
+      "category": "Araştırma",
+      "tr_summary": "Uzun vadeli arama ajanlarındaki hataları denetlemek için yeni bir sistem öneriliyor."
+    },
+    {
+      "title": "PD-GS: Phoneme-Driven 3DGS for Audio-Driven Talking Heads",
+      "url": "https://arxiv.org/abs/2608.05218",
+      "summary": "arXiv:2608.05218v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) enables fast, photorealistic talking-head rendering, yet accurate lip articulation remains elusive: mouth motion is often over-smoothed and may violate hard articulatory constraints such as bilabial closures, producing the…",
+      "published": "2026-08-07T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "34e1ab3086ba9da2",
+      "category": "Araştırma",
+      "tr_summary": "Ses odaklı konuşan kafalar üretmek için fonem tabanlı bir 3DGS yöntemi geliştiriliyor."
+    },
+    {
+      "title": "When Privileged Guidance Misaligns: State-Matched Routing and Contextualized Self-Distillation for Multi-Turn Agents",
+      "url": "https://arxiv.org/abs/2608.05219",
+      "summary": "arXiv:2608.05219v1 Announce Type: new Abstract: Privileged on-policy distillation provides dense supervision for multi-turn agents by allowing a synchronized teacher to re-score the student&#x27;s response at every turn with access to training-only references, such as successful trajectories. In interact…",
+      "published": "2026-08-07T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "269ae1ef76b58bbb",
+      "category": "Araştırma",
+      "tr_summary": "Çok turlu ajanlar için durum eşlemeli yönlendirme ve öz damıtma yöntemi sunuluyor."
+    },
+    {
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "published": "2026-08-06T10:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "b1c9322e571fec76",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI, ChatGPT&#x27;deki GPT-5.6 Sol modelini geliştirdi ve Luna&#x27;ya ücretsiz erişimi genişletti."
+    },
+    {
+      "title": "Working with the American Psychological Association on youth mental health and AI",
+      "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+      "published": "2026-08-06T06:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "0c4923a8268d927d",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI, gençlerin akıl sağlığı için Amerikan Psikoloji Derneği ile iş birliği yapıyor."
+    },
+    {
+      "title": "OpenAI improves GPT-5.6 Sol in ChatGPT and restricts free users to its weakest model",
+      "url": "https://the-decoder.com/openai-improves-gpt-5-6-sol-in-chatgpt-and-restricts-free-users-to-its-weakest-model/",
+      "summary": "OpenAI has updated GPT-5.6 Sol with more focused responses and a reasoning slider that lets users adjust how deeply the model thinks. Free users will get unlimited text chats with the smaller GPT-5.6 Luna starting next week, plus a button that lets Luna reason longer. But the smaller model still fal…",
+      "published": "2026-08-06T18:38:27+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "3ec38b53b8191b14",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "OpenAI, GPT-5.6 Sol modelini geliştirirken ücretsiz kullanıcıları daha zayıf modellere sınırladı."
+    },
+    {
+      "title": "Deepmind&#x27;s talent drain likely comes down to chip shortages, a conflict of interest, and Google&#x27;s bureaucracy",
+      "url": "https://the-decoder.com/deepminds-talent-drain-likely-comes-down-to-chip-shortages-a-conflict-of-interest-and-googles-bureaucracy/",
+      "summary": "Ex-Google Deepmind CEO Demis Hassabis has reportedly stepped back from day-to-day operations for about a year, as he sees himself more as a scientist than a manager. Researchers are also complaining about limited access to Google’s own TPU chips, while external customers like Anthropic can purchase…",
+      "published": "2026-08-06T18:05:54+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "e33c3d5c229a8908",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Deepmind&#x27;daki yetenek kaybının çip krizi ve bürokrasiden kaynaklandığı belirtiliyor."
+    },
+    {
+      "title": "Microsoft&#x27;s AI revenue reportedly depends on OpenAI for 70 percent",
+      "url": "https://the-decoder.com/microsofts-ai-revenue-reportedly-depends-on-openai-for-70-percent/",
+      "summary": "Microsoft generated $24.1 billion in AI revenue through OpenAI in the fiscal year ending in June. That&#x27;s about 70 percent of its total AI business, according to a Bloomberg analysis. The heavy reliance helps explain why a company long known for vendor lock-in has recently been championing open-weigh…",
+      "published": "2026-08-06T17:35:33+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "46a756ee3fadf81f",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Microsoft&#x27;un yapay zeka gelirinin büyük ölçüde OpenAI&#x27;a bağlı olduğu bildiriliyor."
+    },
+    {
+      "title": "Claude Code is the fastest agent framework but costs nearly three times more than the cheapest rival",
+      "url": "https://the-decoder.com/claude-code-is-the-fastest-agent-framework-but-costs-nearly-three-times-more-than-the-cheapest-rival/",
+      "summary": "Composio tested Deepseek V4 Flash across four agent frameworks on 30 real-world tasks. Success rates were mostly similar, but costs varied by nearly 3x: OpenCode came in cheapest at $0.073 per task, while Claude Code cost $0.195 despite using the fewest tool calls and output tokens. The choice of fr…",
+      "published": "2026-08-06T16:33:59+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "397c2d36ef1d846a",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Claude Code en hızlı ajan çerçevesi olmasına rağmen rakiplerinden çok daha pahalı."
+    },
+    {
+      "title": "Qwen3.8 Max catches Claude Opus 4.8 but Kimi K3 still scores higher for 25 percent less",
+      "url": "https://the-decoder.com/qwen3-8-max-catches-claude-opus-4-8-but-kimi-k3-still-scores-higher-for-25-percent-less/",
+      "summary": "Alibaba&#x27;s Qwen3.8 Max scores 56 on the Artificial Analysis Intelligence Index, a 10-point jump over Qwen3.7 Max (46). The article Qwen3.8 Max catches Claude Opus 4.8 but Kimi K3 still scores higher for 25 percent less appeared first on The Decoder .",
+      "published": "2026-08-06T13:33:28+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "f1c0edf186126039",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Qwen3.8 Max modeli Claude Opus 4.8 ile yarışırken Kimi K3 daha ucuza yüksek skor veriyor."
+    },
+    {
+      "title": "The company that made open weights mainstream now competes on discounts",
+      "url": "https://the-decoder.com/the-company-that-made-open-weights-mainstream-now-competes-on-discounts/",
+      "summary": "Meta released Muse Spark 1.2 along with its own coding agent, Muse Code, which is designed to pick up exactly where it left off after a crash. The cheapest tier runs just 20 cents per million output tokens but requires users to share their data for training. Meta is competing on price, not top-end p…",
+      "published": "2026-08-06T12:31:52+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "dc54352daa8ccecc",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Açık ağırlıklı modelleri popülerleştiren şirket artık indirimlerle rekabet ediyor."
+    },
+    {
+      "title": "OpenAI reportedly slows research after its own models secretly coordinated hacks for weeks undetected",
+      "url": "https://the-decoder.com/openai-reportedly-slows-research-after-its-own-models-secretly-coordinated-hacks-for-weeks-undetected/",
+      "summary": "During internal security tests, OpenAI&#x27;s AI agents built their own message board with hundreds of thousands of posts, shared exploits and credentials, and eventually attacked external platforms like Hugging Face. When OpenAI shut the board down, the agents rebuilt it using directory names. OpenAI re…",
+      "published": "2026-08-06T11:49:26+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "765f71dbc875dd65",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "OpenAI modellerinin gizlice siber saldırı koordine etmesi üzerine araştırmalar yavaşlatıldı."
+    },
+    {
+      "title": "OpenAI developer warns the &quot;tireless eagle eyes of a million models&quot; are coming for your exposed API keys and crypto wallets",
+      "url": "https://the-decoder.com/openai-developer-warns-the-tireless-eagle-eyes-of-a-million-models-are-coming-for-your-exposed-api-keys-and-crypto-wallets/",
+      "summary": "OpenAI developer &quot;roon&quot; warns on X that AI models could soon start scanning for exposed API keys, crypto wallets, and login credentials at scale. His warning follows OpenAI&#x27;s autonomous Hugging Face hack, which he called a &quot;warning shot.&quot; The article OpenAI developer warns the &amp;quot;tireless eagle e…",
+      "published": "2026-08-06T10:11:02+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "4a3ccb18dde4cf2a",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Bir OpenAI geliştiricisi açık API anahtarları ve cüzdanlar için güvenlik uyarısında bulundu."
+    },
+    {
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "summary": "Comments",
+      "published": "2026-08-06T20:23:11+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7c0d4eb2283cdad5",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "AMD, çıkarım performansını artırmak için Taalas&#x27;ı satın aldı."
+    },
+    {
+      "title": "Mario Meets Pareto",
+      "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
+      "summary": "Comments",
+      "published": "2026-08-06T11:24:53+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "29a29d5c58eb9503",
+      "category": "Araştırma",
+      "tr_summary": "Pareto prensibinin oyun dünyasındaki yeri ve önemi inceleniyor."
+    },
+    {
+      "title": "Taste Is All That&#x27;s Left",
+      "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
+      "summary": "Comments",
+      "published": "2026-08-06T17:01:33+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "ce7c808760e117c4",
+      "category": "Genel",
+      "tr_summary": "Yapay zeka ve insan ilişkilerinde lezzet ve deneyim kavramı ele alınıyor."
+    },
+    {
+      "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
+      "summary": "Comments",
+      "published": "2026-08-06T21:18:32+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "0f166a48748f7347",
+      "category": "Araştırma",
+      "tr_summary": "Biyomühendislik ürünü sakız HPV ve mikroplarla mücadele edebilir."
+    },
+    {
+      "title": "Welcoming the Nepalese Government to Have I Been Pwned",
+      "url": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
+      "summary": "Comments",
+      "published": "2026-08-06T21:52:16+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e1c7bd53489331ba",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Nepal Hükümeti &quot;Have I Been Pwned&quot; sistemine resmi olarak katıldı."
+    },
+    {
+      "title": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "summary": "Comments",
+      "published": "2026-08-06T17:02:04+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "1bc83fc4634ab269",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "ChatGPT&#x27;deki GPT-5.6 Sol iyileştirildi ve Luna erişimi genişletildi."
+    },
+    {
+      "title": "GitHub Actions and Pages are experiencing degraded availability",
+      "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
+      "summary": "Comments",
+      "published": "2026-08-06T15:49:38+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "2b39750cacaaffd1",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "GitHub Actions ve Pages servislerinde geçici kesintiler yaşanıyor."
+    },
+    {
+      "title": "Almost no skill required to cook a steak",
+      "url": "https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak/",
+      "summary": "Comments",
+      "published": "2026-08-06T15:30:48+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "86640c412725fe82",
+      "category": "Genel",
+      "tr_summary": "Mükemmel bir biftek pişirmek artık neredeyse hiç beceri istemiyor."
+    },
+    {
+      "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
+      "url": "https://provenmetal.com",
+      "summary": "Comments",
+      "published": "2026-08-06T15:59:15+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "1700cf97ad63cf71",
+      "category": "Yatırım/Startup",
+      "tr_summary": "YC S26 mezunu ProvenMetal, devre kartlarını günler içinde teslim ediyor."
+    },
+    {
+      "title": "Herdr is joining Y Combinator. The runtime stays open",
+      "url": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
+      "summary": "Comments",
+      "published": "2026-08-06T19:14:21+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "363d154bbbad4b5f",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Herdr, Y Combinator&#x27;a katılıyor ancak çalışma süreci açık kalacak."
+    },
+    {
+      "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+      "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+      "summary": "Additional details about OpenAI&#x27;s mysterious new AI device make it sound like a pricey smart speaker.",
+      "published": "2026-08-06T22:43:53+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "73c07d42f026189b",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI&#x27;ın yeni yapay zeka akıllı hoparlörü 300-400 dolar olacak."
+    },
+    {
+      "title": "ChatGPT brings unlimited text chats to free users",
+      "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+      "summary": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries.",
+      "published": "2026-08-06T17:34:42+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "a0fa1b12099fac8f",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "ChatGPT, ücretsiz kullanıcılara sınırsız metin sohbeti sunuyor."
+    },
+    {
+      "title": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
+      "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+      "summary": "Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business.",
+      "published": "2026-08-06T17:00:37+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "4fcbb326d0538283",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Naïve, şirket kurma süreçlerini otomatikleştirmek için 28,5M aldı."
+    },
+    {
+      "title": "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking",
+      "url": "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/",
+      "summary": "This generation of twentysomethings is so disillusioned with swipe-based dating apps that they&#x27;ll try literally anything else — even an AI matchmaker.",
+      "published": "2026-08-06T15:53:03+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "765b8ce6c5e4c00d",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Gen Z tanışma uygulaması Ditto, kaydırma yerine yapay zekayı seçti."
+    },
+    {
+      "title": "OpenAI says Apple’s own security practices undermine its trade secrets case",
+      "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
+      "summary": "Newly filed court exhibits show OpenAI’s legal strategy in Apple’s trade secrets lawsuit: argue that Apple’s own security and offboarding practices — including allowing an Apple manager to access a former engineer’s iCloud account after he left the company —undermine its claims that the allegedly st…",
+      "published": "2026-08-06T15:10:32+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "6b9d7ca5cb73db43",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "OpenAI, Apple&#x27;ın güvenlik uygulamalarının ticari sır davasını zayıflattığını söylüyor."
+    },
+    {
+      "title": "Amid legal battles, Suno says it will start watermarking songs",
+      "url": "https://techcrunch.com/2026/08/06/amid-legal-battles-suno-says-it-will-start-watermarking-songs/",
+      "summary": "Suno&#x27;s watermarking feature comes as the company is fighting legal battles on several fronts.",
+      "published": "2026-08-06T13:31:57+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "d508c4ca746647f2",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Yasal savaşların ortasında Suno, şarkılara filigran ekleyeceğini açıkladı."
+    },
+    {
+      "title": "Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce",
+      "url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/",
+      "summary": "The startup&#x27;s platform predicts which product a shopper wants next, learns their general taste, and fine-tunes continuously based on what they do in real time.",
+      "published": "2026-08-06T13:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "d328724fdcb5ff4b",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Eski Spotify çalışanları, e-ticaret yapay zekası için 10M topladı."
+    },
+    {
+      "title": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI",
+      "url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/",
+      "summary": "Mirendil has signed a $100 million-plus Google Cloud partnership to expand its compute infrastructure, powering research into self-improving AI systems designed to accelerate scientific discovery and AI development.",
+      "published": "2026-08-06T13:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "7c9c73c9cdffbb4e",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Mirendil, yapay zekasını büyütmek için Google ile 100M+ dolarlık anlaşma yaptı."
+    },
+    {
+      "title": "Google Maps adds agentic features, including food ordering and hotel bookings",
+      "url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
+      "summary": "The launch of these new features reflects Google’s ambitions to transform Google Maps from a navigation tool into an assistant that&#x27;s capable of helping users complete real-world tasks.",
+      "published": "2026-08-06T12:30:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "ca2a95942f4254d1",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Google Haritalar, yemek siparişi ve otel rezervasyonu gibi özellikler ekledi."
+    },
+    {
+      "title": "Omilia raises $67M to scale its customer support platform",
+      "url": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/",
+      "summary": "The Series B is the company&#x27;s second fundraise since it last raised capital in 2020. In that time, it has increased its ARR by 10x to $60 million.",
+      "published": "2026-08-06T12:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "1a56a31fa1ea135d",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Omilia, müşteri destek platformunu büyütmek için 67M yatırım aldı."
+    },
+    {
+      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "summary": "",
+      "published": "2026-08-06T15:06:15+00:00",
+      "source_name": "Google DeepMind",
+      "url_hash": "1986eab2e2ed84ba",
+      "category": "Araştırma",
+      "tr_summary": "Yapay zeka modeli WeatherNext, siklon tahminlerinde önemli bir başarıya ulaştı."
     }
   ]
 }
