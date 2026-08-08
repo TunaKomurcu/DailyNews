@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07T05:44:07Z",
+  "last_updated": "2026-08-08T05:02:11Z",
   "items": [
     {
       "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
@@ -1203,6 +1203,276 @@
       "url_hash": "1986eab2e2ed84ba",
       "category": "Araştırma",
       "tr_summary": "Yapay zeka modeli WeatherNext, siklon tahminlerinde önemli bir başarıya ulaştı."
+    },
+    {
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+      "published": "2026-08-07T15:20:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "e66cc71d0943fe40",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Kritik siber yeteneklerin gelecekteki tehditlerine yanıt veriliyor."
+    },
+    {
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "url": "https://openai.com/index/hsp-gruppe",
+      "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+      "published": "2026-08-07T09:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "7347f06e7c916544",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "HSP GRUPPE, vergi danışmanlığı için yapay zeka yetenekleri geliştiriyor."
+    },
+    {
+      "title": "OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time",
+      "url": "https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/",
+      "summary": "Internal tests of OpenAI&#x27;s new AI model Astra show cybersecurity capabilities so strong that the company can no longer rule out the highest risk level in its own safety framework. Parts of Astra&#x27;s development have been paused. The move follows recently disclosed incidents in which autonomous AI agen…",
+      "published": "2026-08-07T19:41:06+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "6e196b4a79cfcbde",
+      "category": "Araştırma",
+      "tr_summary": "OpenAI, yeni Astra modelini en yüksek siber güvenlik risk seviyesinde işaretledi."
+    },
+    {
+      "title": "AI music generator Suno tightens rules to fight spam and address growing copyright concerns",
+      "url": "https://the-decoder.com/ai-music-generator-suno-tightens-rules-to-fight-spam-and-address-growing-copyright-concerns/",
+      "summary": "Suno CEO Mikey Shulman has announced new guidelines and tighter download limits after its AI-generated music was used to game streaming platforms for profit. The company also faces pressure from a German copyright ruling and an admission by one of its investors that AI music competes directly with h…",
+      "published": "2026-08-07T18:35:42+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "af0580c81b7a1c86",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Yapay zeka müzik üreticisi Suno, spam ve telif haklarıyla mücadele için kuralları sıkılaştırdı."
+    },
+    {
+      "title": "AMD acquires Taalas, a startup that bakes AI models directly into silicon",
+      "url": "https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/",
+      "summary": "AMD is buying Canadian startup Taalas, which hard-codes model weights directly into inference chips. That makes them extremely fast but locks each chip to a single model. A demo chip hit over 16,000 tokens per second per user running Llama 3.1-8B. Google is reportedly working on a similar approach f…",
+      "published": "2026-08-07T18:01:32+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "b7c20be210bc6115",
+      "category": "Yatırım/Startup",
+      "tr_summary": "AMD, yapay zeka modellerini silikona entegre eden Taalas&#x27;ı satın aldı."
+    },
+    {
+      "title": "Anthropic loosens Fable 5&#x27;s biology restrictions but keeps the guardrails on for virology and toxicology",
+      "url": "https://the-decoder.com/anthropic-loosens-fable-5s-biology-restrictions-but-keeps-the-guardrails-on-for-virology-and-toxicology/",
+      "summary": "Anthropic has cut false positives in its biology safety filters for Fable 5 by about 85 percent. Previously, nearly all biology-related queries got blocked and rerouted to the less capable Opus 5. The restrictions stay in place for sensitive dual-use topics like virology and toxicology. The article…",
+      "published": "2026-08-07T17:35:45+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "30a0b584b9c1234c",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Anthropic, biyoloji kısıtlamalarını gevşetirken viroloji ve toksikoloji önlemlerini tutuyor."
+    },
+    {
+      "title": "OpenAI&#x27;s first smart speaker is expected in 2027 at over $300",
+      "url": "https://the-decoder.com/openais-first-smart-speaker-is-expected-in-2027-at-over-300/",
+      "summary": "OpenAI is planning a donut-shaped smart speaker for 2027, priced above $300. The screenless device has a camera, microphones, and moving parts. It&#x27;s designed to learn from conversations and adapt to users, fitting Sam Altman&#x27;s &quot;Her&quot; vision. The article OpenAI&amp;#039;s first smart speaker is expected i…",
+      "published": "2026-08-07T16:43:16+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "956e8a0e5557cdb2",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI&#x27;ın ilk akıllı hoparlörünün 2027 yılında 300 doların üzerinde çıkması bekleniyor."
+    },
+    {
+      "title": "China&#x27;s Largest AI Model Is Being Developed at Bytedance",
+      "url": "https://the-decoder.com/chinas-largest-ai-model-is-being-developed-at-bytedance/",
+      "summary": "Bytedance is training an AI model with up to ten trillion parameters, according to the Financial Times. That&#x27;s three times the size of Moonshot&#x27;s Kimi K3, currently the largest Chinese model. The article China&amp;#039;s Largest AI Model Is Being Developed at Bytedance appeared first on The Decoder .",
+      "published": "2026-08-07T12:54:17+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8dfdd2d1e838ea1c",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Çin&#x27;in en büyük yapay zeka modeli Bytedance bünyesinde geliştiriliyor."
+    },
+    {
+      "title": "Stanford and Arc Institute scientists used AI to design new viruses that killed bacteria in the lab",
+      "url": "https://the-decoder.com/stanford-and-arc-institute-scientists-used-ai-to-design-new-viruses-that-killed-bacteria-in-the-lab/",
+      "summary": "A research team in California has used artificial intelligence to design working viruses that kill bacteria, in what they describe as the &quot;first generative design of complete genomes.&quot; The project marks an early step toward AI-designed life forms, according to a report in MIT Technology Review. The…",
+      "published": "2026-08-07T12:50:56+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "2905c5eded217b5a",
+      "category": "Araştırma",
+      "tr_summary": "Stanford ve Arc Institute bilim insanları, laboratuvarda bakteri öldüren virüsler tasarladı."
+    },
+    {
+      "title": "Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard for AI agent plugins",
+      "url": "https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins/",
+      "summary": "Amazon, Cursor, Microsoft, OpenAI, and Vercel have jointly created Agent Plugins, an open standard that defines a single package format for AI agent extensions. Version 1.0.0 uses a plugin.json manifest file and supports both agent skills and MCP servers. The article Amazon, Cursor, Microsoft, OpenA…",
+      "published": "2026-08-07T08:54:45+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "9578e531500692f8",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "Teknoloji devleri, yapay zeka aracı eklentileri için ortak bir standartta birleşti."
+    },
+    {
+      "title": "NASA to keep its 48-year-old Voyager 2 probe running for yet another year",
+      "url": "https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year",
+      "summary": "Comments",
+      "published": "2026-08-08T01:49:11+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "3aa7e99d23550e64",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "NASA, 48 yıllık Voyager 2 sondasını bir yıl daha çalışır durumda tutacak."
+    },
+    {
+      "title": "The Nixpkgs core team has disbanded",
+      "url": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+      "summary": "Comments",
+      "published": "2026-08-08T01:12:45+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f23daaf278f0e688",
+      "category": "Açık Kaynak",
+      "tr_summary": "Nixpkgs çekirdek ekibi dağıldı ve faaliyetlerini sonlandırdı."
+    },
+    {
+      "title": "DeepSeek V4 Flash 0731",
+      "url": "https://arcprize.org/results/deepseek-v4-flash-0731",
+      "summary": "Comments",
+      "published": "2026-08-07T17:56:20+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "2eff008df1434607",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "DeepSeek V4 Flash 0731 modeli duyuruldu ve detayları paylaşıldı."
+    },
+    {
+      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
+      "url": "https://genesisopenmodels.anl.gov/",
+      "summary": "Comments",
+      "published": "2026-08-07T22:24:27+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "74aa63caee4580f6",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "ABD Enerji Bakanlığı, Genesis Açık Modeller Girişimi&#x27;ni başlattı."
+    },
+    {
+      "title": "Assembly Hall of Shame",
+      "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+      "summary": "Comments",
+      "published": "2026-08-07T18:01:30+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "1d5cf36718f6e92c",
+      "category": "Genel",
+      "tr_summary": "Meclis&#x27;teki utanç verici durumlar ve olaylar ele alınıyor."
+    },
+    {
+      "title": "What happens if an entire class of workers loses faith in their careers",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "summary": "Comments",
+      "published": "2026-08-07T12:42:27+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "0e65cc99194bd54b",
+      "category": "Genel",
+      "tr_summary": "Bir grup çalışanın mesleklerine olan inancını kaybetmesi durumunda ne olur?"
+    },
+    {
+      "title": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it",
+      "url": "https://ancientlibrary.net/",
+      "summary": "Comments",
+      "published": "2026-08-07T18:51:14+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "9a630ca45e2cd495",
+      "category": "Genel",
+      "tr_summary": "Antik Kütüphane, kelime analizi yapılabilen binlerce Yunanca ve Latince metin sunuyor."
+    },
+    {
+      "title": "Managing AI Coding Costs at Scale",
+      "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "summary": "Comments",
+      "published": "2026-08-07T18:25:17+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "d30bef288e2bc7b0",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "Ölçeklenebilir yapay zeka kodlama maliyetlerinin etkin yönetimi inceleniyor."
+    },
+    {
+      "title": "Oracle bans AI-generated code from OpenJDK",
+      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "summary": "Comments",
+      "published": "2026-08-07T17:36:30+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "5c970cc4af2cfed0",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Oracle, OpenJDK projelerinde yapay zeka tarafından üretilen kodları yasakladı."
+    },
+    {
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+      "summary": "Comments",
+      "published": "2026-08-07T16:39:36+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "605b54423210186e",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Kritik siber yeteneklerin gelecekteki tehditlerine yönelik önlemler alınıyor."
+    },
+    {
+      "title": "OpenAI says it slowed Astra model development over security concerns",
+      "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "summary": "OpenAI said this model, which is still in development, reached its &quot;critical cybersecurity threshold,&quot; meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems.",
+      "published": "2026-08-07T22:48:24+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "f5e65390d809a0b4",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI, güvenlik endişeleri nedeniyle Astra modelinin geliştirme sürecini yavaşlattı."
+    },
+    {
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+      "published": "2026-08-07T21:30:11+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "be14a2322dfb38a7",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Rippling, yapay zekaya harcanan milyonların ardından çalışan ROI aracı geliştirdi."
+    },
+    {
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+      "summary": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
+      "published": "2026-08-07T16:16:09+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "66165609f5f264e5",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "Cloudflare, yapay zekâ ajanları için özel olarak tasarlanan Kitesurf tarayıcısını tanıttı."
+    },
+    {
+      "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+      "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+      "summary": "Airbnb will debut a new AI-powered search experience with a toggle.",
+      "published": "2026-08-07T14:22:49+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "32445d4c1e9b91e0",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Airbnb, yeni arama fonksiyonunu test ederken yapay zekanın özellikleri hızlandırdığını belirtiyor."
+    },
+    {
+      "title": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers",
+      "url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
+      "summary": "Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products —&amp;#160;almost as&amp;#160;if&amp;#160;they&amp;#8217;re&amp;#160;forming a new government. And whether&amp;#160;you&amp;#8217;re&amp;#160;thinking of Twitter&amp;#8217;s old “town hall in your pocket” or&amp;#160;Anthropic…",
+      "published": "2026-08-07T14:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "70e0d35b87d7b22b",
+      "category": "Genel",
+      "tr_summary": "Jill Lepore, yapay devlet kavramını ve Silikon Vadisi liderlerinin bilim kurgu okumalarını eleştiriyor."
+    },
+    {
+      "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+      "url": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+      "summary": "Meta&#x27;s total fine has racked up to $942 million in this case.",
+      "published": "2026-08-07T11:40:37+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "853d890229e767be",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "New Mexico mahkemesi, çocuk güvenliği davasında Meta&#x27;yı ek 567 milyon dolar ödemeye mahkum etti."
+    },
+    {
+      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "url": "https://huggingface.co/blog/allenai/tutormoments",
+      "summary": "",
+      "published": "2026-08-07T17:53:32+00:00",
+      "source_name": "Hugging Face Blog",
+      "url_hash": "624979042481ff50",
+      "category": "Araştırma",
+      "tr_summary": "TutorMoments çalışması, yapay zeka eğitmenlerinin ne zaman yardım edip ne zaman durması gerektiğin inceliyor."
     }
   ]
 }
