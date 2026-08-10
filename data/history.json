@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09T05:10:20Z",
+  "last_updated": "2026-08-10T05:37:19Z",
   "items": [
     {
       "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
@@ -1663,6 +1663,306 @@
       "url_hash": "aeb176124cfba0f7",
       "category": "Yatırım/Startup",
       "tr_summary": "OpenAI, sunum alanında faaliyet gösteren startup NextSlide&#x27;ı satın aldı."
+    },
+    {
+      "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
+      "url": "https://arxiv.org/abs/2608.06394",
+      "summary": "arXiv:2608.06394v1 Announce Type: new Abstract: Multi-label node classification is an important yet challenging task in graph learning, where nodes exhibit multiple semantics simultaneously. Existing methods for multi-label node classification can effectively model multiple labels, while only consid…",
+      "published": "2026-08-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "a7684c8b0b109425",
+      "category": "Araştırma",
+      "tr_summary": "Çok etiketli çizge temel modelleri için çok anlamslı temel öğrenme yöntemi öneriliyor."
+    },
+    {
+      "title": "EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs",
+      "url": "https://arxiv.org/abs/2608.06398",
+      "summary": "arXiv:2608.06398v1 Announce Type: new Abstract: Recent byte-level large language models (LLMs) have made tokenizer-free modeling increasingly competitive by grouping bytes into dynamically sized patches. However, existing byte-patch architectures still apply the same dense feed-forward computation t…",
+      "published": "2026-08-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "2d6534089afa8027",
+      "category": "Araştırma",
+      "tr_summary": "Belirteçsiz büyük dil modelleri için entropi odaklı seyrek uzman yönlendirme yöntemi geliştirildi."
+    },
+    {
+      "title": "Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast",
+      "url": "https://arxiv.org/abs/2608.06400",
+      "summary": "arXiv:2608.06400v1 Announce Type: new Abstract: Reward models are central to learning from human preferences, yet identifying what drives their predictions remains challenging. Recent sparse Mixture-of-Experts (MoE) reward models seek to improve interpretability by routing prompts to specialized exp…",
+      "published": "2026-08-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "6f1a5d7fa821b2e4",
+      "category": "Araştırma",
+      "tr_summary": "Uzman karışımı ödül modellerinin yanıt düzeyinde yorumlanması için yeni bir yöntem sunuldu."
+    },
+    {
+      "title": "Interpretable Unsupervised Community Detection with LLM-Symbolized Structured Processes",
+      "url": "https://arxiv.org/abs/2608.06402",
+      "summary": "arXiv:2608.06402v1 Announce Type: new Abstract: Community detection is a fundamental task in graph analytics that aims to identify cohesive groups of entities with similar behaviors or interests. Classic objective-driven methods struggle with complex graph structures, while deep-learning approaches…",
+      "published": "2026-08-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "370e3c5be0ae4f4b",
+      "category": "Araştırma",
+      "tr_summary": "Büyük dil modelleri ile yorumlanabilir denetimsiz topluluk tespiti yöntemi geliştirildi."
+    },
+    {
+      "title": "ADIAS: Automated Design of Interactive Agentic Systems",
+      "url": "https://arxiv.org/abs/2608.06410",
+      "summary": "arXiv:2608.06410v1 Announce Type: new Abstract: Automated agent design improves agent harnesses through iterative revision, evaluation, and feedback summarization. Existing methods are largely candidate-centric: cross-round experience is organized around candidate agents, which leaves the repair pro…",
+      "published": "2026-08-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "13c6b5c4068aadbf",
+      "category": "Araştırma",
+      "tr_summary": "Etkileşimli ajan sistemlerinin otomatik tasarımı için yeni bir çerçeve sunuldu."
+    },
+    {
+      "title": "Learning to Predict Middle-Layer Attention in MLLMs for Visual Token Prunin",
+      "url": "https://arxiv.org/abs/2608.06411",
+      "summary": "arXiv:2608.06411v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) achieve strong performance across diverse vision-language tasks, but their efficiency is limited by the cost of processing numerous visual tokens. Visual token pruning can reduce this cost, but requires accurate…",
+      "published": "2026-08-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "1a18adbbf737248d",
+      "category": "Araştırma",
+      "tr_summary": "Görsel belirteç budama için çok modlu modellerde orta katman dikkati tahmin ediliyor."
+    },
+    {
+      "title": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+      "url": "https://arxiv.org/abs/2608.06474",
+      "summary": "arXiv:2608.06474v1 Announce Type: new Abstract: Large language models increasingly generate complete websites from natural-language descriptions, and reinforcement learning has become a central approach to closing their remaining functional gap. This training regime is bottlenecked by reward design.…",
+      "published": "2026-08-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "36ceb5b8982b00a4",
+      "category": "Araştırma",
+      "tr_summary": "Kendi kendine gelişen programatik değerlendirici ile web geliştirme için LLM eğitimi sunuluyor."
+    },
+    {
+      "title": "Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding",
+      "url": "https://arxiv.org/abs/2608.06501",
+      "summary": "arXiv:2608.06501v1 Announce Type: new Abstract: Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain difficult to evaluate because explicit targets and reward signals are scarce compared with accuracy-oriented tasks. Cross-concept underst…",
+      "published": "2026-08-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "02e8bd7a2d78342a",
+      "category": "Araştırma",
+      "tr_summary": "Çok modlu modellerde kavramlar arası çapraz anlamayı ölçen C4 veri seti tanıtıldı."
+    },
+    {
+      "title": "KNOWPLAN: Knowledge-Driven AI Agents for Smart Degree Pathway Planning",
+      "url": "https://arxiv.org/abs/2608.06530",
+      "summary": "arXiv:2608.06530v1 Announce Type: new Abstract: Planning a degree from official university sources requires solving two problems in order. The institution&#x27;s curriculum must first be reconstructed from catalogs, departmental pages, JSON endpoints, and PDFs that share no schema, and only then can a st…",
+      "published": "2026-08-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "3b5de402a4072e72",
+      "category": "Araştırma",
+      "tr_summary": "Akıllı derece yolu planlaması için bilgi odaklı yapay zeka ajanları geliştirildi."
+    },
+    {
+      "title": "TaskSense: Focusing on What Matters in World Models",
+      "url": "https://arxiv.org/abs/2608.06544",
+      "summary": "arXiv:2608.06544v1 Announce Type: new Abstract: World models for visual control typically learn compact latent states by reconstructing observations, implicitly encouraging representations to preserve information across the entire visual input. However, task-relevant content often occupies only a sm…",
+      "published": "2026-08-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "d491582e5638582e",
+      "category": "Araştırma",
+      "tr_summary": "Dünya modellerinde önemli unsurlara odaklanan yeni bir yaklaşım sunuldu."
+    },
+    {
+      "title": "Scammers are enrolling fake students at US community colleges and using AI to collect financial aid",
+      "url": "https://the-decoder.com/scammers-are-enrolling-fake-students-at-us-community-colleges-and-using-ai-to-collect-financial-aid/",
+      "summary": "AI-powered cheating is spreading at US community colleges. According to The New Yorker, scammers enroll fake students in courses, use AI to complete their assignments, and pocket the financial aid. History professor David Roach asks, &quot;Was it always the case that half of our students would cheat if i…",
+      "published": "2026-08-09T13:00:59+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "c1587dec620cf0df",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Dolandırıcılar sahte öğrenciler kaydedip yapay zeka ile finansal yardımları topluyor."
+    },
+    {
+      "title": "Google Deepmind&#x27;s WeatherNext predicts cyclone tracks and intensity at the same time",
+      "url": "https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/",
+      "summary": "Deepmind&#x27;s new weather AI forecasts tropical cyclones about a day further ahead than leading operational models, matching a decade of progress in traditional weather forecasting. Code and model weights are open-source on GitHub. The article Google Deepmind&amp;#039;s WeatherNext predicts cyclone tracks…",
+      "published": "2026-08-09T12:29:06+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "03f25222ce2ece83",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Google Deepmind&#x27;ın hava durumu modeli WeatherNext kasırga yollarını ve şiddetini tahmin ediyor."
+    },
+    {
+      "title": "AI is flooding Britain&#x27;s employment courts with lawsuits",
+      "url": "https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits/",
+      "summary": "Britain&#x27;s employment courts saw 39 percent more claims in the year through March 2026, many written with ChatGPT or Grok. The backlog jumped 55 percent to 64,000 unresolved cases, with AI-generated filings often running hundreds of pages and citing fabricated laws. The Economist calls it a &quot;tragedy…",
+      "published": "2026-08-09T10:26:43+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "bc92c9f488a911a7",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Yapay zeka, Britanya&#x27;daki iş mahkemelerini hukuki davalarla dolduruyor."
+    },
+    {
+      "title": "Google&#x27;s DiffusionGemma proves you don&#x27;t need to train from scratch to build a text diffusion model",
+      "url": "https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/",
+      "summary": "Instead of training a new model from scratch, Google DeepMind retrofitted Gemma 4 into a diffusion model using less than 10 percent of the original training budget. DiffusionGemma generates 256 tokens in parallel instead of one at a time, hitting about 1,500 tokens per second. Quality still trails t…",
+      "published": "2026-08-09T10:01:26+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "46a304205767771d",
+      "category": "Açık Kaynak",
+      "tr_summary": "Google&#x27;ın DiffusionGemma modeli sıfırdan eğitmeden metin yayılım modeli kurmayı sağlıyor."
+    },
+    {
+      "title": "AI&#x27;s energy appetite drives Nvidia and Amazon to pour billions into massive power infrastructure",
+      "url": "https://the-decoder.com/ais-energy-appetite-drives-nvidia-and-amazon-to-pour-billions-into-massive-power-infrastructure/",
+      "summary": "The AI industry&#x27;s hunger for power keeps growing. Nvidia is investing up to $3 billion in Lancium, a power infrastructure developer that already has four gigawatts under contract in Texas. Amazon, meanwhile, is building a gas-fired power plant in the state with a capacity of up to 7.65 gigawatts tha…",
+      "published": "2026-08-09T09:26:28+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "6727b37b40126304",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Nvidia ve Amazon, yapay zekanın enerji ihtiyacı için güç altyapısına milyarlar yatırıyor."
+    },
+    {
+      "title": "Google dismantles Deepmind and bets on a fresh start as Hassabis heads for the exit",
+      "url": "https://the-decoder.com/google-dismantles-deepmind-and-bets-on-a-fresh-start-as-hassabis-heads-for-the-exit/",
+      "summary": "Google Deepmind is losing its autonomy, and founder Demis Hassabis may leave the AI lab for good in the coming months. AI researcher Koray Kavukcuoglu will take over day-to-day operations without the CEO title, and all Gemini development is moving to the Bay Area. Internally, Google is apparently st…",
+      "published": "2026-08-09T08:56:12+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "5cccff0c8810f6c0",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Google, Deepmind&#x27;ı yeniden yapılandırırken Hassabis yönetimden ayrılıyor."
+    },
+    {
+      "title": "Auto mode is now the default in Claude Code",
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "summary": "Comments",
+      "published": "2026-08-10T03:50:00+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "bf86c80d4ed8f877",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Otomatik mod artık Claude Code yazılımında varsayılan ayar olarak sunuluyor."
+    },
+    {
+      "title": "What Happened to HackerOne?",
+      "url": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/",
+      "summary": "Comments",
+      "published": "2026-08-10T02:23:17+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7def8c8346eb5385",
+      "category": "Genel",
+      "tr_summary": "HackerOne platformuna ne olduğu ve yaşadığı değişimler ele alınıyor."
+    },
+    {
+      "title": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice",
+      "url": "https://www.whodunnitai.com/",
+      "summary": "Comments",
+      "published": "2026-08-10T03:18:40+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "3e838b549b1537db",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Sesle yönetilen cinayet gizemi oyununda yapay zeka şüphelileriyle konuşulabiliyor."
+    },
+    {
+      "title": "How I use LLMs to learn complex topics",
+      "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+      "summary": "Comments",
+      "published": "2026-08-09T19:16:49+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "bceb7281e531cfb5",
+      "category": "Genel",
+      "tr_summary": "Karmaşık konuları öğrenmek için büyük dil modellerinin nasıl kullanıldığı anlatılıyor."
+    },
+    {
+      "title": "Turn satellite imagery into a paper globe you fold yourself",
+      "url": "https://foldingglobes.com/",
+      "summary": "Comments",
+      "published": "2026-08-10T02:57:38+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "004fef72a5b6e8ad",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Uydu görüntülerinden katlanabilir kağıt küreler yapabilirsiniz."
+    },
+    {
+      "title": "Run Android ARM64 VR APKs on Apple Vision Pro",
+      "url": "https://github.com/shinyquagsire23/Klepton",
+      "summary": "Comments",
+      "published": "2026-08-10T03:12:48+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "840814b793525543",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "Apple Vision Pro üzerinde Android ARM64 VR APK&#x27;ları çalıştırın."
+    },
+    {
+      "title": "Long-Run Effects of H-1B Immigration on the U.S. Economy (July 2026)",
+      "url": "https://www.nber.org/papers/w35560",
+      "summary": "Comments",
+      "published": "2026-08-10T04:06:10+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "fb7776161c8da212",
+      "category": "Araştırma",
+      "tr_summary": "H-1B göçmenliğinin ABD ekonomisine uzun vadeli etkileri inceleniyor."
+    },
+    {
+      "title": "How We Pushed CDC into Postgres",
+      "url": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/",
+      "summary": "Comments",
+      "published": "2026-08-10T01:01:34+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "8361ea51f23ca6b7",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "CDC altyapısının Postgres veritabanına nasıl taşındığı anlatılıyor."
+    },
+    {
+      "title": "Taxi drivers rarely die of Alzheimer&#x27;s",
+      "url": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650",
+      "summary": "Comments",
+      "published": "2026-08-09T15:21:46+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "147b31002816c219",
+      "category": "Araştırma",
+      "tr_summary": "Taksi şoförlerinin Alzheimer&#x27;dan nadiren öldüğü araştırıldı."
+    },
+    {
+      "title": "Ask HN: What are you working on? (August 2026)",
+      "url": "https://news.ycombinator.com/item?id=49233423",
+      "summary": "Comments",
+      "published": "2026-08-09T17:23:22+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "76c3a3f4cc294533",
+      "category": "Genel",
+      "tr_summary": "Kullanıcıların güncel projelerini paylaştığı bir Hacker News tartışması."
+    },
+    {
+      "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+      "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+      "summary": "The AI-focused hedge fund is still making some big bets.",
+      "published": "2026-08-09T20:35:17+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "ffba219f0a05a0a3",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Situational Awareness fonu, çip girişimi Source Foundry&#x27;ye 400M$ yatırdı."
+    },
+    {
+      "title": "Anthropic is turning Claude Code’s auto mode on by default",
+      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "summary": "Programming with Claude Code will soon require even less human oversight.",
+      "published": "2026-08-09T19:20:32+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "79a8b9128fba52b9",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Anthropic, Claude Code&#x27;un otomatik modunu varsayılan olarak açıyor."
+    },
+    {
+      "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+      "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+      "summary": "On the latest episode of Equity, we spoke to Jill Lepore about &quot;government by machines&quot; and why Elon Musk is a bad science fiction reader.",
+      "published": "2026-08-09T15:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "7a85f51126c3c4d7",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Tarihçi Jill Lepore, Silikon Vadisi&#x27;nin demokrasiyi zedelediğini söylüyor."
+    },
+    {
+      "title": "The AI safety test is becoming a safety risk",
+      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.",
+      "published": "2026-08-09T14:30:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "256796e8828b3ae0",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Yapay zeka güvenlik testlerinin kendisi bir güvenlik riski haline geliyor."
     }
   ]
 }
