@@ -1,276 +1,6 @@
 {
-  "last_updated": "2026-08-11T05:13:44Z",
+  "last_updated": "2026-08-12T05:40:55Z",
   "items": [
-    {
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "published": "2026-08-04T19:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "c99ec862b4e71599",
-      "category": "Araştırma",
-      "tr_summary": "OpenAI modellerini içeren üçüncü taraf siber güvenlik değerlendirmeleri inceleniyor."
-    },
-    {
-      "title": "This year&#x27;s Pulitzer Prizes saw a record number of winners disclose AI use",
-      "url": "https://the-decoder.com/this-years-pulitzer-prizes-saw-a-record-number-of-winners-disclose-ai-use/",
-      "summary": "A record eight entries honored at the 2026 Pulitzer Prizes disclosed using AI, including five winners. Newsrooms such as the Wall Street Journal and AP used LLMs mainly to search large document sets faster. Pulitzer administrator Marjorie Miller said AI remains off-limits for writing and editing sto…",
-      "published": "2026-08-04T17:26:03+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "281e658bfee3514d",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Bu yılki Pulitzer Ödülleri&#x27;nde rekor sayıda kazanan yapay zeka kullanımı açıkladı."
-    },
-    {
-      "title": "Google moves billions in Anthropic chip risk off its balance sheet",
-      "url": "https://the-decoder.com/google-moves-billions-in-anthropic-chip-risk-off-its-balance-sheet/",
-      "summary": "Google is working with Broadcom, Apollo, Blackstone, and Morgan Stanley on a multibillion-dollar financing structure that supplies Anthropic with AI chips and data centers while keeping most of the risk off Google&#x27;s balance sheet. The setup leaves roughly $200 billion in contracts dependent on Anthr…",
-      "published": "2026-08-04T16:38:58+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "433d2d16b30e2bda",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Google, Anthropic çip riskine ait milyarlarca doları bilanço dışına taşıdı."
-    },
-    {
-      "title": "Anthropic locks in $10 billion of compute from Volta, a cloud startup that didn&#x27;t exist six months ago",
-      "url": "https://the-decoder.com/anthropic-locks-in-10-billion-of-compute-from-volta-a-cloud-startup-that-didnt-exist-six-months-ago/",
-      "summary": "Anthropic is locking in $10 billion worth of computing capacity from Volta Infra Holdings, a cloud startup that&#x27;s only a few months old. The article Anthropic locks in $10 billion of compute from Volta, a cloud startup that didn&amp;#039;t exist six months ago appeared first on The Decoder .",
-      "published": "2026-08-04T15:21:14+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "608e0975c45b6a72",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Anthropic, yeni kurulan bulut girişimi Volta&#x27;dan 10 milyar dolarlık altyapı aldı."
-    },
-    {
-      "title": "Silicon Valley’s rift over open source pushes back contemplated White House bans on Chinese AI",
-      "url": "https://the-decoder.com/silicon-valleys-rift-over-open-source-pushes-back-contemplated-white-house-bans-on-chinese-ai/",
-      "summary": "The Trump administration discussed sanctions and cloud bans targeting Chinese open-weight AI models, according to the New York Times. OpenAI and Anthropic pushed for restrictions, while Nvidia, Google, and Meta fought back. After pushback from Silicon Valley, Washington backed off for now, but a dec…",
-      "published": "2026-08-04T12:23:43+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "a4cc758742c78069",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Açık kaynak anlaşmazlığı, Beyaz Saray&#x27;ın Çin yapay zeka yasaklarını erteliyor."
-    },
-    {
-      "title": "OpenAI fires back at Apple&#x27;s trade secret lawsuit with chat logs showing Apple employees kept texting their former colleague",
-      "url": "https://the-decoder.com/openai-fires-back-at-apples-trade-secret-lawsuit-with-chat-logs-showing-apple-employees-kept-texting-their-former-colleague/",
-      "summary": "OpenAI is pushing back against Apple&#x27;s trade secret lawsuit and has released iMessage threads from former Apple engineer Chang Liu. The messages appear to show Apple employees themselves reaching out to their former colleague for technical help and internal files after he left the company. The artic…",
-      "published": "2026-08-04T10:22:53+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "e9c76a79e547ce0f",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "OpenAI, eski çalışan mesajlarını içeren sohbet loglarıyla Apple&#x27;a yanıt verdi."
-    },
-    {
-      "title": "Eight Myths on Software Engineering and GenAI",
-      "url": "https://queue.acm.org/detail.cfm?id=3807963",
-      "summary": "Comments",
-      "published": "2026-08-04T23:50:52+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "ecbfdd470b71831b",
-      "category": "Araştırma",
-      "tr_summary": "Yazılım mühendisliği ve üretken yapay zeka hakkındaki sekiz yaygın efsane."
-    },
-    {
-      "title": "Pi&#x27;s Minimalism Is Its Advantage",
-      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
-      "summary": "Comments",
-      "published": "2026-08-04T22:22:12+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "ffbe90d5ea594eb1",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Pi asistanının minimalizm odaklı yaklaşımı ona büyük bir avantaj sağlıyor."
-    },
-    {
-      "title": "The Golden Age of British Ice Cream",
-      "url": "https://www.vittlesmagazine.com/p/the-golden-age-of-british-ice-cream",
-      "summary": "Comments",
-      "published": "2026-08-04T18:25:16+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a2006560b4696519",
-      "category": "Genel",
-      "tr_summary": "Britanya&#x27;da dondurma sektörünün yaşadığı altın çağ ve piyasa dinamikleri."
-    },
-    {
-      "title": "Mistral&#x27;s Shieldstral: 3B open-weights model for multimodal moderation",
-      "url": "https://mistral.ai/news/shieldstral/",
-      "summary": "Comments",
-      "published": "2026-08-04T16:36:05+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "d06e668fc700e430",
-      "category": "Açık Kaynak",
-      "tr_summary": "Mistral, çok modlu moderasyon için 3B parametreli Shieldstral modelini duyurdu."
-    },
-    {
-      "title": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay",
-      "url": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/",
-      "summary": "Comments",
-      "published": "2026-08-04T23:31:46+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a10f7abdb029ec24",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "WebKit&#x27;teki IP ve DNS sızıntıları proxy tarayıcıları ve gizli geçişleri etkiliyor."
-    },
-    {
-      "title": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice",
-      "url": "https://arxiv.org/abs/2603.04221",
-      "summary": "Comments",
-      "published": "2026-08-05T00:10:37+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "1e47c2a2a7e0107c",
-      "category": "Araştırma",
-      "tr_summary": "Zigbee ve Matter over Thread protokollerinin performans karşılaştırması incelendi."
-    },
-    {
-      "title": "The sale of Electronic Arts has been finalized",
-      "url": "https://www.bbc.com/news/articles/cjejyl34345o",
-      "summary": "Comments",
-      "published": "2026-08-05T04:51:43+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a4caca6c872ee385",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Electronic Arts şirketinin satış süreci resmi olarak tamamlandı."
-    },
-    {
-      "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
-      "url": "https://toneyalexander.github.io/inclusive-color-space/",
-      "summary": "Comments",
-      "published": "2026-08-04T15:16:22+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "30ee77cf1904f21b",
-      "category": "Açık Kaynak",
-      "tr_summary": "Farklı ten tonları üretmek için basit bir algoritma ve renk uzayı sunuldu."
-    },
-    {
-      "title": "DuckDB – Data power tools for your laptop, now in Clojure (2023)",
-      "url": "https://techascent.com/blog/just-ducking-around.html",
-      "summary": "Comments",
-      "published": "2026-08-04T22:09:43+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6cefa3264df25701",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "DuckDB veri analiz araçları artık Clojure programlama dilini destekliyor."
-    },
-    {
-      "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
-      "url": "https://arxiv.org/abs/2607.29377",
-      "summary": "Comments",
-      "published": "2026-08-05T04:36:44+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "de3bb4f64d5259fc",
-      "category": "Araştırma",
-      "tr_summary": "LLM ajanları için sıfır token tüketen bellek operasyonları geliştirildi."
-    },
-    {
-      "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
-      "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
-      "summary": "The purchase illustrates just how interconnected Elon Musk&#x27;s universe of companies are.",
-      "published": "2026-08-04T21:07:26+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "cf1de865ddeb277d",
-      "category": "Yatırım/Startup",
-      "tr_summary": "SpaceX bu yıl şimdiye kadar 329 milyon dolarlık Tesla Megapack satın aldı."
-    },
-    {
-      "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
-      "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
-      "summary": "A new SaferAI report finds Z.ai&#x27;s open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns that powerful open models could outpace governance and safeguards.",
-      "published": "2026-08-04T20:05:26+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "d5514a287675aea2",
-      "category": "Araştırma",
-      "tr_summary": "Açık ağırlıklı yapay zeka modelleri gelişiyor ancak güvenlik açığı devam ediyor."
-    },
-    {
-      "title": "Anthropic signs $10B deal with AI cloud startup Volta",
-      "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
-      "summary": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
-      "published": "2026-08-04T19:48:40+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "887d924577fdd0ce",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Anthropic, yapay zeka bulut girişimi Volta ile 10 milyar dolarlık anlaşma imzaladı."
-    },
-    {
-      "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
-      "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
-      "summary": "Wrinkles, available on both iOS and Android, essentially acts as an AI-powered audio tour guide that reveals hidden history and local stories.",
-      "published": "2026-08-04T19:34:34+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "015a6007f2ee7b0a",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Wrinkles uygulaması bulunduğunuz yerlerin gizli hikayelerini ortaya çıkarıyor."
-    },
-    {
-      "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
-      "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
-      "summary": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
-      "published": "2026-08-04T19:28:49+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "3cc1d075abd40b89",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Nvidia, açık yapay zeka grubu kurulduktan bir hafta sonra ilk ilerlemelerini gösterdi."
-    },
-    {
-      "title": "Spotify expands AI remix and covers project with Merlin partnership",
-      "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
-      "summary": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generated covers and remixes of participating artists’ music while ensuring…",
-      "published": "2026-08-04T15:50:06+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "6c237460da0f8de0",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Spotify, Merlin ortaklığıyla yapay zeka remix ve cover projesini genişletiyor."
-    },
-    {
-      "title": "Texas halts new data centers as governor calls for audits",
-      "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
-      "summary": "Tech companies and developers have been scouring the U.S. for places to build data centers, and they’ve been drawn to Texas’ loose regulations and seemingly abundant power supply. But even Texas can be pushed to the brink.",
-      "published": "2026-08-04T15:42:35+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "dae079ad4854e913",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Teksas, valinin denetim talebi üzerine yeni veri merkezi projelerini durdurdu."
-    },
-    {
-      "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
-      "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
-      "summary": "An analysis of the last seven years of Tesla earnings calls shows just how little attention Musk pays to Tesla&#x27;s car business.",
-      "published": "2026-08-04T15:20:06+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "6b6edbaacb66b9d6",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Elon Musk, Tesla kazanç çağrılarının yarısında robotlar ve yapay zekadan bahsediyor."
-    },
-    {
-      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
-      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
-      "summary": "Apple says its trade secrets investigation into OpenAI has widened. In a new court filing, Apple claims additional former staff may have retained or accessed confidential information.",
-      "published": "2026-08-04T14:03:01+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "239a1d5abd13ecf8",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Apple, eski çalışanların OpenAI&#x27;a gizli veri sızdırmış olabileceğini belirtti."
-    },
-    {
-      "title": "Is the future of data centers portable? Runware builds a pod to find out",
-      "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
-      "summary": "On Tuesday, AI infrastructure company Runware announced the launch of its own modular data center called Sonic Inference Pod.",
-      "published": "2026-08-04T13:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "296f0ef22a125c0b",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "Runware, taşınabilir veri merkezlerinin geleceğini test etmek için özel bir pod inşa etti."
-    },
-    {
-      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-      "summary": "",
-      "published": "2026-08-04T13:58:29+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "aa21db80f8b7b766",
-      "category": "Açık Kaynak",
-      "tr_summary": "LFM2.5-2.6B modeliyle yerel yapay zeka ajanlarını her yerde kolayca çalıştırın."
-    },
     {
       "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
       "url": "https://arxiv.org/abs/2608.04012",
@@ -2230,6 +1960,296 @@
       "url_hash": "837b81d5ae07cf2d",
       "category": "Yatırım/Startup",
       "tr_summary": "Bazı girişimler dil modellerinde yeni dönemin peşinden koşuyor."
+    },
+    {
+      "title": "Testing ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "published": "2026-08-11T10:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "b19ec562c455e753",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI, ChatGPT içinde reklam test etmeye başlıyor."
+    },
+    {
+      "title": "Daybreak models are now available on AWS",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "published": "2026-08-11T10:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "5d3aff0aba5d0b8a",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Daybreak modelleri artık AWS üzerinde erişilebilir durumda."
+    },
+    {
+      "title": "OpenAI lets employees cash out another $7 billion in stock",
+      "url": "https://the-decoder.com/openai-lets-employees-cash-out-another-7-billion-in-stock/",
+      "summary": "OpenAI wrapped up a $7 billion stock buyback, letting current and former employees sell shares at the company&#x27;s $852 billion valuation. The move is meant to ease pressure on employees waiting for liquidity ahead of a potential IPO. OpenAI ran a similar $6.6 billion sale in October 2025. The article…",
+      "published": "2026-08-11T18:01:22+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "1446df2734e581a4",
+      "category": "Yatırım/Startup",
+      "tr_summary": "OpenAI çalışanları 7 milyar dolar değerinde hisse satışı gerçekleştirdi."
+    },
+    {
+      "title": "&quot;But marinade&quot; and leaked passwords are what researchers found in ChatGPT&#x27;s hidden reasoning",
+      "url": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning/",
+      "summary": "Security researchers found a vulnerability in the APIs of OpenAI, Anthropic, and Google that lets them extract encrypted reasoning traces and move them between models. A scan of public sessions turned up dozens of passwords and API keys. The traces also show that the reasoning summaries users see of…",
+      "published": "2026-08-11T17:38:49+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "ece689e899ab4da3",
+      "category": "Araştırma",
+      "tr_summary": "Araştırmacılar ChatGPT&#x27;nin gizli akışında marinad tarifleri ve şifreler buldu."
+    },
+    {
+      "title": "Nvidia&#x27;s open-weight Nemotron 3.5 Lightning prioritizes speed over maximum intelligence",
+      "url": "https://the-decoder.com/nvidias-open-weight-nemotron-3-5-lightning-prioritizes-speed-over-maximum-intelligence/",
+      "summary": "Nvidia&#x27;s Nemotron 3.5 Lightning is an open-weights model with just 3.6 billion active parameters that matches OpenAI&#x27;s gpt-oss-120b on the Intelligence Index despite being four times smaller. At nearly 670 tokens per second, it&#x27;s also the fastest model in the comparison, showing Nvidia is betting on…",
+      "published": "2026-08-11T15:07:44+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "4b68c6d81ef1f6ad",
+      "category": "Açık Kaynak",
+      "tr_summary": "Nvidia&#x27;nın açık ağırlıklı Nemotron modeli hıza odaklanıyor."
+    },
+    {
+      "title": "Anthropic&#x27;s planned mega-IPO faces investor skepticism over Chinese rivals and political headwinds",
+      "url": "https://the-decoder.com/anthropics-planned-mega-ipo-faces-investor-skepticism-over-chinese-rivals-and-political-headwinds/",
+      "summary": "Anthropic is preparing an IPO for September or October, according to the Wall Street Journal, potentially the largest ever. During investor meetings, the company, valued at $965 billion, is fielding tough questions about Chinese competition, tensions with the Trump administration, and protests again…",
+      "published": "2026-08-11T12:49:15+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "382023d7ddb257a9",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Anthropic&#x27;in planlanan halka arzı Çinli rakipler nedeniyle şüpheyle karşılanıyor."
+    },
+    {
+      "title": "OpenAI introduces $125 Premium Seats for ChatGPT Business as agentic AI burns through more tokens",
+      "url": "https://the-decoder.com/openai-introduces-125-premium-seats-for-chatgpt-business-as-agentic-ai-burns-through-more-tokens/",
+      "summary": "OpenAI is rolling out &quot;Premium Seats&quot; for ChatGPT Business customers at $125 per user per month, five times the price of the existing Standard Seats. In return, users get significantly more capacity and no five-hour usage limit. The move signals that the flat-rate pricing AI providers have offered s…",
+      "published": "2026-08-11T11:51:01+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "c2621770888f2131",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI, işletmeler için 125 dolarlık yeni Premium Koltuklar tanıttı."
+    },
+    {
+      "title": "Anthropic signs $9.1 billion data center deal with Bitcoin miner Riot Platforms",
+      "url": "https://the-decoder.com/anthropic-signs-9-1-billion-data-center-deal-with-bitcoin-miner-riot-platforms/",
+      "summary": "Anthropic is leasing $9.1 billion worth of data center capacity from Bitcoin miner Riot Platforms in Texas, according to Bloomberg. The deal covers 191 megawatts at Riot&#x27;s Rockdale site, with extension options that could push the total value to $16.1 billion. It&#x27;s the latest in an aggressive infrast…",
+      "published": "2026-08-11T11:33:00+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "f59b415be5a46288",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Anthropic, Riot Platforms ile devasa bir veri merkezi anlaşması imzaladı."
+    },
+    {
+      "title": "Nvidia guarantees its own chips&#x27; value to unlock $500 billion in AI infrastructure financing",
+      "url": "https://the-decoder.com/nvidia-guarantees-its-own-chips-value-to-unlock-500-billion-in-ai-infrastructure-financing/",
+      "summary": "Nvidia is teaming up with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to mobilize over $500 billion for AI infrastructure. To win over investors, the chipmaker is guaranteeing up to 25 percent of the residual value of its own hardware. The Bank of England is already warning of…",
+      "published": "2026-08-11T09:41:03+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8010a95ae63d6168",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Nvidia, 500 milyar dolarlık altyapı finansmanı için çiplerinin değerini garanti ediyor."
+    },
+    {
+      "title": "Anthropic watermarks all Claude outputs globally with marks that &quot;may persist through some editing&quot;",
+      "url": "https://the-decoder.com/anthropic-watermarks-all-claude-outputs-globally-with-marks-that-may-persist-through-some-editing/",
+      "summary": "Anthropic will embed invisible watermarks in all Claude-generated text and sign files using the C2PA standard. New models shipping from August 2026 onward will have labeling built in from day one. The policy applies worldwide, and Anthropic plans to provide detection tools for third-party verificati…",
+      "published": "2026-08-11T08:45:06+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "836f745bfea0a57c",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Anthropic, Claude çıktılarına küresel olarak kalıcı filigranlar ekliyor."
+    },
+    {
+      "title": "Compression is prediction",
+      "url": "https://ngrok.com/blog/compression-is-prediction",
+      "summary": "Comments",
+      "published": "2026-08-11T19:49:44+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "dad79aeca39c5980",
+      "category": "Genel",
+      "tr_summary": "Sıkıştırma veriye dayalı öngörü sağlama sürecidir."
+    },
+    {
+      "title": "Dropbox, loved by the masses, a shareholder dead end",
+      "url": "https://s-1.vercel.app/posts/why-dropbox-is-a-obvious-pe-target/",
+      "summary": "Comments",
+      "published": "2026-08-12T04:30:34+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "245240f2424710c1",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Dropbox popüler olmasına rağmen yatırımcılar için kârlı bir çıkış sunmuyor."
+    },
+    {
+      "title": "The lifesaving secret hidden inside a horseshoe crab&#x27;s blue blood",
+      "url": "https://whdh.com/news/the-lifesaving-secret-hidden-inside-a-horseshoe-crabs-blue-blood-and-the-race-to-protect-the-species/",
+      "summary": "Comments",
+      "published": "2026-08-12T01:45:51+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "300f06fd4e70ae93",
+      "category": "Genel",
+      "tr_summary": "At nolu yengeçlerin mavi kanındaki hayat kurtarıcı sır açığa çıktı."
+    },
+    {
+      "title": "WorldClaw Agentic 3D open-world generation at scale",
+      "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+      "summary": "Comments",
+      "published": "2026-08-11T21:56:18+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "636074939d53bf3f",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "WorldClaw, ölçeklenebilir açık dünya 3D üretim teknolojisi sunuyor."
+    },
+    {
+      "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "summary": "Comments",
+      "published": "2026-08-11T19:35:52+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a8ba0b0ace9187db",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "Nvidia, yeni Nemotron modeli ve NeMo Switchyard sistemini duyurdu."
+    },
+    {
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "url": "https://stolen-thoughts.com/",
+      "summary": "Comments",
+      "published": "2026-08-11T13:22:00+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "5639e45f22b6bbc3",
+      "category": "Araştırma",
+      "tr_summary": "Tescilli yapay zeka API&#x27;lerinden akıl yürütme izleri çalınıyor."
+    },
+    {
+      "title": "llama.cpp",
+      "url": "https://llama.app",
+      "summary": "Comments",
+      "published": "2026-08-12T04:51:59+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "9c620bb245888fd8",
+      "category": "Açık Kaynak",
+      "tr_summary": "llama.cpp projeleri yerel cihazlarda büyük dil modellerini çalıştırmayı sağlar."
+    },
+    {
+      "title": "Mojo 1.0",
+      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+      "summary": "Comments",
+      "published": "2026-08-11T16:56:46+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "d90b2d52a09c655a",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Mojo programlama dilinin 1.0 sürümü yayınlandı."
+    },
+    {
+      "title": "The Human Is the Loop",
+      "url": "https://brentfitzgerald.com/posts/the-human-is-the-loop/",
+      "summary": "Comments",
+      "published": "2026-08-12T02:15:01+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "c5d5486469742a65",
+      "category": "Genel",
+      "tr_summary": "Yapay zeka süreçlerinde insan faktörü hala döngünün merkezindedir."
+    },
+    {
+      "title": "OpenAI’s head of ethics leaves less than a year after joining",
+      "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+      "summary": "Comments",
+      "published": "2026-08-11T12:23:07+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "3641f6219d1af40b",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI&#x27;ın etik departmanı başkanı görevinden ayrıldı."
+    },
+    {
+      "title": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last",
+      "url": "https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/",
+      "summary": "The U.S. VC firm still has more than 55% of its previous $650 million India fund available for deployment.",
+      "published": "2026-08-11T21:39:11+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "dc1f32fc900ec5ab",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Accel, yeni ve büyük Hindistan fonu için kısa sürede 550 milyon dolar topladı."
+    },
+    {
+      "title": "OpenAI launches ChatGPT desktop app for Linux",
+      "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+      "summary": "OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.",
+      "published": "2026-08-11T19:15:35+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "ff47b8bea69571c6",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI, Linux kullanıcıları için yeni ChatGPT masaüstü uygulamasını kullanıma sundu."
+    },
+    {
+      "title": "Google’s Gemini app surges to 1 billion users",
+      "url": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+      "summary": "Google also shared numbers of how people are actually using the chatbot, with 63% of Gemini users talking directly to the assistant using the voice feature. Plus, Gemini now generates more than 150 million images every day, according to Google.",
+      "published": "2026-08-11T18:49:12+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "6d1c60f6173d7662",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Google&#x27;ın yapay zeka uygulaması Gemini, dünya genelinde 1 milyar kullanıcıya ulaştı."
+    },
+    {
+      "title": "Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’",
+      "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
+      "summary": "One of OpenAI&#x27;s longest-serving executives is headed out the door, although the longtime COO told staff that he was &quot;excited to help you all advance the mission from a different vantage point.&quot;",
+      "published": "2026-08-11T17:41:34+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "1154a9fd6d8aea1b",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI&#x27;ın uzun süredir COO&#x27;su olan Brad Lightcap yeni bir girişim için ayrılıyor."
+    },
+    {
+      "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
+      "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
+      "summary": "River AI, a startup founded by xAI co-founder Igor Babuschkin, has a fascinating vision for personal agents and secured $1.1 billion out of the gate.",
+      "published": "2026-08-11T17:41:22+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "4a3a16344e7faccb",
+      "category": "Yatırım/Startup",
+      "tr_summary": "General Catalyst, iki aylık River AI girişimine 1,1 milyar dolarlık yatırım yaptı."
+    },
+    {
+      "title": "An unreleased Anthropic model made progress on one of math’s biggest unsolved problems",
+      "url": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
+      "summary": "For more than 150 years, the Riemann hypothesis has stood as one of the major unsolved problems in mathematics. Anthropic hasn&#x27;t solved it — but the company&#x27;s models made more progress than you might expect.",
+      "published": "2026-08-11T16:25:20+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "e32278b94fa29df3",
+      "category": "Araştırma",
+      "tr_summary": "Henüz yayınlanmamış bir Anthropic modeli, büyük bir matematik sorununda ilerleme kaydetti."
+    },
+    {
+      "title": "Spotify will label ‘AI Persona’ profiles and exclude their music from recommendations",
+      "url": "https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/",
+      "summary": "Spotify is introducing “AI Persona” labels for artist profiles that represent AI-generated identities and will exclude their music from editorial, algorithmic, and personalized recommendations by default.",
+      "published": "2026-08-11T13:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "da161cb655ac21da",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Spotify, yapay zeka profillerini etiketleyerek öneri sistemlerinden hariç tutacak."
+    },
+    {
+      "title": "Anthropic says it will watermark text generated by its AI models",
+      "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+      "summary": "Anthropic will extend support for watermarking AI generations for older models as well.",
+      "published": "2026-08-11T12:13:47+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "41ddd199683a8426",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Anthropic, yapay zeka modelleri tarafından üretilen metinlere filigran ekleyeceğini açıkladı."
+    },
+    {
+      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "summary": "",
+      "published": "2026-08-11T13:37:10+00:00",
+      "source_name": "Hugging Face Blog",
+      "url_hash": "077b61a0fed02bcc",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "ACE mimarisi sayesinde daha az token ile etkili işlemler yapmak artık mümkün."
     }
   ]
 }
