@@ -1,306 +1,6 @@
 {
-  "last_updated": "2026-08-16T04:39:41Z",
+  "last_updated": "2026-08-17T04:48:20Z",
   "items": [
-    {
-      "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
-      "url": "https://arxiv.org/abs/2608.06394",
-      "summary": "arXiv:2608.06394v1 Announce Type: new Abstract: Multi-label node classification is an important yet challenging task in graph learning, where nodes exhibit multiple semantics simultaneously. Existing methods for multi-label node classification can effectively model multiple labels, while only consid…",
-      "published": "2026-08-10T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "a7684c8b0b109425",
-      "category": "Araştırma",
-      "tr_summary": "Çok etiketli çizge temel modelleri için çok anlamslı temel öğrenme yöntemi öneriliyor."
-    },
-    {
-      "title": "EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs",
-      "url": "https://arxiv.org/abs/2608.06398",
-      "summary": "arXiv:2608.06398v1 Announce Type: new Abstract: Recent byte-level large language models (LLMs) have made tokenizer-free modeling increasingly competitive by grouping bytes into dynamically sized patches. However, existing byte-patch architectures still apply the same dense feed-forward computation t…",
-      "published": "2026-08-10T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "2d6534089afa8027",
-      "category": "Araştırma",
-      "tr_summary": "Belirteçsiz büyük dil modelleri için entropi odaklı seyrek uzman yönlendirme yöntemi geliştirildi."
-    },
-    {
-      "title": "Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast",
-      "url": "https://arxiv.org/abs/2608.06400",
-      "summary": "arXiv:2608.06400v1 Announce Type: new Abstract: Reward models are central to learning from human preferences, yet identifying what drives their predictions remains challenging. Recent sparse Mixture-of-Experts (MoE) reward models seek to improve interpretability by routing prompts to specialized exp…",
-      "published": "2026-08-10T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "6f1a5d7fa821b2e4",
-      "category": "Araştırma",
-      "tr_summary": "Uzman karışımı ödül modellerinin yanıt düzeyinde yorumlanması için yeni bir yöntem sunuldu."
-    },
-    {
-      "title": "Interpretable Unsupervised Community Detection with LLM-Symbolized Structured Processes",
-      "url": "https://arxiv.org/abs/2608.06402",
-      "summary": "arXiv:2608.06402v1 Announce Type: new Abstract: Community detection is a fundamental task in graph analytics that aims to identify cohesive groups of entities with similar behaviors or interests. Classic objective-driven methods struggle with complex graph structures, while deep-learning approaches…",
-      "published": "2026-08-10T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "370e3c5be0ae4f4b",
-      "category": "Araştırma",
-      "tr_summary": "Büyük dil modelleri ile yorumlanabilir denetimsiz topluluk tespiti yöntemi geliştirildi."
-    },
-    {
-      "title": "ADIAS: Automated Design of Interactive Agentic Systems",
-      "url": "https://arxiv.org/abs/2608.06410",
-      "summary": "arXiv:2608.06410v1 Announce Type: new Abstract: Automated agent design improves agent harnesses through iterative revision, evaluation, and feedback summarization. Existing methods are largely candidate-centric: cross-round experience is organized around candidate agents, which leaves the repair pro…",
-      "published": "2026-08-10T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "13c6b5c4068aadbf",
-      "category": "Araştırma",
-      "tr_summary": "Etkileşimli ajan sistemlerinin otomatik tasarımı için yeni bir çerçeve sunuldu."
-    },
-    {
-      "title": "Learning to Predict Middle-Layer Attention in MLLMs for Visual Token Prunin",
-      "url": "https://arxiv.org/abs/2608.06411",
-      "summary": "arXiv:2608.06411v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) achieve strong performance across diverse vision-language tasks, but their efficiency is limited by the cost of processing numerous visual tokens. Visual token pruning can reduce this cost, but requires accurate…",
-      "published": "2026-08-10T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "1a18adbbf737248d",
-      "category": "Araştırma",
-      "tr_summary": "Görsel belirteç budama için çok modlu modellerde orta katman dikkati tahmin ediliyor."
-    },
-    {
-      "title": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
-      "url": "https://arxiv.org/abs/2608.06474",
-      "summary": "arXiv:2608.06474v1 Announce Type: new Abstract: Large language models increasingly generate complete websites from natural-language descriptions, and reinforcement learning has become a central approach to closing their remaining functional gap. This training regime is bottlenecked by reward design.…",
-      "published": "2026-08-10T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "36ceb5b8982b00a4",
-      "category": "Araştırma",
-      "tr_summary": "Kendi kendine gelişen programatik değerlendirici ile web geliştirme için LLM eğitimi sunuluyor."
-    },
-    {
-      "title": "Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding",
-      "url": "https://arxiv.org/abs/2608.06501",
-      "summary": "arXiv:2608.06501v1 Announce Type: new Abstract: Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain difficult to evaluate because explicit targets and reward signals are scarce compared with accuracy-oriented tasks. Cross-concept underst…",
-      "published": "2026-08-10T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "02e8bd7a2d78342a",
-      "category": "Araştırma",
-      "tr_summary": "Çok modlu modellerde kavramlar arası çapraz anlamayı ölçen C4 veri seti tanıtıldı."
-    },
-    {
-      "title": "KNOWPLAN: Knowledge-Driven AI Agents for Smart Degree Pathway Planning",
-      "url": "https://arxiv.org/abs/2608.06530",
-      "summary": "arXiv:2608.06530v1 Announce Type: new Abstract: Planning a degree from official university sources requires solving two problems in order. The institution&#x27;s curriculum must first be reconstructed from catalogs, departmental pages, JSON endpoints, and PDFs that share no schema, and only then can a st…",
-      "published": "2026-08-10T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "3b5de402a4072e72",
-      "category": "Araştırma",
-      "tr_summary": "Akıllı derece yolu planlaması için bilgi odaklı yapay zeka ajanları geliştirildi."
-    },
-    {
-      "title": "TaskSense: Focusing on What Matters in World Models",
-      "url": "https://arxiv.org/abs/2608.06544",
-      "summary": "arXiv:2608.06544v1 Announce Type: new Abstract: World models for visual control typically learn compact latent states by reconstructing observations, implicitly encouraging representations to preserve information across the entire visual input. However, task-relevant content often occupies only a sm…",
-      "published": "2026-08-10T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "d491582e5638582e",
-      "category": "Araştırma",
-      "tr_summary": "Dünya modellerinde önemli unsurlara odaklanan yeni bir yaklaşım sunuldu."
-    },
-    {
-      "title": "Scammers are enrolling fake students at US community colleges and using AI to collect financial aid",
-      "url": "https://the-decoder.com/scammers-are-enrolling-fake-students-at-us-community-colleges-and-using-ai-to-collect-financial-aid/",
-      "summary": "AI-powered cheating is spreading at US community colleges. According to The New Yorker, scammers enroll fake students in courses, use AI to complete their assignments, and pocket the financial aid. History professor David Roach asks, &quot;Was it always the case that half of our students would cheat if i…",
-      "published": "2026-08-09T13:00:59+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "c1587dec620cf0df",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Dolandırıcılar sahte öğrenciler kaydedip yapay zeka ile finansal yardımları topluyor."
-    },
-    {
-      "title": "Google Deepmind&#x27;s WeatherNext predicts cyclone tracks and intensity at the same time",
-      "url": "https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/",
-      "summary": "Deepmind&#x27;s new weather AI forecasts tropical cyclones about a day further ahead than leading operational models, matching a decade of progress in traditional weather forecasting. Code and model weights are open-source on GitHub. The article Google Deepmind&amp;#039;s WeatherNext predicts cyclone tracks…",
-      "published": "2026-08-09T12:29:06+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "03f25222ce2ece83",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Google Deepmind&#x27;ın hava durumu modeli WeatherNext kasırga yollarını ve şiddetini tahmin ediyor."
-    },
-    {
-      "title": "AI is flooding Britain&#x27;s employment courts with lawsuits",
-      "url": "https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits/",
-      "summary": "Britain&#x27;s employment courts saw 39 percent more claims in the year through March 2026, many written with ChatGPT or Grok. The backlog jumped 55 percent to 64,000 unresolved cases, with AI-generated filings often running hundreds of pages and citing fabricated laws. The Economist calls it a &quot;tragedy…",
-      "published": "2026-08-09T10:26:43+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "bc92c9f488a911a7",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Yapay zeka, Britanya&#x27;daki iş mahkemelerini hukuki davalarla dolduruyor."
-    },
-    {
-      "title": "Google&#x27;s DiffusionGemma proves you don&#x27;t need to train from scratch to build a text diffusion model",
-      "url": "https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/",
-      "summary": "Instead of training a new model from scratch, Google DeepMind retrofitted Gemma 4 into a diffusion model using less than 10 percent of the original training budget. DiffusionGemma generates 256 tokens in parallel instead of one at a time, hitting about 1,500 tokens per second. Quality still trails t…",
-      "published": "2026-08-09T10:01:26+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "46a304205767771d",
-      "category": "Açık Kaynak",
-      "tr_summary": "Google&#x27;ın DiffusionGemma modeli sıfırdan eğitmeden metin yayılım modeli kurmayı sağlıyor."
-    },
-    {
-      "title": "AI&#x27;s energy appetite drives Nvidia and Amazon to pour billions into massive power infrastructure",
-      "url": "https://the-decoder.com/ais-energy-appetite-drives-nvidia-and-amazon-to-pour-billions-into-massive-power-infrastructure/",
-      "summary": "The AI industry&#x27;s hunger for power keeps growing. Nvidia is investing up to $3 billion in Lancium, a power infrastructure developer that already has four gigawatts under contract in Texas. Amazon, meanwhile, is building a gas-fired power plant in the state with a capacity of up to 7.65 gigawatts tha…",
-      "published": "2026-08-09T09:26:28+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "6727b37b40126304",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Nvidia ve Amazon, yapay zekanın enerji ihtiyacı için güç altyapısına milyarlar yatırıyor."
-    },
-    {
-      "title": "Google dismantles Deepmind and bets on a fresh start as Hassabis heads for the exit",
-      "url": "https://the-decoder.com/google-dismantles-deepmind-and-bets-on-a-fresh-start-as-hassabis-heads-for-the-exit/",
-      "summary": "Google Deepmind is losing its autonomy, and founder Demis Hassabis may leave the AI lab for good in the coming months. AI researcher Koray Kavukcuoglu will take over day-to-day operations without the CEO title, and all Gemini development is moving to the Bay Area. Internally, Google is apparently st…",
-      "published": "2026-08-09T08:56:12+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "5cccff0c8810f6c0",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Google, Deepmind&#x27;ı yeniden yapılandırırken Hassabis yönetimden ayrılıyor."
-    },
-    {
-      "title": "Auto mode is now the default in Claude Code",
-      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
-      "summary": "Comments",
-      "published": "2026-08-10T03:50:00+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "bf86c80d4ed8f877",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Otomatik mod artık Claude Code yazılımında varsayılan ayar olarak sunuluyor."
-    },
-    {
-      "title": "What Happened to HackerOne?",
-      "url": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/",
-      "summary": "Comments",
-      "published": "2026-08-10T02:23:17+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "7def8c8346eb5385",
-      "category": "Genel",
-      "tr_summary": "HackerOne platformuna ne olduğu ve yaşadığı değişimler ele alınıyor."
-    },
-    {
-      "title": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice",
-      "url": "https://www.whodunnitai.com/",
-      "summary": "Comments",
-      "published": "2026-08-10T03:18:40+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "3e838b549b1537db",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Sesle yönetilen cinayet gizemi oyununda yapay zeka şüphelileriyle konuşulabiliyor."
-    },
-    {
-      "title": "How I use LLMs to learn complex topics",
-      "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
-      "summary": "Comments",
-      "published": "2026-08-09T19:16:49+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "bceb7281e531cfb5",
-      "category": "Genel",
-      "tr_summary": "Karmaşık konuları öğrenmek için büyük dil modellerinin nasıl kullanıldığı anlatılıyor."
-    },
-    {
-      "title": "Turn satellite imagery into a paper globe you fold yourself",
-      "url": "https://foldingglobes.com/",
-      "summary": "Comments",
-      "published": "2026-08-10T02:57:38+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "004fef72a5b6e8ad",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Uydu görüntülerinden katlanabilir kağıt küreler yapabilirsiniz."
-    },
-    {
-      "title": "Run Android ARM64 VR APKs on Apple Vision Pro",
-      "url": "https://github.com/shinyquagsire23/Klepton",
-      "summary": "Comments",
-      "published": "2026-08-10T03:12:48+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "840814b793525543",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "Apple Vision Pro üzerinde Android ARM64 VR APK&#x27;ları çalıştırın."
-    },
-    {
-      "title": "Long-Run Effects of H-1B Immigration on the U.S. Economy (July 2026)",
-      "url": "https://www.nber.org/papers/w35560",
-      "summary": "Comments",
-      "published": "2026-08-10T04:06:10+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "fb7776161c8da212",
-      "category": "Araştırma",
-      "tr_summary": "H-1B göçmenliğinin ABD ekonomisine uzun vadeli etkileri inceleniyor."
-    },
-    {
-      "title": "How We Pushed CDC into Postgres",
-      "url": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/",
-      "summary": "Comments",
-      "published": "2026-08-10T01:01:34+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "8361ea51f23ca6b7",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "CDC altyapısının Postgres veritabanına nasıl taşındığı anlatılıyor."
-    },
-    {
-      "title": "Taxi drivers rarely die of Alzheimer&#x27;s",
-      "url": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650",
-      "summary": "Comments",
-      "published": "2026-08-09T15:21:46+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "147b31002816c219",
-      "category": "Araştırma",
-      "tr_summary": "Taksi şoförlerinin Alzheimer&#x27;dan nadiren öldüğü araştırıldı."
-    },
-    {
-      "title": "Ask HN: What are you working on? (August 2026)",
-      "url": "https://news.ycombinator.com/item?id=49233423",
-      "summary": "Comments",
-      "published": "2026-08-09T17:23:22+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "76c3a3f4cc294533",
-      "category": "Genel",
-      "tr_summary": "Kullanıcıların güncel projelerini paylaştığı bir Hacker News tartışması."
-    },
-    {
-      "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
-      "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
-      "summary": "The AI-focused hedge fund is still making some big bets.",
-      "published": "2026-08-09T20:35:17+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "ffba219f0a05a0a3",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Situational Awareness fonu, çip girişimi Source Foundry&#x27;ye 400M$ yatırdı."
-    },
-    {
-      "title": "Anthropic is turning Claude Code’s auto mode on by default",
-      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
-      "summary": "Programming with Claude Code will soon require even less human oversight.",
-      "published": "2026-08-09T19:20:32+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "79a8b9128fba52b9",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Anthropic, Claude Code&#x27;un otomatik modunu varsayılan olarak açıyor."
-    },
-    {
-      "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
-      "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
-      "summary": "On the latest episode of Equity, we spoke to Jill Lepore about &quot;government by machines&quot; and why Elon Musk is a bad science fiction reader.",
-      "published": "2026-08-09T15:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "7a85f51126c3c4d7",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Tarihçi Jill Lepore, Silikon Vadisi&#x27;nin demokrasiyi zedelediğini söylüyor."
-    },
-    {
-      "title": "The AI safety test is becoming a safety risk",
-      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
-      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.",
-      "published": "2026-08-09T14:30:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "256796e8828b3ae0",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Yapay zeka güvenlik testlerinin kendisi bir güvenlik riski haline geliyor."
-    },
     {
       "title": "Towards an Argumentative Foundation for Evaluative AI",
       "url": "https://arxiv.org/abs/2608.07473",
@@ -2290,6 +1990,296 @@
       "url_hash": "15aaf2b747ae330d",
       "category": "Yatırım/Startup",
       "tr_summary": "SpaceX, Cursor&#x27;ı satın alma işlemini resmi olarak tamamladı."
+    },
+    {
+      "title": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
+      "url": "https://arxiv.org/abs/2608.13564",
+      "summary": "arXiv:2608.13564v1 Announce Type: new Abstract: Evaluating language-model agents at scale increasingly relies on a second language model as an automatic judge, because the gold signal, an executable environment reward, is expensive, slow, or unavailable at deployment time. Such a judge is a reward-f…",
+      "published": "2026-08-17T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "2a126068ed5ab49f",
+      "category": "Araştırma",
+      "tr_summary": "Ajan değerlendirmelerinde aşırı güveni azaltan ödülsüz değerlendirme kriterleri geliştirildi."
+    },
+    {
+      "title": "Depth-Aware Sensitivity Analysis of Mixture-of-Experts Models via Magnitude-Based Expert Masking",
+      "url": "https://arxiv.org/abs/2608.13565",
+      "summary": "arXiv:2608.13565v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) architectures scale large language models (LLMs) while preserving computational efficiency through sparse activation. Despite their widespread adoption, the relative importance of individual MoE layers remains insufficiently ch…",
+      "published": "2026-08-17T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "03b3344dcc9ff8bb",
+      "category": "Araştırma",
+      "tr_summary": "Uzman maskeleme yöntemiyle Uzman Karışımı modellerinde derinliğe duyarlı hassasiyet analizi."
+    },
+    {
+      "title": "Modular Cognitive Architecture Emerges in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.13567",
+      "summary": "arXiv:2608.13567v1 Announce Type: new Abstract: The human brain exhibits a striking degree of functional specialization, with distinct networks supporting language, formal reasoning, reasoning about other minds, and reasoning about the physical world. Is this modular organization a fundamental princ…",
+      "published": "2026-08-17T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "da3b998a992bf55b",
+      "category": "Araştırma",
+      "tr_summary": "Büyük dil modellerinde modüler bilişsel mimarinin ortaya çıkışı inceleniyor."
+    },
+    {
+      "title": "A Year in LLM Serving: Workload Evolution, Caching and Load-Balancing",
+      "url": "https://arxiv.org/abs/2608.13573",
+      "summary": "arXiv:2608.13573v1 Announce Type: new Abstract: Large Language Model (LLM) serving has become a critical cloud workload, and realistic traces are essential for motivating and benchmarking serving systems. However, existing LLM serving workload studies remain limited in scale and scope. They often ob…",
+      "published": "2026-08-17T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "6df4b4be97cf4ca6",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "LLM sunum altyapılarında iş yükü evrimi, önbellekleme ve yük dengeleme süreçleri incelendi."
+    },
+    {
+      "title": "Agentao: A Governed Local-First Runtime for Tool-Using LLM Agents",
+      "url": "https://arxiv.org/abs/2608.13574",
+      "summary": "arXiv:2608.13574v1 Announce Type: new Abstract: LLM agents increasingly operate as execution systems that invoke tools, modify local state, use persistent memory, and interact with external protocols. These capabilities make agents useful, but they also introduce risks related to over-privileged act…",
+      "published": "2026-08-17T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "cedf57bb6ac50ed2",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "Araç kullanan LLM ajanları için yönetilen ve yerel öncelikli çalışma zamanı geliştirildi."
+    },
+    {
+      "title": "AI Evaluation Should Work With Humans",
+      "url": "https://arxiv.org/abs/2608.13577",
+      "summary": "arXiv:2608.13577v1 Announce Type: new Abstract: This position paper argues that the dominant paradigm of AI evaluation (which focuses on superhuman autonomous performance and so implicitly targets the goal of replacing humans) is guiding AI development in the wrong direction. Instead, the AI communi…",
+      "published": "2026-08-17T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "85d061d1a60d539e",
+      "category": "Araştırma",
+      "tr_summary": "Yapay zeka değerlendirme süreçlerinin aktif olarak insanlarla birlikte çalışması gerektiği vurgulanıyor."
+    },
+    {
+      "title": "Stable Miscalibration in Large Language Models: A Practical View of High-Confidence Errors",
+      "url": "https://arxiv.org/abs/2608.13591",
+      "summary": "arXiv:2608.13591v1 Announce Type: new Abstract: High-confidence errors in large language models are often treated as evidence of fragile internal inference. We study a different possibility: stable miscalibration, where a confident wrong answer remains locally stable under small perturbations. We co…",
+      "published": "2026-08-17T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "1f0ed7156b88669d",
+      "category": "Araştırma",
+      "tr_summary": "Büyük dil modellerindeki kararlı yanılgılar ve yüksek güvenli hataların pratik görünümü."
+    },
+    {
+      "title": "Measuring Cross-Task Behavioral Consistency in Language Model Agents",
+      "url": "https://arxiv.org/abs/2608.13598",
+      "summary": "arXiv:2608.13598v1 Announce Type: new Abstract: Agent evaluation relies almost entirely on outcome metrics such as success rate, which capture whether an agent succeeds but not how consistently it behaves. We argue that behavioral consistency across tasks is a distinct and measurable property, and w…",
+      "published": "2026-08-17T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "980bbd430e1f258f",
+      "category": "Araştırma",
+      "tr_summary": "Dil modeli ajanlarında görevler arası davranışsal tutarlılığın ölçülmesi."
+    },
+    {
+      "title": "Cross-Disciplinary Taxonomy and Modeling of Misunderstanding Generation, Amplification, and Detection, from Pragmatics to AI Agents",
+      "url": "https://arxiv.org/abs/2608.13604",
+      "summary": "arXiv:2608.13604v1 Announce Type: new Abstract: Detection of misunderstanding is an urgent problem to solve because communication has moved away from real-time, in-person interaction and is increasingly handled by AI-mediated channels. This shift cuts communicators off from the resources repair depe…",
+      "published": "2026-08-17T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "aa4c399e9165f038",
+      "category": "Araştırma",
+      "tr_summary": "Pragmatikten yapay zeka ajanlarına kadar yanılgıların modellenmesi ve sınıflandırılması."
+    },
+    {
+      "title": "Active Perception for Embodied Disambiguation",
+      "url": "https://arxiv.org/abs/2608.13605",
+      "summary": "arXiv:2608.13605v1 Announce Type: new Abstract: Natural language provides robots with a flexible task interface, but target ambiguity in embodied environments arises not only from user intent; it can also result from missing taskrelevant physical evidence in the current observation. Existing interac…",
+      "published": "2026-08-17T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "89817ce51454e4b3",
+      "category": "Araştırma",
+      "tr_summary": "Cisimsel belirsizliği gidermek için aktif algılama yaklaşımları araştırılıyor."
+    },
+    {
+      "title": "Top mathematicians say LLMs are strong calculators but poor creative thinkers",
+      "url": "https://the-decoder.com/top-mathematicians-say-llms-are-strong-calculators-but-poor-creative-thinkers/",
+      "summary": "Two renowned mathematicians, Timothy Gowers and Peter Sarnak, say large language models are good at combining known methods but lack the intuition for genuinely new mathematical ideas. The article Top mathematicians say LLMs are strong calculators but poor creative thinkers appeared first on The Dec…",
+      "published": "2026-08-16T15:31:21+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "7111946532d86aae",
+      "category": "Araştırma",
+      "tr_summary": "Matematikçilere göre LLM&#x27;ler güçlü hesap makineleri fakat zayıf yaratıcı düşünürler."
+    },
+    {
+      "title": "When AI models aren&#x27;t allowed to reflect on themselves, it changes their entire worldview",
+      "url": "https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/",
+      "summary": "A study involving Google researchers shows that when chatbots are trained not to claim consciousness, it also changes their stance on animal rights, religion, and life satisfaction. Unbraked models attributed significantly more inner life to animals and suddenly affirmed an afterlife. A surgical cut…",
+      "published": "2026-08-16T11:23:30+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "c06cc39b02370ff4",
+      "category": "Araştırma",
+      "tr_summary": "Yapay zeka modellerinin kendi üzerlerine düşünmesi engellendiğinde dünya görüşleri değişiyor."
+    },
+    {
+      "title": "OpenAI dissolved the team built to catch catastrophic AI risks, reassigning its work to other groups",
+      "url": "https://the-decoder.com/openai-dissolved-the-team-built-to-catch-catastrophic-ai-risks-reassigning-its-work-to-other-groups/",
+      "summary": "OpenAI shut down its &quot;Preparedness&quot; team, which evaluated whether the company&#x27;s own AI models could pose catastrophic risks. The work has been parceled out to existing groups, and several safety staffers have left. Internally, unease is building, with one source describing a &quot;burbling sense of respo…",
+      "published": "2026-08-16T08:12:52+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "0970e7dc97d48267",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI, felaket risklerini yakalayan ekibini feshederek çalışmalarını başka gruplara yönlendirdi."
+    },
+    {
+      "title": "Anthropic&#x27;s bio-weapons filter was down for nearly a year, exposing 133 million requests",
+      "url": "https://the-decoder.com/anthropics-bio-weapons-filter-was-down-for-nearly-a-year-exposing-133-million-requests/",
+      "summary": "In a safety report, Anthropic reveals that its internal filtering system for biological and chemical weapons risks was inactive for nearly a year. During that time, around 50,000 external feedback contractors ran about 133 million unfiltered interactions with the models. The article Anthropic&amp;#039;s…",
+      "published": "2026-08-16T07:20:06+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "46c92dbd34325e1b",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Anthropic&#x27;in biyolojik silah filtresi yaklaşık bir yıl boyunca devre dışı kaldı."
+    },
+    {
+      "title": "Optima tackles AI benchmarking&#x27;s biggest flaw by letting users test models against their own data",
+      "url": "https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/",
+      "summary": "Artificial Analysis has launched Optima, a platform that lets users build custom AI benchmarks from their own data and workflows. Models can be compared not just on quality but also on cost and time per task. For agent-based applications, those metrics often tell you more than raw token pricing. The…",
+      "published": "2026-08-16T05:50:50+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "42d7067f2416085d",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Optima, kullanıcıların modelleri kendi verileriyle test etmesini sağlıyor."
+    },
+    {
+      "title": "One in five US workers now delegates tasks to AI instead of colleagues, survey finds",
+      "url": "https://the-decoder.com/one-in-five-us-workers-now-delegates-tasks-to-ai-instead-of-colleagues-survey-finds/",
+      "summary": "A representative survey by Epoch AI found that 20 percent of employed Americans hand off at least one task to AI that a human used to do. Generally, they accept AI output with little to no editing. The article One in five US workers now delegates tasks to AI instead of colleagues, survey finds appea…",
+      "published": "2026-08-16T05:00:00+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "547c452747c4ce59",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Yapılan araştırmaya göre ABD&#x27;deki çalışanların beşte biri görevlerini yapay zekaya devrediyor."
+    },
+    {
+      "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "summary": "Comments",
+      "published": "2026-08-16T23:45:09+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "79efbb054d4af9fc",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Qwen 3.8 27B modeli mükemmel ancak gereğinden fazla düşünme eğiliminde."
+    },
+    {
+      "title": "The Life and Death of Direct File [pdf]",
+      "url": "https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf",
+      "summary": "Comments",
+      "published": "2026-08-17T00:17:57+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "4abb39cebe9ff6ff",
+      "category": "Genel",
+      "tr_summary": "Doğrudan dosya paylaşım formatı Direct File&#x27;ın yükselişi ve kapanış süreci inceleniyor."
+    },
+    {
+      "title": "Gmail might partially be to blame for receiving emails from other Sean Conners",
+      "url": "https://boston.conman.org/2026/08/11.1",
+      "summary": "Comments",
+      "published": "2026-08-17T03:21:37+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "b0b6ca27933c6f2d",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Gmail, benzer isimli kişilerden yanlış e-posta alımı sorununa kısmen sebep olabilir."
+    },
+    {
+      "title": "AGI-64 Brings Sierra Adventures to the Commodore 64",
+      "url": "https://meanhamster.com/news/agi-64-brings-sierra-adventures-to-the-commodore-64",
+      "summary": "Comments",
+      "published": "2026-08-17T01:45:36+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "252531143577b4a0",
+      "category": "Genel",
+      "tr_summary": "AGI-64 projesi, klasik Sierra macera oyunlarını Commodore 64&#x27;e taşıyor."
+    },
+    {
+      "title": "A 3rd World Embedded Engineer Responds to &quot;RISC-V They Should Have Known Better&quot;",
+      "url": "https://rvembedded.com/blog_post/12/",
+      "summary": "Comments",
+      "published": "2026-08-16T17:01:07+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "0ef5795694b3dbb2",
+      "category": "Araştırma",
+      "tr_summary": "Üçüncü dünya gömülü sistem mühendisinden RISC-V eleştirilerine yanıt."
+    },
+    {
+      "title": "Claude: System Prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "summary": "Comments",
+      "published": "2026-08-16T12:48:21+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "eb4edca3b5b87822",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Anthropic, Claude modellerinin sistem komutlarını paylaştı."
+    },
+    {
+      "title": "Rhombus 1.1 is now available",
+      "url": "https://blog.racket-lang.org/2026/08/rhombus-v1.1.html",
+      "summary": "Comments",
+      "published": "2026-08-17T00:48:21+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6ea569c698d4fff2",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Rhombus 1.1 sürümü kullanıcıların erişimine açıldı."
+    },
+    {
+      "title": "Reticulum – Decentralized Mesh Network",
+      "url": "https://reticulum.network/",
+      "summary": "Comments",
+      "published": "2026-08-16T23:59:10+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "9b4724385d5c91f3",
+      "category": "Açık Kaynak",
+      "tr_summary": "Reticulum, merkeziyetsiz bir ağ altyapısı sunuyor."
+    },
+    {
+      "title": "Applying a photosynthetic process to treat &quot;dry eye&quot;",
+      "url": "https://www.science.org/content/blog-post/taking-tip-plants-eyes",
+      "summary": "Comments",
+      "published": "2026-08-17T00:35:29+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "915cf84eb7ba54a0",
+      "category": "Araştırma",
+      "tr_summary": "Fotosentetik süreçler kuru göz tedavisinde kullanılmaya başlandı."
+    },
+    {
+      "title": "Protobuf has LSP support. You&#x27;re welcome",
+      "url": "https://buf.build/blog/protobuf-lsp",
+      "summary": "Comments",
+      "published": "2026-08-16T18:48:27+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "8fcef7d398866277",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "Protobuf artık resmi olarak Dil Sunucusu (LSP) desteğine sahip."
+    },
+    {
+      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "summary": "OpenRouter&#x27;s CEO recently described the startup as Stripe for AI.",
+      "published": "2026-08-16T20:57:04+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "ce56f7c0b2ba7087",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Stripe, yapay zeka geçidi OpenRouter&#x27;ı 7 milyar dolara alıyor."
+    },
+    {
+      "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
+      "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+      "summary": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
+      "published": "2026-08-16T20:32:01+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "9a585195e787c793",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "İnsanlar Mark Zuckerberg&#x27;in vadettiği yapay zeka geleceğine mesafeli."
+    },
+    {
+      "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+      "summary": "Dario Amodei is pushing back against the idea that he&#x27;s been painting an overly pessimistic picture of AI.",
+      "published": "2026-08-16T16:53:51+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "31bad0791a5e5c62",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Anthropic CEO&#x27;su, yapay zeka karşıtlığının bir güven krizi olduğunu belirtti."
     }
   ]
 }
