@@ -1,196 +1,6 @@
 {
-  "last_updated": "2026-08-22T04:37:18Z",
+  "last_updated": "2026-08-23T04:42:08Z",
   "items": [
-    {
-      "title": "Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic&#x27;s numbers defy bubble warnings",
-      "url": "https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/",
-      "summary": "Nvidia has cut its guarantee for OpenAI&#x27;s planned data center in Ohio nearly in half, from $250 billion to just under $120 billion, after investors pushed back on the risk. Meanwhile, Anthropic is complicating the AI bubble debate with revenue that jumped from $4.7 billion to $11.5 billion in a sing…",
-      "published": "2026-08-15T15:41:02+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "251e738970217249",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Yatırımcı baskısıyla Nvidia, OpenAI yatırımlarını küçültürken Anthropic büyüyor."
-    },
-    {
-      "title": "AI-generated books are flooding Amazon and tanking sales for human authors",
-      "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors/",
-      "summary": "AI-generated books make up 20 percent of Amazon&#x27;s self-published catalog but bring in only 12 percent of sales. A new study finds that revenue per book is dropping for human-written titles too, in seven of eight genres. The findings could give copyright plaintiffs the market-harm data their cases ag…",
-      "published": "2026-08-15T11:00:50+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "28dde17fbc5e6a83",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Yapay zeka kitapları Amazon&#x27;u doldurarak insan yazarların satışlarını düşürüyor."
-    },
-    {
-      "title": "Plaintiff hid invisible AI instructions in court filings to secretly influence automated review",
-      "url": "https://the-decoder.com/plaintiff-hid-invisible-ai-instructions-in-court-filings-to-secretly-influence-automated-review/",
-      "summary": "A plaintiff in Connecticut embedded invisible prompt injections in court filings, formatted in 3-point white text on a white background, to manipulate a potential AI review system. Judge Spader compared the attempt to secretly tampering with a jury and revoked the plaintiff&#x27;s electronic filing privi…",
-      "published": "2026-08-15T08:00:45+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "3e87e0f29a969a80",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Davacı, otomatik incelemeyi etkilemek için mahkeme belgelerine gizli yapay zeka talimatları koydu."
-    },
-    {
-      "title": "World Labs turns one real-world robot task into thousands of simulated variations for training",
-      "url": "https://the-decoder.com/world-labs-turns-one-real-world-robot-task-into-thousands-of-simulated-variations-for-training/",
-      "summary": "World Labs, the startup founded by AI pioneer Fei-Fei Li, has unveiled a simulation engine that trains robot controllers entirely in virtual environments. From a single real-world task, the system generates thousands of controlled variations. The trained models then ran for one hour each on five dif…",
-      "published": "2026-08-15T07:30:48+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "5c81334f23aec617",
-      "category": "Araştırma",
-      "tr_summary": "World Labs, gerçek robot görevlerini binlerce simülasyona dönüştürerek eğitiyor."
-    },
-    {
-      "title": "The &quot;tragedy of the cognitive commons&quot; explains how rational AI adoption could destroy entire professions&#x27; expertise",
-      "url": "https://the-decoder.com/the-tragedy-of-the-cognitive-commons-explains-how-rational-ai-adoption-could-destroy-entire-professions-expertise/",
-      "summary": "A new research paper frames AI adoption as a &quot;tragedy of the cognitive commons.&quot; Every company that cuts entry-level jobs benefits individually, but the collective expertise of entire professions erodes. The consequences may not become visible until 2030 to 2045, when today&#x27;s missing junior talent s…",
-      "published": "2026-08-15T06:00:52+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "d2e4667f6f799569",
-      "category": "Araştırma",
-      "tr_summary": "Rasyonel yapay zeka benimsenmesi tüm mesleklerin uzmanlığını yok edebilir."
-    },
-    {
-      "title": "New benchmark confirms AI models still perform poorly at visual perception",
-      "url": "https://the-decoder.com/new-benchmark-confirms-ai-models-still-perform-poorly-at-visual-perception/",
-      "summary": "Moonshot AI&#x27;s PerceptionBench tests how well multimodal AI models can actually &quot;see,&quot; separate from logical reasoning. No frontier model reaches 60 percent accuracy, and GPT-5.6 Sol leads by a narrow margin. Many supposed reasoning errors actually happen as early as the image-reading stage. The arti…",
-      "published": "2026-08-15T05:30:18+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "e9d0c27aa19d6217",
-      "category": "Araştırma",
-      "tr_summary": "Yeni bir kıyaslama, yapay zekanın görsel algıda hâlâ zayıf olduğunu doğruladı."
-    },
-    {
-      "title": "The quirky personal homepages of programming language creators",
-      "url": "https://breck.lol/plMakers.html",
-      "summary": "Comments",
-      "published": "2026-08-16T04:24:00+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "96d2b899e3d87c1f",
-      "category": "Genel",
-      "tr_summary": "Programlama dili yaratıcılarının ilginç kişisel ana sayfaları."
-    },
-    {
-      "title": "Semaglutide linked to lower predicted dementia risk",
-      "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
-      "summary": "Comments",
-      "published": "2026-08-15T15:58:53+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "cc46e9b7f6f7c44a",
-      "category": "Araştırma",
-      "tr_summary": "Semaglutide, düşük öngörülen demans riski ile ilişkilendirildi."
-    },
-    {
-      "title": "I checked 30 frontier model cards. Here are the benchmarks labs report",
-      "url": "https://koutian.is-a.dev/benchmark-radar/?view=leaderboard",
-      "summary": "Comments",
-      "published": "2026-08-16T04:02:38+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "8275137a8fb14f0d",
-      "category": "Araştırma",
-      "tr_summary": "30 öncü model kartı incelendi ve laboratuvar raporları paylaşıldı."
-    },
-    {
-      "title": "Cultivating a state of mind where new ideas are born (2023)",
-      "url": "https://www.henrikkarlsson.xyz/p/good-ideas",
-      "summary": "Comments",
-      "published": "2026-08-15T20:54:11+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "c5bb51af2e228ee5",
-      "category": "Genel",
-      "tr_summary": "Yeni fikirlerin doğduğu bir zihin durumu geliştirme yöntemleri."
-    },
-    {
-      "title": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
-      "url": "https://www.micdrop.gg/",
-      "summary": "Comments",
-      "published": "2026-08-16T00:46:29+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "015c3c757456dfdc",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Mic Drop adlı gerçek zamanlı çok oyunculu bir karaoke oyunu duyuruldu."
-    },
-    {
-      "title": "Guiding Ships with Moire Patterns",
-      "url": "https://tinkerings.org/2018/03/28/guiding-ships-with-moire-patterns/",
-      "summary": "Comments",
-      "published": "2026-08-16T01:26:44+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "0a69e00b5a49859f",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "Moiré desenleri ile gemilere kılavuzluk etme yöntemi açıklandı."
-    },
-    {
-      "title": "Zapping Rocks Unlocks Stimulated Geologic Hydrogen",
-      "url": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
-      "summary": "Comments",
-      "published": "2026-08-16T02:36:10+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "d8aa826fc3659222",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "Kayaları zaplamak, uyarılmış jeolojik hidrojenin kilidini açıyor."
-    },
-    {
-      "title": "AI in drug discovery – what it is, where we stand and the path forward",
-      "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
-      "summary": "Comments",
-      "published": "2026-08-15T19:12:53+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "441022e5503ba70a",
-      "category": "Araştırma",
-      "tr_summary": "İlaç keşfinde yapay zekanın durumu ve gelecekteki yol haritası."
-    },
-    {
-      "title": "At-home test for infected ticks could improve Lyme Disease diagnosis",
-      "url": "https://www.smithsonianmag.com/innovation/the-first-at-home-test-for-infected-ticks-could-improve-lyme-disease-diagnosis-180989235/",
-      "summary": "Comments",
-      "published": "2026-08-15T14:04:49+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "09d6b2df80b9bbc3",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Enfekte keneler için ev testi, Lyme hastalığı teşhisini iyileştirebilir."
-    },
-    {
-      "title": "Patterns and problems in emerging multi-agent systems",
-      "url": "https://www.anthropic.com/research/multiagent-systems",
-      "summary": "Comments",
-      "published": "2026-08-16T02:12:53+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "f87e14ef06b6e708",
-      "category": "Araştırma",
-      "tr_summary": "Gelişmekte olan çoklu ajan sistemlerindeki kalıplar ve problemler."
-    },
-    {
-      "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
-      "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
-      "summary": "The woman claimed that AI tools are &quot;taking everyday life and turning it into child sexual abuse.&quot;",
-      "published": "2026-08-15T21:29:19+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "47c8acd498f0c0e4",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Bir kadın, üvey babasının Grok ile çocukluk fotoğrafını müstehcen hale getirdiğini iddia ediyor."
-    },
-    {
-      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
-      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-      "summary": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
-      "published": "2026-08-15T18:58:39+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "569c4523c8fcf143",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Anthropic, Claude&#x27;un yeni filigranlarının nasıl çalışacağına dair detaylar paylaştı."
-    },
-    {
-      "title": "SpaceX officially closes its Cursor acquisition",
-      "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
-      "summary": "AI coding startup Cursor is now officially a part of SpaceX.",
-      "published": "2026-08-15T16:30:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "15aaf2b747ae330d",
-      "category": "Yatırım/Startup",
-      "tr_summary": "SpaceX, Cursor&#x27;ı satın alma işlemini resmi olarak tamamladı."
-    },
     {
       "title": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
       "url": "https://arxiv.org/abs/2608.13564",
@@ -2310,6 +2120,196 @@
       "url_hash": "835a331a5b20ce16",
       "category": "Araştırma",
       "tr_summary": "Atari&#x27;den EVE Online&#x27;a oyun dünyasında 15 yıllık yapay zeka araştırmaları inceleniyor."
+    },
+    {
+      "title": "Study explains why AI agents benefit from &quot;skills&quot; and when they fail",
+      "url": "https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/",
+      "summary": "A study from researchers at Princeton University and UC San Diego finds that so-called skills make AI agents better mainly through structured workflows, not through added knowledge. But as the skill library grows, agents have a harder and harder time finding the right set of instructions. The articl…",
+      "published": "2026-08-22T12:15:10+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "dbeb890e0fde1740",
+      "category": "Araştırma",
+      "tr_summary": "Yapay zeka ajanlarının yeteneklerden nasıl yararlandığı inceleniyor."
+    },
+    {
+      "title": "World models that ignore human beliefs predict the wrong actions, new research shows",
+      "url": "https://the-decoder.com/world-models-that-ignore-human-beliefs-predict-the-wrong-actions-new-research-shows/",
+      "summary": "Current world models like Sora or Genie only simulate physics and ignore what people think, want, or feel. The new &quot;Mental World Modeling&quot; framework adds mental variables like beliefs and intentions. Even weaker language models using this approach outperform stronger models without mental modeling.…",
+      "published": "2026-08-22T09:00:20+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8e5b164c2707fd8c",
+      "category": "Araştırma",
+      "tr_summary": "İnsan inançlarını yoksayan dünya modellerinin hatalı eylemler öngördüğü kanıtlandı."
+    },
+    {
+      "title": "RayNeo&#x27;s new AI glasses skip the camera, focus on text overlays",
+      "url": "https://the-decoder.com/rayneos-new-ai-glasses-skip-the-camera-focus-on-text-overlays/",
+      "summary": "RayNeo is launching a new headset without a camera or speakers. The article RayNeo&amp;#039;s new AI glasses skip the camera, focus on text overlays appeared first on The Decoder .",
+      "published": "2026-08-22T08:00:14+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8f55b26e403ea5c6",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "RayNeo&#x27;nun yeni yapay zeka gözlükleri kamerayı atlayıp metne odaklanıyor."
+    },
+    {
+      "title": "Netflix tests language model as alternative to hand-built recommendation logic",
+      "url": "https://the-decoder.com/netflix-tests-language-model-as-alternative-to-hand-built-recommendation-logic/",
+      "summary": "Netflix pitted its years-old recommendation engine against an in-house language model called GenRec and says it got better results. Instead of relying on thousands of hand-crafted features, GenRec converts viewing behavior into plain text. Netflix itself calls it &quot;an early but promising step.&quot; The a…",
+      "published": "2026-08-22T07:30:16+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "cabfa0df9b7d22d7",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Netflix, öneri mantığı için dil modellerini test ediyor."
+    },
+    {
+      "title": "Psychological methods reveal major weaknesses in AI security testing",
+      "url": "https://the-decoder.com/psychological-methods-reveal-major-weaknesses-in-ai-security-testing/",
+      "summary": "Researchers at the UK AI Security Institute used psychometric methods to show that popular safety benchmarks for language models don&#x27;t measure one consistent trait. Blanket blocking of requests can artificially inflate a safety score even as the model gets less useful day to day. The study also offe…",
+      "published": "2026-08-22T07:00:05+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "356b0033e22b8a0c",
+      "category": "Araştırma",
+      "tr_summary": "Psikolojik yöntemler yapay zeka güvenlik testlerindeki zayıflıkları ortaya çıkardı."
+    },
+    {
+      "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
+      "url": "https://martypc.net/",
+      "summary": "Comments",
+      "published": "2026-08-23T03:13:16+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "b74e2345182525b0",
+      "category": "Açık Kaynak",
+      "tr_summary": "MartyPC, Rust ile yazılmış platformlar arası bir erken dönem PC emülatörüdür."
+    },
+    {
+      "title": "Scrap (2006)",
+      "url": "https://twitter.com/moxie/status/2091218652133732491",
+      "summary": "Comments",
+      "published": "2026-08-22T18:08:56+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "068c7e8ae3f03d5c",
+      "category": "Genel",
+      "tr_summary": "2006 yapımı Scrap filmi ve arka planı ele alınıyor."
+    },
+    {
+      "title": "Why your local LLM feels dumber than it is",
+      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "summary": "Comments",
+      "published": "2026-08-22T18:14:16+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "53de3fca829591e9",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Yerel dil modellerinin neden olduğundan daha aptal hissettirdiğini inceliyor."
+    },
+    {
+      "title": "NanoGPT Speedrun Frontier",
+      "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+      "summary": "Comments",
+      "published": "2026-08-22T22:14:27+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "11e9d27303eedadd",
+      "category": "Genel",
+      "tr_summary": "NanoGPT hız rekorları ve sınırları üzerine bir inceleme."
+    },
+    {
+      "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
+      "url": "https://quantumi.sh/public/labs.html",
+      "summary": "Comments",
+      "published": "2026-08-22T14:54:07+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f83cb012d1e02700",
+      "category": "Genel",
+      "tr_summary": "Yapay zeka alanındaki benzer isimli şirketler mizahi bir dille ele alınıyor."
+    },
+    {
+      "title": "I Dream of Quieter Computing",
+      "url": "https://henry.codes/writing/i-dream-of-quieter-computing/",
+      "summary": "Comments",
+      "published": "2026-08-23T02:33:22+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7f6c265bb8f9719f",
+      "category": "Genel",
+      "tr_summary": "Daha sessiz ve sakin bir bilgi işlem deneyimi üzerine düşünceler."
+    },
+    {
+      "title": "The Art and Beauty of Blade Runner",
+      "url": "https://nappertime.com/the-art-of-and-beauty-of-blade-runner/",
+      "summary": "Comments",
+      "published": "2026-08-23T00:56:03+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "01d473cac2894296",
+      "category": "Genel",
+      "tr_summary": "Blade Runner filminin sanatsal yönü ve estetiği inceleniyor."
+    },
+    {
+      "title": "Reading Maps – Journeys from fiction drawn on the real world",
+      "url": "https://readingmaps.com/",
+      "summary": "Comments",
+      "published": "2026-08-22T17:59:09+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e8aaa053331cdcfe",
+      "category": "Genel",
+      "tr_summary": "Kurgusal yolculukların gerçek dünya haritaları üzerindeki izdüşümleri."
+    },
+    {
+      "title": "A Friendly Introduction to Racket",
+      "url": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
+      "summary": "Comments",
+      "published": "2026-08-22T14:08:19+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "12970b18560139f6",
+      "category": "Genel",
+      "tr_summary": "Racket programlama diline dostça ve başlangıç düzeyinde bir giriş."
+    },
+    {
+      "title": "Thinking in Python",
+      "url": "https://thinkinginpython.com/",
+      "summary": "Comments",
+      "published": "2026-08-22T18:10:49+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "8e5d8548a302fbb1",
+      "category": "Genel",
+      "tr_summary": "Python programlama dilinde mantık kurma ve düşünme biçimleri."
+    },
+    {
+      "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "summary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+      "published": "2026-08-22T21:46:56+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "43e4c0bbdfb21c55",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Harvard&#x27;ın girişim kampı, eğitmenlerinin yapay zeka avatarlarını sunuyor."
+    },
+    {
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "published": "2026-08-22T19:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "92ba46e363661525",
+      "category": "Yatırım/Startup",
+      "tr_summary": "DeepMind mezunlarının kurduğu Inherent, araştırma replikasyonunda lideri geçti."
+    },
+    {
+      "title": "OpenAI says California should strengthen its AI safety bill",
+      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "summary": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+      "published": "2026-08-22T16:30:34+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "11bfce24e7f02ff5",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "OpenAI, Kaliforniya&#x27;nın yapay zeka güvenlik yasa tasarısını güçlendirmesini istiyor."
+    },
+    {
+      "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+      "summary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+      "published": "2026-08-22T16:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "5c1d39faf87ea2e8",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Öncü yapay zeka laboratuvarları riskli modelleri nasıl kontrol edeceğini açıklamıyor."
     }
   ]
 }
