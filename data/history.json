@@ -1,126 +1,6 @@
 {
-  "last_updated": "2026-08-28T16:28:15Z",
+  "last_updated": "2026-08-29T10:56:15Z",
   "items": [
-    {
-      "title": "Anthropic puts its most powerful model Claude Mythos 5 to work for cyber defense",
-      "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/",
-      "summary": "Anthropic is now running its security scanner Claude Security on Claude Mythos 5. The tool scans codebases for vulnerabilities, provides severity ratings with CWE classifications, and suggests patches. Anthropic is also plugging Mythos 5 into partner security products protecting critical infrastruct…",
-      "published": "2026-08-21T19:35:37+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "3c3830d0d7602a0f",
-      "category": "Araştırma",
-      "tr_summary": "Anthropic, en güçlü modeli Claude Mythos 5&#x27;i siber savunma görevleri için devreye soktu."
-    },
-    {
-      "title": "Deepseek releases experimental Flash vision model that rivals Opus 4.8 on agent benchmarks",
-      "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks/",
-      "summary": "Deepseek has released V4-Flash-Vision-Exp, an experimental multimodal model that adds image understanding to V4-Flash&#x27;s text capabilities. On the company&#x27;s own multimodal agent benchmarks, it approaches Opus 4.8 and sometimes beats it. The article Deepseek releases experimental Flash vision model th…",
-      "published": "2026-08-21T19:08:27+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "8863673f827af7d1",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Deepseek, Opus 4.8 ile yarışan deneysel Flash vision modelini yayınladı."
-    },
-    {
-      "title": "Data center opposition surged from 42 to 75 percent in just one year, survey finds",
-      "url": "https://the-decoder.com/data-center-opposition-surged-from-42-to-75-percent-in-just-one-year-survey-finds/",
-      "summary": "Three out of four Americans now oppose having a data center built near them, up from an even split just a year ago, according to a Heatmap News survey. 61 percent are &quot;strongly opposed.&quot; The article Data center opposition surged from 42 to 75 percent in just one year, survey finds appeared first on…",
-      "published": "2026-08-21T18:25:44+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "fb5e816b91b84c83",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Veri merkezlerine karşı duyulan muhalefet bir yılda yüzde 75&#x27;e yükseldi."
-    },
-    {
-      "title": "There&#x27;s no reason for software to be slow anymore",
-      "url": "https://danluu.com/perf-opt/",
-      "summary": "Comments",
-      "published": "2026-08-22T01:06:17+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "27b7e490bced9706",
-      "category": "Genel",
-      "tr_summary": "Yazılımların yavaş çalışması için artık hiçbir neden kalmadı."
-    },
-    {
-      "title": "Rust Glancer: Rust LSP using 100x less RAM",
-      "url": "https://rust-glancer.github.io/blog/hello-world/",
-      "summary": "Comments",
-      "published": "2026-08-21T19:51:54+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "10778dfe314d8928",
-      "category": "Açık Kaynak",
-      "tr_summary": "Rust Glancer, 100 kat daha az RAM kullanan yeni bir Rust LSP aracıdır."
-    },
-    {
-      "title": "Initial focus for our partnership with Motorola is a regular non-folding device",
-      "url": "https://grapheneos.social/@GrapheneOS/117136278553665985",
-      "summary": "Comments",
-      "published": "2026-08-22T01:02:09+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "68b93c6692f20686",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Motorola ortaklığındaki ilk odak noktası standart, katlanmayan bir cihaz olacak."
-    },
-    {
-      "title": "Early Humans Likely Ate Carbs and Sugary Foods",
-      "url": "https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs",
-      "summary": "Comments",
-      "published": "2026-08-22T02:37:30+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "78300457accf4c14",
-      "category": "Araştırma",
-      "tr_summary": "Erken dönem insanları muhtemelen karbonhidrat ve şekerli gıdalar tüketti."
-    },
-    {
-      "title": "Three important steps in my maturation process",
-      "url": "https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/",
-      "summary": "Comments",
-      "published": "2026-08-21T22:29:00+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "37043a392a5360c1",
-      "category": "Genel",
-      "tr_summary": "Yazarın kişisel olgunlaşma sürecindeki üç önemli adımı anlatan bir yazı."
-    },
-    {
-      "title": "Scientists release biggest 2D map of the universe",
-      "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
-      "summary": "Comments",
-      "published": "2026-08-21T18:36:34+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "46b6a8516986c3e1",
-      "category": "Araştırma",
-      "tr_summary": "Bilim insanları evrenin bugüne kadarki en büyük iki boyutlu haritasını yayınladı."
-    },
-    {
-      "title": "Anthropic’s Opus 4.6 is a smut-machine",
-      "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
-      "summary": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn&#x27;t take much to get past the restriction.",
-      "published": "2026-08-21T23:07:25+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "393f1149ee173f71",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Anthropic’in yeni modeli Opus 4.6 uygunsuz içerik üretmekle eleştiriliyor."
-    },
-    {
-      "title": "Nvidia partners with data center developer Cloverleaf",
-      "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
-      "summary": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
-      "published": "2026-08-21T22:37:38+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "286576db227e264e",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Nvidia, veri merkezi geliştiricisi Cloverleaf ile stratejik ortaklık kurdu."
-    },
-    {
-      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
-      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
-      "summary": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn&#x27;t that great at the task.",
-      "published": "2026-08-21T19:43:39+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "620096717211c01e",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "Nvidia, yapay zeka modellerinden ziyade donanım altyapısının önemini vurguladı."
-    },
     {
       "title": "Study explains why AI agents benefit from &quot;skills&quot; and when they fail",
       "url": "https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/",
@@ -130,46 +10,6 @@
       "url_hash": "dbeb890e0fde1740",
       "category": "Araştırma",
       "tr_summary": "Yapay zeka ajanlarının yeteneklerden nasıl yararlandığı inceleniyor."
-    },
-    {
-      "title": "World models that ignore human beliefs predict the wrong actions, new research shows",
-      "url": "https://the-decoder.com/world-models-that-ignore-human-beliefs-predict-the-wrong-actions-new-research-shows/",
-      "summary": "Current world models like Sora or Genie only simulate physics and ignore what people think, want, or feel. The new &quot;Mental World Modeling&quot; framework adds mental variables like beliefs and intentions. Even weaker language models using this approach outperform stronger models without mental modeling.…",
-      "published": "2026-08-22T09:00:20+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "8e5b164c2707fd8c",
-      "category": "Araştırma",
-      "tr_summary": "İnsan inançlarını yoksayan dünya modellerinin hatalı eylemler öngördüğü kanıtlandı."
-    },
-    {
-      "title": "RayNeo&#x27;s new AI glasses skip the camera, focus on text overlays",
-      "url": "https://the-decoder.com/rayneos-new-ai-glasses-skip-the-camera-focus-on-text-overlays/",
-      "summary": "RayNeo is launching a new headset without a camera or speakers. The article RayNeo&amp;#039;s new AI glasses skip the camera, focus on text overlays appeared first on The Decoder .",
-      "published": "2026-08-22T08:00:14+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "8f55b26e403ea5c6",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "RayNeo&#x27;nun yeni yapay zeka gözlükleri kamerayı atlayıp metne odaklanıyor."
-    },
-    {
-      "title": "Netflix tests language model as alternative to hand-built recommendation logic",
-      "url": "https://the-decoder.com/netflix-tests-language-model-as-alternative-to-hand-built-recommendation-logic/",
-      "summary": "Netflix pitted its years-old recommendation engine against an in-house language model called GenRec and says it got better results. Instead of relying on thousands of hand-crafted features, GenRec converts viewing behavior into plain text. Netflix itself calls it &quot;an early but promising step.&quot; The a…",
-      "published": "2026-08-22T07:30:16+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "cabfa0df9b7d22d7",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Netflix, öneri mantığı için dil modellerini test ediyor."
-    },
-    {
-      "title": "Psychological methods reveal major weaknesses in AI security testing",
-      "url": "https://the-decoder.com/psychological-methods-reveal-major-weaknesses-in-ai-security-testing/",
-      "summary": "Researchers at the UK AI Security Institute used psychometric methods to show that popular safety benchmarks for language models don&#x27;t measure one consistent trait. Blanket blocking of requests can artificially inflate a safety score even as the model gets less useful day to day. The study also offe…",
-      "published": "2026-08-22T07:00:05+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "356b0033e22b8a0c",
-      "category": "Araştırma",
-      "tr_summary": "Psikolojik yöntemler yapay zeka güvenlik testlerindeki zayıflıkları ortaya çıkardı."
     },
     {
       "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
@@ -1960,6 +1800,146 @@
       "url_hash": "d8544dddaa7c28ef",
       "category": "Regülasyon/Politika",
       "tr_summary": "OpenAI, Anthropic ve Google başıboş yapay zekaya karşı eylem çağrısı yaptı."
+    },
+    {
+      "title": "LAION drops massive open video dataset with 10 million hours of footage for AI research",
+      "url": "https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research/",
+      "summary": "LAION&#x27;s Big Video Dataset (BVD) is one of the largest open video datasets for AI research, with 80 million videos, 10 million hours of runtime, and 55 million auto-described clips. Models trained on BVD beat the previous benchmark, InternVid, by up to 2.1 percentage points. Legally, LAION can likely…",
+      "published": "2026-08-29T09:36:48+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "7aa56fc0b9a4e162",
+      "category": "Açık Kaynak",
+      "tr_summary": "LAION, yapay zeka araştırmaları için 10 milyon saatlik açık video veri seti sundu."
+    },
+    {
+      "title": "Anthropic wants to do for physical hardware what its Model Context Protocol did for software",
+      "url": "https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software/",
+      "summary": "Anthropic&#x27;s Model Hardware Standard (MHS) gives AI agents a unified interface to physical devices like robotic arms and lab instruments. In early tests, integration time dropped from weeks to hours. But Claude sometimes failed to grasp physical cause and effect, so human oversight remains essential…",
+      "published": "2026-08-29T09:14:30+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "29f51850ae0ac0a7",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Anthropic, fiziksel donanımlar için yeni Model Context Protocol adımları atıyor."
+    },
+    {
+      "title": "OpenAI cuts off Cursor after SpaceX acquisition, citing Musk&#x27;s history of breaking contracts",
+      "url": "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/",
+      "summary": "OpenAI is cutting off the AI coding tool Cursor after SpaceX acquired the company, citing Elon Musk&#x27;s track record of breaking contracts. Cursor co-founder Michael Truell downplays the move, saying OpenAI models account for just five percent of the tool&#x27;s AI traffic. The article OpenAI cuts off Curs…",
+      "published": "2026-08-29T08:15:35+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8404bb29c92e9185",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI, SpaceX satın alımı sonrasında Cursor erişimini kesti."
+    },
+    {
+      "title": "Google Deepmind&#x27;s AI Co-Scientist now plans experiments, runs lab equipment, and writes scientific papers",
+      "url": "https://the-decoder.com/google-deepminds-ai-co-scientist-now-plans-experiments-runs-lab-equipment-and-writes-scientific-papers/",
+      "summary": "Google Deepmind has expanded Co-Scientist from a hypothesis generator into a research system that&#x27;s integrated into the lab. Across three disciplines, from materials synthesis to the autonomous development of a medical AI architecture, the Gemini-based multi-agent system delivered experimentally val…",
+      "published": "2026-08-28T18:46:27+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "935efc0a6948f550",
+      "category": "Araştırma",
+      "tr_summary": "Google Deepmind&#x27;in AI Co-Scientist&#x27;i deney planlayıp makale yazabiliyor."
+    },
+    {
+      "title": "Samsung&#x27;s Processing-in-Memory (PIM)",
+      "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+      "summary": "Comments",
+      "published": "2026-08-29T06:06:51+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6c66c63ff1adf27b",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "Samsung, bellek içi işlem teknolojisi olan PIM&#x27;i duyurdu."
+    },
+    {
+      "title": "GUIs should be fully keyboard-driven",
+      "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+      "summary": "Comments",
+      "published": "2026-08-28T15:17:09+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "07aca43e12d4379f",
+      "category": "Genel",
+      "tr_summary": "Grafik arayüzlerin tamamen klavye odaklı olması gerektiği savunuluyor."
+    },
+    {
+      "title": "Boot a Virtual iPhone via Apple&#x27;s Virtualization.framework",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "summary": "Comments",
+      "published": "2026-08-28T23:02:21+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "bd488c1cb70b7284",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "Apple&#x27;ın sanallaştırma çatısı kullanılarak sanal iPhone başlatılabilir."
+    },
+    {
+      "title": "TurboKV: Insanely fast Rust key-value store",
+      "url": "https://github.com/kingroryg/turbokv",
+      "summary": "Comments",
+      "published": "2026-08-29T02:23:37+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6fd2644d171d9462",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "TurboKV, son derece hızlı çalışan Rust tabanlı bir anahtar-değer deposudur."
+    },
+    {
+      "title": "U.S. sanctions against the A/I Collective",
+      "url": "https://www.inventati.org/",
+      "summary": "Comments",
+      "published": "2026-08-28T12:58:53+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "0f50e8401ebe9e32",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "ABD, A/I Collective&#x27;e yönelik yeni yaptırımlar uygulamaya başladı."
+    },
+    {
+      "title": "I accidentally turned LLM memory into program analysis",
+      "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
+      "summary": "Comments",
+      "published": "2026-08-28T23:27:45+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "d675ad5b276b0b10",
+      "category": "Araştırma",
+      "tr_summary": "LLM hafızasının yanlışlıkla program analizine dönüştüğü keşfedildi."
+    },
+    {
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "summary": "Comments",
+      "published": "2026-08-29T01:24:13+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f067a4ae268cdf65",
+      "category": "Açık Kaynak",
+      "tr_summary": "StemDeck, yerel çalışan ücretsiz ve açık kaynaklı bir yapay zeka araçtır."
+    },
+    {
+      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+      "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "summary": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It&#x27;s the latest in a string of loans, underscoring the high cost of the AI boom.",
+      "published": "2026-08-28T20:24:11+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "7f0374631f4fcd05",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Neocloud Lambda, yeni çipler almak için 1 milyar dolar borç finansmanı sağladı."
+    },
+    {
+      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+      "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "published": "2026-08-28T19:30:38+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "8152c5575eb2f621",
+      "category": "Araştırma",
+      "tr_summary": "Bir Anthropic araştırmacısı, kendi kendini geliştiren yapay zekayı inceledi."
+    },
+    {
+      "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+      "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+      "summary": "There&#x27;s a lot of capital pouring into the business of giving models away.",
+      "published": "2026-08-28T18:19:40+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "fea5f6e87ebd6823",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Açık ağırlıklı yapay zeka şirketleri Silikon Vadisi&#x27;nin gözdesi oldu."
     }
   ]
 }
