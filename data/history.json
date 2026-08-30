@@ -1,156 +1,6 @@
 {
-  "last_updated": "2026-08-29T10:56:15Z",
+  "last_updated": "2026-08-30T09:50:32Z",
   "items": [
-    {
-      "title": "Study explains why AI agents benefit from &quot;skills&quot; and when they fail",
-      "url": "https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/",
-      "summary": "A study from researchers at Princeton University and UC San Diego finds that so-called skills make AI agents better mainly through structured workflows, not through added knowledge. But as the skill library grows, agents have a harder and harder time finding the right set of instructions. The articl…",
-      "published": "2026-08-22T12:15:10+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "dbeb890e0fde1740",
-      "category": "Araştırma",
-      "tr_summary": "Yapay zeka ajanlarının yeteneklerden nasıl yararlandığı inceleniyor."
-    },
-    {
-      "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
-      "url": "https://martypc.net/",
-      "summary": "Comments",
-      "published": "2026-08-23T03:13:16+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "b74e2345182525b0",
-      "category": "Açık Kaynak",
-      "tr_summary": "MartyPC, Rust ile yazılmış platformlar arası bir erken dönem PC emülatörüdür."
-    },
-    {
-      "title": "Scrap (2006)",
-      "url": "https://twitter.com/moxie/status/2091218652133732491",
-      "summary": "Comments",
-      "published": "2026-08-22T18:08:56+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "068c7e8ae3f03d5c",
-      "category": "Genel",
-      "tr_summary": "2006 yapımı Scrap filmi ve arka planı ele alınıyor."
-    },
-    {
-      "title": "Why your local LLM feels dumber than it is",
-      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-      "summary": "Comments",
-      "published": "2026-08-22T18:14:16+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "53de3fca829591e9",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Yerel dil modellerinin neden olduğundan daha aptal hissettirdiğini inceliyor."
-    },
-    {
-      "title": "NanoGPT Speedrun Frontier",
-      "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
-      "summary": "Comments",
-      "published": "2026-08-22T22:14:27+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "11e9d27303eedadd",
-      "category": "Genel",
-      "tr_summary": "NanoGPT hız rekorları ve sınırları üzerine bir inceleme."
-    },
-    {
-      "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
-      "url": "https://quantumi.sh/public/labs.html",
-      "summary": "Comments",
-      "published": "2026-08-22T14:54:07+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "f83cb012d1e02700",
-      "category": "Genel",
-      "tr_summary": "Yapay zeka alanındaki benzer isimli şirketler mizahi bir dille ele alınıyor."
-    },
-    {
-      "title": "I Dream of Quieter Computing",
-      "url": "https://henry.codes/writing/i-dream-of-quieter-computing/",
-      "summary": "Comments",
-      "published": "2026-08-23T02:33:22+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "7f6c265bb8f9719f",
-      "category": "Genel",
-      "tr_summary": "Daha sessiz ve sakin bir bilgi işlem deneyimi üzerine düşünceler."
-    },
-    {
-      "title": "The Art and Beauty of Blade Runner",
-      "url": "https://nappertime.com/the-art-of-and-beauty-of-blade-runner/",
-      "summary": "Comments",
-      "published": "2026-08-23T00:56:03+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "01d473cac2894296",
-      "category": "Genel",
-      "tr_summary": "Blade Runner filminin sanatsal yönü ve estetiği inceleniyor."
-    },
-    {
-      "title": "Reading Maps – Journeys from fiction drawn on the real world",
-      "url": "https://readingmaps.com/",
-      "summary": "Comments",
-      "published": "2026-08-22T17:59:09+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "e8aaa053331cdcfe",
-      "category": "Genel",
-      "tr_summary": "Kurgusal yolculukların gerçek dünya haritaları üzerindeki izdüşümleri."
-    },
-    {
-      "title": "A Friendly Introduction to Racket",
-      "url": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
-      "summary": "Comments",
-      "published": "2026-08-22T14:08:19+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "12970b18560139f6",
-      "category": "Genel",
-      "tr_summary": "Racket programlama diline dostça ve başlangıç düzeyinde bir giriş."
-    },
-    {
-      "title": "Thinking in Python",
-      "url": "https://thinkinginpython.com/",
-      "summary": "Comments",
-      "published": "2026-08-22T18:10:49+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "8e5d8548a302fbb1",
-      "category": "Genel",
-      "tr_summary": "Python programlama dilinde mantık kurma ve düşünme biçimleri."
-    },
-    {
-      "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
-      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
-      "summary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
-      "published": "2026-08-22T21:46:56+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "43e4c0bbdfb21c55",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Harvard&#x27;ın girişim kampı, eğitmenlerinin yapay zeka avatarlarını sunuyor."
-    },
-    {
-      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
-      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-      "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
-      "published": "2026-08-22T19:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "92ba46e363661525",
-      "category": "Yatırım/Startup",
-      "tr_summary": "DeepMind mezunlarının kurduğu Inherent, araştırma replikasyonunda lideri geçti."
-    },
-    {
-      "title": "OpenAI says California should strengthen its AI safety bill",
-      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-      "summary": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
-      "published": "2026-08-22T16:30:34+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "11bfce24e7f02ff5",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "OpenAI, Kaliforniya&#x27;nın yapay zeka güvenlik yasa tasarısını güçlendirmesini istiyor."
-    },
-    {
-      "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
-      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
-      "summary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
-      "published": "2026-08-22T16:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "5c1d39faf87ea2e8",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Öncü yapay zeka laboratuvarları riskli modelleri nasıl kontrol edeceğini açıklamıyor."
-    },
     {
       "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
       "url": "https://arxiv.org/abs/2608.20341",
@@ -270,36 +120,6 @@
       "url_hash": "7bd37aea0c64568e",
       "category": "Ürün/Şirket Haberleri",
       "tr_summary": "OpenRouter üzerinde ajan token kullanımı artarken yapay zeka en büyük müşteri oluyor."
-    },
-    {
-      "title": "AI could make scientists do more work less well, not less work better, study argues",
-      "url": "https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/",
-      "summary": "Even if language models worked perfectly, they could make research worse, not better. A new theoretical study argues that because AI saves time, researchers&#x27; remaining hours become more valuable and get funneled into starting new projects instead of improving existing ones. In two out of three model…",
-      "published": "2026-08-23T09:01:17+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "30e87a26e4e7db3c",
-      "category": "Araştırma",
-      "tr_summary": "Yapay zekanın bilim insanlarının iş kalitesini düşürebileceği öne sürülüyor."
-    },
-    {
-      "title": "Memory shortage reportedly drives Nvidia AI server prices up about 15 percent",
-      "url": "https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent/",
-      "summary": "Nvidia servers with Vera Rubin and Grace Blackwell chips are set to cost about 15 percent more due to an ongoing DRAM shortage from Samsung, SK Hynix, and Micron, Bloomberg reports. The price hikes hit cloud giants like Microsoft, Google, and Meta, which are pouring billions into AI infrastructure w…",
-      "published": "2026-08-23T08:15:28+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "20f6674ff3a53743",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Bellek kıtlığı Nvidia yapay zeka sunucu fiyatlarının yüzde 15 artmasına neden oldu."
-    },
-    {
-      "title": "How China&#x27;s gray market sells Claude tokens at a fraction of the price",
-      "url": "https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/",
-      "summary": "Anthropic&#x27;s strict access controls against China, from geoblocking to selfie verification, are being systematically bypassed through a thriving network of so-called &quot;transfer stations.&quot; Chinese developers can buy Claude tokens for as little as ten percent of the list price. Analyst Zilan Qian warns…",
-      "published": "2026-08-23T07:48:33+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "5222423667385dd3",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Çin&#x27;deki gri pazar Claude token&#x27;larını çok ucuz fiyatlara satışa sunuyor."
     },
     {
       "title": "Everything I own, owned",
@@ -1940,6 +1760,176 @@
       "url_hash": "fea5f6e87ebd6823",
       "category": "Yatırım/Startup",
       "tr_summary": "Açık ağırlıklı yapay zeka şirketleri Silikon Vadisi&#x27;nin gözdesi oldu."
+    },
+    {
+      "title": "Anthropic&#x27;s Claude Code limit change is a raise on paper but a cut in practice",
+      "url": "https://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice/",
+      "summary": "Anthropic is effectively cutting Claude Code&#x27;s weekly usage limits by 17 percent. A temporary 50 percent boost expires on September 14 and will be replaced by a permanent 25 percent increase. Anthropic promises more control and transparency over usage in return. The article Anthropic&amp;#039;s Claude C…",
+      "published": "2026-08-30T09:05:19+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "fbe891bd0b0722b7",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Anthropic Claude Code limit değişikliği kağıtta artış ama pratikte azalış."
+    },
+    {
+      "title": "Sony and Warner sue Anthropic over &quot;one of the largest and most blatant ongoing thefts of intellectual property in history&quot;",
+      "url": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history/",
+      "summary": "Sony Music, Warner Music, and other publishers are suing Anthropic and CEO Dario Amodei personally for allegedly using tens of thousands of copyrighted musical compositions to train Claude without permission. The plaintiffs call it &quot;one of the largest and most blatant ongoing thefts of intellectual…",
+      "published": "2026-08-30T08:50:20+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "3fcf0ae9156eb96f",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Sony ve Warner, Anthropic&#x27;e büyük fikri mülkiyet hırsızlığı davası açtı."
+    },
+    {
+      "title": "AI-generated videos are already displacing actors and livestreamers across China&#x27;s entertainment industry",
+      "url": "https://the-decoder.com/ai-generated-videos-are-already-displacing-actors-and-livestreamers-across-chinas-entertainment-industry/",
+      "summary": "In China, 95 percent of the 128,000 short dramas released in Q1 2026 were AI-generated. Some actors are being forced to hand over their voice and likeness to AI tools before getting fired, the Financial Times reports. AI-related labor disputes are rising fast. The article AI-generated videos are alr…",
+      "published": "2026-08-29T13:25:56+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "e536c3c3795d22bb",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Yapay zeka videoları Çin&#x27;deki eğlence sektöründe oyuncuların yerini alıyor."
+    },
+    {
+      "title": "Google&#x27;s WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
+      "url": "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes/",
+      "summary": "Google Research has introduced WikiSkill, a framework that gives AI agents a persistent knowledge base. Instead of discarding what they learned after each run, agents document both failures and successes in a wiki-like structure and use that knowledge to get better over time. Larger models benefit m…",
+      "published": "2026-08-29T12:51:24+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "502f0407e7a8f241",
+      "category": "Araştırma",
+      "tr_summary": "Google WikiSkill, yapay zeka ajanlarına geçmiş hataları hatırlatan kalıcı bellek sunar."
+    },
+    {
+      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
+      "url": "https://arxiv.org/abs/1804.07389",
+      "summary": "Comments",
+      "published": "2026-08-30T08:23:26+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6d2ece70c0a3ce80",
+      "category": "Genel",
+      "tr_summary": "Dünyadaki su veya karada yapılabilen en uzun düz hat yolları."
+    },
+    {
+      "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
+      "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+      "summary": "Comments",
+      "published": "2026-08-30T08:51:39+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "d9340aeff2f228b5",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "QubesOS&#x27;ta sanal makineye kopyalama hata raporlama kanalıyla rastgele kod yürütme."
+    },
+    {
+      "title": "Hy4 preview",
+      "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+      "summary": "Comments",
+      "published": "2026-08-29T19:33:23+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7ccb97bb9a47c2f1",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Hy4 önizlemesi yayınlandı ve yenilikler sunuyor."
+    },
+    {
+      "title": "Xcena and Samsung&#x27;s Near Memory Compute CXL Device",
+      "url": "https://chipsandcheese.com/p/hot-chips-2026-xcena-and-samsungs",
+      "summary": "Comments",
+      "published": "2026-08-30T07:35:41+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "2aa1ee36d09a8f02",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "Xcena ve Samsung ortaklığıyla geliştirilen Yakın Bellek Hesaplama CXL Cihazı."
+    },
+    {
+      "title": "Bug Blindness",
+      "url": "https://danluu.com/bug-blind/",
+      "summary": "Comments",
+      "published": "2026-08-30T00:21:40+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "05502ae5938a9d5e",
+      "category": "Araştırma",
+      "tr_summary": "Hata körlüğü üzerine yapılan araştırmalar ve yazılım geliştirme süreçleri."
+    },
+    {
+      "title": "FreeCORE TrueNAS Core – Continued",
+      "url": "https://freecore.org/",
+      "summary": "Comments",
+      "published": "2026-08-30T01:31:32+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "c22348ede2f35da5",
+      "category": "Açık Kaynak",
+      "tr_summary": "FreeCORE TrueNAS Core projesi gelişimine devam ediyor."
+    },
+    {
+      "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
+      "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
+      "summary": "Comments",
+      "published": "2026-08-30T03:15:36+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "5e2393b3ea03b150",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Kaliforniya&#x27;lı yasa koyucular Linux&#x27;u yaş doğrulama yasasından oybirliğiyle muaf tuttu."
+    },
+    {
+      "title": "Benjamin Franklin&#x27;s Alter Egos Gave Him the Most Freedom",
+      "url": "https://www.smithsonianmag.com/history/among-all-great-things-benjamin-franklin-invented-discovered-alter-egos-gave-him-most-freedom-180988824/",
+      "summary": "Comments",
+      "published": "2026-08-30T01:09:15+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f1373e34d2355a90",
+      "category": "Genel",
+      "tr_summary": "Benjamin Franklin&#x27;in alternatif kimlikleri ona büyük bir özgürlük sağladı."
+    },
+    {
+      "title": "Brits would quite like their private messages to stay private",
+      "url": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
+      "summary": "Comments",
+      "published": "2026-08-30T09:26:08+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "508266ce174b6f9e",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "İngiliz vatandaştarları özel mesajlarının gizli kalmasını istiyor."
+    },
+    {
+      "title": "Nancy Grace Roman Space Telescope",
+      "url": "https://science.nasa.gov/mission/roman-space-telescope/",
+      "summary": "Comments",
+      "published": "2026-08-29T15:48:02+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e00bbcbba8b9eb0f",
+      "category": "Araştırma",
+      "tr_summary": "Nancy Grace Roman Uzay Teleskobu evrenin sırlarını araştırmaya devam ediyor."
+    },
+    {
+      "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
+      "published": "2026-08-29T18:41:59+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "d750556c657fba21",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Sony Music ve Warner, Anthropic&#x27;e fikri mülkiyet hırsızlığı davası açtı."
+    },
+    {
+      "title": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
+      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+      "summary": "Vijay Pande — who left a16z&#x27;s roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a &quot;discovery&quot; science to an &quot;engineering&quot; one, why clinical trials are still brutally expensive, and why he thinks open, shared dat…",
+      "published": "2026-08-29T17:36:47+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "1c359d226297b79b",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Vijay Pande, a16z sonrası küçük bahisler yapma stratejisini anlatıyor."
+    },
+    {
+      "title": "Nvidia’s AI advantage is moving beyond the GPU",
+      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+      "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "published": "2026-08-29T13:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "a85aa69b831be69c",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Nvidia&#x27;nın yapay zeka avantajı GPU&#x27;ların ötesine taşınıyor."
     }
   ]
 }
