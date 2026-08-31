@@ -1,266 +1,6 @@
 {
-  "last_updated": "2026-08-30T09:50:32Z",
+  "last_updated": "2026-08-31T10:42:05Z",
   "items": [
-    {
-      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
-      "url": "https://arxiv.org/abs/2608.20341",
-      "summary": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substant…",
-      "published": "2026-08-24T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "869c4764a03151dd",
-      "category": "Araştırma",
-      "tr_summary": "Yapılandırılmış yapay zeka odaklı yazılım geliştirme metodolojisi inceleniyor."
-    },
-    {
-      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
-      "url": "https://arxiv.org/abs/2608.20342",
-      "summary": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic&#x27;s termin…",
-      "published": "2026-08-24T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "b654ec7f8ed05a7c",
-      "category": "Araştırma",
-      "tr_summary": "Kişisel yapay zeka altyapısı için bellek odaklı ajan yönetim sistemi sunuluyor."
-    },
-    {
-      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
-      "url": "https://arxiv.org/abs/2608.20378",
-      "summary": "arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This st…",
-      "published": "2026-08-24T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "9cb8a13833c1c5c4",
-      "category": "Araştırma",
-      "tr_summary": "Gizli niyet doğrulama ile anlamsal kamuflajı engelleme yöntemleri inceleniyor."
-    },
-    {
-      "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
-      "url": "https://arxiv.org/abs/2608.20379",
-      "summary": "arXiv:2608.20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbone…",
-      "published": "2026-08-24T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "5d66e03fc73374fb",
-      "category": "Araştırma",
-      "tr_summary": "Çok modlu ajan çerçevelerinin temelleri ve uygulamaları üzerine kapsamlı bir araştırma."
-    },
-    {
-      "title": "Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles",
-      "url": "https://arxiv.org/abs/2608.20384",
-      "summary": "arXiv:2608.20384v1 Announce Type: new Abstract: Multimodal affect and behaviour classifiers that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive accuracy and produce human-understandable explanations of the cues driving their decisions -- a dual objective t…",
-      "published": "2026-08-24T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "90975e0458c147b0",
-      "category": "Araştırma",
-      "tr_summary": "Doğrusal ayırma ağaç toplulukları ile yorumlanabilir çok modlu sınıflandırma yöntemi."
-    },
-    {
-      "title": "Representation Affects Retrieval: A Case Study of Skill Discovery and Routing in a Multimodal Agent Harness",
-      "url": "https://arxiv.org/abs/2608.20389",
-      "summary": "arXiv:2608.20389v1 Announce Type: new Abstract: A production agent harness must discover and rank, from a growing library of skills, the one most appropriate for a user&#x27;s task. At small scale this selection happens in context: the LLM planner chooses among skill representations exposed in its system…",
-      "published": "2026-08-24T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "5e7a1c6cfddad775",
-      "category": "Araştırma",
-      "tr_summary": "Çok modlu ajan mimarilerinde yetenek keşfi ve yönlendirmenin etkisi inceleniyor."
-    },
-    {
-      "title": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
-      "url": "https://arxiv.org/abs/2608.20397",
-      "summary": "arXiv:2608.20397v1 Announce Type: new Abstract: Agentic large language models (LLMs) on the Model Context Protocol (MCP) re-encode verbose tool schemas every turn, so prefill - quadratic in sequence length - dominates time-to-first-token (TTFT) as the tool registry grows. Nexus&#x27;s primary lever is to…",
-      "published": "2026-08-24T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "2932499a49844f1b",
-      "category": "Araştırma",
-      "tr_summary": "Ajan dil modelleri için derinliğe uyumlu önbellek ve araç yönlendirme sistemi."
-    },
-    {
-      "title": "Environmental Slow AI: Design Principles for Generative Systems",
-      "url": "https://arxiv.org/abs/2608.20398",
-      "summary": "arXiv:2608.20398v1 Announce Type: new Abstract: Generative AI (genAI) systems produce cultural artefacts at scale, but they also reflect embedded cultural values through their design. Once identified, these values become open to deliberate reshaping. This position paper examines the maximalist value…",
-      "published": "2026-08-24T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "18b4d53c9e2dac88",
-      "category": "Araştırma",
-      "tr_summary": "Üretken sistemler için çevresel yavaş yapay zeka tasarım ilkeleri öneriliyor."
-    },
-    {
-      "title": "When Retrieval Fails Before It Begins: Structurally Indirect Prerequisite Eviction as a Retention Failure in Agentic Memory",
-      "url": "https://arxiv.org/abs/2608.20400",
-      "summary": "arXiv:2608.20400v1 Announce Type: new Abstract: Agentic memory under a fixed budget involves two stages: retention and retrieval. Existing retrieval-centered paradigms implicitly assume necessary evidence survives eviction, but we challenge this by isolating a pre-retrieval failure mode: structurall…",
-      "published": "2026-08-24T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "4d58800903afd1ba",
-      "category": "Araştırma",
-      "tr_summary": "Ajan belleğinde tutma hatası olarak yapısal dolaylı ön koşul tahliyesi inceleniyor."
-    },
-    {
-      "title": "World models of environment, agent and joint agent-environment systems",
-      "url": "https://arxiv.org/abs/2608.20401",
-      "summary": "arXiv:2608.20401v1 Announce Type: new Abstract: World models are a central component of model-based reinforcement learning. They are usually discussed in terms of what variables they predict, such as observations, rewards, states, latent or information states. We argue that there is a prior distinct…",
-      "published": "2026-08-24T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "e845ffbc7ba2f0cd",
-      "category": "Araştırma",
-      "tr_summary": "Çevre, ajan ve ortak sistemler için dünya modelleri inceleniyor."
-    },
-    {
-      "title": "An AI boss fired its first employee but only after humans reminded it of its own rules",
-      "url": "https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/",
-      "summary": "Andon Labs&#x27; AI agent Luna fired a human employee at a San Francisco store for the first time but needed a clear push from the operators to do it. When the scenario was replayed with seven models, more capable AIs recommended termination more consistently, while weaker ones hesitated. When it came to…",
-      "published": "2026-08-23T12:31:59+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "122c14c9aed81329",
-      "category": "Genel",
-      "tr_summary": "İnsanların hatırlatmasıyla bir yapay zeka yöneticisi ilk çalışanı işten çıkardı."
-    },
-    {
-      "title": "AI is becoming AI&#x27;s biggest customer as agentic token usage jumps 14x on OpenRouter",
-      "url": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/",
-      "summary": "AI agents have consumed more tokens than humans on OpenRouter since February 6, 2025. Agentic usage has grown 14x since then, while human usage is up just 2.8x. Nearly 70 percent of agent token consumption comes from cheap cached prompts, though, so actual costs are rising far more slowly than the r…",
-      "published": "2026-08-23T10:02:00+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "7bd37aea0c64568e",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "OpenRouter üzerinde ajan token kullanımı artarken yapay zeka en büyük müşteri oluyor."
-    },
-    {
-      "title": "Everything I own, owned",
-      "url": "https://schlarp.com/posts/everything-i-own-owned/",
-      "summary": "Comments",
-      "published": "2026-08-23T22:41:04+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a895c739bfa512f3",
-      "category": "Genel",
-      "tr_summary": "Sahip olunan her şeyin dijital mülkiyet ve aidiyet bağlamındaki dönüşümü."
-    },
-    {
-      "title": "How I find problems to solve as a staff engineer",
-      "url": "https://lalitm.com/post/find-problems-staff-engineer/",
-      "summary": "Comments",
-      "published": "2026-08-23T19:23:29+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "d354d3ee177b5e60",
-      "category": "Genel",
-      "tr_summary": "Bir kıdemli mühendisin çözülecek problemleri nasıl bulduğu anlatılıyor."
-    },
-    {
-      "title": "Anthropic&#x27;s best AI model struggles to attract users as cheaper tools thrive",
-      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-      "summary": "Comments",
-      "published": "2026-08-23T18:16:37+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "149a75083aa9a72b",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Anthropic&#x27;in en iyi yapay zeka modeli ucuz araçlar karşısında kullanıcı çekmekte zorlanıyor."
-    },
-    {
-      "title": "Migrating a Synology NAS to a UniFi UNAS Pro 8 with Robocopy, SMB Multichannel",
-      "url": "https://www.hanselman.com/blog/migrating-a-synology-nas-to-a-unifi-unas-pro-8-with-robocopy-smb-multichannel-and-surprising-performance-traps",
-      "summary": "Comments",
-      "published": "2026-08-24T01:33:14+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "de0468fe48eba3e0",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "Synology NAS sisteminden UniFi UNAS Pro 8&#x27;e geçiş süreci anlatılıyor."
-    },
-    {
-      "title": "Google Workspace thinks my domain is an email provider (2025)",
-      "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
-      "summary": "Comments",
-      "published": "2026-08-23T19:29:32+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "b36cfabda6fb0569",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Google Workspace kullanıcının alan adını bir e-posta sağlayıcısı olarak algılıyor."
-    },
-    {
-      "title": "My agent.md to improve LLM-assisted code quality",
-      "url": "https://fabiensanglard.net/agent.md/index.html",
-      "summary": "Comments",
-      "published": "2026-08-23T17:59:52+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "d9678b8041f918c4",
-      "category": "Açık Kaynak",
-      "tr_summary": "Yapay zeka destekli kod kalitesini artırmak için agent.md kullanımı anlatılıyor."
-    },
-    {
-      "title": "I built a low-latency AI companion that plays Skyrim with me",
-      "url": "https://pantel.is/projects/ai-gaming-companion/",
-      "summary": "Comments",
-      "published": "2026-08-23T23:18:17+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "993a2942122a7a99",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "Skyrim oynayan düşük gecikmeli bir yapay zeka arkadaşı geliştirildi."
-    },
-    {
-      "title": "What Is a Harness?",
-      "url": "https://earendil.com/posts/what-is-a-harness/",
-      "summary": "Comments",
-      "published": "2026-08-23T14:24:21+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "fabfd4ffa9584012",
-      "category": "Araştırma",
-      "tr_summary": "Yazılım testlerinde ve otomasyonda kullanılan harness kavramı açıklanıyor."
-    },
-    {
-      "title": "Nearly 3M Teslas recalled in China over hidden door handles",
-      "url": "https://www.bbc.com/news/articles/c4g6ggdg030o",
-      "summary": "Comments",
-      "published": "2026-08-24T04:27:57+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "4e72200a4a08e6d5",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Çin&#x27;de gizli kapı kolları nedeniyle yaklaşık 3 milyon Tesla geri çağrıldı."
-    },
-    {
-      "title": "How Complex Systems Fail (1998)",
-      "url": "https://how.complexsystems.fail/",
-      "summary": "Comments",
-      "published": "2026-08-23T15:13:31+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "f68b1a5ee94f3da9",
-      "category": "Genel",
-      "tr_summary": "Karmaşık sistemlerin neden başarısız olduğunu inceleyen 1998 tarihli makale."
-    },
-    {
-      "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
-      "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
-      "summary": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
-      "published": "2026-08-23T20:01:36+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "1538fb9c10b7b42c",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Yeni gizli yapay zeka modeli Ox Alpha&#x27;nın arkasındaki isimler araştırılıyor."
-    },
-    {
-      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
-      "url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
-      "summary": "Linkdaze&#x27;s smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
-      "published": "2026-08-23T19:14:08+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "3ece450dabbeaa26",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Linkdaze&#x27;in akıllı takvimi ev yönetimini kolaylaştırmak için tasarlandı."
-    },
-    {
-      "title": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
-      "url": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
-      "summary": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused.",
-      "published": "2026-08-23T15:30:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "a01fe2c8756aaf9e",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Gözetim şirketi CEO&#x27;su artan tepkilere karşı uzlaşma çağrısı yaptı."
-    },
-    {
-      "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
-      "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
-      "summary": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?",
-      "published": "2026-08-23T15:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "736c2f98ab12883c",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Telif haklı kitaplarla yapay zeka modelleri eğitmenin yasallığı tartışılıyor."
-    },
     {
       "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
       "url": "https://arxiv.org/abs/2608.21362",
@@ -410,36 +150,6 @@
       "url_hash": "31b723a5435bb55d",
       "category": "Yatırım/Startup",
       "tr_summary": "Thomson Reuters, dışa bağımlılığı azaltmak için yapay zekaya yatırım yapıyor."
-    },
-    {
-      "title": "Cerebras unveils CS-4 with double the performance on the same chip",
-      "url": "https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip/",
-      "summary": "Cerebras has introduced its CS-4 AI accelerator, which CEO Andrew Feldman calls the fastest system in the industry. The article Cerebras unveils CS-4 with double the performance on the same chip appeared first on The Decoder .",
-      "published": "2026-08-24T10:16:06+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "ce26459763373629",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Cerebras, aynı çipte iki kat performans sunan CS-4 sistemini tanıttı."
-    },
-    {
-      "title": "AI chatbots regularly link pregnant users to anti-abortion websites without disclosure",
-      "url": "https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure/",
-      "summary": "When asked about unplanned pregnancies, AI chatbots regularly link to anti-abortion groups without disclosing their stance. In an AlgorithmWatch investigation of 270 responses from ChatGPT, Gemini, Grok, and Claude, the anti-abortion organization Profemina appeared in 17 percent of answers. In Germa…",
-      "published": "2026-08-24T10:00:51+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "58c1322da332d1eb",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Yapay zeka sohbet botları hamile kullanıcıları yanıltıcı sitelere yönlendiriyor."
-    },
-    {
-      "title": "Nvidia in talks to invest in Perplexity at $30 billion-plus valuation",
-      "url": "https://the-decoder.com/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-plus-valuation/",
-      "summary": "Nvidia is negotiating an investment in Perplexity at a valuation above $30 billion, more than 50 percent higher than its last funding round, The Information reports. Perplexity&#x27;s annualized revenue has tripled to over $750 million. Much of Nvidia&#x27;s investment money tends to flow back as revenue when…",
-      "published": "2026-08-24T08:44:48+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "3c707179b44a8588",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Nvidia, yüksek değerlemeye sahip Perplexity&#x27;ye yatırım yapmak için görüşüyor."
     },
     {
       "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
@@ -630,16 +340,6 @@
       "url_hash": "84b8bf2811e5934e",
       "category": "Genel",
       "tr_summary": "Sınıflarda daha akıllı yapay zeka kullanımını teşvik etme yöntemleri ele alınıyor."
-    },
-    {
-      "title": "Kids outlearn AI—and we still don’t know why",
-      "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
-      "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child.&amp;#160; Now there are two.&amp;#160; Four short years after the release of ChatGPT,&amp;…",
-      "published": "2026-08-24T09:00:00+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "baf89b9624bd1b24",
-      "category": "Araştırma",
-      "tr_summary": "Çocukların yapay zekadan daha hızlı öğrendiği ancak bunun nedeninin hala bilinmediği belirtiliyor."
     },
     {
       "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
@@ -1930,6 +1630,256 @@
       "url_hash": "a85aa69b831be69c",
       "category": "Ürün/Şirket Haberleri",
       "tr_summary": "Nvidia&#x27;nın yapay zeka avantajı GPU&#x27;ların ötesine taşınıyor."
+    },
+    {
+      "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
+      "url": "https://arxiv.org/abs/2608.27459",
+      "summary": "arXiv:2608.27459v1 Announce Type: new Abstract: In 2011, IBM&#x27;s Watson was something like a sealed capsule of its era&#x27;s queryable knowledge. Its DeepQA system defeated the strongest human Jeopardy! champions, but the knowledge that let it do so lived in a curated billion-document corpus running on a…",
+      "published": "2026-08-31T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "f830f52ed1b7f73b",
+      "category": "Araştırma",
+      "tr_summary": "Jeopardy! verileriyle eğitilen ücretsiz yerel bir model tanıtıldı."
+    },
+    {
+      "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
+      "url": "https://arxiv.org/abs/2608.27463",
+      "summary": "arXiv:2608.27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models&#x27; outputs, and raters of human-generated content. Each paradigm can be viewed as a measurement problem, where a latent property of an object is probed wi…",
+      "published": "2026-08-31T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "9b883ab78469962b",
+      "category": "Araştırma",
+      "tr_summary": "LLM değerlendirmesi için Rasch Ölçüm Teorisi incelendi."
+    },
+    {
+      "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
+      "url": "https://arxiv.org/abs/2608.27464",
+      "summary": "arXiv:2608.27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking. Drawing on Sharot and Sunstein&#x27;s framework of information-seeking motives, we propose that people evaluate whe…",
+      "published": "2026-08-31T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "d367b17cd1afb538",
+      "category": "Araştırma",
+      "tr_summary": "İnsan merkezli açıklanabilir yapay zeka için psikolojik yaklaşımlar incelendi."
+    },
+    {
+      "title": "Retrieving Relations, Detecting Fallacies: A RAG Approach to Political Debate Analysis",
+      "url": "https://arxiv.org/abs/2608.27471",
+      "summary": "arXiv:2608.27471v1 Announce Type: new Abstract: Fallacies are arguments that employ invalid reasoning, making their automatic detection critical in sensitive contexts such as high-stakes political debates, where public opinion is shaped. Spotting a fallacious argument requires contextual knowledge b…",
+      "published": "2026-08-31T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "b40e3d926ae1549b",
+      "category": "Araştırma",
+      "tr_summary": "Siyasi tartışmaları analiz etmek için RAG tabanlı bir yaklaşım sunuldu."
+    },
+    {
+      "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
+      "url": "https://arxiv.org/abs/2608.27472",
+      "summary": "arXiv:2608.27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer broad but often unreliable causal knowledge. We propose combining these complementary sources throug…",
+      "published": "2026-08-31T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "911fd6445b4b8a50",
+      "category": "Araştırma",
+      "tr_summary": "LLM destekli nedensel keşif için olasılıksal bir füzyon yöntemi önerildi."
+    },
+    {
+      "title": "Hypothesize, Evaluate, Refine: A Scientific Agent for PDE Discovery with Unknown Spatial Coefficient Fields",
+      "url": "https://arxiv.org/abs/2608.27475",
+      "summary": "arXiv:2608.27475v1 Announce Type: new Abstract: Discovering PDEs in heterogeneous media requires jointly identifying the governing operator and the unknown spatial fields that parameterize it. These tasks are coupled: changing field placement changes the differential law, while a sufficiently flexib…",
+      "published": "2026-08-31T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "c7bee501cc832112",
+      "category": "Araştırma",
+      "tr_summary": "Bilimsel ajanlar kullanılarak kısmi diferansiyel denklemler keşfedildi."
+    },
+    {
+      "title": "Class-Based Heuristic Selection for Solving the Flying Block Puzzle",
+      "url": "https://arxiv.org/abs/2608.27476",
+      "summary": "arXiv:2608.27476v1 Announce Type: new Abstract: Heuristic search underlies planning in autonomous systems ranging from warehouse logistics to robotic navigation, yet generic heuristics fail to exploit the structural constraints that govern constrained spatial domains, causing search performance to d…",
+      "published": "2026-08-31T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "ef942894385d3f3c",
+      "category": "Araştırma",
+      "tr_summary": "Uçan blok bulmacasını çözmek için sezgisel bir yöntem geliştirildi."
+    },
+    {
+      "title": "Benchmarking General Mobile Assistants in Challenging Real-World Scenarios",
+      "url": "https://arxiv.org/abs/2608.27477",
+      "summary": "arXiv:2608.27477v1 Announce Type: new Abstract: Graphical user interfaces have emerged as an important environment for evaluating autonomous AI agents on multimodal interactive tasks. Existing benchmarks such as AndroidWorld and MobileWorld provide strong foundations for mobile agent evaluation, but…",
+      "published": "2026-08-31T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "82bae9719e66f028",
+      "category": "Araştırma",
+      "tr_summary": "Mobil yapay zeka asistanları gerçek dünya senaryolarında test edildi."
+    },
+    {
+      "title": "Effectiveness of IoT and Deep Learning for Detection and Severity Assessment of Postelectrotermes militaris in Tea Plantations",
+      "url": "https://arxiv.org/abs/2608.27480",
+      "summary": "arXiv:2608.27480v1 Announce Type: new Abstract: Tea plantations are vulnerable to Postelectrotermes militaris, commonly known as the Upcountry Live Wood Termite (ULWT), which can cause substantial damage when infestations remain undetected. This study proposes an IoT-enabled acoustic monitoring fram…",
+      "published": "2026-08-31T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "8c63517f48827278",
+      "category": "Araştırma",
+      "tr_summary": "Çay plantasyonlarındaki zararları tespit etmek için IoT ve derin öğrenme kullanıldı."
+    },
+    {
+      "title": "Context Localization for Generalized Level-Based Evaluation in Knowledge-Based Systems",
+      "url": "https://arxiv.org/abs/2608.27482",
+      "summary": "arXiv:2608.27482v1 Announce Type: new Abstract: We study context localization for generalized level-based evaluation in knowledge-based systems. The framework models situations where a structured nonnegative score, defined on facts, rules, cases, criteria or evidence units, is evaluated through cond…",
+      "published": "2026-08-31T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "0505c92234cf8feb",
+      "category": "Araştırma",
+      "tr_summary": "Bilgi tabanlı sistemlerde bağlam yerelleştirme yöntemi geliştirildi."
+    },
+    {
+      "title": "OpenAI and rival AI labs are buying tens of thousands of Mac minis to train computer-use agents",
+      "url": "https://the-decoder.com/openai-and-rival-ai-labs-are-buying-tens-of-thousands-of-mac-minis-to-train-computer-use-agents/",
+      "summary": "According to The Information, OpenAI has purchased tens of thousands of Mac minis and Mac Studios to train computer agents. Anthropic also relies on Apple hardware. Demand is so high that the most powerful models have been sold out for months. Apple’s Mac revenue rose by nearly 29 percent to $10.4 b…",
+      "published": "2026-08-31T08:55:12+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "72a0ae9724f0c4ca",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI ve rakipleri bilgisayar kullanımı eğitimi için Mac mini satın alıyor."
+    },
+    {
+      "title": "AI sentiment is turning sour as employee reviews reveal growing frustration across the workforce",
+      "url": "https://the-decoder.com/ai-sentiment-is-turning-sour-as-employee-reviews-reveal-growing-frustration-across-the-workforce/",
+      "summary": "An analysis of Glassdoor reviews shows that positive AI comments have dropped from 81 to 43 percent since 2019. Executives rate AI mostly positive, while insurance claims workers rate it almost entirely negative. Fear of job loss is just one complaint among many. Forced adoption, surveillance, and u…",
+      "published": "2026-08-30T13:12:19+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "a03a364ce48e1e35",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Çalışan incelemelerine göre yapay zekaya olan güven azalıyor."
+    },
+    {
+      "title": "OpenShot 4.0: Record, Edit, and Color Like Never Before",
+      "url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
+      "summary": "Comments",
+      "published": "2026-08-31T09:59:05+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "0093bb3cdd1db22a",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenShot 4.0 sürümü yeni kayıt ve düzenleme özellikleriyle duyuruldu."
+    },
+    {
+      "title": "The ISBN was invented in 1970. Your books don&#x27;t care",
+      "url": "https://www.shelvd.org/blog/isbn-invented-1970",
+      "summary": "Comments",
+      "published": "2026-08-31T10:22:55+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "38eaa7615f429da4",
+      "category": "Genel",
+      "tr_summary": "ISBN numarasının tarihi ve kitaplar üzerindeki etkisi ele alındı."
+    },
+    {
+      "title": "“I just chose words carefully”",
+      "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
+      "summary": "Comments",
+      "published": "2026-08-30T22:49:48+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e6e8629f34d5778b",
+      "category": "Genel",
+      "tr_summary": "Dikkatli kelime seçimiyle ilgili ilginç bir deneyim paylaşıldı."
+    },
+    {
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "summary": "Comments",
+      "published": "2026-08-31T07:49:18+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "ec3f36b4902a2296",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Claude Code Opus 5 otomatik modunun güvenlik açıkları incelendi."
+    },
+    {
+      "title": "P99 0 ms* autocomplete for 240M domain names",
+      "url": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+      "summary": "Comments",
+      "published": "2026-08-31T03:20:33+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6afeeb679757001f",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "240 milyon alan adı için sıfır gecikmeli otomatik tamamlama geliştirildi."
+    },
+    {
+      "title": "uv: Deduplicate all files in the wheel cache",
+      "url": "https://github.com/astral-sh/uv/pull/21327",
+      "summary": "Comments",
+      "published": "2026-08-31T06:03:02+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "8c7b1367bb54d3ef",
+      "category": "Açık Kaynak",
+      "tr_summary": "uv aracı, tekerlek önbelleğindeki tüm dosyaları tekilleştiriyor."
+    },
+    {
+      "title": "Matrox: Graphics for Professionals",
+      "url": "https://www.abortretry.fail/p/matrox",
+      "summary": "Comments",
+      "published": "2026-08-30T23:39:35+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "1eb9fb784b9d5dd8",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Profesyoneller için geliştirilen Matrox grafik çözümleri tanıtıldı."
+    },
+    {
+      "title": "A 12TB Steam &quot;teraleak&quot; spills more than a decade of lost PC gaming history",
+      "url": "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history/",
+      "summary": "Comments",
+      "published": "2026-08-31T06:10:44+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a7d7c48c7b8f2b41",
+      "category": "Genel",
+      "tr_summary": "On yıllık kayıp oyun geçmişini sızdıran büyük bir Steam sızıntısı yaşandı."
+    },
+    {
+      "title": "Understanding ChatGPT Work",
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "summary": "Comments",
+      "published": "2026-08-31T01:28:22+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "ac6e7e3c37d7027f",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Bu makale, ChatGPT Work&#x27;ün ne olduğunu ve nasıl kullanıldığını ele almaktadır."
+    },
+    {
+      "title": "Haiku R1/beta6 has been released",
+      "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
+      "summary": "Comments",
+      "published": "2026-08-30T16:01:10+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "ae7f02d03a5e1bb4",
+      "category": "Açık Kaynak",
+      "tr_summary": "Haiku R1/beta6 sürümü geliştiricilerin kullanımına sunuldu."
+    },
+    {
+      "title": "The U.S. is building barriers around drones and robots, but China has scale to get around them",
+      "url": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
+      "summary": "The U.S. is shutting out more foreign-made drones and robots. China’s scale means the global competition may simply move elsewhere.",
+      "published": "2026-08-31T02:34:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "331406f38034f2c0",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "ABD insansız hava araçlarına engel örerken, Çin bu engelleri ölçeğiyle aşıyor."
+    },
+    {
+      "title": "Musk’s faster path to more gas turbines comes with pollution problem",
+      "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+      "summary": "Elon Musk says a secretive new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster than anyone else — but it&#x27;s a bet on a fuel source that&#x27;s already triggering lawsuits and health studies everywhere his (and others&#x27;) turbines have gone in.",
+      "published": "2026-08-30T16:54:25+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "a1c125ab1c9f5282",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "Musk&#x27;ın gaz türbinlerini hızla artırma planı çevre kirliliği sorununu beraberinde getiriyor."
+    },
+    {
+      "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+      "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+      "summary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It&#x27;s now bringing that experience to AI deployment.",
+      "published": "2026-08-30T15:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "80d0eae02fda2662",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Caterpillar, madencilik otomasyonundan elde ettiği tecrübeyi yapay zeka uygulamalarına aktarıyor."
     }
   ]
 }
