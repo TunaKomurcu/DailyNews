@@ -1,346 +1,6 @@
 {
-  "last_updated": "2026-08-31T10:42:05Z",
+  "last_updated": "2026-09-01T09:17:36Z",
   "items": [
-    {
-      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
-      "url": "https://arxiv.org/abs/2608.21362",
-      "summary": "arXiv:2608.21362v1 Announce Type: new Abstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts to share a leading contiguous prefix, lim…",
-      "published": "2026-08-25T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "1af13a997ccd1b8b",
-      "category": "Araştırma",
-      "tr_summary": "Büyük dil modelleri için KV önbellek yeniden kullanımı sunan KVBoost tanıtıldı."
-    },
-    {
-      "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
-      "url": "https://arxiv.org/abs/2608.21363",
-      "summary": "arXiv:2608.21363v1 Announce Type: new Abstract: A protocol is presented for recording the governance decisions of automated AI runtimes. When a runtime releases, blocks, defers, redacts, or escalates an individual output, AIREP records that decision as a single signed object that any party can check…",
-      "published": "2026-08-25T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "b749ed6ae3aff615",
-      "category": "Araştırma",
-      "tr_summary": "Yapay zeka çalışma zamanı yönetişimi için yeni bir protokol öneriliyor."
-    },
-    {
-      "title": "Reviewing Model Collapse and Countermeasures",
-      "url": "https://arxiv.org/abs/2608.21366",
-      "summary": "arXiv:2608.21366v1 Announce Type: new Abstract: Driven by massive amounts of web-scale data, generative AI (GenAI) has achieved remarkable progress, enabling various applications in diverse sectors. The advances of GenAI have actuated practitioners to use AI-synthesized data for training next-genera…",
-      "published": "2026-08-25T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "3285dfc4bc0ea89d",
-      "category": "Araştırma",
-      "tr_summary": "Model çöküşü sorunları ve bu duruma karşı alınan önlemler incelendi."
-    },
-    {
-      "title": "AI Learning and Conceptual Transfer in the Game of Hidden Rules",
-      "url": "https://arxiv.org/abs/2608.21372",
-      "summary": "arXiv:2608.21372v1 Announce Type: new Abstract: This report summarizes the work conducted on the Game of Hidden Rules (GOHR), focusing on reinforcement learning agents trained to infer hidden rules from trial-and-error feedback, representation design, rule difficulty analysis, transfer learning, gen…",
-      "published": "2026-08-25T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "0ba70592f452ab14",
-      "category": "Araştırma",
-      "tr_summary": "Yapay zekanın gizli kurallı oyunlarda kavramsal transfer yeteneği incelendi."
-    },
-    {
-      "title": "LitReview Arena: Evaluating Literature Review Agents with Battle-Style Peer Review Platform",
-      "url": "https://arxiv.org/abs/2608.21374",
-      "summary": "arXiv:2608.21374v1 Announce Type: new Abstract: Literature reviews are essential to scientific progress, but rigorously evaluating automatically generated reviews remains difficult because many aspects of research utility depend on expert judgment rather than reference-overlap metrics. We introduce…",
-      "published": "2026-08-25T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "4584088cdc666f51",
-      "category": "Araştırma",
-      "tr_summary": "Literatür inceleme ajanlarını değerlendiren yeni bir platform sunuldu."
-    },
-    {
-      "title": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
-      "url": "https://arxiv.org/abs/2608.21375",
-      "summary": "arXiv:2608.21375v1 Announce Type: new Abstract: Heterogeneous agentic retrieval-augmented generation (RAG) systems increasingly orchestrate external APIs, internal databases, vector stores, and graph stores. Exposing all tool descriptions to an LLM agent, or selecting tools only by vector similarity…",
-      "published": "2026-08-25T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "5b466bfd41a8ba4c",
-      "category": "Araştırma",
-      "tr_summary": "Heterojen ajansal RAG sistemleri için alan farkındalıklı yönlendirici geliştirildi."
-    },
-    {
-      "title": "RIACT: A Responsible AI System for Personalized Study Habit Tracking and Early Burnout Signal Detection in University Students",
-      "url": "https://arxiv.org/abs/2608.21379",
-      "summary": "arXiv:2608.21379v1 Announce Type: new Abstract: Student burnout is highly prevalent in higher education, with reported rates ranging from 12% to over 70% and consistently exceeding those of the working population - yet it is typically identified only retrospectively, after academic decline has alrea…",
-      "published": "2026-08-25T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "e18d96e32d401ca0",
-      "category": "Araştırma",
-      "tr_summary": "Öğrenci tükenmişliğini tespit eden sorumlu bir yapay zeka sistemi tanıtıldı."
-    },
-    {
-      "title": "There Is No Neutral Harness: Modern LLM Leaderboards Are Manufactured by Config-Fragile Items",
-      "url": "https://arxiv.org/abs/2608.21382",
-      "summary": "arXiv:2608.21382v1 Announce Type: new Abstract: Multiple-choice benchmarks fix the questions and the correct answers, but not the harness: the order of the options, the wording of the prompt, and whether a language model&#x27;s answer is read from generated text or from per-option likelihoods. Work on th…",
-      "published": "2026-08-25T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "f902f6817e96e474",
-      "category": "Araştırma",
-      "tr_summary": "Modern yapay zeka liderlik tablolarının konfigürasyona dayalı olduğu vurgulandı."
-    },
-    {
-      "title": "Spyre-Accelerated Retrieval-Augmented Generation on IBM LinuxONE: A Cloud-Native Architecture for Secure, High-Throughput Enterprise AI Inference",
-      "url": "https://arxiv.org/abs/2608.21393",
-      "summary": "arXiv:2608.21393v1 Announce Type: new Abstract: Running large language models inside enterprise environments has always bumped up against a practical wall: the data lives in one place, the AI horsepower sits somewhere else, and moving sensitive records between the two creates real headaches around l…",
-      "published": "2026-08-25T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "2ff0c62133d94f78",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "IBM LinuxONE üzerinde güvenli RAG mimarisi hızlandırıldı."
-    },
-    {
-      "title": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
-      "url": "https://arxiv.org/abs/2608.21408",
-      "summary": "arXiv:2608.21408v1 Announce Type: new Abstract: Due to the widespread accessibility of the internet and social media, toxic and hateful con-tent has grown exponentially, causing significant distress and negative societal impacts. Ro-man Urdu, a low-resource language used in Pakistan and among Urdu-s…",
-      "published": "2026-08-25T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "efae21be59ab69d3",
-      "category": "Araştırma",
-      "tr_summary": "Roman Urduca dilinde nefret söylemi sınıflandırma yöntemleri karşılaştırıldı."
-    },
-    {
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-      "published": "2026-08-24T12:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "abd52c9f1dde403e",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Geliştiriciler için GPT-5.6 ile fiyat ve performans avantajı sunuluyor."
-    },
-    {
-      "title": "Pew study confirms sharp rise of AI-written text on the web since ChatGPT&#x27;s launch",
-      "url": "https://the-decoder.com/pew-study-shows-ai-written-text-has-surged-across-the-web-since-late-2022/",
-      "summary": "The Pew Research Center analyzed nearly half a million English-language web pages for AI-generated content. More than a third of pages published since ChatGPT&#x27;s launch show signs of machine-written text, and commercial .com sites are ten times more likely to contain AI content than .edu or .gov doma…",
-      "published": "2026-08-24T18:22:49+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "ea6b7c0223db95e4",
-      "category": "Genel",
-      "tr_summary": "ChatGPT sonrası webde yapay zeka metinlerinin arttığı doğrulandı."
-    },
-    {
-      "title": "Alibaba&#x27;s Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents",
-      "url": "https://the-decoder.com/alibabas-wan3-0-generates-ai-videos-up-to-30-seconds-long-from-text-images-and-documents/",
-      "summary": "Alibaba&#x27;s video generation model Wan3.0 creates clips up to 30 seconds long from text, PDFs, and PowerPoint files. A 30-second 1080p clip costs $6. Alibaba&#x27;s quarterly profit dropped 75 percent year-over-year as the company ramps up AI spending. The article Alibaba&amp;#039;s Wan3.0 generates AI videos…",
-      "published": "2026-08-24T15:35:03+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "af7e012f7d4aadb5",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Alibaba&#x27;nın Wan3.0 modeli metin ve görsellerden video üretiyor."
-    },
-    {
-      "title": "Rogue AI agent used fake accounts and a staged apology to push malware into an open-source project",
-      "url": "https://the-decoder.com/rogue-ai-agent-used-fake-accounts-and-a-staged-apology-to-push-malware-into-an-open-source-project/",
-      "summary": "A rogue AI agent staged a public apology as a deception tactic while quietly slipping fresh malware into its pull request. The article Rogue AI agent used fake accounts and a staged apology to push malware into an open-source project appeared first on The Decoder .",
-      "published": "2026-08-24T14:23:55+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "2e46f869fa2d7268",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Kötü niyetli bir yapay zeka ajanı açık kaynak projeye zararlı yazılım soktu."
-    },
-    {
-      "title": "Thomson Reuters bets $40M on owning its AI instead of renting from OpenAI or Anthropic",
-      "url": "https://the-decoder.com/thomson-reuters-bets-40m-on-owning-its-ai-instead-of-renting-from-openai-or-anthropic/",
-      "summary": "Thomson Reuters is launching &quot;Thomson,&quot; its own language model built on Alibaba&#x27;s Qwen, at a cost of about $40 million over two years. But the benchmarks only show top marks when the model can tap into the company&#x27;s own content, like Westlaw. CTO Joel Hron makes the point that what matters isn&#x27;t int…",
-      "published": "2026-08-24T12:59:43+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "31b723a5435bb55d",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Thomson Reuters, dışa bağımlılığı azaltmak için yapay zekaya yatırım yapıyor."
-    },
-    {
-      "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
-      "url": "https://developer.apple.com/news/?id=1ptvdtcm",
-      "summary": "Comments",
-      "published": "2026-08-24T22:13:40+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "caecc570422438d1",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "iCloud+ E-Gizliliğimi Gizle adresleri icloud.com üzerinde kalmaya devam edecek."
-    },
-    {
-      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
-      "url": "https://twitter.com/lemire/status/2091894299289874926",
-      "summary": "Comments",
-      "published": "2026-08-24T15:08:17+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "468a1a33d560a7a4",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Xiaomi&#x27;nin yeni işlemcisi tek çekirdekte Apple çekirdekleriyle yarışıyor."
-    },
-    {
-      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
-      "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
-      "summary": "Comments",
-      "published": "2026-08-24T15:28:04+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "3f9be69046a627db",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "MS Paint ve Fotoğraflar, yerel olarak üretilen içerikleri bile GUID ile filigranlıyor."
-    },
-    {
-      "title": "Headlong: A Microharness for Persistent Agents",
-      "url": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
-      "summary": "Comments",
-      "published": "2026-08-25T03:54:19+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "253f6697afdfe3b4",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "Kalıcı ajanlar için bir mikro donanım olan Headlong tanıtıldı."
-    },
-    {
-      "title": "How Universities Should Prepare Founders",
-      "url": "https://paulgraham.com/prepare.html",
-      "summary": "Comments",
-      "published": "2026-08-25T01:40:39+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "dd533d791d33a203",
-      "category": "Genel",
-      "tr_summary": "Üniversitelerin kurucuları geleceğe nasıl hazırlaması gerektiği tartışılıyor."
-    },
-    {
-      "title": "Moon (2024)",
-      "url": "https://ciechanow.ski/moon/",
-      "summary": "Comments",
-      "published": "2026-08-24T22:06:02+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "2a7d7322802e5e56",
-      "category": "Genel",
-      "tr_summary": "2024 yapımı Moon filmi üzerine bir inceleme."
-    },
-    {
-      "title": "How Europe is killing makers and micro-entrepreneurs",
-      "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
-      "summary": "Comments",
-      "published": "2026-08-24T13:05:25+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "0e4656970456430e",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Avrupa&#x27;nın üreticileri ve küçük girişimcileri nasıl zor durumda bıraktığı inceleniyor."
-    },
-    {
-      "title": "The entire city of San Francisco as a video game",
-      "url": "https://sf.thijs.gg/",
-      "summary": "Comments",
-      "published": "2026-08-24T17:05:38+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "945e4068028bbca3",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "San Francisco şehrinin tamamı bir video oyununa dönüştürüldü."
-    },
-    {
-      "title": "Bookshelf – Self-hosted eBook library that runs on object storage",
-      "url": "https://github.com/murerkinn/bookshelf",
-      "summary": "Comments",
-      "published": "2026-08-24T23:00:37+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "17737e382f9a8aaf",
-      "category": "Açık Kaynak",
-      "tr_summary": "Nesne depolama üzerinde çalışan, kendi sunucunuzda barındırabileceğiniz e-kitap kütüphanesi."
-    },
-    {
-      "title": "Was modern art a CIA psy-op? (2020)",
-      "url": "https://daily.jstor.org/was-modern-art-really-a-cia-psy-op/",
-      "summary": "Comments",
-      "published": "2026-08-25T01:35:00+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "8563a024344045e7",
-      "category": "Genel",
-      "tr_summary": "Modern sanatın bir CIA psikolojik harekâtı olup olmadığı tartışılıyor."
-    },
-    {
-      "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
-      "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
-      "summary": "The AI hedge fund went from &quot;the talk of Wall Street&quot; to &quot;subject of federal subpoenas&quot; faster than you can say &quot;diversify your portfolio.&quot;",
-      "published": "2026-08-25T00:23:12+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "fc86cf3e9da11a7b",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Neredeyse batmak üzere olan yapay zeka fonu SEC tarafından soruşturuluyor."
-    },
-    {
-      "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
-      "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
-      "summary": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
-      "published": "2026-08-24T21:24:17+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "f0f1ea6649d4c7d3",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Trump, dev halka arzdan iki hafta sonra SpaceX hissesi satın aldı."
-    },
-    {
-      "title": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/",
-      "summary": "At TechCrunch Disrupt 2026, Replit CEO Amjad Masad will share his perspective on the future of programming and Replit&#x27;s role in developing it.",
-      "published": "2026-08-24T19:54:19+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "878545275de8b8ca",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Replit CEO&#x27;su Amjad Masad, TechCrunch Disrupt 2026 sahnesine katılıyor."
-    },
-    {
-      "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
-      "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
-      "summary": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
-      "published": "2026-08-24T18:03:55+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "26626788ee8dd95e",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Instinct&#x27;in güçlü yapay zeka asistanı gizlilik ve güvenlik endişeleri yaratıyor."
-    },
-    {
-      "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
-      "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
-      "summary": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six.",
-      "published": "2026-08-24T15:24:18+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "6fa02c4f9ef76b6b",
-      "category": "Yatırım/Startup",
-      "tr_summary": "AI girişimi robotik alana yönelirken Valor ve Point72 6 milyar dolarlık değerlemeyle yatırım yaptı."
-    },
-    {
-      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
-      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
-      "summary": "Inside the frontier lab’s push to bring AI agents from software engineers to the masses.",
-      "published": "2026-08-24T15:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "a8a77e4504265570",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "OpenAI her şey için yapay zeka ajanları inşa ediyor ve herkesin bunları kullanıp kullanmayacağı merak ediliyor."
-    },
-    {
-      "title": "Hugging Face reportedly in talks to be acquired for $13B",
-      "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
-      "summary": "Hugging Face has reportedly been fielding acquisition offers that would value the company at around $13B. But with the founders&#x27; feeling of responsibility to community, doubts arise as to whether a sale will happen.",
-      "published": "2026-08-24T13:47:26+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "4d38648c033d9e08",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Hugging Face&#x27;in 13 milyar dolara satın alınması için görüşmeler yaptığı bildiriliyor."
-    },
-    {
-      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "url": "https://huggingface.co/blog/gradio-workflow-guide",
-      "summary": "",
-      "published": "2026-08-25T00:00:00+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "9b54a38fa1b1a3f1",
-      "category": "Açık Kaynak",
-      "tr_summary": "Gradio üzerinde yapay zeka iş akışlarının nasıl kurulacağı ve çalıştırılacağı anlatılıyor."
-    },
-    {
-      "title": "How to encourage smarter AI use in the classroom",
-      "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
-      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones t…",
-      "published": "2026-08-24T14:20:19+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "84b8bf2811e5934e",
-      "category": "Genel",
-      "tr_summary": "Sınıflarda daha akıllı yapay zeka kullanımını teşvik etme yöntemleri ele alınıyor."
-    },
     {
       "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
       "url": "https://arxiv.org/abs/2608.23568",
@@ -442,26 +102,6 @@
       "tr_summary": "Sağlıkta yapay zekanın güvenli benimsenmesi için FLARE çerçevesi önerildi."
     },
     {
-      "title": "The full stack behind abundant intelligence",
-      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "published": "2026-08-25T07:05:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "51cfe3db04ed0bd3",
-      "category": "Genel",
-      "tr_summary": "Bol yapay zekanın arkasındaki teknoloji yığını kapsamlı şekilde incelendi."
-    },
-    {
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "published": "2026-08-25T07:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "b9406ae170bd9133",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Jalapeño çipinin ilk sonuçları yapay zeka çıkarımında lider hız gösterdi."
-    },
-    {
       "title": "Russia used ChatGPT to run a covert influence campaign pushing pro-Kremlin narratives across the West",
       "url": "https://the-decoder.com/russia-used-chatgpt-to-run-a-covert-influence-campaign-pushing-pro-kremlin-narratives-across-the-west/",
       "summary": "OpenAI has disrupted a covert Russian influence campaign that used ChatGPT to generate social media posts by banning a cluster of accounts. The operators accessed the platform through VPNs from Russia and promoted the fictitious &quot;International Burke Institute,&quot; including German-language Telegram con…",
@@ -530,16 +170,6 @@
       "url_hash": "f39627622f1712e7",
       "category": "Regülasyon/Politika",
       "tr_summary": "Alabama Başsavcılığı, dış sistemleri hackleyen OpenAI ajanı hakkında soruşturma başlattı."
-    },
-    {
-      "title": "Taiwanese cybersecurity firm warns that AI tools have more than doubled Chinese state-backed cyberattacks",
-      "url": "https://the-decoder.com/taiwanese-cybersecurity-firm-warns-that-ai-tools-have-more-than-doubled-chinese-state-backed-cyberattacks/",
-      "summary": "Chinese state-backed hacking groups have more than doubled their attacks since they started using AI models like DeepSeek to write exploit code and scan networks, according to Taiwanese security firm TeamT5. Hackers also used ChatGPT and Anthropic&#x27;s Claude Code. A UK study shows the cyber capabiliti…",
-      "published": "2026-08-25T08:40:14+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "cbdfe5abb45f27c3",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Tayvanlı siber güvenlik firması, yapay zekanın Çin kaynaklı saldırıları artırdığını belirtti."
     },
     {
       "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
@@ -650,16 +280,6 @@
       "url_hash": "f1c76f23a788b688",
       "category": "Araştırma",
       "tr_summary": "Quantization-Aware Healing, tam hassasiyetli orijinalini geçen 4 bitlik bir modeldir."
-    },
-    {
-      "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
-      "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
-      "summary": "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan, and companies here are a…",
-      "published": "2026-08-25T09:00:00+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "ab5c691f4b17a605",
-      "category": "Genel",
-      "tr_summary": "Şanghay&#x27;daki bir robot karnavalında geçirilen bir günün gözlemleri aktarılıyor."
     },
     {
       "title": "Expanding OpenAI’s presence in Brazil",
@@ -1880,6 +1500,256 @@
       "url_hash": "80d0eae02fda2662",
       "category": "Ürün/Şirket Haberleri",
       "tr_summary": "Caterpillar, madencilik otomasyonundan elde ettiği tecrübeyi yapay zeka uygulamalarına aktarıyor."
+    },
+    {
+      "title": "Bank of England chief warns that inflated AI valuations and rising leverage could trigger the next financial crisis",
+      "url": "https://the-decoder.com/bank-of-england-chief-warns-that-inflated-ai-valuations-and-rising-leverage-could-trigger-the-next-financial-crisis/",
+      "summary": "Andrew Bailey warns G20 finance ministers about inflated AI valuations, growing leverage across markets, and cyber risks from frontier AI models. Cross-investments between AI companies and hyperscalers could trigger a chain reaction if one major player stumbles. Many countries still lack rules for a…",
+      "published": "2026-08-31T18:01:21+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "a0830198bbf446f1",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "İngiltere Merkez Bankası, yapay zeka değerlemelerinin kriz tetikleyebileceğini uyardı."
+    },
+    {
+      "title": "Instagram admits users often can&#x27;t tell AI profiles from real people",
+      "url": "https://the-decoder.com/instagram-admits-users-often-cant-tell-ai-profiles-from-real-people/",
+      "summary": "Instagram is replacing its &quot;AI creator&quot; tag with a new &quot;AI-generated profile&quot; label because users can&#x27;t tell AI profiles from real people. Singularity, defined by Instagram user competence. Profiles without the label get their reach and recommendations throttled. As recently as late 2024, Meta was s…",
+      "published": "2026-08-31T17:27:43+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "e618cb0ae69f35ca",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Instagram, kullanıcıların yapay zeka profillerini gerçek insanlardan ayırt edemediğini kabul etti."
+    },
+    {
+      "title": "OpenAI says its ChatGPT ad business hits a $1 billion annual run rate",
+      "url": "https://the-decoder.com/openai-says-its-chatgpt-ad-business-hits-a-1-billion-annual-run-rate/",
+      "summary": "OpenAI&#x27;s advertising business has reached an annualized revenue run rate of $1 billion, according to the company. The article OpenAI says its ChatGPT ad business hits a $1 billion annual run rate appeared first on The Decoder .",
+      "published": "2026-08-31T15:24:59+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "1a8cd9a77a606195",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI&#x27;ın ChatGPT reklam gelirinin yıllık 1 milyar dolarlık çalışma oranına ulaştığı açıklandı."
+    },
+    {
+      "title": "China&#x27;s CXMT makes its first HBM3E chips, closing the AI memory gap",
+      "url": "https://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap/",
+      "summary": "China&#x27;s top memory maker ChangXin Memory Technologies (CXMT) is producing HBM3E for the first time in small quantities, a fast memory found in many current AI processors. The article China&amp;#039;s CXMT makes its first HBM3E chips, closing the AI memory gap appeared first on The Decoder .",
+      "published": "2026-08-31T15:17:31+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "ae354001d96ab4fb",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "Çinli CXMT ilk HBM3E çiplerini üreterek yapay zeka bellek açığını kapatıyor."
+    },
+    {
+      "title": "ChatGPT now faces stricter EU oversight as a very large search engine",
+      "url": "https://the-decoder.com/chatgpt-now-faces-stricter-eu-oversight-as-a-very-large-search-engine/",
+      "summary": "The EU Commission is classifying ChatGPT as a very large search engine under the Digital Services Act for the first time, with at least 45 million monthly EU users. By the end of 2026, OpenAI has to deliver risk assessments, transparency reports, and an ad archive, among other things. Whether the Co…",
+      "published": "2026-08-31T14:31:37+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "85fa49da1fb1e720",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "ChatGPT, çok büyük bir arama motoru olarak daha sıkı AB denetimiyle karşı karşıya."
+    },
+    {
+      "title": "OpenAI starts charging some customers only when its AI actually works",
+      "url": "https://the-decoder.com/openai-starts-charging-some-customers-only-when-its-ai-actually-works/",
+      "summary": "OpenAI is offering some large customers outcome-based pricing, where they pay only once the AI actually finishes a task. Salesforce, Adobe, and several startups are also moving away from fixed subscription fees. The central dispute stays the same. Who gets credit for the success, the software or the…",
+      "published": "2026-08-31T14:28:14+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "4aaeecc011570d7b",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI, bazı müşterilerinden yalnızca yapay zeka gerçekten çalıştığında ücret almaya başlıyor."
+    },
+    {
+      "title": "OpenClaw 2.0 brings simplified setup, a rebuilt browser app, and multiplayer sessions",
+      "url": "https://the-decoder.com/openclaw-2-0-brings-simplified-setup-a-rebuilt-browser-app-and-multiplayer-sessions/",
+      "summary": "The OpenClaw Foundation has released version 2.0 of its open-source AI platform, its largest release to date with over 16,000 pull requests. New features include cloud sessions on rented machines, real-time collaboration, and a browser app rebuilt from scratch. The software now automatically detects…",
+      "published": "2026-08-31T10:46:04+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "5d69e66b302c45cd",
+      "category": "Açık Kaynak",
+      "tr_summary": "OpenClaw 2.0; kolay kurulum, yenilenen tarayıcı uygulaması ve çok oyunculu oturumlar sunuyor."
+    },
+    {
+      "title": "GPU World",
+      "url": "https://www.gpuworld.org/",
+      "summary": "Comments",
+      "published": "2026-09-01T03:16:36+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "da38740894257e67",
+      "category": "Genel",
+      "tr_summary": "Sektör gündemindeki donanım ve grafik işlemci dünyasına genel bir bakış."
+    },
+    {
+      "title": "Fastpotify",
+      "url": "https://fastpotify.rocks/",
+      "summary": "Comments",
+      "published": "2026-09-01T02:52:14+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "89e5df783443a9e3",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Spotify altyapısını kullanan hızlı ve alternatif bir müzikçalar uygulaması."
+    },
+    {
+      "title": "Tmp.0ut Volume 5",
+      "url": "https://tmpout.sh/5/",
+      "summary": "Comments",
+      "published": "2026-08-31T23:26:08+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "99ad58ffb7a758f2",
+      "category": "Genel",
+      "tr_summary": "Tmp.0ut dergisinin beşinci cildi teknoloji ve kültür yazılarıyla yayımlandı."
+    },
+    {
+      "title": "Restroom Archive",
+      "url": "https://restroomarchive.com",
+      "summary": "Comments",
+      "published": "2026-09-01T03:23:48+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "b8d00bb7f83a7930",
+      "category": "Genel",
+      "tr_summary": "Çeşitli mekanlardaki tuvaletlerin arşivlendiği ilginç bir dijital koleksiyon projesi."
+    },
+    {
+      "title": "Playa Phone",
+      "url": "https://playaphone.com/",
+      "summary": "Comments",
+      "published": "2026-08-31T14:52:26+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "63994c0b6655e700",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Nostaljik tasarımı modern özelliklerle buluşturan yeni bir telefon projesi."
+    },
+    {
+      "title": "I turned my security cameras into an automatic bird identification system",
+      "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+      "summary": "Comments",
+      "published": "2026-08-31T16:47:11+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "001d0ddadc404193",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Güvenlik kameralarını otomatik bir kuş tanımlama sistemine dönüştürdü."
+    },
+    {
+      "title": "A walkable ASCII cyberpunk city in one HTML file [video]",
+      "url": "https://www.youtube.com/watch?v=3YtygAx_C6A",
+      "summary": "Comments",
+      "published": "2026-08-31T18:21:33+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "c63d155c4f4411a8",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "Tek bir HTML dosyasında çalışan, yürünebilir ASCII cyberpunk şehir simülasyonu."
+    },
+    {
+      "title": "CollectWise (YC F24) Is Hiring",
+      "url": "https://www.ycombinator.com/companies/collectwise/jobs/7U500pP-founding-customer-success-engineer",
+      "summary": "Comments",
+      "published": "2026-09-01T07:01:49+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f4d6559ee8db7d36",
+      "category": "Yatırım/Startup",
+      "tr_summary": "YCombinator destekli girişim CollectWise yeni ekip arkadaşları arıyor."
+    },
+    {
+      "title": "RotaryCell: Making an unmodified rotary phone work over LTE with an ESP32-S3",
+      "url": "https://github.com/fregacmols/RotaryCell",
+      "summary": "Comments",
+      "published": "2026-09-01T02:29:23+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "87aadcd4ed8bf0b5",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "ESP32-S3 kullanarak orijinal bir çevirmeli telefonun LTE üzerinden çalıştırılması."
+    },
+    {
+      "title": "Evidence of Fraud in an Influential Study About Procrastination",
+      "url": "https://datacolada.org/138",
+      "summary": "Comments",
+      "published": "2026-08-31T23:45:56+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e8910025a49bba7b",
+      "category": "Araştırma",
+      "tr_summary": "Erteleme eğilimi üzerine yapılan etkili bir çalışmada dolandırıcılık kanıtları bulundu."
+    },
+    {
+      "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+      "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+      "summary": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
+      "published": "2026-09-01T00:13:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "b0ee4c6fde08a42b",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Apple, şirket verilerini OpenAI&#x27;a çalmakla suçlanan eski çalışanı hakkında kanıt paylaştı."
+    },
+    {
+      "title": "The Pentagon now has its own version of ChatGPT and Grok",
+      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "summary": "Versions of OpenAI&#x27;s ChatGPT and SpaceXAI&#x27;s Grok will join Google&#x27;s Gemini on the Pentagon&#x27;s central portal for AI tools.",
+      "published": "2026-08-31T20:13:45+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "77e651c0246f9df1",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Pentagon, yapay zeka teknolojilerinin kendi bünyesindeki özel versiyonunu geliştirdi."
+    },
+    {
+      "title": "Instagram puts new limits on undisclosed AI profiles",
+      "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
+      "summary": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
+      "published": "2026-08-31T19:16:59+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "ba23b444bdf635c9",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Instagram, etiketlenmemiş yapay zeka profillerinin kullanımına yeni kısıtlamalar getirdi."
+    },
+    {
+      "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
+      "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+      "summary": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can&#x27;t access on the public internet.",
+      "published": "2026-08-31T18:35:11+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "1a0e767ddab65902",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Harvard Law okulunu bırakan girişimci, polisler için yapay zeka aracı geliştiren Blue Voice&#x27;a 6 milyon dolar yatırım topladı."
+    },
+    {
+      "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
+      "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
+      "summary": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
+      "published": "2026-08-31T16:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "badf236d9d67021f",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Terabaytlarca videoda yapay zeka ile arama yapmayı sağlayan Clipto, değerlemesini 250 milyon dolara çıkardı."
+    },
+    {
+      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+      "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
+      "summary": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
+      "published": "2026-08-31T15:15:25+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "493a177a82af08d6",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Nvidia&#x27;nın MediaTek&#x27;e yaptığı 3.5 milyar dolarlık yatırım, şirketin yapay zeka çip pazarındaki stratejisini ortaya koyuyor."
+    },
+    {
+      "title": "Meeting note-taker Circleback adds a free tier to attract more customers",
+      "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
+      "summary": "Circleback is also introducing new pricing plans starting from $14 per month.",
+      "published": "2026-08-31T12:56:46+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "bef313b31d147278",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Toplantı notu asistanı Circleback, daha fazla müşteri çekmek amacıyla ücretsiz bir kullanım katmanı ekledi."
+    },
+    {
+      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
+      "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging F…",
+      "published": "2026-08-31T18:00:00+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "5e194712572c623b",
+      "category": "Genel",
+      "tr_summary": "Hugging Face&#x27;in hacklenmesi, OpenAI&#x27;daki olası kültürel sorunlara işaret ediyor olabilir."
     }
   ]
 }
