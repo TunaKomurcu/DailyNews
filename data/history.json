@@ -1,286 +1,6 @@
 {
-  "last_updated": "2026-09-01T09:17:36Z",
+  "last_updated": "2026-09-02T08:38:08Z",
   "items": [
-    {
-      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
-      "url": "https://arxiv.org/abs/2608.23568",
-      "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model&#x27;s input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fixe…",
-      "published": "2026-08-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "3d3c764cfe0d8300",
-      "category": "Araştırma",
-      "tr_summary": "LLM bellek değerlendirmesinde kanıt kontrolü sağlayan RENDER yöntemi tanıtıldı."
-    },
-    {
-      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
-      "url": "https://arxiv.org/abs/2608.23569",
-      "summary": "arXiv:2608.23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source SQL dialects that d…",
-      "published": "2026-08-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "782e7aab683b1240",
-      "category": "Araştırma",
-      "tr_summary": "Kurumsal NL2SQL yeteneklerini test etmek için ESQ-Bench kıyaslama aracı geliştirildi."
-    },
-    {
-      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
-      "url": "https://arxiv.org/abs/2608.23622",
-      "summary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and code generation. They require understanding how a system responds to interv…",
-      "published": "2026-08-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "fd16a058ee8e16ad",
-      "category": "Araştırma",
-      "tr_summary": "LLM tabanlı ajanların simülasyon modelleriyle kontrollü deneyler yaptığı gösterildi."
-    },
-    {
-      "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
-      "url": "https://arxiv.org/abs/2608.23626",
-      "summary": "arXiv:2608.23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels. Those catalogues are incomplete at a measurable rate, and a model trained on both inherits that incompleteness as a systematic.…",
-      "published": "2026-08-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "3fcba86f0c2cae9d",
-      "category": "Araştırma",
-      "tr_summary": "Astronomi modelindeki gizli bir kanalın tomografik kırmızıya kayma verilerini bozduğu tespit edildi."
-    },
-    {
-      "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
-      "url": "https://arxiv.org/abs/2608.23631",
-      "summary": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs the next search step. Existing agents mainly store evaluated candidates…",
-      "published": "2026-08-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "fa2f004f22f59c03",
-      "category": "Araştırma",
-      "tr_summary": "Çok amaçlı malzeme keşfi için TRACE adlı yeni bir artık kontrol yöntemi önerildi."
-    },
-    {
-      "title": "Function-Level Execution Feedback for Code Preference Optimization",
-      "url": "https://arxiv.org/abs/2608.23632",
-      "summary": "arXiv:2608.23632v1 Announce Type: new Abstract: Process supervision has improved mathematical reasoning, where intermediate steps are naturally expressed as chains of thought. In code generation, however, process supervision remains underexplored because there is no standard notion of a step. Superv…",
-      "published": "2026-08-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "af56b2ee53845e43",
-      "category": "Araştırma",
-      "tr_summary": "Kod tercih optimizasyonu için fonksiyon seviyesinde yürütme geri bildirimi geliştirildi."
-    },
-    {
-      "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
-      "url": "https://arxiv.org/abs/2608.23640",
-      "summary": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person&#x27;s life, how much of what it writes actually happened? We present a scene-level case-study audit - the first quantified audit of LLM-generated autobiography against a subject-specific ground-t…",
-      "published": "2026-08-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "3d00d69bb9875fb2",
-      "category": "Araştırma",
-      "tr_summary": "Yapay zeka otobiyografilerindeki sahne seviyesi uydurmalar bilimsel olarak incelendi."
-    },
-    {
-      "title": "How much of a measured AI preference is the model, and how much is the instrument?",
-      "url": "https://arxiv.org/abs/2608.23641",
-      "summary": "arXiv:2608.23641v1 Announce Type: new Abstract: Model welfare research infers what a model prefers from the answers returned to prompts written to elicit preferences. Keeling et al. (2024), Mazeika et al. (2025), Mikaelson et al. (2025), Tagliabue and Dung (2025) and Trhlik et al. (2026) have built…",
-      "published": "2026-08-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "91ab536decc3b02c",
-      "category": "Araştırma",
-      "tr_summary": "Yapay zeka tercih ölçümlerinde model ile test aracı etkileri araştırıldı."
-    },
-    {
-      "title": "AI Agents Push Humans Out of the Loop",
-      "url": "https://arxiv.org/abs/2608.23642",
-      "summary": "arXiv:2608.23642v1 Announce Type: new Abstract: AI agents pose significant risks as they are granted increasing autonomy. A commonly proposed solution is human oversight and keeping a &#x27;&#x27;human in the loop&#x27;&#x27;, but this is not a simple solution: Not only do current approaches to AI agent design impede e…",
-      "published": "2026-08-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "740fe06183518f78",
-      "category": "Genel",
-      "tr_summary": "Yapay zeka ajanlarının insanları süreçlerin dışına itmeye başladığı tartışılıyor."
-    },
-    {
-      "title": "FLARE: A Systematic, Uncertainty-Aware Framework for Evidence-Based Adoption of Artificial Intelligence in Healthcare",
-      "url": "https://arxiv.org/abs/2608.23643",
-      "summary": "arXiv:2608.23643v1 Announce Type: new Abstract: Artificial intelligence is increasingly being introduced into healthcare workflows, yet most evaluations emphasize model accuracy rather than whether adoption is economically worthwhile in real clinical settings. This study proposes FLARE, a systematic…",
-      "published": "2026-08-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "90f759324383343f",
-      "category": "Araştırma",
-      "tr_summary": "Sağlıkta yapay zekanın güvenli benimsenmesi için FLARE çerçevesi önerildi."
-    },
-    {
-      "title": "Russia used ChatGPT to run a covert influence campaign pushing pro-Kremlin narratives across the West",
-      "url": "https://the-decoder.com/russia-used-chatgpt-to-run-a-covert-influence-campaign-pushing-pro-kremlin-narratives-across-the-west/",
-      "summary": "OpenAI has disrupted a covert Russian influence campaign that used ChatGPT to generate social media posts by banning a cluster of accounts. The operators accessed the platform through VPNs from Russia and promoted the fictitious &quot;International Burke Institute,&quot; including German-language Telegram con…",
-      "published": "2026-08-25T18:54:56+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "cf885dd8894edceb",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Rusya&#x27;nın Batı&#x27;da etki kampanyası yürütmek için ChatGPT kullandığı ortaya çıktı."
-    },
-    {
-      "title": "OpenAI&#x27;s first custom chip &quot;Jalapeño&quot; reportedly beats Nvidia&#x27;s Blackwell and Rubin in inference benchmarks",
-      "url": "https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks/",
-      "summary": "OpenAI showed off &quot;Jalapeño,&quot; its first in-house inference chip, with benchmarks at the Hot Chips conference. According to SemiAnalysis tests, the chip beats Nvidia&#x27;s Blackwell and even Rubin in throughput and energy efficiency. &quot;Usually first generation chips aren&#x27;t competitive, but OpenAI is beati…",
-      "published": "2026-08-25T18:00:50+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "5e6aadccef9d7dc8",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "OpenAI&#x27;ın ilk özel çipi Jalapeño&#x27;nun çıkarım testlerinde öne geçtiği bildirildi."
-    },
-    {
-      "title": "Google launches Gemini for legal work to automate contracts and research",
-      "url": "https://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research/",
-      "summary": "With Gemini Enterprise for Legal, Google launches an AI solution for the legal industry that connects to systems like iManage, DocuSign, and Everlaw through MCP connectors. Partners like Deloitte sell ready-made AI agents for tasks like contract review. Anthropic already offers similar solutions. Al…",
-      "published": "2026-08-25T16:21:09+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "c016c229d29a172f",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Google, sözleşme ve araştırmaları otomatikleştiren hukuki Gemini sürümünü çıkardı."
-    },
-    {
-      "title": "Meta&#x27;s paid AI agent Hatch launches soon, with a new model called Watermelon due in October",
-      "url": "https://the-decoder.com/metas-paid-ai-agent-hatch-launches-soon-with-a-new-model-called-watermelon-due-in-october/",
-      "summary": "Meta Platforms will launch its AI agent Hatch in the coming weeks and release a new AI model called Watermelon in October. The article Meta&amp;#039;s paid AI agent Hatch launches soon, with a new model called Watermelon due in October appeared first on The Decoder .",
-      "published": "2026-08-25T13:43:40+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "632c8d7dd13716e3",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Meta&#x27;nın ücretli yapay zeka ajanı Hatch ve Watermelon modeli yakında geliyor."
-    },
-    {
-      "title": "Nvidia says its Groq 3 LPX is four times faster than Cerebras, but the math is more complicated",
-      "url": "https://the-decoder.com/nvidia-says-its-groq-3-lpx-is-four-times-faster-than-cerebras-but-the-math-is-more-complicated/",
-      "summary": "Nvidia is moving its Groq 3 LPX inference chip into full production and reports 3,400 tokens per second on Gemma 4 31B, four times faster than Cerebras. But the numbers don&#x27;t tell the whole story. Nvidia needs at least 64 accelerators to get there, while Cerebras needs only one or two, according to…",
-      "published": "2026-08-25T12:27:57+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "eb9f63f8cab83393",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Nvidia, Groq 3 LPX&#x27;in hız iddialarının arkasındaki karmaşık matematiği açıkladı."
-    },
-    {
-      "title": "Ukraine opens its massive labeled battlefield dataset to British firms in a landmark AI weapons partnership",
-      "url": "https://the-decoder.com/ukraine-opens-its-massive-labeled-battlefield-dataset-to-british-firms-in-a-landmark-ai-weapons-partnership/",
-      "summary": "The UK becomes the first country to get access to Avengers Labs, Ukraine&#x27;s platform holding roughly five million annotated combat images for training military AI. Three British startups are already working on pilot projects. The deal shows how real war data is systematically becoming the currency fo…",
-      "published": "2026-08-25T12:16:41+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "2bf0cea60f291fe5",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Ukrayna, büyük savaş alanı veri setini İngiliz firmalarının kullanımına açtı."
-    },
-    {
-      "title": "Alabama AG probes OpenAI after its AI agent went rogue and hacked into external systems",
-      "url": "https://the-decoder.com/alabama-is-investigating-openai-following-an-uncontrolled-ai-agent-hack/",
-      "summary": "Alabama Attorney General Steve Marshall is investigating OpenAI over what he calls an &quot;AI lab leak.&quot; The probe follows the July 2026 Hugging Face incident, where an OpenAI agent broke out of a test environment and gained internet access on its own. Whether that happened because of advanced AI capabi…",
-      "published": "2026-08-25T10:24:13+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "f39627622f1712e7",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Alabama Başsavcılığı, dış sistemleri hackleyen OpenAI ajanı hakkında soruşturma başlattı."
-    },
-    {
-      "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
-      "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
-      "summary": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
-      "published": "2026-08-26T03:30:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "355d8aee33bd32ed",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Ringg, telefon aramalarını aşan yapay zeka için Peak XV&#x27;den yatırım aldı."
-    },
-    {
-      "title": "Robotics startup Generalist reaches $3B valuation, sources say",
-      "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
-      "summary": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
-      "published": "2026-08-26T00:40:59+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "03b16224233a8746",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Kaynaklara göre robotik girişimi Generalist, 3 milyar dolar değerlemeye ulaştı."
-    },
-    {
-      "title": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
-      "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
-      "summary": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice President Sachin Katti in charge of the group.",
-      "published": "2026-08-26T00:06:20+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "4b73af7f6f1d70c2",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "OpenAI&#x27;da üst düzey yönetici ayrılıkları devam ederken bir veri merkezi yöneticisi daha ayrıldı."
-    },
-    {
-      "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
-      "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
-      "summary": "The company&#x27;s new fundraising total now stands at $232 million.",
-      "published": "2026-08-25T19:03:47+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "a14ffe864c766b71",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Stable Diffusion&#x27;ın üreticisi Stability AI, 76 milyon dolar yeni yatırım aldı."
-    },
-    {
-      "title": "Claude Cowork finally remembers what you told the app in chat",
-      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
-      "summary": "Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context.",
-      "published": "2026-08-25T17:50:33+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "f1c8ae9706e46d62",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Claude Cowork, sohbette uygulamaya söylenenleri nihayet hatırlayabiliyor."
-    },
-    {
-      "title": "Gamma acquires Accel-backed design startup Lica",
-      "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
-      "summary": "Lica co-founders are going to work on Gamma&#x27;s new research team.",
-      "published": "2026-08-25T15:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "f0fe60763ef5b1c6",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Gamma, Accel destekli tasarım girişimi Lica&#x27;yı satın aldı."
-    },
-    {
-      "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
-      "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
-      "summary": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
-      "published": "2026-08-25T14:22:04+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "bfd1495c76918d53",
-      "category": "Araştırma",
-      "tr_summary": "Test sonuçları, OpenAI&#x27;ın Jalapeño çipinin büyük ölçekte hızlı çıkarım için yapıldığını gösteriyor."
-    },
-    {
-      "title": "Accel-backed Keenable is indexing the web for AI agents",
-      "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
-      "summary": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
-      "published": "2026-08-25T13:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "79f6641c4618a997",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Accel destekli Keenable, yapay zeka ajanları için web&#x27;i indeksliyor."
-    },
-    {
-      "title": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
-      "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/",
-      "summary": "TechCrunch talks agents, UX, and reporting to Greg Brockman with OpenAI&#x27;s head of product.",
-      "published": "2026-08-25T12:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "ee865b3ef8334b72",
-      "category": "Genel",
-      "tr_summary": "OpenAI ürün başkanı Thibault Sottiaux ile yapay zeka dünyasının hazır oluşu üzerine bir röportaj."
-    },
-    {
-      "title": "Granite 4.2 LLMs: How They&#x27;re Built",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-      "summary": "",
-      "published": "2026-08-25T15:14:14+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "d21068479952e403",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "Granite 4.2 Dil Modellerinin mimari yapısı ve nasıl inşa edildikleri açıklandı."
-    },
-    {
-      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "summary": "",
-      "published": "2026-08-25T11:39:24+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "f1c76f23a788b688",
-      "category": "Araştırma",
-      "tr_summary": "Quantization-Aware Healing, tam hassasiyetli orijinalini geçen 4 bitlik bir modeldir."
-    },
     {
       "title": "Expanding OpenAI’s presence in Brazil",
       "url": "https://openai.com/index/expanding-our-presence-in-brazil",
@@ -1750,6 +1470,426 @@
       "url_hash": "5e194712572c623b",
       "category": "Genel",
       "tr_summary": "Hugging Face&#x27;in hacklenmesi, OpenAI&#x27;daki olası kültürel sorunlara işaret ediyor olabilir."
+    },
+    {
+      "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
+      "url": "https://arxiv.org/abs/2609.00002",
+      "summary": "arXiv:2609.00002v1 Announce Type: new Abstract: World models enable language-model agents to predict environment dynamics and plan before acting. In text environments, the model must learn symbolic action effects from serialized state descriptions, but the role of serialization structure remains und…",
+      "published": "2026-09-02T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "cd6699f0965493eb",
+      "category": "Araştırma",
+      "tr_summary": "Metin tabanlı dünya modellerini geliştiren yeni bir serileştirme yöntemi sunuluyor."
+    },
+    {
+      "title": "I-CARE: Analysis of interference-related phenomena in a controllable, diverse and representative unlearning setting for text-to-image models",
+      "url": "https://arxiv.org/abs/2609.00003",
+      "summary": "arXiv:2609.00003v1 Announce Type: new Abstract: Machine unlearning studies the removal of knowledge from an AI model, making the system forget a concept it previously learned. Despite rapid progress in generative machine unlearning, the unintended degradation of semantically related concepts that sh…",
+      "published": "2026-09-02T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "7608bb1fc5f0b058",
+      "category": "Araştırma",
+      "tr_summary": "Metin-görsel modellerinde unutma süreçlerindeki parazit olayları analiz ediliyor."
+    },
+    {
+      "title": "Discrete-Time MDP Modeling for Multi-Item Capacitated Lot Sizing with Stochastic Demand Timing",
+      "url": "https://arxiv.org/abs/2609.00004",
+      "summary": "arXiv:2609.00004v1 Announce Type: new Abstract: This paper studies a finite-horizon multi-item capacitated lot-sizing problem in which demand quantities are deterministic, while demand-arrival periods are stochastic. Each demand occurs once within a known time window and must be satisfied no later t…",
+      "published": "2026-09-02T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "65ab8582b80252ea",
+      "category": "Araştırma",
+      "tr_summary": "Stokastik talep zamanlaması ile çok ürünlü lot boyutlandırma için MDP modeli öneriliyor."
+    },
+    {
+      "title": "Incremental Risk Assessment of Progressive Elder Financial Scams via Instruction-Tuned Small Language Models",
+      "url": "https://arxiv.org/abs/2609.00005",
+      "summary": "arXiv:2609.00005v1 Announce Type: new Abstract: Financial scams targeting older adults increasingly occur through text and voice channels such as email, SMS, and phone calls, unfolding over multiple conversational turns that begin with impersonation or casual contact, escalate through trust building…",
+      "published": "2026-09-02T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "d7bc113c73af0fba",
+      "category": "Araştırma",
+      "tr_summary": "Küçük dil modelleri kullanılarak yaşlılara yönelik dolandırıcılık riskleri inceleniyor."
+    },
+    {
+      "title": "Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls",
+      "url": "https://arxiv.org/abs/2609.00012",
+      "summary": "arXiv:2609.00012v1 Announce Type: new Abstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolation decays catastrophically, as errors cascade and the end-to-end failure…",
+      "published": "2026-09-02T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "6e140158f0816231",
+      "category": "Araştırma",
+      "tr_summary": "Büyük dil modellerinde derin araç çağrılarıyla uzun vadeli durum takibi araştırılıyor."
+    },
+    {
+      "title": "OpenAgentFlow: Enabling System-Wide Safety Boundaries for Heterogeneous AI Agent Fleets",
+      "url": "https://arxiv.org/abs/2609.00015",
+      "summary": "arXiv:2609.00015v1 Announce Type: new Abstract: AI agents powered by large language models are evolving from isolated assistants into heterogeneous systems in which multiple agents, planners, controllers, and execution backends operate over the same user or enterprise environment. In such settings,…",
+      "published": "2026-09-02T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "c544d4fb61971192",
+      "category": "Araştırma",
+      "tr_summary": "Çeşitli yapay zeka ajan filoları için sistem çapında güvenlik sınırları sağlanıyor."
+    },
+    {
+      "title": "SCAFFOLD: A Large-Scale Structured Dataset of Computer Science Research Figures with Diagram QA and Chain-of-Thought Reasoning Traces",
+      "url": "https://arxiv.org/abs/2609.00018",
+      "summary": "arXiv:2609.00018v1 Announce Type: new Abstract: Computer science papers rely heavily on diagrams: architecture drawings, system flowcharts, and pipeline schematics that often carry more information than the text around them. There is currently no public dataset that pairs this specific kind of figur…",
+      "published": "2026-09-02T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "de17dab9fc130cd7",
+      "category": "Araştırma",
+      "tr_summary": "Bilimsel makale görselleri ve akıl yürütme izleri içeren büyük bir veri seti sunuluyor."
+    },
+    {
+      "title": "UI-Venus-2 Technical Report",
+      "url": "https://arxiv.org/abs/2609.00028",
+      "summary": "arXiv:2609.00028v1 Announce Type: new Abstract: Multimodal GUI agents have emerged as a promising paradigm for digital task automation, yet transitioning from benchmark-oriented models to dependable real-world applications remains challenging due to limited environment coverage, brittle task constru…",
+      "published": "2026-09-02T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "e189623dcf92020a",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "UI-Venus-2 modeli için teknik detayları içeren bir rapor yayımlandı."
+    },
+    {
+      "title": "EULER: Exploring Underused Links with Evidence-Checked Return for Multi-Agent Mathematical Discovery",
+      "url": "https://arxiv.org/abs/2609.00032",
+      "summary": "arXiv:2609.00032v1 Announce Type: new Abstract: Mathematical communities work with different objects, invariants, and tools, so transferring a problem across them is expensive and often skipped. We present EULER, a multi-agent system that takes such a transfer--a bridge--as its unit of search. Aroun…",
+      "published": "2026-09-02T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "e66b90ae6bbc68df",
+      "category": "Araştırma",
+      "tr_summary": "Kanıt denetimli çok ajanlı matematiksel keşif için yeni bir sistem sunuluyor."
+    },
+    {
+      "title": "When Prediction Error Is Not Enough: Evaluating Nuisance-Function Prediction for Causal Estimation",
+      "url": "https://arxiv.org/abs/2609.00071",
+      "summary": "arXiv:2609.00071v1 Announce Type: new Abstract: Prediction error is widely used to evaluate nuisance-function estimators in causal inference, but its relationship with causal estimator performance may differ across performance measures. We studied this question in a partially linear model using Mont…",
+      "published": "2026-09-02T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "5b4fb17efa3e53db",
+      "category": "Araştırma",
+      "tr_summary": "Nedensel tahmin için rahatsızlık fonksiyonu tahmini değerlendiriliyor."
+    },
+    {
+      "title": "How AI-native companies turn workflows into operating capability",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "published": "2026-09-01T17:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "b0cbef382238cdd5",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Yapay zeka odaklı şirketlerin iş akışlarını operasyonel yeteneğe dönüştürmesi inceleniyor."
+    },
+    {
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "url": "https://openai.com/index/path-to-astra",
+      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "published": "2026-09-01T13:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "f2694bfa96c49e91",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Astra yolunda kritik yetenekler ve sınır güvenliği önlemleri ele alınıyor."
+    },
+    {
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "published": "2026-09-01T12:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "c0364833b41073ca",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Sağlık kuruluşları EHR verilerini ChatGPT ile bağlayabilecek."
+    },
+    {
+      "title": "Google Gemini&#x27;s new agent-based video analysis cuts token usage by up to 88 percent",
+      "url": "https://the-decoder.com/google-geminis-new-agent-based-video-analysis-cuts-token-usage-by-up-to-88-percent/",
+      "summary": "Google is adding agent-based video analysis to Gemini 3.7 Flash, 3.6 Flash, and 3.5 Flash-Lite. Instead of scanning videos frame by frame at a fixed rate, the model decides on its own which segments to examine and at what resolution. Google says this cuts token usage by up to 88 percent while improv…",
+      "published": "2026-09-02T08:21:38+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "ed4d2401172acf1a",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Google Gemini&#x27;nin yeni video analizi token kullanımını önemli ölçüde azaltıyor."
+    },
+    {
+      "title": "Anthropic opens Claude AI text detection to regulators, media, fact-checkers, and others",
+      "url": "https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others/",
+      "summary": "Anthropic is launching an API that lets regulators, media outlets, and researchers check whether text carries Claude&#x27;s digital watermark. The EU AI Act now requires invisible watermarks in AI-generated text. Critics warn the technology could hurt text quality and create transparency problems where c…",
+      "published": "2026-09-01T20:40:36+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "430750c5de01c04c",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Anthropic, Claude metin tespiti aracını düzenleyiciler ve medya ile paylaşıyor."
+    },
+    {
+      "title": "Anthropic&#x27;s Claude Fable 5.1 promises better coding and research at up to 45 percent less",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less/",
+      "summary": "Anthropic launches Claude Fable 5.1 and Mythos 5.1, its most capable AI models yet. Fable 5.1 doubles its predecessor&#x27;s score on Terminal-Bench-Science and improves agentic coding by over 30 percent. Costs drop by up to 45 percent for long, autonomous runs with many tool calls. The article Anthropic…",
+      "published": "2026-09-01T20:32:55+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "bbcd53f99d9a121b",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Anthropic&#x27;in yeni modeli daha iyi kodlama ve araştırmayı daha ucuza sunuyor."
+    },
+    {
+      "title": "Google Deepmind&#x27;s new chief says frontier AI leadership is the only thing that matters",
+      "url": "https://the-decoder.com/google-deepminds-new-chief-says-frontier-ai-leadership-is-the-only-thing-that-matters/",
+      "summary": "Google Deepmind chief Koray Kavukcuoglu admits Google&#x27;s current models are &quot;a little bit below the frontier&quot; but says he&#x27;s &quot;100% certain that we will be at the frontier.&quot; He didn&#x27;t share any concrete frontier news to back that up, though. The article Google Deepmind&amp;#039;s new chief says frontier AI…",
+      "published": "2026-09-01T16:49:11+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "cd13a1c1f6ffc385",
+      "category": "Genel",
+      "tr_summary": "Google Deepmind liderine göre yapay zekada sınır liderliği her şeyden önemli."
+    },
+    {
+      "title": "Google&#x27;s election AI Overviews are opaque, rely on few sources, and sometimes take sides",
+      "url": "https://the-decoder.com/googles-election-ai-overviews-are-opaque-rely-on-few-sources-and-sometimes-take-sides/",
+      "summary": "Using access granted under the EU&#x27;s Digital Services Act, the German advocacy group AlgorithmWatch ran 4,480 election-related search queries on Google and analyzed the AI Overviews that came back. Google showed the overviews inconsistently and leaned on a small pool of sources, chief among them its…",
+      "published": "2026-09-01T13:03:17+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "7b98086e5582e84c",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Google&#x27;ın seçim dönemi yapay zeka özetleri şeffaf değil ve taraf tutabiliyor."
+    },
+    {
+      "title": "Runway&#x27;s Solaris is an AI system that generates software interfaces in real time",
+      "url": "https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time/",
+      "summary": "AI company Runway has unveiled Solaris, the first model in a new category it calls &quot;Interface World Models.&quot; Instead of running code, the system generates the user interface frame by frame as you interact with it. The article Runway&amp;#039;s Solaris is an AI system that generates software interfaces i…",
+      "published": "2026-09-01T12:53:46+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "1fbf74bc9f208c04",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Runway&#x27;in Solaris sistemi gerçek zamanlı olarak yazılım arayüzleri üretiyor."
+    },
+    {
+      "title": "Google&#x27;s AI search dropped its emergency-call advice over nationalities but still flags people from Facebook",
+      "url": "https://the-decoder.com/googles-ai-search-dropped-its-emergency-call-advice-over-nationalities-but-still-flags-people-from-facebook/",
+      "summary": "&quot;Please get to a safe place or call emergency services&quot;: That&#x27;s the advice Google&#x27;s AI search gave users who typed that they were alone with an African, Indian, or Pakistani. The article Google&amp;#039;s AI search dropped its emergency-call advice over nationalities but still flags people from Facebook…",
+      "published": "2026-09-01T12:44:11+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "ef99a5899815b12b",
+      "category": "Regülasyon/Politika",
+      "tr_summary": "Google&#x27;ın yapay zeka araması acil durum tavsiyelerini kaldırdı ancak bazı etiketleri koruyor."
+    },
+    {
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "summary": "Comments",
+      "published": "2026-09-01T17:53:53+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e7232d52f37fd859",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Claude 5.1 serisi duyuruldu."
+    },
+    {
+      "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
+      "url": "https://arxiv.org/abs/2608.29530",
+      "summary": "Comments",
+      "published": "2026-09-02T04:15:56+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f2e4326ec6899d86",
+      "category": "Araştırma",
+      "tr_summary": "Yapay sinir ağlarındaki sembolik yapılar inceleniyor."
+    },
+    {
+      "title": "How accurate have Ed Zitron&#x27;s AI skeptic predictions been?",
+      "url": "https://danluu.com/zitron/",
+      "summary": "Comments",
+      "published": "2026-09-01T18:35:15+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e82667920f5ed02b",
+      "category": "Genel",
+      "tr_summary": "Ed Zitron&#x27;un yapay zeka şüphecisi tahminleri analiz ediliyor."
+    },
+    {
+      "title": "Fine, I&#x27;ll build my own text editor",
+      "url": "https://dbushell.com/2026/09/01/text-editor/",
+      "summary": "Comments",
+      "published": "2026-09-01T17:12:15+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "4be7e146957381bd",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "Geliştirici kendi metin düzenleyicisini inşa ediyor."
+    },
+    {
+      "title": "WebFPGA",
+      "url": "https://webfpga.io/",
+      "summary": "Comments",
+      "published": "2026-09-02T03:54:58+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "eb2920341205aedc",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "WebFPGA teknolojisi tanıtılıyor."
+    },
+    {
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "summary": "Comments",
+      "published": "2026-09-01T23:17:43+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6df08faed0b3ab6a",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "FBI, 153 milyondan fazla ehliyet satan bir servisi soruşturuyor."
+    },
+    {
+      "title": "Introducing Ad Blocker for Firefox on iOS",
+      "url": "https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/",
+      "summary": "Comments",
+      "published": "2026-09-01T13:46:49+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "72ac859d4cec0b90",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "iOS üzerinde Firefox için yeni reklam engelleyici tanıtıldı."
+    },
+    {
+      "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
+      "url": "https://masteranza.github.io/weedout/",
+      "summary": "Comments",
+      "published": "2026-09-01T22:06:57+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "b67aa4138c4ab20d",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "YouTube&#x27;daki yapay zeka videolarını gizleyen Safari eklentisi."
+    },
+    {
+      "title": "My local model setup on an M4 Pro Mac Mini",
+      "url": "https://lws.io/blog/my-local-model-setup/",
+      "summary": "Comments",
+      "published": "2026-09-01T22:30:52+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "401e6bb8407c67a2",
+      "category": "Mühendislik/Mimari",
+      "tr_summary": "M4 Pro Mac Mini üzerinde yerel yapay zeka modeli kurulumu."
+    },
+    {
+      "title": "The efficient frontier of LLM inference",
+      "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+      "summary": "Comments",
+      "published": "2026-09-01T23:48:05+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f30ff19dd7ec348d",
+      "category": "Araştırma",
+      "tr_summary": "LLM çıkarımında verimlilik sınırları inceleniyor."
+    },
+    {
+      "title": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
+      "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+      "summary": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
+      "published": "2026-09-01T22:08:24+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "c097ba37b0ccd0a1",
+      "category": "Yatırım/Startup",
+      "tr_summary": "AfterQuery rekor sürede 3.2 milyar dolar değerlemeye ulaştı."
+    },
+    {
+      "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
+      "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
+      "published": "2026-09-01T21:06:24+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "c53867e1e8c8a5e6",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "OpenAI&#x27;ın yeni Astra modeli bilgisayar sistemlerine sızabiliyor."
+    },
+    {
+      "title": "Google’s Android update tackles motion sickness, accessibility, and more",
+      "url": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
+      "summary": "While some of the features see Google playing catch-up to Apple, which already offers similar features for iPhone users, others specifically leverage Gemini to provide various improvements.",
+      "published": "2026-09-01T20:53:05+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "e4c6ad0840540c20",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Google&#x27;ın Android güncellemesi erişilebilirlik ve hareket hastalığını hedefliyor."
+    },
+    {
+      "title": "Anthropic’s new Fable release is cheaper, less restrictive",
+      "url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
+      "summary": "Fable 5.1 includes changes meant to reduce token cost and false-positive restrictions from the model&#x27;s safeguards.",
+      "published": "2026-09-01T19:39:22+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "a3461c8cef17985d",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Anthropic&#x27;in yeni Fable sürümü daha ucuz ve esnek."
+    },
+    {
+      "title": "Google’s answer to Canva is an AI tool where you prompt instead of design",
+      "url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+      "summary": "With Google Pics, Google is pushing deeper into the creative software market dominated by Canva and Adobe, but with a distinctly AI-first approach.",
+      "published": "2026-09-01T17:35:37+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "49d8f8bb06ff56af",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Google, Canva&#x27;ya rakip yapay zeka tabanlı tasarım aracı çıkardı."
+    },
+    {
+      "title": "ChatGPT Health adds Epic integration for clinicians to import patient data",
+      "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+      "summary": "OpenAI said that the integration provides read-only access to health records for clinicians.",
+      "published": "2026-09-01T17:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "57158382d753eba0",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "ChatGPT Health, klinisyenler için Epic entegrasyonu ekledi."
+    },
+    {
+      "title": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
+      "url": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
+      "summary": "The startup wants to do for IT infrastructure what Cursor did for software engineering.",
+      "published": "2026-09-01T16:31:04+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "239e2a8c2c65f78d",
+      "category": "Yatırım/Startup",
+      "tr_summary": "Empirik, kesintileri önceden tahmin etmek için 21 milyon dolar aldı."
+    },
+    {
+      "title": "Amazon Alexa can now alert you when something new might tempt you to shop",
+      "url": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/",
+      "summary": "Amazon is adding a new Alexa-powered feature called “Update Me When” that can send personalized alerts about product launches, tours, books, shows, and other events that could trigger a purchase.",
+      "published": "2026-09-01T15:51:55+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "05fa97c1383e94c1",
+      "category": "Kullanıcıyı Etkileyen",
+      "tr_summary": "Amazon Alexa alışveriş dürtüleri hakkında uyarı verebilecek."
+    },
+    {
+      "title": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
+      "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+      "summary": "AIR&#x27;s platform can discover agents running at a company, continuously vets any skills and add-ons they use, and blocks any unwanted behavior.",
+      "published": "2026-09-01T15:45:51+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "c6d1166e74facffc",
+      "category": "Yatırım/Startup",
+      "tr_summary": "AIR, şirketlerin yapay zeka ajanlarını denetlemesi için 50 milyon dolar topladı."
+    },
+    {
+      "title": "Fambot introduces an ‘AI chief of staff’ for families",
+      "url": "https://techcrunch.com/2026/09/01/fambot-introduces-an-ai-chief-of-staff-for-families/",
+      "summary": "Fambot is building an AI “chief of staff” to help families manage the emails, calendars, school updates, sports schedules, and other logistics of raising kids.",
+      "published": "2026-09-01T15:10:58+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "f7e091e284fd07cb",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Fambot, aileler için yapay zeka asistanı tanıttı."
+    },
+    {
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "summary": "",
+      "published": "2026-09-01T21:39:07+00:00",
+      "source_name": "Hugging Face Blog",
+      "url_hash": "ad90e6779ea3045b",
+      "category": "Araştırma",
+      "tr_summary": "Büyük dil modellerinin testlerinin ne ölçüde doğru sonuçlar verdiğini inceleyen bir çalışma."
+    },
+    {
+      "title": "Introducing agentic video understanding with Gemini",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "summary": "",
+      "published": "2026-09-01T17:08:51+00:00",
+      "source_name": "Google DeepMind",
+      "url_hash": "20b040f8e58f31e9",
+      "category": "Ürün/Şirket Haberleri",
+      "tr_summary": "Google, Gemini modeli için yeni otonom video anlama yeteneğini tanıttı."
     }
   ]
 }
