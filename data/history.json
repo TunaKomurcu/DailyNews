@@ -1,36 +1,6 @@
 {
-  "last_updated": "2026-09-05T08:13:34Z",
+  "last_updated": "2026-09-06T08:31:56Z",
   "items": [
-    {
-      "title": "LAION drops massive open video dataset with 10 million hours of footage for AI research",
-      "url": "https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research/",
-      "summary": "LAION&#x27;s Big Video Dataset (BVD) is one of the largest open video datasets for AI research, with 80 million videos, 10 million hours of runtime, and 55 million auto-described clips. Models trained on BVD beat the previous benchmark, InternVid, by up to 2.1 percentage points. Legally, LAION can likely…",
-      "published": "2026-08-29T09:36:48+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "7aa56fc0b9a4e162",
-      "category": "Açık Kaynak",
-      "tr_summary": "LAION, yapay zeka araştırmaları için 10 milyon saatlik açık video veri seti sundu."
-    },
-    {
-      "title": "Anthropic wants to do for physical hardware what its Model Context Protocol did for software",
-      "url": "https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software/",
-      "summary": "Anthropic&#x27;s Model Hardware Standard (MHS) gives AI agents a unified interface to physical devices like robotic arms and lab instruments. In early tests, integration time dropped from weeks to hours. But Claude sometimes failed to grasp physical cause and effect, so human oversight remains essential…",
-      "published": "2026-08-29T09:14:30+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "29f51850ae0ac0a7",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Anthropic, fiziksel donanımlar için yeni Model Context Protocol adımları atıyor."
-    },
-    {
-      "title": "OpenAI cuts off Cursor after SpaceX acquisition, citing Musk&#x27;s history of breaking contracts",
-      "url": "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/",
-      "summary": "OpenAI is cutting off the AI coding tool Cursor after SpaceX acquired the company, citing Elon Musk&#x27;s track record of breaking contracts. Cursor co-founder Michael Truell downplays the move, saying OpenAI models account for just five percent of the tool&#x27;s AI traffic. The article OpenAI cuts off Curs…",
-      "published": "2026-08-29T08:15:35+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "8404bb29c92e9185",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "OpenAI, SpaceX satın alımı sonrasında Cursor erişimini kesti."
-    },
     {
       "title": "Anthropic&#x27;s Claude Code limit change is a raise on paper but a cut in practice",
       "url": "https://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice/",
@@ -52,36 +22,6 @@
       "tr_summary": "Sony ve Warner, Anthropic&#x27;e büyük fikri mülkiyet hırsızlığı davası açtı."
     },
     {
-      "title": "AI-generated videos are already displacing actors and livestreamers across China&#x27;s entertainment industry",
-      "url": "https://the-decoder.com/ai-generated-videos-are-already-displacing-actors-and-livestreamers-across-chinas-entertainment-industry/",
-      "summary": "In China, 95 percent of the 128,000 short dramas released in Q1 2026 were AI-generated. Some actors are being forced to hand over their voice and likeness to AI tools before getting fired, the Financial Times reports. AI-related labor disputes are rising fast. The article AI-generated videos are alr…",
-      "published": "2026-08-29T13:25:56+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "e536c3c3795d22bb",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Yapay zeka videoları Çin&#x27;deki eğlence sektöründe oyuncuların yerini alıyor."
-    },
-    {
-      "title": "Google&#x27;s WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
-      "url": "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes/",
-      "summary": "Google Research has introduced WikiSkill, a framework that gives AI agents a persistent knowledge base. Instead of discarding what they learned after each run, agents document both failures and successes in a wiki-like structure and use that knowledge to get better over time. Larger models benefit m…",
-      "published": "2026-08-29T12:51:24+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "502f0407e7a8f241",
-      "category": "Araştırma",
-      "tr_summary": "Google WikiSkill, yapay zeka ajanlarına geçmiş hataları hatırlatan kalıcı bellek sunar."
-    },
-    {
-      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
-      "url": "https://arxiv.org/abs/1804.07389",
-      "summary": "Comments",
-      "published": "2026-08-30T08:23:26+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6d2ece70c0a3ce80",
-      "category": "Genel",
-      "tr_summary": "Dünyadaki su veya karada yapılabilen en uzun düz hat yolları."
-    },
-    {
       "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
       "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
       "summary": "Comments",
@@ -92,66 +32,6 @@
       "tr_summary": "QubesOS&#x27;ta sanal makineye kopyalama hata raporlama kanalıyla rastgele kod yürütme."
     },
     {
-      "title": "Hy4 preview",
-      "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
-      "summary": "Comments",
-      "published": "2026-08-29T19:33:23+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "7ccb97bb9a47c2f1",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Hy4 önizlemesi yayınlandı ve yenilikler sunuyor."
-    },
-    {
-      "title": "Xcena and Samsung&#x27;s Near Memory Compute CXL Device",
-      "url": "https://chipsandcheese.com/p/hot-chips-2026-xcena-and-samsungs",
-      "summary": "Comments",
-      "published": "2026-08-30T07:35:41+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "2aa1ee36d09a8f02",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "Xcena ve Samsung ortaklığıyla geliştirilen Yakın Bellek Hesaplama CXL Cihazı."
-    },
-    {
-      "title": "Bug Blindness",
-      "url": "https://danluu.com/bug-blind/",
-      "summary": "Comments",
-      "published": "2026-08-30T00:21:40+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "05502ae5938a9d5e",
-      "category": "Araştırma",
-      "tr_summary": "Hata körlüğü üzerine yapılan araştırmalar ve yazılım geliştirme süreçleri."
-    },
-    {
-      "title": "FreeCORE TrueNAS Core – Continued",
-      "url": "https://freecore.org/",
-      "summary": "Comments",
-      "published": "2026-08-30T01:31:32+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "c22348ede2f35da5",
-      "category": "Açık Kaynak",
-      "tr_summary": "FreeCORE TrueNAS Core projesi gelişimine devam ediyor."
-    },
-    {
-      "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
-      "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
-      "summary": "Comments",
-      "published": "2026-08-30T03:15:36+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "5e2393b3ea03b150",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Kaliforniya&#x27;lı yasa koyucular Linux&#x27;u yaş doğrulama yasasından oybirliğiyle muaf tuttu."
-    },
-    {
-      "title": "Benjamin Franklin&#x27;s Alter Egos Gave Him the Most Freedom",
-      "url": "https://www.smithsonianmag.com/history/among-all-great-things-benjamin-franklin-invented-discovered-alter-egos-gave-him-most-freedom-180988824/",
-      "summary": "Comments",
-      "published": "2026-08-30T01:09:15+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "f1373e34d2355a90",
-      "category": "Genel",
-      "tr_summary": "Benjamin Franklin&#x27;in alternatif kimlikleri ona büyük bir özgürlük sağladı."
-    },
-    {
       "title": "Brits would quite like their private messages to stay private",
       "url": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
       "summary": "Comments",
@@ -160,46 +40,6 @@
       "url_hash": "508266ce174b6f9e",
       "category": "Kullanıcıyı Etkileyen",
       "tr_summary": "İngiliz vatandaştarları özel mesajlarının gizli kalmasını istiyor."
-    },
-    {
-      "title": "Nancy Grace Roman Space Telescope",
-      "url": "https://science.nasa.gov/mission/roman-space-telescope/",
-      "summary": "Comments",
-      "published": "2026-08-29T15:48:02+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "e00bbcbba8b9eb0f",
-      "category": "Araştırma",
-      "tr_summary": "Nancy Grace Roman Uzay Teleskobu evrenin sırlarını araştırmaya devam ediyor."
-    },
-    {
-      "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
-      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-      "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
-      "published": "2026-08-29T18:41:59+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "d750556c657fba21",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Sony Music ve Warner, Anthropic&#x27;e fikri mülkiyet hırsızlığı davası açtı."
-    },
-    {
-      "title": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
-      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
-      "summary": "Vijay Pande — who left a16z&#x27;s roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a &quot;discovery&quot; science to an &quot;engineering&quot; one, why clinical trials are still brutally expensive, and why he thinks open, shared dat…",
-      "published": "2026-08-29T17:36:47+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "1c359d226297b79b",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Vijay Pande, a16z sonrası küçük bahisler yapma stratejisini anlatıyor."
-    },
-    {
-      "title": "Nvidia’s AI advantage is moving beyond the GPU",
-      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
-      "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
-      "published": "2026-08-29T13:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "a85aa69b831be69c",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Nvidia&#x27;nın yapay zeka avantajı GPU&#x27;ların ötesine taşınıyor."
     },
     {
       "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
@@ -2218,6 +2058,186 @@
       "published": "2026-09-04T09:25:19+00:00",
       "source_name": "MIT Technology Review",
       "url_hash": "772ec013400f9e75",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Artificial Analysis overhauls its Intelligence Index after GPT-6 Astra scoring drew skepticism",
+      "url": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
+      "summary": "Artificial Analysis has released version 4.2 of its Intelligence Index, likely in response to criticism that its benchmarks failed to capture GPT-6 Astra&#x27;s actual progress. Astra now scores four points above its predecessor but still trails Anthropic&#x27;s Claude Fable 5.1. The article Artificial Analys…",
+      "published": "2026-09-05T18:21:02+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "529a241aa37ae633",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words",
+      "url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words/",
+      "summary": "OpenAI ships a detailed prompting guide for GPT-6 Astra that shows developers how to make the model take more initiative, avoid AI &quot;slop&quot; phrases, and stop it from overtesting code. The article OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words appeared first on The Dec…",
+      "published": "2026-09-05T13:31:04+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "3b4dcb5d3c3302cb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Seven minutes with a chatbot beat a fact sheet at reducing conspiracy beliefs in two experiments",
+      "url": "https://the-decoder.com/seven-minutes-with-a-chatbot-beat-a-fact-sheet-at-reducing-conspiracy-beliefs-in-two-experiments/",
+      "summary": "Researchers found that even a roughly seven-minute conversation with Google Gemini can reduce conspiracy beliefs about current crises, even when few verified facts are available. The effect beat a static fact sheet and, in follow-up surveys weeks later, carried over to beliefs about entirely differe…",
+      "published": "2026-09-05T12:39:12+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "0b51a9abe9bd07f0",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki",
+      "url": "https://the-decoder.com/openai-admits-its-disclosure-practices-need-work-after-its-autonomous-agents-hacked-a-german-wiki/",
+      "summary": "OpenAI has responded indirectly to an incident in which autonomous AI agents left roughly 18,000 entries in a 25-year-old German wiki. The company says misalignment caused &quot;new types of real-world impact&quot; for the first time and plans to release a disclosure framework. The article OpenAI admits its d…",
+      "published": "2026-09-05T10:57:51+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "df71ea507f2b0561",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Deepmind put 100 AI agents in a room and they sorted into cheaters, converts, and whistleblowers",
+      "url": "https://the-decoder.com/deepmind-put-100-ai-agents-in-a-room-and-they-sorted-into-cheaters-converts-and-whistleblowers/",
+      "summary": "Google Deepmind set up a simulated research conference where 100 Gemini agents were supposed to prove mathematical conjectures together. Instead, one agent found a loophole in the grading system, and within 27 minutes every remaining problem was &quot;solved&quot; with fake proofs. The swarm split into cheate…",
+      "published": "2026-09-05T10:22:38+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "4dbfcb5e81ede75d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
+      "url": "https://cloudinabottle.org/blog/launch-post",
+      "summary": "Comments",
+      "published": "2026-09-06T00:03:29+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6a2258e1c0b90d7f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The revolt of the reader",
+      "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
+      "summary": "Comments",
+      "published": "2026-09-05T21:37:49+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6403f7898e7b10c2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AMD Based FreeBSD Desktop Reloaded",
+      "url": "https://vermaden.wordpress.com/2026/09/06/amd-based-freebsd-desktop-reloaded/",
+      "summary": "Comments",
+      "published": "2026-09-06T02:24:57+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "d268b0af99037bc7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI, Tools and Transformation",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "summary": "Comments",
+      "published": "2026-09-06T02:12:46+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "ebdbf0f6db65b302",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Chrome again exempts Google from user site data settings",
+      "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
+      "summary": "Comments",
+      "published": "2026-09-05T23:39:47+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "65ab548c3d330b40",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Learn Programming with OCaml",
+      "url": "https://usr.lmf.cnrs.fr/lpo/",
+      "summary": "Comments",
+      "published": "2026-09-05T16:45:02+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "83d3effa43049b37",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "GPT-6 Astra on robot arms",
+      "url": "https://openai.robocurve.org/gpt-6-astra/",
+      "summary": "Comments",
+      "published": "2026-09-06T01:52:45+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "ffb29772a913ef66",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The &quot;$60 Gaming PC&quot; – AMD BC-250 (2025)",
+      "url": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
+      "summary": "Comments",
+      "published": "2026-09-05T13:36:38+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "388819ff9e6f9d10",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Private German rocket makes history, reaches orbit from European soil",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
+      "summary": "Comments",
+      "published": "2026-09-05T20:31:38+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "630bf109ed96599c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Site Is Closed on Sundays",
+      "url": "https://v7.robweychert.com/",
+      "summary": "Comments",
+      "published": "2026-09-06T06:23:05+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "0954f87590575e13",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
+      "published": "2026-09-05T22:49:55+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "6df0f5d81c2b28a3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Hikers rescued after using Google Gemini for planning",
+      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+      "summary": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.&quot;",
+      "published": "2026-09-05T19:35:24+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "6ef2aef9012f0dd0",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
+      "published": "2026-09-05T18:05:27+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "b86b5015c5da7a40",
       "category": "Genel",
       "tr_summary": ""
     }
