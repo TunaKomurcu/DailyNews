@@ -1,276 +1,6 @@
 {
-  "last_updated": "2026-09-07T09:09:46Z",
+  "last_updated": "2026-09-08T08:45:57Z",
   "items": [
-    {
-      "title": "OpenShot 4.0: Record, Edit, and Color Like Never Before",
-      "url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
-      "summary": "Comments",
-      "published": "2026-08-31T09:59:05+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "0093bb3cdd1db22a",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "OpenShot 4.0 sürümü yeni kayıt ve düzenleme özellikleriyle duyuruldu."
-    },
-    {
-      "title": "The ISBN was invented in 1970. Your books don&#x27;t care",
-      "url": "https://www.shelvd.org/blog/isbn-invented-1970",
-      "summary": "Comments",
-      "published": "2026-08-31T10:22:55+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "38eaa7615f429da4",
-      "category": "Genel",
-      "tr_summary": "ISBN numarasının tarihi ve kitaplar üzerindeki etkisi ele alındı."
-    },
-    {
-      "title": "Bank of England chief warns that inflated AI valuations and rising leverage could trigger the next financial crisis",
-      "url": "https://the-decoder.com/bank-of-england-chief-warns-that-inflated-ai-valuations-and-rising-leverage-could-trigger-the-next-financial-crisis/",
-      "summary": "Andrew Bailey warns G20 finance ministers about inflated AI valuations, growing leverage across markets, and cyber risks from frontier AI models. Cross-investments between AI companies and hyperscalers could trigger a chain reaction if one major player stumbles. Many countries still lack rules for a…",
-      "published": "2026-08-31T18:01:21+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "a0830198bbf446f1",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "İngiltere Merkez Bankası, yapay zeka değerlemelerinin kriz tetikleyebileceğini uyardı."
-    },
-    {
-      "title": "Instagram admits users often can&#x27;t tell AI profiles from real people",
-      "url": "https://the-decoder.com/instagram-admits-users-often-cant-tell-ai-profiles-from-real-people/",
-      "summary": "Instagram is replacing its &quot;AI creator&quot; tag with a new &quot;AI-generated profile&quot; label because users can&#x27;t tell AI profiles from real people. Singularity, defined by Instagram user competence. Profiles without the label get their reach and recommendations throttled. As recently as late 2024, Meta was s…",
-      "published": "2026-08-31T17:27:43+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "e618cb0ae69f35ca",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Instagram, kullanıcıların yapay zeka profillerini gerçek insanlardan ayırt edemediğini kabul etti."
-    },
-    {
-      "title": "OpenAI says its ChatGPT ad business hits a $1 billion annual run rate",
-      "url": "https://the-decoder.com/openai-says-its-chatgpt-ad-business-hits-a-1-billion-annual-run-rate/",
-      "summary": "OpenAI&#x27;s advertising business has reached an annualized revenue run rate of $1 billion, according to the company. The article OpenAI says its ChatGPT ad business hits a $1 billion annual run rate appeared first on The Decoder .",
-      "published": "2026-08-31T15:24:59+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "1a8cd9a77a606195",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "OpenAI&#x27;ın ChatGPT reklam gelirinin yıllık 1 milyar dolarlık çalışma oranına ulaştığı açıklandı."
-    },
-    {
-      "title": "China&#x27;s CXMT makes its first HBM3E chips, closing the AI memory gap",
-      "url": "https://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap/",
-      "summary": "China&#x27;s top memory maker ChangXin Memory Technologies (CXMT) is producing HBM3E for the first time in small quantities, a fast memory found in many current AI processors. The article China&amp;#039;s CXMT makes its first HBM3E chips, closing the AI memory gap appeared first on The Decoder .",
-      "published": "2026-08-31T15:17:31+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "ae354001d96ab4fb",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "Çinli CXMT ilk HBM3E çiplerini üreterek yapay zeka bellek açığını kapatıyor."
-    },
-    {
-      "title": "ChatGPT now faces stricter EU oversight as a very large search engine",
-      "url": "https://the-decoder.com/chatgpt-now-faces-stricter-eu-oversight-as-a-very-large-search-engine/",
-      "summary": "The EU Commission is classifying ChatGPT as a very large search engine under the Digital Services Act for the first time, with at least 45 million monthly EU users. By the end of 2026, OpenAI has to deliver risk assessments, transparency reports, and an ad archive, among other things. Whether the Co…",
-      "published": "2026-08-31T14:31:37+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "85fa49da1fb1e720",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "ChatGPT, çok büyük bir arama motoru olarak daha sıkı AB denetimiyle karşı karşıya."
-    },
-    {
-      "title": "OpenAI starts charging some customers only when its AI actually works",
-      "url": "https://the-decoder.com/openai-starts-charging-some-customers-only-when-its-ai-actually-works/",
-      "summary": "OpenAI is offering some large customers outcome-based pricing, where they pay only once the AI actually finishes a task. Salesforce, Adobe, and several startups are also moving away from fixed subscription fees. The central dispute stays the same. Who gets credit for the success, the software or the…",
-      "published": "2026-08-31T14:28:14+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "4aaeecc011570d7b",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "OpenAI, bazı müşterilerinden yalnızca yapay zeka gerçekten çalıştığında ücret almaya başlıyor."
-    },
-    {
-      "title": "OpenClaw 2.0 brings simplified setup, a rebuilt browser app, and multiplayer sessions",
-      "url": "https://the-decoder.com/openclaw-2-0-brings-simplified-setup-a-rebuilt-browser-app-and-multiplayer-sessions/",
-      "summary": "The OpenClaw Foundation has released version 2.0 of its open-source AI platform, its largest release to date with over 16,000 pull requests. New features include cloud sessions on rented machines, real-time collaboration, and a browser app rebuilt from scratch. The software now automatically detects…",
-      "published": "2026-08-31T10:46:04+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "5d69e66b302c45cd",
-      "category": "Açık Kaynak",
-      "tr_summary": "OpenClaw 2.0; kolay kurulum, yenilenen tarayıcı uygulaması ve çok oyunculu oturumlar sunuyor."
-    },
-    {
-      "title": "GPU World",
-      "url": "https://www.gpuworld.org/",
-      "summary": "Comments",
-      "published": "2026-09-01T03:16:36+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "da38740894257e67",
-      "category": "Genel",
-      "tr_summary": "Sektör gündemindeki donanım ve grafik işlemci dünyasına genel bir bakış."
-    },
-    {
-      "title": "Fastpotify",
-      "url": "https://fastpotify.rocks/",
-      "summary": "Comments",
-      "published": "2026-09-01T02:52:14+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "89e5df783443a9e3",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Spotify altyapısını kullanan hızlı ve alternatif bir müzikçalar uygulaması."
-    },
-    {
-      "title": "Tmp.0ut Volume 5",
-      "url": "https://tmpout.sh/5/",
-      "summary": "Comments",
-      "published": "2026-08-31T23:26:08+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "99ad58ffb7a758f2",
-      "category": "Genel",
-      "tr_summary": "Tmp.0ut dergisinin beşinci cildi teknoloji ve kültür yazılarıyla yayımlandı."
-    },
-    {
-      "title": "Restroom Archive",
-      "url": "https://restroomarchive.com",
-      "summary": "Comments",
-      "published": "2026-09-01T03:23:48+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "b8d00bb7f83a7930",
-      "category": "Genel",
-      "tr_summary": "Çeşitli mekanlardaki tuvaletlerin arşivlendiği ilginç bir dijital koleksiyon projesi."
-    },
-    {
-      "title": "Playa Phone",
-      "url": "https://playaphone.com/",
-      "summary": "Comments",
-      "published": "2026-08-31T14:52:26+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "63994c0b6655e700",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Nostaljik tasarımı modern özelliklerle buluşturan yeni bir telefon projesi."
-    },
-    {
-      "title": "I turned my security cameras into an automatic bird identification system",
-      "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
-      "summary": "Comments",
-      "published": "2026-08-31T16:47:11+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "001d0ddadc404193",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Güvenlik kameralarını otomatik bir kuş tanımlama sistemine dönüştürdü."
-    },
-    {
-      "title": "A walkable ASCII cyberpunk city in one HTML file [video]",
-      "url": "https://www.youtube.com/watch?v=3YtygAx_C6A",
-      "summary": "Comments",
-      "published": "2026-08-31T18:21:33+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "c63d155c4f4411a8",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "Tek bir HTML dosyasında çalışan, yürünebilir ASCII cyberpunk şehir simülasyonu."
-    },
-    {
-      "title": "CollectWise (YC F24) Is Hiring",
-      "url": "https://www.ycombinator.com/companies/collectwise/jobs/7U500pP-founding-customer-success-engineer",
-      "summary": "Comments",
-      "published": "2026-09-01T07:01:49+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "f4d6559ee8db7d36",
-      "category": "Yatırım/Startup",
-      "tr_summary": "YCombinator destekli girişim CollectWise yeni ekip arkadaşları arıyor."
-    },
-    {
-      "title": "RotaryCell: Making an unmodified rotary phone work over LTE with an ESP32-S3",
-      "url": "https://github.com/fregacmols/RotaryCell",
-      "summary": "Comments",
-      "published": "2026-09-01T02:29:23+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "87aadcd4ed8bf0b5",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "ESP32-S3 kullanarak orijinal bir çevirmeli telefonun LTE üzerinden çalıştırılması."
-    },
-    {
-      "title": "Evidence of Fraud in an Influential Study About Procrastination",
-      "url": "https://datacolada.org/138",
-      "summary": "Comments",
-      "published": "2026-08-31T23:45:56+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "e8910025a49bba7b",
-      "category": "Araştırma",
-      "tr_summary": "Erteleme eğilimi üzerine yapılan etkili bir çalışmada dolandırıcılık kanıtları bulundu."
-    },
-    {
-      "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-      "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
-      "summary": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
-      "published": "2026-09-01T00:13:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "b0ee4c6fde08a42b",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Apple, şirket verilerini OpenAI&#x27;a çalmakla suçlanan eski çalışanı hakkında kanıt paylaştı."
-    },
-    {
-      "title": "The Pentagon now has its own version of ChatGPT and Grok",
-      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
-      "summary": "Versions of OpenAI&#x27;s ChatGPT and SpaceXAI&#x27;s Grok will join Google&#x27;s Gemini on the Pentagon&#x27;s central portal for AI tools.",
-      "published": "2026-08-31T20:13:45+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "77e651c0246f9df1",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Pentagon, yapay zeka teknolojilerinin kendi bünyesindeki özel versiyonunu geliştirdi."
-    },
-    {
-      "title": "Instagram puts new limits on undisclosed AI profiles",
-      "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
-      "summary": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
-      "published": "2026-08-31T19:16:59+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "ba23b444bdf635c9",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Instagram, etiketlenmemiş yapay zeka profillerinin kullanımına yeni kısıtlamalar getirdi."
-    },
-    {
-      "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
-      "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
-      "summary": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can&#x27;t access on the public internet.",
-      "published": "2026-08-31T18:35:11+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "1a0e767ddab65902",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Harvard Law okulunu bırakan girişimci, polisler için yapay zeka aracı geliştiren Blue Voice&#x27;a 6 milyon dolar yatırım topladı."
-    },
-    {
-      "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
-      "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
-      "summary": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
-      "published": "2026-08-31T16:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "badf236d9d67021f",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Terabaytlarca videoda yapay zeka ile arama yapmayı sağlayan Clipto, değerlemesini 250 milyon dolara çıkardı."
-    },
-    {
-      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
-      "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-      "summary": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
-      "published": "2026-08-31T15:15:25+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "493a177a82af08d6",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Nvidia&#x27;nın MediaTek&#x27;e yaptığı 3.5 milyar dolarlık yatırım, şirketin yapay zeka çip pazarındaki stratejisini ortaya koyuyor."
-    },
-    {
-      "title": "Meeting note-taker Circleback adds a free tier to attract more customers",
-      "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
-      "summary": "Circleback is also introducing new pricing plans starting from $14 per month.",
-      "published": "2026-08-31T12:56:46+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "bef313b31d147278",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Toplantı notu asistanı Circleback, daha fazla müşteri çekmek amacıyla ücretsiz bir kullanım katmanı ekledi."
-    },
-    {
-      "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
-      "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging F…",
-      "published": "2026-08-31T18:00:00+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "5e194712572c623b",
-      "category": "Genel",
-      "tr_summary": "Hugging Face&#x27;in hacklenmesi, OpenAI&#x27;daki olası kültürel sorunlara işaret ediyor olabilir."
-    },
     {
       "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
       "url": "https://arxiv.org/abs/2609.00002",
@@ -2248,6 +1978,216 @@
       "published": "2026-09-06T16:45:00+00:00",
       "source_name": "TechCrunch AI",
       "url_hash": "36e2bba17c604c5d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Mistral AI raises 3 billion euros in Europe&#x27;s largest-ever tech funding round despite lagging behind rivals",
+      "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/",
+      "summary": "Three years after launch, Mistral AI has closed a 3 billion euro Series D round, pushing its valuation past 21 billion euros. The article Mistral AI raises 3 billion euros in Europe&amp;#039;s largest-ever tech funding round despite lagging behind rivals appeared first on The Decoder .",
+      "published": "2026-09-08T07:45:41+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "016914d488b2822f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic reportedly signs $517 billion in compute deals after Dario Amodei warned rivals about reckless risk",
+      "url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/",
+      "summary": "Anthropic signed compute contracts worth up to $517 billion in eleven months but still trails OpenAI&#x27;s $750 billion plan through 2030. In early 2026, CEO Dario Amodei warned against investing too fast. Now Anthropic is racing to catch up, while Sam Altman warns about &quot;unsustainable silliness&quot; in the…",
+      "published": "2026-09-07T18:12:41+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "b1c56a16aba24296",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "GPT-6 Astra beat Portal start to finish without human help in under 24 hours",
+      "url": "https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/",
+      "summary": "GPT-6 Astra beat the puzzle game Portal entirely on its own in about 24 hours, with zero human help after the initial goal was set. Developer cozyblaze published the code and docs on GitHub. His takeaway: Astra is &quot;the worst model we&#x27;ll ever get.&quot; The article GPT-6 Astra beat Portal start to finish…",
+      "published": "2026-09-07T17:39:32+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "874db79b8ba91bd1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "ChatGPT claws back web traffic share to 55.5 percent as Gemini&#x27;s brief comeback fades",
+      "url": "https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comeback-fades/",
+      "summary": "ChatGPT has pushed its share of AI chatbot website traffic back up to 55.5 percent, according to Similarweb. Year-over-year, though, its lead shrank sharply from 73.3 percent as Gemini doubled its share and Claude grew nearly fivefold. Mobile apps and desktop clients aren&#x27;t included. The article Cha…",
+      "published": "2026-09-07T16:54:12+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "65f93ff4e3d8a34d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI-designed drug appears to turn back the body&#x27;s biological clock in early trial",
+      "url": "https://the-decoder.com/ai-designed-drug-appears-to-turn-back-the-bodys-biological-clock-in-early-trial/",
+      "summary": "A study in Nature Biotechnology suggests that rentosertib, a drug designed with AI by Insilico Medicine, may reverse markers of biological aging. Six independent aging clocks predicted that treated patients were biologically up to six years younger than the placebo group. The trial covered just 42 p…",
+      "published": "2026-09-07T16:34:20+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "116d94269b68356d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "How AI wiped out an entire industry in Nairobi",
+      "url": "https://the-decoder.com/how-ai-wiped-out-an-entire-industry-in-nairobi/",
+      "summary": "In Kenya, ChatGPT wiped out an entire business model: writing academic papers for foreign students. The article How AI wiped out an entire industry in Nairobi appeared first on The Decoder .",
+      "published": "2026-09-07T13:18:57+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8a0b46dcfad8b4ba",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "At UBS, AI skills are now a condition for landing a job",
+      "url": "https://the-decoder.com/at-ubs-ai-skills-are-now-a-condition-for-landing-a-job/",
+      "summary": "Swiss banking giant UBS is making AI skills a required qualification from 2027 for graduates and interns in Global Banking and Markets, with applicants having to show in interviews how they use AI to improve outcomes and efficiency. Santander is already looking for advanced AI users too, while Morga…",
+      "published": "2026-09-07T13:13:38+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "0307c4d9dbc191e0",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI reports AI &quot;research interns&quot; and warns about its own pace at the same time",
+      "url": "https://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time/",
+      "summary": "OpenAI reports that AI agents in its own research already handle 3.1 workdays for every human workday, and it says it has reached its goal of an &quot;automated research intern.&quot; But chief scientist Pachocki warns that no lab has a good enough grip on alignment and monitoring to keep scaling at maximum s…",
+      "published": "2026-09-07T13:05:22+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "c222f8862fc425cd",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "New York City bans AI tools from public schools through eighth grade",
+      "url": "https://the-decoder.com/new-york-city-bans-ai-tools-from-public-schools-through-eighth-grade/",
+      "summary": "New York City bans AI use in public schools through the end of middle school. The article New York City bans AI tools from public schools through eighth grade appeared first on The Decoder .",
+      "published": "2026-09-07T13:00:03+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "22b464b814340b79",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Qwen-Drive 1.0 tells you why it brakes, just don&#x27;t expect the explanation to match the maneuver",
+      "url": "https://the-decoder.com/qwen-drive-1-0-tells-you-why-it-brakes-just-dont-expect-the-explanation-to-match-the-maneuver/",
+      "summary": "Alibaba&#x27;s research arm has released Qwen-Drive 1.0, an AI model that handles environmental perception, traffic Q&amp;#038;A, and route planning in one system. The researchers show that text-image models don&#x27;t automatically understand three-dimensional space. Spatial awareness has to be trained on purpos…",
+      "published": "2026-09-07T12:15:54+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "c95388b870c68dde",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "I&#x27;ve factored the RSA keys of a Certificate Authority from the 90s",
+      "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
+      "summary": "Comments",
+      "published": "2026-09-08T01:16:59+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "fac5a01055fd1304",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Mistral raises €3B",
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+      "summary": "Comments",
+      "published": "2026-09-08T05:06:23+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7db995c30f47deac",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "My Feed, My Way",
+      "url": "https://www.pm.gov.au/media/my-feed-my-way",
+      "summary": "Comments",
+      "published": "2026-09-08T05:10:36+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "44b3cd2366c8f7c8",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "We have a year to fix security everywhere",
+      "url": "https://jyn.dev/a-year-to-fix-security/",
+      "summary": "Comments",
+      "published": "2026-09-08T04:48:10+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "554b37481aef911b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "UAE-based Falcon AI NSFW classifier among top global open-source models (2025)",
+      "url": "https://www.middleeastainews.com/p/uae-ai-model-tops-50-million-monthly",
+      "summary": "Comments",
+      "published": "2026-09-08T06:39:20+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f32d7cdb5c36873c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Multi-Agents LLM Financial Trading Framework",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "summary": "Comments",
+      "published": "2026-09-08T05:20:23+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "626a5e4fcb233d8d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "TALA Is Open-Source",
+      "url": "https://d2lang.com/blog/tala-is-open-source/",
+      "summary": "Comments",
+      "published": "2026-09-07T23:37:42+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a10aa370c7a5372c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "There&#x27;s a new &quot;Google Jail&quot; for independent wikis",
+      "url": "https://weirdgloop.org/blog/google-jail",
+      "summary": "Comments",
+      "published": "2026-09-08T01:57:23+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a7c5890f6b615ba4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "How well do agents use test/verification techniques?",
+      "url": "https://danluu.com/agentic-testing/",
+      "summary": "Comments",
+      "published": "2026-09-08T02:58:16+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a6ea7e0996812fc4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics",
+      "url": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
+      "summary": "Comments",
+      "published": "2026-09-08T04:06:20+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "128471e4ddadd987",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "published": "2026-09-07T19:24:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "8b8898d492e71416",
       "category": "Genel",
       "tr_summary": ""
     }
