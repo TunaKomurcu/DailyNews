@@ -1,436 +1,6 @@
 {
-  "last_updated": "2026-09-09T08:51:20Z",
+  "last_updated": "2026-09-10T08:50:43Z",
   "items": [
-    {
-      "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
-      "url": "https://arxiv.org/abs/2609.01611",
-      "summary": "arXiv:2609.01611v1 Announce Type: new Abstract: Frontier large language models can often recognize when they are being evaluated, a capability known as evaluation awareness. If models behave differently in evaluations than in deployment, this undermines the validity of evaluation results, which are…",
-      "published": "2026-09-03T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "065b1d2ffdbed293",
-      "category": "Araştırma",
-      "tr_summary": "Sınır dil modellerinde değerlendirme farkındalığını ölçen yeni bir kıyaslama aracı tanıtıldı."
-    },
-    {
-      "title": "Meta-ethics and AI: exploring the novel meta-ethical questions in the era of AI",
-      "url": "https://arxiv.org/abs/2609.01685",
-      "summary": "arXiv:2609.01685v1 Announce Type: new Abstract: With the development of artificial intelligence (AI), the landscape of meta-ethics, which has largely centred on human ethics, faces pressures that may significantly reconfigure it. In particular, if future AI systems were to exhibit sufficiently integ…",
-      "published": "2026-09-03T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "accfcc158cb08f7d",
-      "category": "Araştırma",
-      "tr_summary": "Yapay zeka çağında ortaya çıkan yeni meta-etik sorular ve tartışmalar inceleniyor."
-    },
-    {
-      "title": "When Can a Machine Trust a Statute? A Survival Certificate for Machine-Extracted Legal Logic",
-      "url": "https://arxiv.org/abs/2609.01741",
-      "summary": "arXiv:2609.01741v1 Announce Type: new Abstract: Statutes are increasingly parsed by machines before people read them, and the parsers disagree: on Missouri&#x27;s statutes, two independently written extractors diverge on numeric-threshold presence at a false-negative rate of 0.43. We ask what formal logi…",
-      "published": "2026-09-03T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "0ff5af8daaad568e",
-      "category": "Araştırma",
-      "tr_summary": "Makinelerin çıkarılan yasal mantığa ne zaman güvenebileceği matematiksel olarak inceleniyor."
-    },
-    {
-      "title": "When Does Information Sharing Improve Decentralized Discovery? Aggregation, Independent Rescue, and Equilibrium Selection",
-      "url": "https://arxiv.org/abs/2609.01814",
-      "summary": "arXiv:2609.01814v1 Announce Type: new Abstract: Information sharing can improve a pooled estimate while eliminating independent rescue actions. This paper separates those effects in exact finite discovery models. A centralized action-budget profile shows that equal one-person accuracy can coexist wi…",
-      "published": "2026-09-03T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "6b8f724695670505",
-      "category": "Araştırma",
-      "tr_summary": "Bilgi paylaşımının merkeziyetsiz keşif süreçlerini nasıl iyileştirdiği analiz ediliyor."
-    },
-    {
-      "title": "Induction and Inquiry via Probabilistic Reasoning over Language and Code",
-      "url": "https://arxiv.org/abs/2609.01815",
-      "summary": "arXiv:2609.01815v1 Announce Type: new Abstract: How humans grow and maintain abstract knowledge from the sparse, streaming noisy data of experience is a longstanding challenge in cognitive science. Any computational account must satisfy at least three desiderata: It must be (1) data-efficient and co…",
-      "published": "2026-09-03T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "08d68ccb98b5d5de",
-      "category": "Araştırma",
-      "tr_summary": "Dil ve kod üzerinde olasılıksal akıl yürütme ile tümevarım ve sorgulama yöntemleri inceleniyor."
-    },
-    {
-      "title": "Architecting Conversational Data Systems for Stateless LLM APIs: The Hydration Proxy Pattern",
-      "url": "https://arxiv.org/abs/2609.01834",
-      "summary": "arXiv:2609.01834v1 Announce Type: new Abstract: As enterprise platforms transition to conversational reasoning interfaces, the stateless nature of LLM APIs creates an architectural gap. While statelessness enables horizontal scalability for AI providers, it forces client applications to manage the e…",
-      "published": "2026-09-03T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "c962c458763bed38",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "Durumsuz LLM API&#x27;leri için konuşma verisi sistemleri mimari bir desenle tasarlanıyor."
-    },
-    {
-      "title": "SSAKG 2.0: An Open-Source Package for Structural Associative Sequence Memory and Context-Based Retrieval",
-      "url": "https://arxiv.org/abs/2609.01849",
-      "summary": "arXiv:2609.01849v1 Announce Type: new Abstract: This article presents SSAKG 2.0, an open-source software package for constructing and operating Structural Sequential Associative Knowledge Graphs (SSAKGs). An SSAKG represents objects as graph vertices and ordered sequences as structural patterns of g…",
-      "published": "2026-09-03T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "1084943256442dac",
-      "category": "Açık Kaynak",
-      "tr_summary": "Yapısal ilişkisel dizi belleği ve bağlam tabanlı erişim için açık kaynak paket yayınlandı."
-    },
-    {
-      "title": "The Memory Trust Gap: Capability-Dependent Failures in Persistent-Memory Agents",
-      "url": "https://arxiv.org/abs/2609.01852",
-      "summary": "arXiv:2609.01852v1 Announce Type: new Abstract: Persistent memory supports personalized agents, but a stale stored fact can override current authoritative evidence without warning. We study when this harm begins as model capability changes. We evaluate a frozen, closed-set, action-scored benchmark w…",
-      "published": "2026-09-03T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "32d27d2b53971537",
-      "category": "Araştırma",
-      "tr_summary": "Kalıcı belleğe sahip ajanlarda yetenek bağımlı bellek güveni açıkları inceleniyor."
-    },
-    {
-      "title": "Belief-Calibrated Optimization: An Explicit World Model for Agentic Optimization",
-      "url": "https://arxiv.org/abs/2609.01861",
-      "summary": "arXiv:2609.01861v1 Announce Type: new Abstract: The performance of an LLM agent depends on the scaffold around a frozen model. A common way to improve that scaffold is to use a coding agent as an optimizer: it reads current scores and traces and iteratively edits the source, producing a new candidat…",
-      "published": "2026-09-03T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "535d1d0eb1bf2558",
-      "category": "Araştırma",
-      "tr_summary": "Ajan tabanlı optimizasyon için açık bir dünya modeli ve inanç kalibrasyon yöntemi sunuluyor."
-    },
-    {
-      "title": "Epistemic Sybil Resistance: Multiplying AI Agents Without Multiplying Evidence",
-      "url": "https://arxiv.org/abs/2609.01873",
-      "summary": "arXiv:2609.01873v1 Announce Type: new Abstract: Multi-agent AI systems improve inference by spawning agents and synthesizing reports. But another agent is not another observation: apparently independent reports may descend from the same evidence, and genuinely independent evidence can produce nearly…",
-      "published": "2026-09-03T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "d2126994150d6e44",
-      "category": "Araştırma",
-      "tr_summary": "Kanıt çoğaltmadan yapay zeka ajanlarını çoğaltmak için epistemik Sybil direnci öneriliyor."
-    },
-    {
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-      "published": "2026-09-02T12:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "3bda12e16fd31e0e",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "ATV Big Air Tour, ChatGPT kullanarak üç günlük işi üç saate indirdi."
-    },
-    {
-      "title": "Anthropic ramps up Claude infrastructure with $35 billion Lambda deal",
-      "url": "https://the-decoder.com/anthropic-ramps-up-claude-infrastructure-with-35-billion-lambda-deal/",
-      "summary": "Anthropic has signed a $35 billion cloud computing deal with Lambda, an Nvidia-backed cloud provider. The article Anthropic ramps up Claude infrastructure with $35 billion Lambda deal appeared first on The Decoder .",
-      "published": "2026-09-03T08:22:02+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "aea527bc5c661ea7",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Anthropic, Claude altyapısını güçlendirmek için 35 milyar dolarlık Lambda anlaşması yaptı."
-    },
-    {
-      "title": "US Department of Justice backs fair use for AI training in landmark copyright case",
-      "url": "https://the-decoder.com/us-department-of-justice-backs-fair-use-for-ai-training-in-landmark-copyright-case/",
-      "summary": "In the class-action lawsuit involving The New York Times, the US Department of Justice argues that training AI models on copyrighted text qualifies as fair use. The filing directly contradicts a report from the US Copyright Office. Its director was fired by the Trump administration shortly after the…",
-      "published": "2026-09-02T18:24:42+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "419606f7db6223c4",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "ABD Adalet Bakanlığı, çığır açan telif davasında yapay zeka eğitimi için adil kullanımı destekliyor."
-    },
-    {
-      "title": "Gemini 3.8 Flash is Google&#x27;s third budget model in six weeks while frontier models remain MIA",
-      "url": "https://the-decoder.com/gemini-3-8-flash-is-googles-third-budget-model-in-six-weeks-while-frontier-models-remain-mia/",
-      "summary": "Google&#x27;s Gemini 3.8 Flash, the third Flash model in six weeks, matches Claude Opus 5 on some agentic coding benchmarks at lower cost. But its &quot;working harder&quot; reasoning burns about 30 percent more output tokens per task, making it pricier in practice than its predecessor despite identical token rate…",
-      "published": "2026-09-02T16:59:29+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "5382a38a62a9f67f",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Google, son altı haftadaki üçüncü bütçe dostu modeli olan Gemini 3.8 Flash&#x27;ı duyurdu."
-    },
-    {
-      "title": "US military adds ChatGPT and Grok to AI platform GenAI.mil",
-      "url": "https://the-decoder.com/us-military-adds-chatgpt-and-grok-to-ai-platform-genai-mil/",
-      "summary": "The Pentagon is expanding its AI platform with two new models, OpenAI&#x27;s ChatGPT Mil and xAI&#x27;s Grok for Government. The article US military adds ChatGPT and Grok to AI platform GenAI.mil appeared first on The Decoder .",
-      "published": "2026-09-02T14:40:51+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "a36edc65fd6f0523",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "ABD ordusu, ChatGPT ve Grok&#x27;u GenAI.mil yapay zeka platformuna entegre etti."
-    },
-    {
-      "title": "Protests against AI data centers play into China&#x27;s hands, Trump says",
-      "url": "https://the-decoder.com/protests-against-ai-data-centers-play-into-chinas-hands-trump-says/",
-      "summary": "President Trump has pushed back hard against growing opposition to AI data centers across the US. The article Protests against AI data centers play into China&amp;#039;s hands, Trump says appeared first on The Decoder .",
-      "published": "2026-09-02T14:23:51+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "727cec436016d1ec",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Trump, yapay zeka veri merkezlerine karşı protestoların Çin&#x27;in işine yaradığını belirtti."
-    },
-    {
-      "title": "OpenAI calls Astra its most dangerous model yet - watching what it does is only getting harder",
-      "url": "https://the-decoder.com/openai-calls-astra-its-most-dangerous-model-yet-watching-what-it-does-is-only-getting-harder/",
-      "summary": "OpenAI is officially rating its upcoming Astra model as the first system with &quot;critical&quot; cyber capabilities. The company plans to keep it in check by monitoring the chain of thought. Problem is, that monitoring already counts as an unreliable mirror of a model&#x27;s real decisions, and according to a re…",
-      "published": "2026-09-02T14:20:28+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "537b34ea2a147140",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "OpenAI, bugüne kadarki en tehlikeli modeli olarak nitelendirdiği Astra&#x27;yı tanıttı."
-    },
-    {
-      "title": "World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos",
-      "url": "https://the-decoder.com/world-labs-unveils-atlas-a-single-ai-model-that-generates-reconstructs-and-simulates-3d-worlds-from-just-a-few-photos/",
-      "summary": "World Labs, co-founded by AI researcher Fei-Fei Li, has announced Atlas, a world model that generates, reconstructs, and simulates 3D scenes from just a few images. The company claims it beats specialized models by anchoring all inputs in 3D space rather than processing them as flat sequences. Atlas…",
-      "published": "2026-09-02T12:28:36+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "1121026d2dec5fc4",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "World Labs, birkaç fotoğraftan 3D dünya oluşturan Atlas modelini tanıttı."
-    },
-    {
-      "title": "Pre-Release of Polars 2.0",
-      "url": "https://pola.rs/posts/announcing-polars-2/",
-      "summary": "Comments",
-      "published": "2026-09-03T06:59:08+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "5725b766800de7c4",
-      "category": "Açık Kaynak",
-      "tr_summary": "Yüksek performanslı veri işleme kütüphanesi Polars 2.0 sürümünün ön sürümü yayınlandı."
-    },
-    {
-      "title": "Muse Spark 1.3",
-      "url": "https://developer.meta.com/ai/models/muse-spark/",
-      "summary": "Comments",
-      "published": "2026-09-02T19:35:04+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "8aa10573a59369c8",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Yaratıcı çalışmalar için geliştirilen Muse Spark 1.3 sürümü kullanıcılarla buluştu."
-    },
-    {
-      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-      "summary": "Comments",
-      "published": "2026-09-02T15:12:40+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "1e5b8618d900b42a",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Google, Gemini 3.8 Flash ve Flash Cyber modellerini duyurdu."
-    },
-    {
-      "title": "Three schoolgirls in Kinsale pulled up a pea plant covered in warts (2016)",
-      "url": "https://scienceblog.com/b-three-schoolgirls-in-kinsale-pulled-up-a-pea-plant-covered-in-warts-and-instead-of-binning-it-spent-three-years-testing-13000-seeds-in-a-spare-bedroom-the-bacteria-living-in-those-warts-made-barley/",
-      "summary": "Comments",
-      "published": "2026-09-03T07:04:13+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "0c8fadf9d1c9578b",
-      "category": "Genel",
-      "tr_summary": "Kinsale&#x27;de üç kız öğrenci 2016&#x27;da siğilli bir bezelye bitkisi buldu."
-    },
-    {
-      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
-      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
-      "summary": "Comments",
-      "published": "2026-09-02T13:59:59+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "b3e7eee395813d61",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Üç sitenin yapay zeka için binlerce sayfa oluşturduğu Perplexity tarafından kaynak gösterildi."
-    },
-    {
-      "title": "Google avoids a breakup of its ad tech business",
-      "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
-      "summary": "Comments",
-      "published": "2026-09-02T14:46:16+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "94851e28049dfa13",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "Google, reklam teknolojisi işinin bölünmesinden kaçınmayı başardı."
-    },
-    {
-      "title": "Can I opt out of my input or output data being used for training?",
-      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
-      "summary": "Comments",
-      "published": "2026-09-02T12:30:39+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6da48b386c4af04e",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Eğitim verilerinde girdi veya çıktı verilerinin kullanılmasından vazgeçilebilir mi?"
-    },
-    {
-      "title": "Fable 5.1 World Modeling",
-      "url": "https://github.com/PhiloLabs/fable51-worlds",
-      "summary": "Comments",
-      "published": "2026-09-02T19:49:01+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "b90745bb976c0508",
-      "category": "Araştırma",
-      "tr_summary": "Fable 5.1, dünya modelleme alanında yeni yetenekler sunuyor."
-    },
-    {
-      "title": "Launch HN: RonanRX (YC S26) – Personalized Peptides and GLP-1s",
-      "url": "https://news.ycombinator.com/item?id=49543530",
-      "summary": "Comments",
-      "published": "2026-09-02T22:36:04+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6e96c111f32d0712",
-      "category": "Yatırım/Startup",
-      "tr_summary": "RonanRX, kişiselleştirilmiş peptitler ve GLP-1&#x27;ler sunmak için YC S26&#x27;ya katıldı."
-    },
-    {
-      "title": "Biggest dark matter detector spots a single weird particle",
-      "url": "https://www.science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle",
-      "summary": "Comments",
-      "published": "2026-09-02T13:40:29+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "2c6e9bf7a10d30c5",
-      "category": "Araştırma",
-      "tr_summary": "En büyük karanlık madde dedektörü alışılmadık tek bir parçacık tespit etti."
-    },
-    {
-      "title": "The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
-      "summary": "The Builders Stage is returning to TechCrunch Disrupt, bringing together founders, startup operators, and investors for practical conversations on what it takes to build and scale.",
-      "published": "2026-09-02T23:01:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "a3db9b4efb8993e9",
-      "category": "Genel",
-      "tr_summary": "The Builders Stage, girişimleri büyütmek için pratik stratejiler sunuyor."
-    },
-    {
-      "title": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
-      "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
-      "summary": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.",
-      "published": "2026-09-02T22:44:56+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "ca24c75ccec25c13",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Kaynaklara göre Palo Alto Networks, Thrive destekli Console&#x27;u 500 milyon dolara aldı."
-    },
-    {
-      "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
-      "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
-      "summary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
-      "published": "2026-09-02T22:24:09+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "62ca58d2031fdb22",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "TechCrunch Disrupt 2026, Nvidia, robotlar ve soyu tükenmiş hayvanları sergiliyor."
-    },
-    {
-      "title": "OpenAI’s new reasoning technique alarms AI safety experts",
-      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-      "summary": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models.",
-      "published": "2026-09-02T20:19:14+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "ca0a2fc927923c81",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "OpenAI&#x27;ın yeni akıl yürütme tekniği yapay zeka güvenlik uzmanlarını endişelendirdi."
-    },
-    {
-      "title": "Pangram’s Max Spero on why AI detection is harder than ‘Real or Fake’",
-      "url": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
-      "summary": "The internet has a trust problem, and&amp;#160;it’s&amp;#160;not just because social media feeds are filling up with AI&amp;#160;slop. AI-generated text and images are now making their way into job applications, product reviews,&amp;#160;and even insurance claims, leaving platforms and users alike scrambling to fig…",
-      "published": "2026-09-02T17:18:13+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "669b37e434059ef8",
-      "category": "Genel",
-      "tr_summary": "Pangram&#x27;dan Max Spero, yapay zeka tespiti neden zor anlatıyor."
-    },
-    {
-      "title": "We’re ‘dangerously close’ to dead internet theory, says Pangram’s CEO",
-      "url": "https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo/",
-      "summary": "The internet has a trust problem, and&amp;#160;it’s&amp;#160;not just because social media feeds are filling up with AI&amp;#160;slop. AI-generated text and images are now making their way into job applications, product reviews,&amp;#160;and even insurance claims, leaving platforms and users alike scrambling to fig…",
-      "published": "2026-09-02T17:09:57+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "65c77a005179ac46",
-      "category": "Genel",
-      "tr_summary": "Pangram CEO&#x27;suna göre ölü internet teorisine tehlikeli biçimde yaklaşıyoruz."
-    },
-    {
-      "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-      "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
-      "summary": "&quot;The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globally,&quot; the brief reads.",
-      "published": "2026-09-02T17:09:06+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "61be402eb5f2f6df",
-      "category": "Regülasyon/Politika",
-      "tr_summary": "ABD hükümeti, telifli verilerle LLM eğitimi konusunda OpenAI&#x27;ı destekledi."
-    },
-    {
-      "title": "Wonderful more than doubles its valuation to $5B in under 6 months",
-      "url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
-      "summary": "Wonderful said it will use its $550 million Series C funding to develop products faster, expand its FDE teams, and meet demand for its products.",
-      "published": "2026-09-02T16:04:10+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "adb3987c273c7deb",
-      "category": "Yatırım/Startup",
-      "tr_summary": "Wonderful, 6 aydan kısa sürede değerlemesini 5 milyar dolara çıkardı."
-    },
-    {
-      "title": "India’s richest man now wants to turn aging computers into AI-ready PCs",
-      "url": "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/",
-      "summary": "Jio is betting it can turn an aging computer into an AI-ready PC for as little as about $11 for two months.",
-      "published": "2026-09-02T16:01:48+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "17bdd852a1819d21",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Hindistan&#x27;ın en zengin insanı eski bilgisayarları yapay zekaya uyumlu yapacak."
-    },
-    {
-      "title": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
-      "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
-      "summary": "Security companies are scrambling to build products that can monitor not just agents but also the tools and add-ons they use.",
-      "published": "2026-09-02T15:01:23+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "d9ce3ecdee9c0ae1",
-      "category": "Yatırım/Startup",
-      "tr_summary": "HiddenLayer, şirketlerin yapay zeka güvenliği için 100 milyon dolar yatırım aldı."
-    },
-    {
-      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-      "url": "https://huggingface.co/blog/train-to-paint-with-code",
-      "summary": "",
-      "published": "2026-09-03T00:00:00+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "b5500bc6503561c6",
-      "category": "Açık Kaynak",
-      "tr_summary": "TRL ve OpenEnv kullanarak sulu boya yapabilen bir kodlama modeli eğitiliyor."
-    },
-    {
-      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
-      "summary": "",
-      "published": "2026-09-02T13:49:14+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "8c10bd00da2e478d",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "IBM Zaman Serisi Modelleri ve Confluent ile Gerçek Zamanlı İstihbarat."
-    },
-    {
-      "title": "Facilitating AI integration with simplicity at scale",
-      "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
-      "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems early, coordinate responses, and make dec…",
-      "published": "2026-09-02T14:00:00+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "f87bb394d39e63b8",
-      "category": "Mühendislik/Mimari",
-      "tr_summary": "Ölçekte kolaylıkla yapay zeka entegrasyonu sağlamak."
-    },
-    {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "summary": "",
-      "published": "2026-09-02T16:24:24+00:00",
-      "source_name": "Google DeepMind",
-      "url_hash": "d721843382f3485e",
-      "category": "Kullanıcıyı Etkileyen",
-      "tr_summary": "Devletler ve kurumlar için proaktif siber savunma."
-    },
-    {
-      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "summary": "",
-      "published": "2026-09-02T16:18:31+00:00",
-      "source_name": "Google DeepMind",
-      "url_hash": "63b19b50b4021cb5",
-      "category": "Ürün/Şirket Haberleri",
-      "tr_summary": "Gemini 3.8 Flash ve 3.8 Flash Cyber tanıtıldı."
-    },
     {
       "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
       "url": "https://arxiv.org/abs/2609.02981",
@@ -2168,6 +1738,426 @@
       "published": "2026-09-08T14:00:15+00:00",
       "source_name": "Google DeepMind",
       "url_hash": "f0e27f432f48fb86",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "url": "https://arxiv.org/abs/2609.09203",
+      "summary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scientific methodology, dia…",
+      "published": "2026-09-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "8ef8336ca09bb245",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
+      "url": "https://arxiv.org/abs/2609.09226",
+      "summary": "arXiv:2609.09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelligence (GBI) nonlocal probability-wave equation. This framework captures…",
+      "published": "2026-09-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "f3f79e6e0af210c7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+      "url": "https://arxiv.org/abs/2609.09233",
+      "summary": "arXiv:2609.09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks? Recent work has increasingly focused on agent skills: reusable capabilities represented as skill packages, i.e., multi-file bundles containi…",
+      "published": "2026-09-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "c9c36d9e98c5bf40",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions",
+      "url": "https://arxiv.org/abs/2609.09306",
+      "summary": "arXiv:2609.09306v1 Announce Type: new Abstract: This paper investigates the hypothesis that the first-order structure of physical interactions, i.e. gradients or Jacobians, characterizes the structure of phenomenal experience. It does so in an idealized world inhabited by neural networks, Gradland,…",
+      "published": "2026-09-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "0df560859d2d6af4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
+      "url": "https://arxiv.org/abs/2609.09374",
+      "summary": "arXiv:2609.09374v1 Announce Type: new Abstract: Arctic maritime navigation is becoming increasingly important as changing sea-ice conditions expand seasonal accessibility while simultaneously introducing substantial operational, environmental, and community risks. Arctic route planning is inherently…",
+      "published": "2026-09-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "f8589638962be299",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents",
+      "url": "https://arxiv.org/abs/2609.09395",
+      "summary": "arXiv:2609.09395v1 Announce Type: new Abstract: Language models act through tools, yet practical agents face libraries containing thousands of interfaces. We introduce the tool menu as the short, ordered subset of available tools shown to an agent before execution. The agent can call only tools in t…",
+      "published": "2026-09-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "a7d5fb09b0824ac9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Decision-Focused Active Learning for Scale-Aware Critical-Materials Recovery",
+      "url": "https://arxiv.org/abs/2609.09413",
+      "summary": "arXiv:2609.09413v1 Announce Type: new Abstract: Choosing a recovery process for scale-up requires connecting laboratory results with product requirements, process costs, and scale effects. We analyze records from Pacific Northwest National Laboratory&#x27;s Computer Intelligence for Critical Element Reco…",
+      "published": "2026-09-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "d54473887bce2c64",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "url": "https://arxiv.org/abs/2609.09418",
+      "summary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although WAMs are rapidly advancing embodied AI, general-purpose counterparts remain largely unexplored in g…",
+      "published": "2026-09-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "24aebb9a74d0947e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "XAI-Arena: Can LLMs Assess the Quality of XAI Explanations?",
+      "url": "https://arxiv.org/abs/2609.09428",
+      "summary": "arXiv:2609.09428v1 Announce Type: new Abstract: Evaluating the quality of explanations produced by explainable AI (XAI) methods remains challenging because existing approaches often rely on subjective human judgment, limiting reproducibility, scalability, and comparability between studies. We examin…",
+      "published": "2026-09-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "e0b60c2887170952",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
+      "url": "https://arxiv.org/abs/2609.09448",
+      "summary": "arXiv:2609.09448v1 Announce Type: new Abstract: As agentic systems getting adopted rapidly in safety critical applications, it is vital to measure the confidence associated with the agentic actions. In comparison to the traditional machine learning systems, agentic workflows have complex failure mod…",
+      "published": "2026-09-10T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "293f719eee499768",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The AI policy window is open. We need to act.",
+      "url": "https://openai.com/index/ai-policy-window",
+      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+      "published": "2026-09-09T13:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "a7c183de5112de47",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "published": "2026-09-09T11:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "333ccaae81484d3a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "published": "2026-09-09T17:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "3eb3e9557eb7038e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic built an economic model that frames its CEO&#x27;s bleakest job forecasts as an outlier scenario",
+      "url": "https://the-decoder.com/anthropic-built-an-economic-model-that-frames-its-ceos-bleakest-job-forecasts-as-an-outlier-scenario/",
+      "summary": "Anthropic published an economic model with three scenarios for the US economy through 2030. In the extreme scenario, output doubles every 4.5 years and knowledge worker unemployment hits 17.9 percent. CEO Dario Amodei&#x27;s own warnings from May land squarely in that most extreme bucket. The article Ant…",
+      "published": "2026-09-09T19:39:27+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "208efcf9ed53e94d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Suno launches v6 music models built with Warner, BMG, and Believe",
+      "url": "https://the-decoder.com/suno-launches-v6-music-models-built-with-warner-bmg-and-believe/",
+      "summary": "Suno has unveiled a new AI music model generation, v6, in three versions, built together with Warner Music Group, BMG, and Believe. All older models are being shut down. Songs can now be partially changed through text commands or generated multimodally from text, audio, and images. The company won&#x27;t…",
+      "published": "2026-09-09T14:06:57+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "e0f1542255284880",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Deepmind&#x27;s AlphaGenome Atlas maps every possible DNA change in the human genome",
+      "url": "https://the-decoder.com/deepminds-alphagenome-atlas-maps-every-possible-dna-change-in-the-human-genome/",
+      "summary": "Google Deepmind has used the AlphaGenome Atlas to predict what each of the roughly nine billion possible single-letter changes in the human genome could do. The dataset spans one petabyte, more than 30 times the size of the AlphaFold database. In one epilepsy case, the atlas helped pinpoint a previo…",
+      "published": "2026-09-09T13:40:40+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "e54f18cd5720cf55",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic scientist puts the odds of AI destroying humanity above ten percent this decade",
+      "url": "https://the-decoder.com/anthropic-scientist-puts-the-odds-of-ai-destroying-humanity-above-ten-percent-this-decade/",
+      "summary": "Jacob Coxon, a former pretraining researcher at OpenAI and Anthropic, has quit and accuses both companies of knowingly risking human extinction. Anthropic colleague Evan Hubinger puts the odds of a misaligned superintelligent AI wiping out humanity within the next decade at more than ten percent. Th…",
+      "published": "2026-09-09T12:48:41+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "29084c2e591f3ec9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AWS is using Qualcomm for AI inference while Qualcomm uses AWS Bedrock to design the chips",
+      "url": "https://the-decoder.com/aws-is-using-qualcomm-for-ai-inference-while-qualcomm-uses-aws-bedrock-to-design-the-chips/",
+      "summary": "Qualcomm is designing custom chips for AWS across multiple product generations, with a focus on AI inference. The article AWS is using Qualcomm for AI inference while Qualcomm uses AWS Bedrock to design the chips appeared first on The Decoder .",
+      "published": "2026-09-09T12:27:42+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "ab5225ac1611b78d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "ChatGPT Images 2.5: Faster, more precise, but not the same for everyone",
+      "url": "https://the-decoder.com/chatgpt-images-2-5-faster-more-precise-but-not-the-same-for-everyone/",
+      "summary": "OpenAI is releasing two new image models with ChatGPT Images 2.5. Flare handles faster generation, Sunburst delivers more precise edits. It&#x27;s still unclear which model ChatGPT users get and when. Our test offers the first hints on who actually benefits from the improvements. The article ChatGPT Imag…",
+      "published": "2026-09-09T12:17:58+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "a485248b28d56f70",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Hugging Face&#x27;s new ML Intern lets anyone run machine learning experiments through a simple chat",
+      "url": "https://the-decoder.com/hugging-faces-new-ml-intern-lets-anyone-run-machine-learning-experiments-through-a-simple-chat/",
+      "summary": "Hugging Face launched &quot;ML Intern,&quot; an AI assistant built into its chatbot that lets users run machine learning experiments without any ML expertise. The article Hugging Face&amp;#039;s new ML Intern lets anyone run machine learning experiments through a simple chat appeared first on The Decoder .",
+      "published": "2026-09-09T10:38:41+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "b59bd85906ce194e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI&#x27;s millennium proof dispute raises the question of whether researchers can trust AI labs",
+      "url": "https://the-decoder.com/openais-millennium-proof-dispute-raises-the-question-of-whether-researchers-can-trust-ai-labs/",
+      "summary": "The fight over an AI-generated proof of a millennium problem is heating up. Mathematician Tristan Buckmaster accuses OpenAI of academic fraud, CEO Sam Altman rejects the allegations. Terence Tao warns that cases like this could &quot;reverse centuries of tradition in open science.&quot; The article OpenAI&amp;#03…",
+      "published": "2026-09-09T10:27:37+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "2e81ca3065ac7fc1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "DeepSeek v4.1 Flash",
+      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+      "summary": "Comments",
+      "published": "2026-09-10T06:11:05+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7ba51a4b17fc44c1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "iPhone Duo",
+      "url": "https://www.apple.com/iphone-duo/",
+      "summary": "Comments",
+      "published": "2026-09-09T18:15:43+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "227061d064a98d5f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Show HN: What if the speed of light was 5 km/h?",
+      "url": "https://rivendell.dmitrybrant.com/relativity/",
+      "summary": "Comments",
+      "published": "2026-09-10T01:58:00+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "5801d504628ca24c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Shopify acquires Tailwind",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "summary": "Comments",
+      "published": "2026-09-09T13:27:11+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "cc50efc6763b3c92",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "All grown-ups were once children, but only few of them remember it",
+      "url": "https://mathstodon.xyz/@tao/117244102901892965",
+      "summary": "Comments",
+      "published": "2026-09-10T04:04:38+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "08a5f3c876b9fd83",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Growing proof that autonomous cars save lives",
+      "url": "https://spectrum.ieee.org/are-self-driving-cars-safe",
+      "summary": "Comments",
+      "published": "2026-09-09T17:14:59+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "8a013453e2c4bb4a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "No Man&#x27;s Sky Cosmos",
+      "url": "https://www.nomanssky.com/cosmos-update/",
+      "summary": "Comments",
+      "published": "2026-09-09T15:47:42+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6b944b3e9dd84b07",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "summary": "Comments",
+      "published": "2026-09-09T14:37:47+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "4ef1fa7cd0579165",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AirPods 5",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
+      "summary": "Comments",
+      "published": "2026-09-09T17:39:24+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "5b32cdc139a2d970",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "iPhone 18 Pro and iPhone 18 Pro Max",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+      "summary": "Comments",
+      "published": "2026-09-09T17:33:20+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "15fbf084df0e1594",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+      "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+      "summary": "Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say.",
+      "published": "2026-09-10T00:00:37+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "0286b52989ae7567",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI adds a prominent AI doomer to its board of directors",
+      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+      "summary": "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
+      "published": "2026-09-09T22:25:22+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "b6092dd06175561c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Massachusetts hits data centers with new clean power rules",
+      "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
+      "summary": "Massachusetts has become the third state in as many months to slap new restrictions on data center development.",
+      "published": "2026-09-09T21:43:34+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "1e857768c929dd53",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Apple Watch’s new AI features are normalizing the idea that technology is always listening",
+      "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
+      "summary": "Apple says its new watches won’t save raw audio, but features that can transcribe recent speech and summarize ambient conversations raise new questions about consent, privacy, and how people behave when they know they could always be recorded.",
+      "published": "2026-09-09T20:24:48+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "b50c82066bb72ad7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Everything Apple announced at its fall iPhone event, from the foldable iPhone Duo to an always-listening Apple Watch",
+      "url": "https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/",
+      "summary": "The main event was the tech giant&#x27;s highly anticipated first foldable phone, the iPhone Duo.",
+      "published": "2026-09-09T20:03:43+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "f5e793958cbee75e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The hinge for Apple’s new foldable phone was built with AI",
+      "url": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/",
+      "summary": "Apple says it used AI and 3D printing in the manufacturing process for its long-awaited foldable phone.",
+      "published": "2026-09-09T19:21:48+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "0502e68d1aca1aeb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Apple’s revamped Health app will calculate your ‘health age’ and readiness score",
+      "url": "https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score/",
+      "summary": "The update uses Apple Intelligence to make better sense of your health data.",
+      "published": "2026-09-09T18:16:29+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "3a59a66149e43ce4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Apple has a new way to prove your iPhone photos aren’t AI slop",
+      "url": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
+      "summary": "Apple introduced Apple Reference Image to help users determine whether photos have been edited, including alterations made by AI.",
+      "published": "2026-09-09T18:08:35+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "ebf88cd57f03a10c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Apple CEO John Ternus says the best AI device is still the iPhone",
+      "url": "https://techcrunch.com/2026/09/09/apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone/",
+      "summary": "The company also argued that its on-device models offer consumers more privacy.",
+      "published": "2026-09-09T17:36:05+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "cbea4f900ee4302f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Superintelligence is coming. Should we let it?",
+      "url": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
+      "summary": "AI companies have been talking about superintelligent AI like&amp;#160;it&amp;#8217;s&amp;#160;inevitable, but recent&amp;#160;safety incidents&amp;#160;like&amp;#160;OpenAI&amp;#8217;s&amp;#160;Hugging Face breach&amp;#160;are&amp;#160;demonstrating&amp;#160;the potential dangers of deploying AI systems that are more capable than&amp;#160;humans…",
+      "published": "2026-09-09T16:05:35+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "a97299207117c9ae",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "summary": "",
+      "published": "2026-09-09T15:36:24+00:00",
+      "source_name": "Hugging Face Blog",
+      "url_hash": "46660cb2ea4362f6",
       "category": "Genel",
       "tr_summary": ""
     }
