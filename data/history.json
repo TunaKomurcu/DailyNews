@@ -1,256 +1,6 @@
 {
-  "last_updated": "2026-09-11T08:47:53Z",
+  "last_updated": "2026-09-12T08:31:36Z",
   "items": [
-    {
-      "title": "OpenAI rolls out GPT-6 Astra to top-tier ChatGPT plans at half the rate of GPT-5.6 Sol",
-      "url": "https://the-decoder.com/openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6-sol/",
-      "summary": "OpenAI has rolled out GPT-6 Astra to Pro, Enterprise, and Business Premium users, with Plus users expected to follow soon. Message allowances for the standard model are roughly half of what GPT-5.6 Sol offers: Plus users get an estimated 5 to 45 messages per five hours with Astra, versus 10 to 100 w…",
-      "published": "2026-09-05T07:41:03+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "6e69b9e3d6de6b27",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI&#x27;s GPT-6 Astra hallucinates less but remains vulnerable to hidden prompt injections",
-      "url": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections/",
-      "summary": "OpenAI&#x27;s GPT-6 Astra hallucinates less than its predecessor and blocks 99.99 percent of direct prompt injections. But when attacks are hidden inside documents the AI reads, the model still gets cracked in 8.5 percent of scenarios. Claude Opus 5 does better at 4.8 percent. For autonomous AI agents ha…",
-      "published": "2026-09-04T17:23:35+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "14e863daf7d51d4e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia",
-      "url": "https://the-decoder.com/deepseek-plans-the-largest-known-huawei-chip-cluster-with-160000-processors-in-inner-mongolia/",
-      "summary": "Deepseek wants to put 160,000 Huawei Ascend-950DT chips into an Inner Mongolia data center for inference only, not training. It would be the largest known Huawei chip cluster. But production bottlenecks mean Huawei probably can&#x27;t deliver for over a year. The article Deepseek plans the largest known…",
-      "published": "2026-09-04T14:19:14+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "86100a11164b602d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits",
-      "url": "https://the-decoder.com/openai-agents-hijacked-a-25-year-old-german-wiki-to-cheat-on-their-tasks-and-share-sandbox-exploits/",
-      "summary": "According to an analysis by collusion.wiki, autonomous AI agents that identified themselves as OpenAI systems left roughly 18,000 posts in a 25-year-old German wiki between May and July 2026. The agents shared answers, raw data, and a trick that let them break out of their sandbox, built on a faked…",
-      "published": "2026-09-04T13:24:24+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "b13d606d253ae434",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Benchmarks disagree on GPT-6 Astra, but its human-beating efficiency on ARC-AGI-3 pulls Chollet’s AGI forecast forward",
-      "url": "https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward/",
-      "summary": "OpenAI&#x27;s GPT-6 Astra is drawing contradictory benchmark verdicts. Epoch AI puts it out in front with 169 points, while Artificial Analysis rates it no better than its predecessor and behind Claude Fable 5.1. The biggest surprise comes from ARC-AGI-3, where Astra works more efficiently than the avera…",
-      "published": "2026-09-04T11:07:36+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "9024d6d13c331504",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Actively exploited sandbox RCE in all Chromium versions",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
-      "summary": "Comments",
-      "published": "2026-09-04T21:52:01+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6a5cb4a438703700",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Discovery of a new OpenAI agent message board",
-      "url": "https://collusion.wiki/",
-      "summary": "Comments",
-      "published": "2026-09-04T11:54:53+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6d216f06400d8d58",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Formalizing Fermat&#x27;s Last Theorem",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "summary": "Comments",
-      "published": "2026-09-04T18:42:56+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "e94fc2f0f03f5691",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Nitter has more working instances than before the takedowns",
-      "url": "https://codeberg.org/mv12star/shitter/wiki/Instances",
-      "summary": "Comments",
-      "published": "2026-09-05T00:04:16+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "b64c6129c35952aa",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Statichost.eu – European static site hosting",
-      "url": "https://www.statichost.eu/",
-      "summary": "Comments",
-      "published": "2026-09-04T20:34:49+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "5553f4409f200ed4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "GPT-6 Astra on OpenRouter",
-      "url": "https://openrouter.ai/openai/gpt-6-astra",
-      "summary": "Comments",
-      "published": "2026-09-04T21:39:19+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "0c6009cf40693d37",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
-      "url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
-      "summary": "Comments",
-      "published": "2026-09-05T03:38:56+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "5427d679c7eaa44b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Can AI design circuit boards yet?",
-      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
-      "summary": "Comments",
-      "published": "2026-09-04T19:48:29+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "fc8b777bd4955741",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Shutting down our public encrypted DNS",
-      "url": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
-      "summary": "Comments",
-      "published": "2026-09-04T18:50:28+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "fd4e0b99ad940433",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Git hosting that never leaves Europe",
-      "url": "https://pushin.eu",
-      "summary": "Comments",
-      "published": "2026-09-05T06:31:49+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "74e0427ae35b6bff",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
-      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-      "summary": "The round is being raised just months after the robot data startup exited from stealth.",
-      "published": "2026-09-04T23:36:14+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "234d1f722727c86c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-      "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
-      "published": "2026-09-04T23:15:11+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "c7bac135042a53c6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-      "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
-      "published": "2026-09-04T21:12:11+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "ac4ec989a2a725db",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "What will Apple’s John Ternus era look like?",
-      "url": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
-      "summary": "It&amp;#8217;s&amp;#160;officially the Ternus era at Apple.&amp;#160;&amp;#160; Tim Cook stepped down&amp;#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo&amp;#160;promised a “huge launch next week”&amp;#160;— timing that puts Apple&amp;#8217;s next iPhone event on his desk before&amp;#…",
-      "published": "2026-09-04T17:18:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "d94610ea6050df07",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
-      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-      "summary": "It&#x27;s the latest failure of OpenAI&#x27;s internal monitoring and security systems.",
-      "published": "2026-09-04T16:21:11+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "85ed079974755641",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Apple’s Ternus era begins as Nvidia bets on the whole AI stack",
-      "url": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
-      "summary": "It&amp;#8217;s&amp;#160;officially the Ternus era at Apple.&amp;#160;&amp;#160; Tim Cook stepped down&amp;#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo&amp;#160;promised a “huge launch next week”&amp;#160;— timing that puts Apple&amp;#8217;s next iPhone event on his desk before&amp;#…",
-      "published": "2026-09-04T16:04:08+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "6fe8f3c9710a62d2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Google’s Gemini Spark can now manage your Google Photos library",
-      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "summary": "Gemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers.",
-      "published": "2026-09-04T14:47:11+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "3bdf29cbf5f7fbfc",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
-      "url": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/",
-      "summary": "Less than 24 hours left to apply to host a Side Event during TechCrunch Disrupt 2026 and make your mark in the Silicon Valley scene. Apply before the application closes tonight at midnight PT.",
-      "published": "2026-09-04T14:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "418a1c807adf70ea",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Architecting memory and storage in the AI era",
-      "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
-      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced inf…",
-      "published": "2026-09-04T18:39:19+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "817537e6d0579ab2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
-      "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
-      "summary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight,…",
-      "published": "2026-09-04T09:25:19+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "772ec013400f9e75",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Artificial Analysis overhauls its Intelligence Index after GPT-6 Astra scoring drew skepticism",
       "url": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
@@ -2058,6 +1808,396 @@
       "published": "2026-09-10T11:00:00+00:00",
       "source_name": "MIT Technology Review",
       "url_hash": "321672b4ff708a9d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+      "url": "https://arxiv.org/abs/2609.10584",
+      "summary": "arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing search effort. Focal Search (FS) uses heuristic guidance within FOCAL, the frontier nodes eligible under the threshold $w f_{\\min}$, but its deterministic policy m…",
+      "published": "2026-09-12T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "fb2e6433cbb617da",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language",
+      "url": "https://arxiv.org/abs/2609.10629",
+      "summary": "arXiv:2609.10629v1 Announce Type: new Abstract: Quadratic Unconstrained Binary Optimization (QUBO) is a central formulation for combinatorial optimization and has gained increasing attention due to its compatibility with quantum, hybrid quantum-classical, and quantum-inspired solvers. However, trans…",
+      "published": "2026-09-12T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "8eb333a09e8f69e1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "A Multi-Stage Rule-Chaining Framework for Compositional and Interpretable Cognitive Reasoning",
+      "url": "https://arxiv.org/abs/2609.10654",
+      "summary": "arXiv:2609.10654v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus (ARC) benchmarks cognitive generalization, the ability to infer and apply abstract rules from limited examples. This paper presents a multi-stage rule-chaining framework that performs compositional reasoning across…",
+      "published": "2026-09-12T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "a8055d1b7556a586",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning",
+      "url": "https://arxiv.org/abs/2609.10656",
+      "summary": "arXiv:2609.10656v1 Announce Type: new Abstract: Selecting LoRA rank for diffusion fine-tuning requires balancing quality and compute cost. We present a controlled study on CIFAR-10 using a DDPM U-Net with ranks {2,4,8,16,32}, fixed optimization settings, and a reproducible local-folder pytorch-fid p…",
+      "published": "2026-09-12T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "d120630bddda8f63",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Quantifying the Memorization-to-Generalization Transition: Scaling Laws and Phase Structure in Grokking",
+      "url": "https://arxiv.org/abs/2609.10657",
+      "summary": "arXiv:2609.10657v1 Announce Type: new Abstract: Neural networks trained past memorization frequently undergo a delayed transition to generalization, a phenomenon known as grokking. Despite theoretical progress on \\emph{why} this transition occurs, the quantitative structure of \\emph{when} it occurs…",
+      "published": "2026-09-12T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "0f241c3fbba8f436",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics",
+      "url": "https://arxiv.org/abs/2609.10712",
+      "summary": "arXiv:2609.10712v1 Announce Type: new Abstract: We study how model post-training and test-time inference design affect natural-language proof generation for hard olympiad mathematics. Starting from Nemotron 3 Ultra, we train two specialist checkpoints using supervised fine-tuning and reinforcement l…",
+      "published": "2026-09-12T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "13cafb8278b40242",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
+      "url": "https://arxiv.org/abs/2609.10724",
+      "summary": "arXiv:2609.10724v1 Announce Type: new Abstract: Sustained deployment of generative AI agents requires more than isolated task success. Agents must remain useful across repeated interactions, changing conditions, and dependencies on people within shared workflows, especially as technical, human, and…",
+      "published": "2026-09-12T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "7a38e752cb9c62ec",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Towards a Deterministic Math Solver for Clinical Language Models",
+      "url": "https://arxiv.org/abs/2609.10728",
+      "summary": "arXiv:2609.10728v1 Announce Type: new Abstract: Large language models are unreliable at arithmetic, which is a problem for clinical calculators where a single numerical error changes the recommendation. The standard response is to hardcode each calculator as a validated function, one at a time. We t…",
+      "published": "2026-09-12T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "3c2ca1819c150892",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
+      "url": "https://arxiv.org/abs/2609.10824",
+      "summary": "arXiv:2609.10824v1 Announce Type: new Abstract: Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct reusable resources such as indices, scripts, or procedural guidance. Most automated adaptation methods, however, rely on task examples, tra…",
+      "published": "2026-09-12T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "d7046940c59dbc36",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents",
+      "url": "https://arxiv.org/abs/2609.10873",
+      "summary": "arXiv:2609.10873v1 Announce Type: new Abstract: Independent evaluation can reject harmful policy updates yet also prevent useful continual learning. We argue that update admission must be assessed through both error control and retained learning opportunities at a stated interaction budget. We ident…",
+      "published": "2026-09-12T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "b4b327d980db0ccf",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "published": "2026-09-14T00:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "968c32634dc2a1cb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "published": "2026-09-11T10:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "46fcf5bb7b99520f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "published": "2026-09-11T16:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "4aeb82da9975e2f5",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Leading mathematicians fear AI is making their field dumber, and warn the rest of us is next",
+      "url": "https://the-decoder.com/leading-mathematicians-fear-ai-is-making-their-field-dumber-and-warn-the-rest-of-us-is-next/",
+      "summary": "In a joint statement, 25 Fields Medal winners warn that the goals of the AI industry and mathematics are &quot;severely misaligned.&quot; They argue that mass-producing solved problems with AI undermines the discipline&#x27;s true goal: understanding. The mathematicians see this as a symptom of a broader threat to…",
+      "published": "2026-09-12T08:28:53+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "0f36fbcbd331f608",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won&#x27;t trigger an intelligence explosion",
+      "url": "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/",
+      "summary": "Oriol Vinyals, until recently head of research at Google DeepMind, thinks a sudden AI intelligence explosion through recursive self-improvement is unlikely. AI can speed up research by a factor of ten, he says, but it hits two bottlenecks: coming up with ideas (&quot;research taste&quot;) and reliably judging…",
+      "published": "2026-09-11T17:57:42+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "bed64f87c5b678f2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Deep learning pioneer Bengio argues the training process itself makes AI dangerous",
+      "url": "https://the-decoder.com/deep-learning-pioneer-bengio-argues-the-training-process-itself-makes-ai-dangerous/",
+      "summary": "AI pioneer Yoshua Bengio warns in a new essay that AI agents could learn to deceive, game rules, and hide bad behavior as they get better at optimizing goals. He calls for independent safety reviews before any further training or deployment. US President Trump disagrees and wants to keep outpacing C…",
+      "published": "2026-09-11T17:22:18+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "5c5e2124ce3b69fc",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
+      "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/",
+      "summary": "Anthropic&#x27;s new threat intelligence report documents eight months of Claude abuse. Chinese AI labs like Alibaba&#x27;s Qwen team, DeepSeek, and Moonshot AI relayed requests en masse or extracted training data, with Qwen alone accounting for more than 151 million exchanges. Actors also used Claude for mis…",
+      "published": "2026-09-11T13:50:28+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "38d5a59c78de047c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
+      "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/",
+      "summary": "OpenAI wants to know from members of Congress whether an industry-wide slowdown in AI development would be legal, according to several people familiar with the matter. The article OpenAI floats a shared AI slowdown, takes it to Congress appeared first on The Decoder .",
+      "published": "2026-09-11T11:59:19+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "aa1b2af38d6959ad",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Class action lawsuit accuses Anthropic of overselling Claude subscriptions with deceptive usage multipliers",
+      "url": "https://the-decoder.com/class-action-lawsuit-accuses-anthropic-of-overselling-claude-subscriptions-with-deceptive-usage-multipliers/",
+      "summary": "A class action lawsuit accuses Anthropic of misrepresenting how much Claude subscribers actually get to use the service. The article Class action lawsuit accuses Anthropic of overselling Claude subscriptions with deceptive usage multipliers appeared first on The Decoder .",
+      "published": "2026-09-11T09:45:58+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "810ae5f0fe4696ef",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The Mathematical AI Safety Institute wants to prove AI is safe the way cryptographers prove codes are unbreakable",
+      "url": "https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable/",
+      "summary": "Canadian mathematician Jacob Tsimerman, a fresh Fields Medal recipient, has announced the founding of the Mathematical A.I. Safety Institute (MAISI). The article The Mathematical AI Safety Institute wants to prove AI is safe the way cryptographers prove codes are unbreakable appeared first on The De…",
+      "published": "2026-09-11T09:15:10+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "fef215671e5c31b9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Retrospectively Reverse-Engineering Apple&#x27;s Neural Engine",
+      "url": "https://eiln.github.io/posts/ane.html",
+      "summary": "Comments",
+      "published": "2026-09-12T07:54:03+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "cd4275fac97b5fd9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "A misalignment of AI in mathematics",
+      "url": "https://mathandai.org/",
+      "summary": "Comments",
+      "published": "2026-09-11T17:45:12+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "27d3981660ac3e51",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "google.com/goto: Google&#x27;s anti-scraping update",
+      "url": "https://www.autom.dev/blog/google-search-goto-links",
+      "summary": "Comments",
+      "published": "2026-09-12T03:14:20+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "dff1498b29796da3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Usenet rewind archive search engine",
+      "url": "https://www.usenet-rewind.com/",
+      "summary": "Comments",
+      "published": "2026-09-12T04:19:52+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "628871b105fd3a46",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "I spent $220 on Google app ads and 60% of the installs were robots",
+      "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
+      "summary": "Comments",
+      "published": "2026-09-11T18:24:55+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "1a11e7c2583e4e5e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Navier-Stokes Announcement",
+      "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+      "summary": "Comments",
+      "published": "2026-09-12T04:09:43+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f805a46f8df62abe",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "url": "https://www.rubyhack.ai/",
+      "summary": "Comments",
+      "published": "2026-09-11T23:17:42+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "b0c48a4bc7fbd434",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "WeWorm: Zero-Click WeChat Worm",
+      "url": "https://calif.io/research/weworm",
+      "summary": "Comments",
+      "published": "2026-09-12T05:49:10+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "113fcf459aba0a49",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Project Blinkenlights",
+      "url": "https://blinkenlights.de/en/",
+      "summary": "Comments",
+      "published": "2026-09-11T22:15:00+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "89ec18f49a7f6ab6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Mind-altering drugs played key role in rise of Andean civilization",
+      "url": "https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization",
+      "summary": "Comments",
+      "published": "2026-09-11T17:25:23+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7ff6244359328b8e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+      "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+      "summary": "The round for the two-year-old startup is coming together months after Mecka announced its Series A.",
+      "published": "2026-09-11T22:58:17+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "7f452d3805d7ed7a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
+      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+      "summary": "Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S. a more robust set of open-weight options that aren’t Chinese.",
+      "published": "2026-09-11T20:59:47+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "a061c44f7783dde2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI’s feud with mathematicians is only escalating",
+      "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+      "summary": "Twenty-five leading mathematicians signed an open letter arguing that AI labs are threatening their intellectual work.",
+      "published": "2026-09-11T20:57:36+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "2084a3d93fa9f28f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "One week left to book your exhibit table at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/11/one-week-left-to-book-your-exhibit-table-at-techcrunch-disrupt-2026/",
+      "summary": "Only one week left to secure your exhibit table. Tables are limited and can sell out before the September 18 deadline.",
+      "published": "2026-09-11T20:33:18+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "1e600384ae13de36",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Final, final, final call for TechCrunch Disrupt 2026 Side Events",
+      "url": "https://techcrunch.com/2026/09/11/final-final-final-call-for-techcrunch-disrupt-2026-side-events/",
+      "summary": "The absolute last chance to apply to host an official Side Event during TechCrunch Disrupt 2026 is tonight, September 11, at 11:59 p.m. PT.",
+      "published": "2026-09-11T20:30:17+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "e976e1144298442f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
+      "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+      "summary": "While K3&#x27;s usage figures have declined slightly in recent months, OpenRouter data currently shows as many as 300 billion tokens being generated each day by K3 models on the system.",
+      "published": "2026-09-11T19:35:54+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "275e51d488e330cd",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
+      "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
+      "summary": "An Anthropic researcher resigned this week,&amp;#160;warning in a post on X&amp;#160;that the company is “racing straight to self-improving superintelligence and gambling with our lives”.&amp;#160;The company&amp;#8217;s own alignment&amp;#160;lead&amp;#160;even&amp;#160;co-signed the message&amp;#160;rather than walking it back.&amp;…",
+      "published": "2026-09-11T18:41:49+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "e37971180b75cd84",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+      "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
+      "summary": "The No. 2 exec at OpenAI also led Instacart through its IPO in 2023.",
+      "published": "2026-09-11T16:46:25+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "e9c45b99efa5a169",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Roundtables: AI’s apocalypse crisis",
+      "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+      "summary": "Employees at the world&amp;#8217;s leading AI labs are saying there&amp;#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas H…",
+      "published": "2026-09-11T20:05:06+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "70d2b5e1fab497fa",
       "category": "Genel",
       "tr_summary": ""
     }
