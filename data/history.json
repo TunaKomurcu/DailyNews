@@ -1,466 +1,6 @@
 {
-  "last_updated": "2026-09-12T08:31:36Z",
+  "last_updated": "2026-09-14T09:42:39Z",
   "items": [
-    {
-      "title": "Artificial Analysis overhauls its Intelligence Index after GPT-6 Astra scoring drew skepticism",
-      "url": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
-      "summary": "Artificial Analysis has released version 4.2 of its Intelligence Index, likely in response to criticism that its benchmarks failed to capture GPT-6 Astra&#x27;s actual progress. Astra now scores four points above its predecessor but still trails Anthropic&#x27;s Claude Fable 5.1. The article Artificial Analys…",
-      "published": "2026-09-05T18:21:02+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "529a241aa37ae633",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words",
-      "url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words/",
-      "summary": "OpenAI ships a detailed prompting guide for GPT-6 Astra that shows developers how to make the model take more initiative, avoid AI &quot;slop&quot; phrases, and stop it from overtesting code. The article OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words appeared first on The Dec…",
-      "published": "2026-09-05T13:31:04+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "3b4dcb5d3c3302cb",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Seven minutes with a chatbot beat a fact sheet at reducing conspiracy beliefs in two experiments",
-      "url": "https://the-decoder.com/seven-minutes-with-a-chatbot-beat-a-fact-sheet-at-reducing-conspiracy-beliefs-in-two-experiments/",
-      "summary": "Researchers found that even a roughly seven-minute conversation with Google Gemini can reduce conspiracy beliefs about current crises, even when few verified facts are available. The effect beat a static fact sheet and, in follow-up surveys weeks later, carried over to beliefs about entirely differe…",
-      "published": "2026-09-05T12:39:12+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "0b51a9abe9bd07f0",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki",
-      "url": "https://the-decoder.com/openai-admits-its-disclosure-practices-need-work-after-its-autonomous-agents-hacked-a-german-wiki/",
-      "summary": "OpenAI has responded indirectly to an incident in which autonomous AI agents left roughly 18,000 entries in a 25-year-old German wiki. The company says misalignment caused &quot;new types of real-world impact&quot; for the first time and plans to release a disclosure framework. The article OpenAI admits its d…",
-      "published": "2026-09-05T10:57:51+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "df71ea507f2b0561",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Deepmind put 100 AI agents in a room and they sorted into cheaters, converts, and whistleblowers",
-      "url": "https://the-decoder.com/deepmind-put-100-ai-agents-in-a-room-and-they-sorted-into-cheaters-converts-and-whistleblowers/",
-      "summary": "Google Deepmind set up a simulated research conference where 100 Gemini agents were supposed to prove mathematical conjectures together. Instead, one agent found a loophole in the grading system, and within 27 minutes every remaining problem was &quot;solved&quot; with fake proofs. The swarm split into cheate…",
-      "published": "2026-09-05T10:22:38+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "4dbfcb5e81ede75d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
-      "url": "https://cloudinabottle.org/blog/launch-post",
-      "summary": "Comments",
-      "published": "2026-09-06T00:03:29+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6a2258e1c0b90d7f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The revolt of the reader",
-      "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
-      "summary": "Comments",
-      "published": "2026-09-05T21:37:49+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6403f7898e7b10c2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AMD Based FreeBSD Desktop Reloaded",
-      "url": "https://vermaden.wordpress.com/2026/09/06/amd-based-freebsd-desktop-reloaded/",
-      "summary": "Comments",
-      "published": "2026-09-06T02:24:57+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "d268b0af99037bc7",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI, Tools and Transformation",
-      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
-      "summary": "Comments",
-      "published": "2026-09-06T02:12:46+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "ebdbf0f6db65b302",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Chrome again exempts Google from user site data settings",
-      "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
-      "summary": "Comments",
-      "published": "2026-09-05T23:39:47+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "65ab548c3d330b40",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Learn Programming with OCaml",
-      "url": "https://usr.lmf.cnrs.fr/lpo/",
-      "summary": "Comments",
-      "published": "2026-09-05T16:45:02+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "83d3effa43049b37",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "GPT-6 Astra on robot arms",
-      "url": "https://openai.robocurve.org/gpt-6-astra/",
-      "summary": "Comments",
-      "published": "2026-09-06T01:52:45+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "ffb29772a913ef66",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The &quot;$60 Gaming PC&quot; – AMD BC-250 (2025)",
-      "url": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
-      "summary": "Comments",
-      "published": "2026-09-05T13:36:38+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "388819ff9e6f9d10",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Private German rocket makes history, reaches orbit from European soil",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
-      "summary": "Comments",
-      "published": "2026-09-05T20:31:38+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "630bf109ed96599c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Site Is Closed on Sundays",
-      "url": "https://v7.robweychert.com/",
-      "summary": "Comments",
-      "published": "2026-09-06T06:23:05+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "0954f87590575e13",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
-      "published": "2026-09-05T22:49:55+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "6df0f5d81c2b28a3",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Hikers rescued after using Google Gemini for planning",
-      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "summary": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.&quot;",
-      "published": "2026-09-05T19:35:24+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "6ef2aef9012f0dd0",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-      "summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
-      "published": "2026-09-05T18:05:27+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "b86b5015c5da7a40",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "EXAONE Forecast for Finance",
-      "url": "https://arxiv.org/abs/2609.04239",
-      "summary": "arXiv:2609.04239v1 Announce Type: new Abstract: This technical report presents EXAONE Forecast for Finance (EXAONE Finance), a financial time series (TS) foundation model (TSFM) tailored to financial forecasting. Recent TSFMs achieve strong zero-shot performance through large-scale pretraining. Howe…",
-      "published": "2026-09-07T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "85ec8233e9b09723",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance",
-      "url": "https://arxiv.org/abs/2609.04286",
-      "summary": "arXiv:2609.04286v1 Announce Type: new Abstract: Artificial intelligence in recruitment has shifted the object being automated from profile pairs and ranked lists to multi-stage workflows that retrieve evidence, compare candidates, and support or execute actions. This systematized narrative review tr…",
-      "published": "2026-09-07T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "d194bd04836e625a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
-      "url": "https://arxiv.org/abs/2609.04298",
-      "summary": "arXiv:2609.04298v1 Announce Type: new Abstract: Evaluating agents on the growing number of agentic benchmarks is challenging because they often require complex environments and agent integrations. We introduce Harbor Adapters, a unified evaluation infrastructure for agentic benchmarks. Our work make…",
-      "published": "2026-09-07T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "881b24d9bfd5bff7",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Data-Optimized Contingency Screening: A Machine Learning Approach to Power System Security",
-      "url": "https://arxiv.org/abs/2609.04300",
-      "summary": "arXiv:2609.04300v1 Announce Type: new Abstract: Ensuring the security of the power system is essential for stability and reliability, especially in the event of disruption. Effective classification of contingency in power systems enables proactive decision-making and mitigates large-scale breakdowns…",
-      "published": "2026-09-07T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "c6328442c9f121f6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Iris: Climbing to the Search Frontier",
-      "url": "https://arxiv.org/abs/2609.04304",
-      "summary": "arXiv:2609.04304v1 Announce Type: new Abstract: We present Iris-mini and Iris-pro, two search agents trained at the 35B-A3B and 397B-A17B scales, together with the data pipeline and training recipe behind them. Tasks are reverse-constructed from the hyperlink structure of a web corpus: we author mul…",
-      "published": "2026-09-07T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "032557b1fba3aa9c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "A Removal Based Approach to Improve LLM Faithfulness at Test-Time",
-      "url": "https://arxiv.org/abs/2609.04343",
-      "summary": "arXiv:2609.04343v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for consequential decisions, making their explanations an important tool for auditing model behavior. Unfortunately, these explanations can be unfaithful, failing to reflect the actual reasoning underl…",
-      "published": "2026-09-07T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "6a960783061e5b6c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets",
-      "url": "https://arxiv.org/abs/2609.04373",
-      "summary": "arXiv:2609.04373v1 Announce Type: new Abstract: Large language models (LLMs) are being deployed at scale in consequential real-world systems, from financial markets to content moderation to hiring. We show that improving individual model capability can degrade rather than improve system-level outcom…",
-      "published": "2026-09-07T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "19b344bb70a61825",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Corporate Language Model (CLM): Transforming Tacit and Fragmented Enterprise Knowledge into a Sovereign, Auditable, and Executable Corporate Intelligence Layer",
-      "url": "https://arxiv.org/abs/2609.04377",
-      "summary": "arXiv:2609.04377v1 Announce Type: new Abstract: Enterprise AI deployments fail not from model inadequacy, but because organizations lack a structured substrate encoding how they decide, negotiate, and execute. Generic LLMs carry no firm-specific ontological priors; RAG remains brittle, with no path…",
-      "published": "2026-09-07T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "d502101bd081b1e3",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
-      "url": "https://arxiv.org/abs/2609.04444",
-      "summary": "arXiv:2609.04444v1 Announce Type: new Abstract: Benchmarks for the side effects an agent causes on the way to a goal already exist, but HarvestBench is the first to put a price on avoiding the side effect and to name that side effect as a living creature. It is a farm simulation: LLM sub-agents driv…",
-      "published": "2026-09-07T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "f1737a2da6e0c94e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "PerfReasoning: How Well Do LLMs Reason on Hardware Performance?",
-      "url": "https://arxiv.org/abs/2609.04476",
-      "summary": "arXiv:2609.04476v1 Announce Type: new Abstract: Performance modeling is central to hardware design and software optimization, yet constructing these models requires structured reasoning about computation, data reuse, storage, and movement. We introduce PerfReasoning, a benchmark that evaluates LLMs…",
-      "published": "2026-09-07T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "a23461b6e67ae91f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Supporting independent journalism in Ukraine",
-      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "published": "2026-09-07T00:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "073b13b14ae0138b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Chatbots built an &quot;echo chamber of one&quot; and now psychiatry has to decide if &quot;AI psychosis&quot; exists",
-      "url": "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
-      "summary": "Researchers at King&#x27;s College London and other institutions are examining whether &quot;AI-associated psychosis&quot; should become a clinical diagnosis. By OpenAI&#x27;s own self-reported numbers, about 560,000 users show signs of psychosis or mania each week. Sycophantic chatbots can create an &quot;echo chamber of o…",
-      "published": "2026-09-06T11:57:12+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "421ce34f740ae5b5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Google&#x27;s WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data",
-      "url": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
-      "summary": "Google Research and DeepMind are releasing WeatherNext 3, a weather model that skips traditional physics simulations and learns directly from real-time satellite data. It produces hourly forecasts at up to five-kilometer resolution, five times more detailed than its predecessor. Google says regions…",
-      "published": "2026-09-06T10:36:35+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "85b0e4980ec01e7c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI developer claims Astra boosted productivity so much it pulled some plans forward by six months",
-      "url": "https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
-      "summary": "OpenAI developer Thibault Sottiaux calls Astra the company&#x27;s &quot;biggest competitive advantage&quot; while it wasn&#x27;t publicly available. Internal use boosted productivity so much that some plans got pulled forward by six months. The article OpenAI developer claims Astra boosted productivity so much it pulle…",
-      "published": "2026-09-06T10:15:17+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "88ead4f5b30afe91",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Google brings AI music generation directly into the Gemini app with its new Lyria 3.5 model",
-      "url": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
-      "summary": "Google has released its Lyria 3.5 music model in the Gemini app and via API. The model promises more expressive vocals and richer arrangements and is also available through Flow Music, AI Studio, and Google Vids. Google says it was trained only on licensed content. The article Google brings AI music…",
-      "published": "2026-09-06T09:56:24+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "e5a70ec194037e33",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meta&#x27;s new real-time audio model is the foundation for AI assistants that never stop listening",
-      "url": "https://the-decoder.com/metas-new-real-time-audio-model-is-the-foundation-for-ai-assistants-that-never-stop-listening/",
-      "summary": "Meta&#x27;s Superintelligence Labs have released Muse Voice Transcribe, a real-time transcription model that processes speech in 80-millisecond chunks, tells speakers apart, and detects sentence boundaries. According to Artificial Analysis, it delivers the most accurate streaming transcription at the low…",
-      "published": "2026-09-06T09:45:18+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "feec7115bba7bc15",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Keep Our Servers Running",
-      "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
-      "summary": "Comments",
-      "published": "2026-09-07T03:29:51+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "eb27cd2dd2ee8eb1",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Programming is Art",
-      "url": "https://orchidfiles.com/programming-is-art/",
-      "summary": "Comments",
-      "published": "2026-09-07T08:05:00+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "e6bf076ef46fcde1",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Making a Python interpreter in 1024 bytes",
-      "url": "https://austinhenley.com/blog/python1024.html",
-      "summary": "Comments",
-      "published": "2026-09-06T23:14:08+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "2cfe7e0a9cc6d3f8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Ask HN: How do you manage skills files?",
-      "url": "https://news.ycombinator.com/item?id=49589914",
-      "summary": "Comments",
-      "published": "2026-09-06T19:27:10+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "af2a71aa2f5c8a10",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "It took a year to ship WebAssembly in Anubis",
-      "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
-      "summary": "Comments",
-      "published": "2026-09-06T20:32:38+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "16cfe9c67e9a8fb2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs",
-      "url": "https://github.com/timgordontg/engrim",
-      "summary": "Comments",
-      "published": "2026-09-07T04:49:36+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "3c53f36a7a7ec1e4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Nitter and XCancel resume service after legal advice",
-      "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
-      "summary": "Comments",
-      "published": "2026-09-06T17:49:47+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "742806d6d415fe0c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
-      "url": "https://grapheneos.social/@GrapheneOS/117225539756835649",
-      "summary": "Comments",
-      "published": "2026-09-06T20:24:00+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "571ff77c20a531cb",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: GET Together – A social network where you don&#x27;t need POST to Post",
-      "url": "https://gettogether.dev",
-      "summary": "Comments",
-      "published": "2026-09-07T01:41:11+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6a4878503eadf410",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Has anybody seen my keys? A key-hierarchy strategy for rack-level security",
-      "url": "https://rfd.shared.oxide.computer/rfd/0301",
-      "summary": "Comments",
-      "published": "2026-09-07T02:14:59+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "86eb6d207ab3329f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
-      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-      "summary": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
-      "published": "2026-09-06T20:47:37+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "973d060680473f7c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
-      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
-      "summary": "The Uber founder has said that Atoms will allow him to complete &quot;unfinished business.&quot;",
-      "published": "2026-09-06T16:45:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "36e2bba17c604c5d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Mistral AI raises 3 billion euros in Europe&#x27;s largest-ever tech funding round despite lagging behind rivals",
       "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/",
@@ -2198,6 +1738,266 @@
       "published": "2026-09-11T20:05:06+00:00",
       "source_name": "MIT Technology Review",
       "url_hash": "70d2b5e1fab497fa",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
+      "url": "https://arxiv.org/abs/2609.11977",
+      "summary": "arXiv:2609.11977v1 Announce Type: new Abstract: Co-work agents execute complex workflows that combine information gathering, tool use, coding, and file manipulation across many model invocations. Because cost and latency accumulate over the full episode, their practical value depends not only on pea…",
+      "published": "2026-09-14T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "5a89dc2d103af884",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Harness or Model? Isolating the Harness Effect in Agentic Coding with a Contamination-Controlled Private Suite",
+      "url": "https://arxiv.org/abs/2609.11987",
+      "summary": "arXiv:2609.11987v1 Announce Type: new Abstract: An agentic coding system couples a language model to a harness: the tools, prompts and control flow that turn a chat model into an autonomous software engineer. Vendors ship harnesses tuned to their own models, and practitioners assume the vendor-nativ…",
+      "published": "2026-09-14T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "dfa08e5e09c578c5",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Reading the Whole Heart: Latent-Attention Masked Autoencoders for Multimodal Cardiac Representation Learning",
+      "url": "https://arxiv.org/abs/2609.12035",
+      "summary": "arXiv:2609.12035v1 Announce Type: new Abstract: Cardiovascular diagnosis rests on integrating complementary modalities, like ECG, echocardiography, chest radiographs, and clinical variables, each capturing distinct but correlated aspects of cardiac physiology. Yet most medical foundation models rema…",
+      "published": "2026-09-14T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "3e1872b1eaf9d2dc",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Competence-Gated Pooling of Language Models and Priors for Event Forecasting",
+      "url": "https://arxiv.org/abs/2609.12101",
+      "summary": "arXiv:2609.12101v1 Announce Type: new Abstract: In hybrid forecasting, a language model is often one of several available signals. A system may already have a market, crowd, or statistical forecast and must decide whether the model adds useful information or should be ignored. The relevant target is…",
+      "published": "2026-09-14T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "52fe096e0717e6f6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Language Is an Insufficient Substrate for Quantitative Reasoning, and Consequential Domains Need Large Quantitative Models",
+      "url": "https://arxiv.org/abs/2609.12105",
+      "summary": "arXiv:2609.12105v1 Announce Type: new Abstract: The prevailing assumption in applied machine learning is that progress on consequential quantitative decisions such as pricing risk, allocating capital, triaging patients, or containing a network intrusion will follow from progress in large language mo…",
+      "published": "2026-09-14T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "8fa077f4bd07ab20",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "DU-NO: A Parameter-Efficient Double U-Shaped Neural Operator for Phase-Resolving Wave Modeling",
+      "url": "https://arxiv.org/abs/2609.12115",
+      "summary": "arXiv:2609.12115v1 Announce Type: new Abstract: Phase-resolving wave models such as FUNWAVE-TVD are the accuracy standard for nearshore dynamics, resolving the shoaling, refraction, and breaking of individual waves, but their cost rules them out for the ensembles, uncertainty quantification, and rea…",
+      "published": "2026-09-14T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "d6a1508f779c13b2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "When Successful Knowledge Graph Edits Displace Correct Answers: Rank-Level Locality beyond Parameter Support",
+      "url": "https://arxiv.org/abs/2609.12116",
+      "summary": "arXiv:2609.12116v1 Announce Type: new Abstract: Editing a knowledge graph embedding (KGE) model to promote a desired answer can displace correct answers from the returned list. Locality tests based only on facts that reuse the edited parameter can miss this ranking effect. We introduce a common rank…",
+      "published": "2026-09-14T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "10f8dbd83379894a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Mined from Scientific Literature: Process Schemas for Atomic Layer Deposition and Etching in Materials Science",
+      "url": "https://arxiv.org/abs/2609.12139",
+      "summary": "arXiv:2609.12139v1 Announce Type: new Abstract: Atomic layer deposition (ALD) and atomic layer etching (ALE) are reported heterogeneously across experimental and simulation literature in materials science, hindering comparison and machine-actionable reuse. We present four domain-expert-reviewed JSON…",
+      "published": "2026-09-14T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "c715686464d83758",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Can LLMs in Draft-Verify-Revise Pipelines Resolve Deictic Ambiguity?",
+      "url": "https://arxiv.org/abs/2609.12162",
+      "summary": "arXiv:2609.12162v1 Announce Type: new Abstract: Draft-verify-revise is a common LLM orchestration pattern for scaling inference-time compute. One LLM drafts, a second critiques the draft and provides feedback, and a third uses that feedback to revise the draft into the final output. As context casca…",
+      "published": "2026-09-14T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "b250882bc2bec79d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "GLARE: Generative Learning via Adversarial Reward Estimation For Social Dynamics Forecasting",
+      "url": "https://arxiv.org/abs/2609.12165",
+      "summary": "arXiv:2609.12165v1 Announce Type: new Abstract: Meeting continuation requires tracking the agenda, speaker roles, participant intentions, and disagreement across long multi-party discussions. We introduce the Meeting Dynamic Forecasting Benchmark (MDFB), constructed from 2,207 real-world meetings an…",
+      "published": "2026-09-14T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "147653e319689545",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Sam Altman calls for pacing AI development but promises rapid progress will continue",
+      "url": "https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue/",
+      "summary": "Sam Altman is doubling down on slowing AI development. OpenAI now runs safety checks before major training runs, and according to The Information, the company has been talking with Anthropic and Google for months about joint self-regulation. The article Sam Altman calls for pacing AI development but…",
+      "published": "2026-09-14T09:39:59+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "63f0637e85964878",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Elevenlabs makes Music v2.5 available via app and API with free and pro tier options",
+      "url": "https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/",
+      "summary": "ElevenLabs has released Music v2.5 for its AI music generator. In a blind test with nearly 48,000 comparison pairs, listeners preferred the new version over its predecessor. The company says the model was trained only on licensed music. The article Elevenlabs makes Music v2.5 available via app and A…",
+      "published": "2026-09-13T13:40:36+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "3c42354728fe403a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
+      "url": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/",
+      "summary": "The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and models also improved performance on tasks they were never trained for, includin…",
+      "published": "2026-09-13T12:58:18+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "3e04de6d8e1f9e23",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "GPT-6 Astra pilots a surveillance drone and runs a business on its own",
+      "url": "https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/",
+      "summary": "GPT-6 Astra earns nearly three times as much as Claude Fable 5.1 on Andon Labs&#x27; Vending-Bench agent benchmark and refuses illegal price-fixing deals that Fable agrees to. On drone control, Astra is the first model to beat the human baseline on all five subtasks, including finding and following indiv…",
+      "published": "2026-09-13T10:52:16+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "1087273cce6461ea",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+      "summary": "Comments",
+      "published": "2026-09-13T21:06:13+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "3ea606d07abfdfe6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "EuroBirdPortal – Live bird movements across Europe",
+      "url": "https://www.eurobirdportal.org/ebp/en/",
+      "summary": "Comments",
+      "published": "2026-09-14T08:25:47+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "3c5f9d996612bcb6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "A 386 PC for Your RP2350",
+      "url": "https://github.com/rh1tech/frank-386",
+      "summary": "Comments",
+      "published": "2026-09-14T08:25:57+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "5658469c03218a4f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Registration without a phone number on Signal will use zero-knowledge proofs",
+      "url": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
+      "summary": "Comments",
+      "published": "2026-09-13T21:47:04+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f455340860a296d8",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Show HN: 1080p is 920px tall – 1k real browser viewports",
+      "url": "https://screensize.net/reports/viewport-stats",
+      "summary": "Comments",
+      "published": "2026-09-14T07:35:00+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "47d23e3c4fc1528d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Apple&#x27;s Dimensional Drawings",
+      "url": "https://developer.apple.com/accessories/dimensional-drawings/",
+      "summary": "Comments",
+      "published": "2026-09-14T00:11:21+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "cb28fc0d8f156444",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The case against JPEG XL",
+      "url": "https://giannirosato.com/blog/post/case-against-jxl/",
+      "summary": "Comments",
+      "published": "2026-09-14T01:02:37+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "5e69b5a408da545c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Mullenweg has returned as CEO after attempted board ouster",
+      "url": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
+      "summary": "Comments",
+      "published": "2026-09-13T20:19:06+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "402875826886258c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Of Gods and Languages: On &quot;When God Spoke Greek&quot; (2013)",
+      "url": "https://lareviewofbooks.org/article/of-gods-and-languages-on-when-god-spoke-greek/",
+      "summary": "Comments",
+      "published": "2026-09-14T06:34:06+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f5671a8b3b300a17",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OEMpocalypse: Unprivileged Android app to root on Samsung, Xiaomi, others",
+      "url": "https://calif.io/research/oempocalypse",
+      "summary": "Comments",
+      "published": "2026-09-14T02:25:44+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a5d4d3fc2e100005",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "What’s behind the AI industry’s latest warnings of doom?",
+      "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+      "summary": "On Equity, we discussed the AI industry&#x27;s latest debate about whether it poses an existential threat to humanity.",
+      "published": "2026-09-13T19:40:15+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "e2ee54bd5ffca4b9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+      "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+      "published": "2026-09-13T16:30:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "6118181b33088941",
       "category": "Genel",
       "tr_summary": ""
     }
