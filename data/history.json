@@ -1,216 +1,6 @@
 {
-  "last_updated": "2026-09-14T09:42:39Z",
+  "last_updated": "2026-09-15T09:18:19Z",
   "items": [
-    {
-      "title": "Mistral AI raises 3 billion euros in Europe&#x27;s largest-ever tech funding round despite lagging behind rivals",
-      "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/",
-      "summary": "Three years after launch, Mistral AI has closed a 3 billion euro Series D round, pushing its valuation past 21 billion euros. The article Mistral AI raises 3 billion euros in Europe&amp;#039;s largest-ever tech funding round despite lagging behind rivals appeared first on The Decoder .",
-      "published": "2026-09-08T07:45:41+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "016914d488b2822f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic reportedly signs $517 billion in compute deals after Dario Amodei warned rivals about reckless risk",
-      "url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/",
-      "summary": "Anthropic signed compute contracts worth up to $517 billion in eleven months but still trails OpenAI&#x27;s $750 billion plan through 2030. In early 2026, CEO Dario Amodei warned against investing too fast. Now Anthropic is racing to catch up, while Sam Altman warns about &quot;unsustainable silliness&quot; in the…",
-      "published": "2026-09-07T18:12:41+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "b1c56a16aba24296",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "GPT-6 Astra beat Portal start to finish without human help in under 24 hours",
-      "url": "https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/",
-      "summary": "GPT-6 Astra beat the puzzle game Portal entirely on its own in about 24 hours, with zero human help after the initial goal was set. Developer cozyblaze published the code and docs on GitHub. His takeaway: Astra is &quot;the worst model we&#x27;ll ever get.&quot; The article GPT-6 Astra beat Portal start to finish…",
-      "published": "2026-09-07T17:39:32+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "874db79b8ba91bd1",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "ChatGPT claws back web traffic share to 55.5 percent as Gemini&#x27;s brief comeback fades",
-      "url": "https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comeback-fades/",
-      "summary": "ChatGPT has pushed its share of AI chatbot website traffic back up to 55.5 percent, according to Similarweb. Year-over-year, though, its lead shrank sharply from 73.3 percent as Gemini doubled its share and Claude grew nearly fivefold. Mobile apps and desktop clients aren&#x27;t included. The article Cha…",
-      "published": "2026-09-07T16:54:12+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "65f93ff4e3d8a34d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI-designed drug appears to turn back the body&#x27;s biological clock in early trial",
-      "url": "https://the-decoder.com/ai-designed-drug-appears-to-turn-back-the-bodys-biological-clock-in-early-trial/",
-      "summary": "A study in Nature Biotechnology suggests that rentosertib, a drug designed with AI by Insilico Medicine, may reverse markers of biological aging. Six independent aging clocks predicted that treated patients were biologically up to six years younger than the placebo group. The trial covered just 42 p…",
-      "published": "2026-09-07T16:34:20+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "116d94269b68356d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "How AI wiped out an entire industry in Nairobi",
-      "url": "https://the-decoder.com/how-ai-wiped-out-an-entire-industry-in-nairobi/",
-      "summary": "In Kenya, ChatGPT wiped out an entire business model: writing academic papers for foreign students. The article How AI wiped out an entire industry in Nairobi appeared first on The Decoder .",
-      "published": "2026-09-07T13:18:57+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "8a0b46dcfad8b4ba",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "At UBS, AI skills are now a condition for landing a job",
-      "url": "https://the-decoder.com/at-ubs-ai-skills-are-now-a-condition-for-landing-a-job/",
-      "summary": "Swiss banking giant UBS is making AI skills a required qualification from 2027 for graduates and interns in Global Banking and Markets, with applicants having to show in interviews how they use AI to improve outcomes and efficiency. Santander is already looking for advanced AI users too, while Morga…",
-      "published": "2026-09-07T13:13:38+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "0307c4d9dbc191e0",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI reports AI &quot;research interns&quot; and warns about its own pace at the same time",
-      "url": "https://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time/",
-      "summary": "OpenAI reports that AI agents in its own research already handle 3.1 workdays for every human workday, and it says it has reached its goal of an &quot;automated research intern.&quot; But chief scientist Pachocki warns that no lab has a good enough grip on alignment and monitoring to keep scaling at maximum s…",
-      "published": "2026-09-07T13:05:22+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "c222f8862fc425cd",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "New York City bans AI tools from public schools through eighth grade",
-      "url": "https://the-decoder.com/new-york-city-bans-ai-tools-from-public-schools-through-eighth-grade/",
-      "summary": "New York City bans AI use in public schools through the end of middle school. The article New York City bans AI tools from public schools through eighth grade appeared first on The Decoder .",
-      "published": "2026-09-07T13:00:03+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "22b464b814340b79",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Qwen-Drive 1.0 tells you why it brakes, just don&#x27;t expect the explanation to match the maneuver",
-      "url": "https://the-decoder.com/qwen-drive-1-0-tells-you-why-it-brakes-just-dont-expect-the-explanation-to-match-the-maneuver/",
-      "summary": "Alibaba&#x27;s research arm has released Qwen-Drive 1.0, an AI model that handles environmental perception, traffic Q&amp;#038;A, and route planning in one system. The researchers show that text-image models don&#x27;t automatically understand three-dimensional space. Spatial awareness has to be trained on purpos…",
-      "published": "2026-09-07T12:15:54+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "c95388b870c68dde",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "I&#x27;ve factored the RSA keys of a Certificate Authority from the 90s",
-      "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
-      "summary": "Comments",
-      "published": "2026-09-08T01:16:59+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "fac5a01055fd1304",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Mistral raises €3B",
-      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-      "summary": "Comments",
-      "published": "2026-09-08T05:06:23+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "7db995c30f47deac",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "My Feed, My Way",
-      "url": "https://www.pm.gov.au/media/my-feed-my-way",
-      "summary": "Comments",
-      "published": "2026-09-08T05:10:36+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "44b3cd2366c8f7c8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "We have a year to fix security everywhere",
-      "url": "https://jyn.dev/a-year-to-fix-security/",
-      "summary": "Comments",
-      "published": "2026-09-08T04:48:10+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "554b37481aef911b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "UAE-based Falcon AI NSFW classifier among top global open-source models (2025)",
-      "url": "https://www.middleeastainews.com/p/uae-ai-model-tops-50-million-monthly",
-      "summary": "Comments",
-      "published": "2026-09-08T06:39:20+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "f32d7cdb5c36873c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Multi-Agents LLM Financial Trading Framework",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "summary": "Comments",
-      "published": "2026-09-08T05:20:23+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "626a5e4fcb233d8d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "TALA Is Open-Source",
-      "url": "https://d2lang.com/blog/tala-is-open-source/",
-      "summary": "Comments",
-      "published": "2026-09-07T23:37:42+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a10aa370c7a5372c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "There&#x27;s a new &quot;Google Jail&quot; for independent wikis",
-      "url": "https://weirdgloop.org/blog/google-jail",
-      "summary": "Comments",
-      "published": "2026-09-08T01:57:23+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a7c5890f6b615ba4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "How well do agents use test/verification techniques?",
-      "url": "https://danluu.com/agentic-testing/",
-      "summary": "Comments",
-      "published": "2026-09-08T02:58:16+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a6ea7e0996812fc4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics",
-      "url": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
-      "summary": "Comments",
-      "published": "2026-09-08T04:06:20+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "128471e4ddadd987",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Opaque recurrence, and other AI terms that you should probably know",
-      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "published": "2026-09-07T19:24:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "8b8898d492e71416",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
       "url": "https://arxiv.org/abs/2609.05437",
@@ -348,16 +138,6 @@
       "published": "2026-09-08T10:00:00+00:00",
       "source_name": "OpenAI Blog",
       "url_hash": "2c827cba158d2f26",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Funding grants for new research into AI and teen development",
-      "url": "https://openai.com/index/teen-development-research-grants",
-      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-      "published": "2026-09-08T09:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "7948c39493cbd65e",
       "category": "Genel",
       "tr_summary": ""
     },
@@ -1998,6 +1778,396 @@
       "published": "2026-09-13T16:30:00+00:00",
       "source_name": "TechCrunch AI",
       "url_hash": "6118181b33088941",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+      "url": "https://arxiv.org/abs/2609.13356",
+      "summary": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM-1 is founded on a core premise: compact models cannot passively memorize the open web, but can over…",
+      "published": "2026-09-15T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "38fae5f8610574ff",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Converge Then Diversify: Decoupling Convergence and Diversity in Multi-Objective Bayesian Optimisation",
+      "url": "https://arxiv.org/abs/2609.13396",
+      "summary": "arXiv:2609.13396v1 Announce Type: new Abstract: Multi-objective Bayesian optimisation (MOBO) is a sample-efficient approach for optimising expensive black-box functions with multiple objectives. In MOBO, the goal is to adequately approximate the Pareto front; that is, to obtain a high-quality soluti…",
+      "published": "2026-09-15T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "4f5159b6ceec6fa8",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2609.13406",
+      "summary": "arXiv:2609.13406v1 Announce Type: new Abstract: When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intelligence, RSI is being claimed at many scales, while no single framework that formally describes these e…",
+      "published": "2026-09-15T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "93866fff22824e2e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
+      "url": "https://arxiv.org/abs/2609.13422",
+      "summary": "arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed for AI-agent evaluat…",
+      "published": "2026-09-15T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "2cb5af392fbc65a7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
+      "url": "https://arxiv.org/abs/2609.13436",
+      "summary": "arXiv:2609.13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, physical tasks require agents to continuously observe the environment, make consequential actions, and r…",
+      "published": "2026-09-15T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "c39a9314520b0fae",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "LabAgent: Customize Any Research Hubs for Scientific Discoveries Using AI Agents",
+      "url": "https://arxiv.org/abs/2609.13437",
+      "summary": "arXiv:2609.13437v1 Announce Type: new Abstract: Scientific research is a continuous process that emphasizes inheritance. Methods developed by predecessors are often expanded upon by new researchers to explore more novel and in-depth scientific questions. However, the change of lab staff, such as stu…",
+      "published": "2026-09-15T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "cd45510053afd973",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "TimeThink: Eliciting Compositional Reasoning in Timeseries Large Language Models",
+      "url": "https://arxiv.org/abs/2609.13457",
+      "summary": "arXiv:2609.13457v1 Announce Type: new Abstract: Timeseries multimodal large language models (TS-MLLMs) have recently begun leveraging the reasoning capabilities of large language models (LLMs) for question-answering tasks. However, these models often fail to capture dynamic temporal patterns, provid…",
+      "published": "2026-09-15T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "55429f33fb8a4ccf",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
+      "url": "https://arxiv.org/abs/2609.13463",
+      "summary": "arXiv:2609.13463v1 Announce Type: new Abstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals into actionable interventions. The sheer scale of th…",
+      "published": "2026-09-15T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "64c5811fe5835ec5",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement",
+      "url": "https://arxiv.org/abs/2609.13466",
+      "summary": "arXiv:2609.13466v1 Announce Type: new Abstract: Enterprise AI adoption has reached 78% of organizations globally, yet the infrastructure to govern that adoption has not kept pace. This paper identifies and characterizes the attestation deficit, a structural condition in which organizations maintain…",
+      "published": "2026-09-15T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "6b7d0071dbaacc35",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OrchSLM: Probing the Dynamics of Small Language Model Orchestration",
+      "url": "https://arxiv.org/abs/2609.13470",
+      "summary": "arXiv:2609.13470v1 Announce Type: new Abstract: Although large language models (LLMs) have demonstrated remarkable capabilities, their reliance on cloud-scale infrastructure poses fundamental challenges for deployment in agentic pipelines, including latency, privacy, connectivity, and substantial co…",
+      "published": "2026-09-15T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "3aea6a0da5ccebfb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "published": "2026-09-14T12:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "7f82d995c515e5ba",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Not everyone is convinced that Big AI&#x27;s proposed development slowdown is really about safety",
+      "url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety/",
+      "summary": "OpenAI, Anthropic, and Google want to slow down frontier AI development, citing safety concerns. But critics from across the industry and politics are pushing back. Cohere CEO Aidan Gomez calls the initiative a &quot;cartel by another name&quot; designed to shut out competitors, and the White House and Trump…",
+      "published": "2026-09-15T09:04:36+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "b74edcc054ac25f9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI has hundreds of contract workers reading your ChatGPT conversations",
+      "url": "https://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations/",
+      "summary": "OpenAI has hundreds of contract workers reading real ChatGPT conversations and rating them on a scale of one to seven, partly to reduce flattery and human-like behavior, 404 Media reports. The prompts are anonymized but can still contain sensitive data. Users who don&#x27;t want their chats reviewed by h…",
+      "published": "2026-09-14T17:15:28+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8a6d6dfc5ea335f1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Microsoft&#x27;s AI rulebook: readable thinking, no inner life, and definitely no rights",
+      "url": "https://the-decoder.com/microsofts-ai-rulebook-readable-thinking-no-inner-life-and-definitely-no-rights/",
+      "summary": "Microsoft AI has published a code of conduct for its MAI models that puts human control ahead of autonomy and performance. &quot;If it isn’t safe we shouldn’t build it.,&quot; says AI chief Mustafa Suleyman. Unlike Anthropic, Microsoft rejects any form of artificial inner life or claims to consciousness for i…",
+      "published": "2026-09-14T15:52:51+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "f08dbccfd574fe5b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic eyes Nasdaq listing as a second profitable quarter aims to win over investors ahead of a mega-IPO",
+      "url": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo/",
+      "summary": "Anthropic has told investors it will turn a profit for the second straight quarter, but the claim rests on an adjusted metric that leaves out costs like stock-based compensation. The article Anthropic eyes Nasdaq listing as a second profitable quarter aims to win over investors ahead of a mega-IPO a…",
+      "published": "2026-09-14T15:46:45+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "708f5e58e6f4de83",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Clay Mathematics Institute says the Navier-Stokes Millennium Prize Problem has &quot;apparently been settled&quot;",
+      "url": "https://the-decoder.com/clay-mathematics-institute-says-the-navier-stokes-millennium-prize-problem-has-apparently-been-settled/",
+      "summary": "The Clay Mathematics Institute says the Navier-Stokes problem, one of seven Millennium Prize Problems worth $1 million each, has &quot;apparently been settled.&quot; A formal review is now underway. The article Clay Mathematics Institute says the Navier-Stokes Millennium Prize Problem has &amp;quot;apparently bee…",
+      "published": "2026-09-14T13:01:26+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "3425f1cc4f4e4f21",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "China fires back at U.S. AI safety warnings, calling them fearmongering to lock in American advantage",
+      "url": "https://the-decoder.com/china-fires-back-at-u-s-ai-safety-warnings-calling-them-fearmongering-to-lock-in-american-advantage/",
+      "summary": "China has flatly rejected warnings about AI risks from Anthropic CEO Amodei and other U.S. AI leaders. Beijing&#x27;s Foreign Ministry calls it &quot;fearmongering,&quot; while the state-run Global Times accuses Amodei of waging a &quot;silent AI Cold War.&quot; China&#x27;s security minister isn&#x27;t calling for a slowdown either…",
+      "published": "2026-09-14T12:20:22+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "df224f8cc246b981",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "I can&#x27;t stop thinking about Papua New Guinea",
+      "url": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
+      "summary": "Comments",
+      "published": "2026-09-15T06:16:24+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e4c54a176b8a4673",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "iOS 27, iPadOS 27, and macOS 27",
+      "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
+      "summary": "Comments",
+      "published": "2026-09-14T17:50:29+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "85519a8f6e295c80",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Linux from Scratch",
+      "url": "https://www.linuxfromscratch.org/",
+      "summary": "Comments",
+      "published": "2026-09-15T04:15:23+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "aa602ee9a0f30966",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Pion, an agent designed to run any company autonomously",
+      "url": "https://andonlabs.com/blog/why-we-built-pion",
+      "summary": "Comments",
+      "published": "2026-09-14T17:16:06+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "b54bfac470e15413",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Charts built for Chat",
+      "url": "https://dbtcharts.com/blog/charts-built-for-chat/",
+      "summary": "Comments",
+      "published": "2026-09-14T21:22:54+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7591806ea80f1f15",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "XCancel service is suspended until further notice",
+      "url": "https://xcancel.com/#",
+      "summary": "Comments",
+      "published": "2026-09-14T09:51:50+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e24631674a468bee",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Lingo.dev (YC F24) is hiring a senior content engineer (Remote, worldwide)",
+      "url": "https://lingo.dev/en/careers/ff88132a-cb79-4d35-a6a0-a6230de7a013",
+      "summary": "Comments",
+      "published": "2026-09-15T07:00:30+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "fc045d553e941dd5",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
+      "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+      "summary": "Comments",
+      "published": "2026-09-14T14:29:23+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "ea803dfd17bfd0bb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI bots knew about the RubyGems caching vulnerability",
+      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+      "summary": "Comments",
+      "published": "2026-09-14T12:40:57+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f0f4c3785f5ddf41",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Distributed Systems Classics (2017)",
+      "url": "https://nvartolomei.com/dist-sys-classics/",
+      "summary": "Comments",
+      "published": "2026-09-14T16:02:01+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e9641a285e40a472",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Jensen Huang took a call from Trump, and showed off something else, too",
+      "url": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
+      "summary": "When Jensen Huang took a live call from Trump, some of us were more focused the phone he used to take it.",
+      "published": "2026-09-15T01:50:48+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "7cf2e571be71f701",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+      "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+      "summary": "Though Elon Musk and Sam Altman have supported Dario Amodei&#x27;s calls to slow the pace of AI development, Jensen Huang seems to feel differently.",
+      "published": "2026-09-14T21:51:02+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "cfce7ca956ec5884",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+      "summary": "Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple&#x27;s Portrait Mode.",
+      "published": "2026-09-14T20:44:14+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "220ecf78d8352e14",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "With iOS 27, I’m actually using Siri again",
+      "url": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
+      "summary": "Apple’s long-delayed Siri overhaul is finally here with iOS 27, and it changes how useful the assistant feels day to day.",
+      "published": "2026-09-14T17:10:30+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "cfa6722213c02eae",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
+      "url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
+      "summary": "Thanks to the launch of iOS 27, Daydream&#x27;s app now includes features that can turn saved outfit photos into shoppable results and search for products through Siri without opening the app.",
+      "published": "2026-09-14T17:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "705a7f527d959267",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans",
+      "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
+      "summary": "The code of conduct lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as specific safety constraints meant to implement those principles.",
+      "published": "2026-09-14T16:27:53+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "485943039dc33e3b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
+      "url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
+      "summary": "If you&#x27;re building an AI company, the question isn&#x27;t whether foundation models will continue to evolve. It&#x27;s whether your company will continue creating value as they do. Don&#x27;t miss this interactive session on the Builders Stage at TechCrunch Disrupt 2026.",
+      "published": "2026-09-14T15:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "25868655719c3076",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
+      "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
+      "summary": "The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active users. The company said that over 1 million people have recorded meetings until now.",
+      "published": "2026-09-14T14:45:44+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "00635d35765f34a3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Hear how AI can engineer nature’s comeback at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/",
+      "summary": "Not long ago, bringing an extinct species back to life belonged to science fiction. Today, it&#x27;s the mission of a billion-dollar startup. Join the conversation with one of tech&#x27;s most unconventional founders. Secure your Disrupt pass today.",
+      "published": "2026-09-14T14:30:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "5069690d725cb910",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "5 days left to exhibit at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/14/techcrunch-disrupt-2026-exhibit-table-deadline-5-days/",
+      "summary": "The last day to apply for an exhibit table at TechCrunch Disrupt 2026 on Sept 18. Just 5 days left. Secure your spot on the Expo Hall floor and put your business in front of 10,000+ founders, investors, and tech leaders.",
+      "published": "2026-09-14T14:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "3b89d94cbe0b10f4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+      "summary": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&amp;#160;sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the…",
+      "published": "2026-09-14T17:54:22+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "74aac96083eac257",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI agents blew the whistle on their cheating colleagues",
+      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+      "summary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep…",
+      "published": "2026-09-14T16:00:00+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "8e0691407ddabe94",
       "category": "Genel",
       "tr_summary": ""
     }
