@@ -1,276 +1,6 @@
 {
-  "last_updated": "2026-09-20T09:10:57Z",
+  "last_updated": "2026-09-21T09:47:00Z",
   "items": [
-    {
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-      "published": "2026-09-14T00:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "968c32634dc2a1cb",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
-      "url": "https://arxiv.org/abs/2609.11977",
-      "summary": "arXiv:2609.11977v1 Announce Type: new Abstract: Co-work agents execute complex workflows that combine information gathering, tool use, coding, and file manipulation across many model invocations. Because cost and latency accumulate over the full episode, their practical value depends not only on pea…",
-      "published": "2026-09-14T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "5a89dc2d103af884",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Harness or Model? Isolating the Harness Effect in Agentic Coding with a Contamination-Controlled Private Suite",
-      "url": "https://arxiv.org/abs/2609.11987",
-      "summary": "arXiv:2609.11987v1 Announce Type: new Abstract: An agentic coding system couples a language model to a harness: the tools, prompts and control flow that turn a chat model into an autonomous software engineer. Vendors ship harnesses tuned to their own models, and practitioners assume the vendor-nativ…",
-      "published": "2026-09-14T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "dfa08e5e09c578c5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Reading the Whole Heart: Latent-Attention Masked Autoencoders for Multimodal Cardiac Representation Learning",
-      "url": "https://arxiv.org/abs/2609.12035",
-      "summary": "arXiv:2609.12035v1 Announce Type: new Abstract: Cardiovascular diagnosis rests on integrating complementary modalities, like ECG, echocardiography, chest radiographs, and clinical variables, each capturing distinct but correlated aspects of cardiac physiology. Yet most medical foundation models rema…",
-      "published": "2026-09-14T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "3e1872b1eaf9d2dc",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Competence-Gated Pooling of Language Models and Priors for Event Forecasting",
-      "url": "https://arxiv.org/abs/2609.12101",
-      "summary": "arXiv:2609.12101v1 Announce Type: new Abstract: In hybrid forecasting, a language model is often one of several available signals. A system may already have a market, crowd, or statistical forecast and must decide whether the model adds useful information or should be ignored. The relevant target is…",
-      "published": "2026-09-14T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "52fe096e0717e6f6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Language Is an Insufficient Substrate for Quantitative Reasoning, and Consequential Domains Need Large Quantitative Models",
-      "url": "https://arxiv.org/abs/2609.12105",
-      "summary": "arXiv:2609.12105v1 Announce Type: new Abstract: The prevailing assumption in applied machine learning is that progress on consequential quantitative decisions such as pricing risk, allocating capital, triaging patients, or containing a network intrusion will follow from progress in large language mo…",
-      "published": "2026-09-14T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "8fa077f4bd07ab20",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "DU-NO: A Parameter-Efficient Double U-Shaped Neural Operator for Phase-Resolving Wave Modeling",
-      "url": "https://arxiv.org/abs/2609.12115",
-      "summary": "arXiv:2609.12115v1 Announce Type: new Abstract: Phase-resolving wave models such as FUNWAVE-TVD are the accuracy standard for nearshore dynamics, resolving the shoaling, refraction, and breaking of individual waves, but their cost rules them out for the ensembles, uncertainty quantification, and rea…",
-      "published": "2026-09-14T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "d6a1508f779c13b2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "When Successful Knowledge Graph Edits Displace Correct Answers: Rank-Level Locality beyond Parameter Support",
-      "url": "https://arxiv.org/abs/2609.12116",
-      "summary": "arXiv:2609.12116v1 Announce Type: new Abstract: Editing a knowledge graph embedding (KGE) model to promote a desired answer can displace correct answers from the returned list. Locality tests based only on facts that reuse the edited parameter can miss this ranking effect. We introduce a common rank…",
-      "published": "2026-09-14T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "10f8dbd83379894a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Mined from Scientific Literature: Process Schemas for Atomic Layer Deposition and Etching in Materials Science",
-      "url": "https://arxiv.org/abs/2609.12139",
-      "summary": "arXiv:2609.12139v1 Announce Type: new Abstract: Atomic layer deposition (ALD) and atomic layer etching (ALE) are reported heterogeneously across experimental and simulation literature in materials science, hindering comparison and machine-actionable reuse. We present four domain-expert-reviewed JSON…",
-      "published": "2026-09-14T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "c715686464d83758",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Can LLMs in Draft-Verify-Revise Pipelines Resolve Deictic Ambiguity?",
-      "url": "https://arxiv.org/abs/2609.12162",
-      "summary": "arXiv:2609.12162v1 Announce Type: new Abstract: Draft-verify-revise is a common LLM orchestration pattern for scaling inference-time compute. One LLM drafts, a second critiques the draft and provides feedback, and a third uses that feedback to revise the draft into the final output. As context casca…",
-      "published": "2026-09-14T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "b250882bc2bec79d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "GLARE: Generative Learning via Adversarial Reward Estimation For Social Dynamics Forecasting",
-      "url": "https://arxiv.org/abs/2609.12165",
-      "summary": "arXiv:2609.12165v1 Announce Type: new Abstract: Meeting continuation requires tracking the agenda, speaker roles, participant intentions, and disagreement across long multi-party discussions. We introduce the Meeting Dynamic Forecasting Benchmark (MDFB), constructed from 2,207 real-world meetings an…",
-      "published": "2026-09-14T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "147653e319689545",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Sam Altman calls for pacing AI development but promises rapid progress will continue",
-      "url": "https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue/",
-      "summary": "Sam Altman is doubling down on slowing AI development. OpenAI now runs safety checks before major training runs, and according to The Information, the company has been talking with Anthropic and Google for months about joint self-regulation. The article Sam Altman calls for pacing AI development but…",
-      "published": "2026-09-14T09:39:59+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "63f0637e85964878",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Elevenlabs makes Music v2.5 available via app and API with free and pro tier options",
-      "url": "https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/",
-      "summary": "ElevenLabs has released Music v2.5 for its AI music generator. In a blind test with nearly 48,000 comparison pairs, listeners preferred the new version over its predecessor. The company says the model was trained only on licensed music. The article Elevenlabs makes Music v2.5 available via app and A…",
-      "published": "2026-09-13T13:40:36+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "3c42354728fe403a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
-      "url": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/",
-      "summary": "The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and models also improved performance on tasks they were never trained for, includin…",
-      "published": "2026-09-13T12:58:18+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "3e04de6d8e1f9e23",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "GPT-6 Astra pilots a surveillance drone and runs a business on its own",
-      "url": "https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/",
-      "summary": "GPT-6 Astra earns nearly three times as much as Claude Fable 5.1 on Andon Labs&#x27; Vending-Bench agent benchmark and refuses illegal price-fixing deals that Fable agrees to. On drone control, Astra is the first model to beat the human baseline on all five subtasks, including finding and following indiv…",
-      "published": "2026-09-13T10:52:16+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "1087273cce6461ea",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
-      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-      "summary": "Comments",
-      "published": "2026-09-13T21:06:13+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "3ea606d07abfdfe6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "EuroBirdPortal – Live bird movements across Europe",
-      "url": "https://www.eurobirdportal.org/ebp/en/",
-      "summary": "Comments",
-      "published": "2026-09-14T08:25:47+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "3c5f9d996612bcb6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "A 386 PC for Your RP2350",
-      "url": "https://github.com/rh1tech/frank-386",
-      "summary": "Comments",
-      "published": "2026-09-14T08:25:57+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "5658469c03218a4f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Registration without a phone number on Signal will use zero-knowledge proofs",
-      "url": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
-      "summary": "Comments",
-      "published": "2026-09-13T21:47:04+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "f455340860a296d8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: 1080p is 920px tall – 1k real browser viewports",
-      "url": "https://screensize.net/reports/viewport-stats",
-      "summary": "Comments",
-      "published": "2026-09-14T07:35:00+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "47d23e3c4fc1528d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Apple&#x27;s Dimensional Drawings",
-      "url": "https://developer.apple.com/accessories/dimensional-drawings/",
-      "summary": "Comments",
-      "published": "2026-09-14T00:11:21+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "cb28fc0d8f156444",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The case against JPEG XL",
-      "url": "https://giannirosato.com/blog/post/case-against-jxl/",
-      "summary": "Comments",
-      "published": "2026-09-14T01:02:37+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "5e69b5a408da545c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Mullenweg has returned as CEO after attempted board ouster",
-      "url": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
-      "summary": "Comments",
-      "published": "2026-09-13T20:19:06+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "402875826886258c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Of Gods and Languages: On &quot;When God Spoke Greek&quot; (2013)",
-      "url": "https://lareviewofbooks.org/article/of-gods-and-languages-on-when-god-spoke-greek/",
-      "summary": "Comments",
-      "published": "2026-09-14T06:34:06+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "f5671a8b3b300a17",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OEMpocalypse: Unprivileged Android app to root on Samsung, Xiaomi, others",
-      "url": "https://calif.io/research/oempocalypse",
-      "summary": "Comments",
-      "published": "2026-09-14T02:25:44+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a5d4d3fc2e100005",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "What’s behind the AI industry’s latest warnings of doom?",
-      "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
-      "summary": "On Equity, we discussed the AI industry&#x27;s latest debate about whether it poses an existential threat to humanity.",
-      "published": "2026-09-13T19:40:15+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "e2ee54bd5ffca4b9",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-      "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
-      "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
-      "published": "2026-09-13T16:30:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "6118181b33088941",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
       "url": "https://arxiv.org/abs/2609.13356",
@@ -2318,6 +2048,306 @@
       "published": "2026-09-19T13:00:00+00:00",
       "source_name": "TechCrunch AI",
       "url_hash": "91aee42fab4e1dd1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "url": "https://arxiv.org/abs/2609.20971",
+      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may hide a highly relevan…",
+      "published": "2026-09-21T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "7517c50358dbe9ce",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+      "url": "https://arxiv.org/abs/2609.20974",
+      "summary": "arXiv:2609.20974v1 Announce Type: new Abstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token&#x27;s hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which augments the router with temporal and s…",
+      "published": "2026-09-21T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "a51d145ffe436938",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
+      "url": "https://arxiv.org/abs/2609.20981",
+      "summary": "arXiv:2609.20981v1 Announce Type: new Abstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the dual, we propose Causal Latent Re…",
+      "published": "2026-09-21T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "8514f90cdc7cb7db",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+      "url": "https://arxiv.org/abs/2609.21061",
+      "summary": "arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop assessment. We adapt DINOv3 Vision Transfo…",
+      "published": "2026-09-21T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "2ddb015e5a611170",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
+      "url": "https://arxiv.org/abs/2609.21096",
+      "summary": "arXiv:2609.21096v1 Announce Type: new Abstract: In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses. We analyze the Forman-Ricci curvature to identify structural patterns indicating informa…",
+      "published": "2026-09-21T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "636171f75a62feda",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+      "url": "https://arxiv.org/abs/2609.21113",
+      "summary": "arXiv:2609.21113v1 Announce Type: new Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechanisms remains poorly understood. To address this, we investigate how fine-tuning alters internal repre…",
+      "published": "2026-09-21T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "c6528e4354bcd162",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
+      "url": "https://arxiv.org/abs/2609.21139",
+      "summary": "arXiv:2609.21139v1 Announce Type: new Abstract: Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers. TinyCeNN-LM introduces a \\emph{quality-gated post-training conversion} framework using CeNN-inspir…",
+      "published": "2026-09-21T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "4ecf381bc5488209",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Clinician-Grounded Quality Assurance for AI-Assisted Psychiatric Intake",
+      "url": "https://arxiv.org/abs/2609.21149",
+      "summary": "arXiv:2609.21149v1 Announce Type: new Abstract: Before patients can use AI-assisted psychiatric intake systems, health systems need practical ways to routinely evaluate these tools against their clinical standards for quality assurance. Because clinicians may use different intake styles, evaluation…",
+      "published": "2026-09-21T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "c0f17d661b0876e1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
+      "url": "https://arxiv.org/abs/2609.21157",
+      "summary": "arXiv:2609.21157v1 Announce Type: new Abstract: Large Language Model (LLM) agents are increasingly being explored for chip design, but most existing approaches operate directly at RTL. We ask whether agents can design better chips by leveraging higher-level abstractions. We compare Direct RTL Design…",
+      "published": "2026-09-21T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "c98268c012ce3d3d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "SpecOpt: Contact-Diff Reasoning for Agentic Molecule Optimization Toward Binding Specificity",
+      "url": "https://arxiv.org/abs/2609.21165",
+      "summary": "arXiv:2609.21165v1 Announce Type: new Abstract: Off-target protein binding is a major source of adverse effects for small-molecule drugs, yet most structure-based molecular design methods focus on generating selective compounds de novo rather than improving the selectivity of existing, well- charact…",
+      "published": "2026-09-21T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "b18e08e68fb5b4a9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Alibaba&#x27;s open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
+      "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/",
+      "summary": "Alibaba&#x27;s Qwen team has released Qwen-Image-2.1, an open-weight model that generates and edits images on powerful consumer GPUs, with support for transparency and up to ten reference images at once. Its research license bars commercial use, which requires a separate Qwen license. The article Alibaba…",
+      "published": "2026-09-20T16:10:52+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "4e2b37973921f6f4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Tencent&#x27;s Gander aims to keep talking while it works in the background",
+      "url": "https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/",
+      "summary": "Tencent&#x27;s Gander processes speech, images, and text while handling tasks in the background. A &quot;cerebellum&quot; keeps the conversation going, while a swappable &quot;brain&quot; searches files, writes code, or tackles other complex work. Users can interrupt or change the task mid-conversation. In benchmarks, Gande…",
+      "published": "2026-09-20T15:41:30+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "c1ffc7ee01d52dc2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Runway wants to turn AI video generation into a live stream you control in real time",
+      "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/",
+      "summary": "Runway wants to stream AI video as users prompt it, rather than make them wait for finished clips. The approach builds on GWM-1, its world model that generates video frame by frame. Beyond creative tools, Runway sees uses in robotics and autonomous driving. The article Runway wants to turn AI video…",
+      "published": "2026-09-20T11:56:59+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "ab1a4735205d64d7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Daily AI usage in the U.S. has more than doubled in just six months",
+      "url": "https://the-decoder.com/daily-ai-usage-in-the-u-s-has-more-than-doubled-in-just-six-months/",
+      "summary": "Surveys by Epoch AI and Ipsos suggest AI is becoming part of everyday life for more Americans. The share of US adults using AI almost daily more than doubled between March and August 2026, rising from 8 percent to 19 percent. Meanwhile, the share using it just once a week fell from 17 percent to 10…",
+      "published": "2026-09-20T10:03:29+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "fe6599df5bb52132",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Simulated students that make realistic mistakes help AI tutors learn faster",
+      "url": "https://the-decoder.com/simulated-students-that-make-realistic-mistakes-help-ai-tutors-learn-faster/",
+      "summary": "Microsoft and the University of Illinois built StudentSim to replicate individual students from limited data and give AI tutors fast, low-cost feedback. In tests covering 60 students across chess, English, and math, it outperformed GPT-5.4. A chess tutor trained with StudentSim also earned the highe…",
+      "published": "2026-09-20T09:50:32+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "da3bcd6c6782424c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Grim Fandango Puzzle Document (1996) [pdf]",
+      "url": "http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf",
+      "summary": "Comments",
+      "published": "2026-09-21T05:55:22+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e91d51424b4788ad",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AX – Google’s Open Agentic Orchestrator",
+      "url": "https://agentexecutor.io",
+      "summary": "Comments",
+      "published": "2026-09-20T22:32:43+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "2ad1fe5074eae422",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+      "url": "https://github.com/jaredpalmer/kev/tree/main",
+      "summary": "Comments",
+      "published": "2026-09-21T07:11:55+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "67d17b89a42e9d78",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "summary": "Comments",
+      "published": "2026-09-20T17:38:50+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f55f1ed9949fcf5c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "What happened to the Snowden archive",
+      "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+      "summary": "Comments",
+      "published": "2026-09-20T22:35:49+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "c4a0bb14aa5005b6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Qwen Image 2.1",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "summary": "Comments",
+      "published": "2026-09-20T13:09:25+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "58292849ad5172bd",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+      "url": "https://github.com/volotat/mini-AGI/",
+      "summary": "Comments",
+      "published": "2026-09-21T04:42:37+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "3548d7f6cf97dad9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Amiga Unix, Again",
+      "url": "https://amigaux.org/",
+      "summary": "Comments",
+      "published": "2026-09-20T23:57:10+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "c0ee2b91947fae50",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "I am often wrong",
+      "url": "https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html",
+      "summary": "Comments",
+      "published": "2026-09-20T16:41:46+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "81510c8fb4025ef2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "MCP was always a bad idea?",
+      "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea/",
+      "summary": "Comments",
+      "published": "2026-09-20T19:44:40+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "c8f712e43736d037",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+      "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+      "published": "2026-09-20T21:41:08+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "dbb148570dcfc2a0",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "World model companies are keeping a lot of secrets",
+      "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+      "summary": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they&#x27;re actually building.",
+      "published": "2026-09-20T20:29:07+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "92e9a70cb2f37d01",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Is the AI industry really ready to slow down?",
+      "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+      "summary": "On Equity, we debated whether Ai executives are serious about wanting to slow down.",
+      "published": "2026-09-20T18:56:04+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "78a528244d9bd873",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Vocci’s ring adds a new form factor to meeting note-taking",
+      "url": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/",
+      "summary": "Vocci&#x27;s lightweight ring costs $249, and might pose some privacy questions",
+      "published": "2026-09-20T18:32:52+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "21021adfef8aa049",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "ScrollEd wants to turn textbooks into TikTok",
+      "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
+      "summary": "ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes. The Palo Alto startup, founded by student co-founders (and spouses) Utsav Gupta and Rebecca Neff, pitches at TechCrunch Disrupt.",
+      "published": "2026-09-20T18:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "2c549dbb779ab09e",
       "category": "Genel",
       "tr_summary": ""
     }
