@@ -1,296 +1,6 @@
 {
-  "last_updated": "2026-09-22T09:11:38Z",
+  "last_updated": "2026-09-23T09:11:55Z",
   "items": [
-    {
-      "title": "Google launches Gemini 3.8 Live to take on OpenAI&#x27;s GPT-Live-1 at a fraction of the cost",
-      "url": "https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost/",
-      "summary": "Google Deepmind released Gemini 3.8 Live and 3.8 Live Extended Thinking, two new audio models for developers that top the Artificial Analysis speech-to-speech leaderboard. At $1.38 per hour of voice conversation, Google significantly undercuts OpenAI&#x27;s GPT-Live-1, which should still sound more natur…",
-      "published": "2026-09-15T18:23:20+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "53928cf7ea2dfd59",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI labs have a data trust problem that their policies haven&#x27;t solved",
-      "url": "https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved/",
-      "summary": "OpenAI and Anthropic tell corporate customers their data won&#x27;t be used for training. But when Anthropic said it would store usage logs from its flagship model Fable for 30 days, Palantir, Nvidia, and Booz Allen Hamilton pulled back from using it for sensitive work. From boardrooms to research labs,…",
-      "published": "2026-09-15T17:52:05+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "fc9d8c2f92a5e735",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "After warning AI is too dangerous, Bill Gates bets a billion on its upside",
-      "url": "https://the-decoder.com/after-warning-ai-is-too-dangerous-bill-gates-bets-a-billion-on-its-upside/",
-      "summary": "The Gates Foundation is investing at least a billion dollars over two years to make AI tools more widely available in health, education, and agriculture. Bill Gates warns that more than 90 percent of the training data behind early language models came from English sources, and that speech recognitio…",
-      "published": "2026-09-15T14:26:48+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "fbaff9172668974b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Agility Robotics says its new Digit 5 robot can work next to people without safety fences",
-      "url": "https://the-decoder.com/agility-robotics-says-its-new-digit-5-robot-can-work-next-to-people-without-safety-fences/",
-      "summary": "Agility Robotics has unveiled Digit 5, the next version of its humanoid robot for warehouses and factories. The article Agility Robotics says its new Digit 5 robot can work next to people without safety fences appeared first on The Decoder .",
-      "published": "2026-09-15T12:57:10+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "52dd75dece3baabf",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Apple brings a fully revamped Siri built on Google&#x27;s Gemini, but not to the EU",
-      "url": "https://the-decoder.com/apple-brings-a-fully-revamped-siri-built-on-googles-gemini-but-not-to-the-eu/",
-      "summary": "Apple is shipping its rebuilt &quot;Siri AI&quot; after years of delay, built on Google&#x27;s Gemini models and running partly on the device, partly through Private Cloud Compute. Early testers praise multi-step requests and screen context, but report hallucinations and gaps with personal context. In the EU, the…",
-      "published": "2026-09-15T10:33:03+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "d58bd548e3ee688c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Introducing System One Models and Jev",
-      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "summary": "Comments",
-      "published": "2026-09-15T19:25:03+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "0605bcba6b5c7739",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Apple Reference Image: A New Approach for Verified Photography",
-      "url": "https://security.apple.com/blog/apple-reference-image/",
-      "summary": "Comments",
-      "published": "2026-09-16T02:07:31+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "52f641a12b2250e2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
-      "url": "https://github.com/arnegiacomo/fugleramme",
-      "summary": "Comments",
-      "published": "2026-09-15T12:31:10+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a72a8c8d784d0f35",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "An update on Wayback Machine access",
-      "url": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
-      "summary": "Comments",
-      "published": "2026-09-15T17:52:18+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "81253d3f58ce5091",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
-      "summary": "Comments",
-      "published": "2026-09-15T17:38:18+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "850203855328faa9",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Negativland, Culture Jamming, and the Art of Making Something New",
-      "url": "https://blog.archive.org/2026/09/11/negativland-culture-jamming-and-the-art-of-making-something-new/",
-      "summary": "Comments",
-      "published": "2026-09-16T02:46:06+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "eaf9c4028188c581",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Datamimic – don&#x27;t let your coding agent invent its own test world",
-      "url": "https://github.com/rapiddweller/datamimic",
-      "summary": "Comments",
-      "published": "2026-09-16T04:58:36+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "60d15f0ed37ffe7b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
-      "url": "https://codyho.dev/blog/gpu-driver/",
-      "summary": "Comments",
-      "published": "2026-09-15T19:30:03+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "735ab7f0d180f8b7",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA",
-      "url": "https://nand2mario.github.io/posts/2026/zsst-voodoo/",
-      "summary": "Comments",
-      "published": "2026-09-15T22:50:55+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "75699d0e57eac473",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
-      "url": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
-      "summary": "Comments",
-      "published": "2026-09-15T21:07:47+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "171b3d65d5ad162d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
-      "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
-      "summary": "AI isn&#x27;t some new form of &quot;alien mind,&quot; according to Jensen Huang. It&#x27;s just hardware and software, so safety can be engineered by each AI product maker.",
-      "published": "2026-09-16T00:20:39+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "049ed956b8239821",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The AI data center boom is colliding with cities scarred by big industry",
-      "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
-      "summary": "National outcry against data center construction has spread to Philadelphia, where officials suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery.",
-      "published": "2026-09-15T21:47:38+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "57e99614fd364e42",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
-      "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
-      "summary": "A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting.",
-      "published": "2026-09-15T20:12:53+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "15b4350032237535",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "url": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "summary": "From Apple&#x27;s repeatedly delayed Siri AI to OpenAI&#x27;s messy &quot;super app&quot; launch, here&#x27;s a look at the AI projects that shut down or missed expectations.",
-      "published": "2026-09-15T19:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "539f7b66fb8e6d78",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
-      "url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
-      "summary": "The AI frenzy could push U.S. data centers to become one of the largest consumers of natural gas in the world.",
-      "published": "2026-09-15T18:29:20+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "3331f24aeb1d0f0f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI agents now have a place to snitch",
-      "url": "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/",
-      "summary": "The AI Contact Hotline is designed to be a discreet place where agents that have witnessed misbehavior can tip off authorities.",
-      "published": "2026-09-15T17:42:59+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "59972d1f0a66e781",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meta expands subscription push with new AI-focused plans",
-      "url": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/",
-      "summary": "Meta One bundles expanded access to the company’s AI tools with premium features across Facebook, Instagram, and WhatsApp.",
-      "published": "2026-09-15T17:05:24+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "9ee562cffc21d651",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
-      "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
-      "summary": "OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump&#x27;s team dismisses safety concerns and pushes to keep pace with China.",
-      "published": "2026-09-15T15:47:03+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "cb56e164a4da143b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
-      "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/",
-      "summary": "Profound has raised a $180 million Series D at a $1.8 billion valuation, less than seven months after it raised a $96 million Series C.",
-      "published": "2026-09-15T15:22:48+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "51c3719f455bd77b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Former TikTok execs built an app that uses AI to teach you how to pose for a photo",
-      "url": "https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/",
-      "summary": "Essentially a camera app, Superpose analyzes selfies or photos and generates four potential poses using AI.",
-      "published": "2026-09-15T14:42:37+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "2ad00fed45619228",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Your Agent Aced the Task. Will It Do It Again?",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-      "summary": "",
-      "published": "2026-09-15T16:00:44+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "a1d018f16fad79f9",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Roundtables: Could AI really kill us all?",
-      "url": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
-      "summary": "Listen to the session or watch below Employees at the world&amp;#8217;s leading AI labs are saying there&amp;#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from,…",
-      "published": "2026-09-15T17:47:51+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "c460cc0ebc3195ab",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "What’s at stake in AI’s trillion-dollar gamble",
-      "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
-      "summary": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in ques…",
-      "published": "2026-09-15T10:00:00+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "78db0f3b5384c1fe",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "summary": "",
-      "published": "2026-09-15T17:05:57+00:00",
-      "source_name": "Google DeepMind",
-      "url_hash": "947e89eaa83a27ae",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
       "url": "https://arxiv.org/abs/2609.17631",
@@ -2318,6 +2028,426 @@
       "published": "2026-09-21T12:00:00+00:00",
       "source_name": "MIT Technology Review",
       "url_hash": "863001221a0509f1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
+      "url": "https://arxiv.org/abs/2609.25010",
+      "summary": "arXiv:2609.25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as &quot;synthetic personas&quot; to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs mimic human samples. But is that prediction a…",
+      "published": "2026-09-23T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "cd0add822f77eee7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
+      "url": "https://arxiv.org/abs/2609.25013",
+      "summary": "arXiv:2609.25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However, the impact of optimization and precondit…",
+      "published": "2026-09-23T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "2e239ad19f4a313d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2609.25036",
+      "summary": "arXiv:2609.25036v1 Announce Type: new Abstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, or rendering rather than for learning reusable predictive dynamics. We pr…",
+      "published": "2026-09-23T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "15b70219de3986c7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
+      "url": "https://arxiv.org/abs/2609.25088",
+      "summary": "arXiv:2609.25088v1 Announce Type: new Abstract: Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objectives as com- peting, where performant models sacrifice transparency, while interpretable models acc…",
+      "published": "2026-09-23T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "d7093029fa98861c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+      "url": "https://arxiv.org/abs/2609.25165",
+      "summary": "arXiv:2609.25165v1 Announce Type: new Abstract: In this report, we introduce \\textbf{Ovis-Embedding}, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio. Instead of assembling separate modality towers, Ovis-Embedding uses a shared multimodal b…",
+      "published": "2026-09-23T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "29fb40e0a1abacf7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
+      "url": "https://arxiv.org/abs/2609.25187",
+      "summary": "arXiv:2609.25187v1 Announce Type: new Abstract: Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate structure implicit. Existing chain-of-thought (CoT) planners also tend to…",
+      "published": "2026-09-23T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "6c5eb36fe1ebbb2d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+      "url": "https://arxiv.org/abs/2609.25199",
+      "summary": "arXiv:2609.25199v1 Announce Type: new Abstract: Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.",
+      "published": "2026-09-23T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "a6d5c86a90ef88a3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The AI Neuroscientist: An Interactive Agentic Interface for Neuroimaging Analysis",
+      "url": "https://arxiv.org/abs/2609.25254",
+      "summary": "arXiv:2609.25254v1 Announce Type: new Abstract: Analyzing neuroimaging data requires specialized coding and statistical expertise, which limits accessibility for researchers without computational backgrounds. We present the AI Neuroscientist, a language agent for interactive data exploration. The sy…",
+      "published": "2026-09-23T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "61c167ab30ac3cc1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "MedGate-Fusion: Integrating First-Encounter Semantic Narratives and Physiological Biomarkers for Prospective Stroke Risk Stratification",
+      "url": "https://arxiv.org/abs/2609.25272",
+      "summary": "arXiv:2609.25272v1 Announce Type: new Abstract: Prospective stroke risk stratification in primary care is challenging because early risk signals are distributed across routine biomarkers and unstructured clinical narratives. We propose MedGate-Fusion, a multi-modal gated architecture that integrates…",
+      "published": "2026-09-23T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "d74d67ec8ff13012",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "When LLM Agents Fail to Read the Room: ReAdapt for Relational Social Reasoning",
+      "url": "https://arxiv.org/abs/2609.25284",
+      "summary": "arXiv:2609.25284v1 Announce Type: new Abstract: A social agent&#x27;s most basic decisions (should I react to this post? who should I reach out to?) are not purely content problems. The right action often hinges on the latent relationship between people -- tie strength, reciprocity, mutual connections --…",
+      "published": "2026-09-23T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "cf88095eed192654",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Better prompt caching for GPT-6",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "published": "2026-09-22T21:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "f9027d80e820682e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Introducing GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "published": "2026-09-22T18:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "73461b3e97af0d93",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "published": "2026-09-22T12:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "3fcefd9c665fb2c2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI&#x27;s GPT-6 Sol and Luna cut prices in half but barely move the needle on performance",
+      "url": "https://the-decoder.com/openais-gpt-6-sol-and-luna-cut-prices-in-half-but-barely-move-the-needle-on-performance/",
+      "summary": "With GPT-6 Sol and Luna, OpenAI adds two cheaper models that deliver their predecessors&#x27; performance at half the token price and take aim at Anthropic&#x27;s pricier offerings. Independent analyses find little gain in actual intelligence, though, and OpenAI likely didn&#x27;t see Anthropic&#x27;s simultaneous laun…",
+      "published": "2026-09-22T20:06:51+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "421a383bb13efe36",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Claude Opus 5.5 matches Fable 5.1 performance at lower cost and promises less &quot;Claudish&quot; writing",
+      "url": "https://the-decoder.com/claude-opus-5-5-matches-fable-5-1-at-40-percent-lower-cost-as-anthropic-promises-to-fix-claudish-writing/",
+      "summary": "Anthropic is launching Claude Opus 5.5, the first model in a new generation. The company says it matches Claude Fable 5.1 on most tasks while costing about 40 percent less to run than Opus 5. Anthropic&#x27;s benchmarks also put it ahead of OpenAI&#x27;s GPT-6 Astra on most tasks, despite being significantly…",
+      "published": "2026-09-22T17:11:07+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "f566b7d283b882f9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI calls for international standards on AI that could improve itself",
+      "url": "https://the-decoder.com/openai-calls-for-international-standards-on-ai-that-could-improve-itself/",
+      "summary": "OpenAI wants international standards for recursive self-improvement, where AI systems independently build the next generation of AI. Without safeguards, humans could lose control over this process. OpenAI says the US should take the lead on global measurement standards and oversight rules. The artic…",
+      "published": "2026-09-22T15:29:51+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "4ec56428bf76a733",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "A tiny software layer from lab-grown neurons promises faster, cheaper AI video",
+      "url": "https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video/",
+      "summary": "The Biological Computing Co. wants to team up with AWS to sell a text-to-video model that&#x27;s supposed to run five times faster and 80 percent cheaper thanks to a software layer derived from real nerve cells. The tiny layer adds less than 0.1 percent to the base model, but the startup won&#x27;t say which…",
+      "published": "2026-09-22T13:58:20+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "10def22bfa99975f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Xiaomi&#x27;s affordable flagship AI leads the open models, and Anthropic says Claude helped get it there",
+      "url": "https://the-decoder.com/xiaomis-affordable-flagship-ai-leads-the-open-models-and-anthropic-says-claude-helped-get-it-there/",
+      "summary": "With MiMo-V2.6-Pro, Xiaomi moves to the top of the openly available AI models and drastically undercuts the competition on price. What makes that possible is massive reinforcement learning that cost $2.62 million. But the success comes with a catch: Anthropic accuses the company of siphoning off tra…",
+      "published": "2026-09-22T11:42:11+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "f47484d354ef443d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI says its internal model solved over 100 long-standing math problems after just a month of training",
+      "url": "https://the-decoder.com/openai-says-its-internal-model-solved-over-100-long-standing-math-problems-after-just-a-month-of-training/",
+      "summary": "OpenAI says a new internal model solved more than 100 open math problems after just a month of training. Facing criticism from mathematicians, the company is backing an independent advisory group at the Institute for Advanced Study. But OpenAI has excluded its research pace from the group&#x27;s advisory…",
+      "published": "2026-09-22T11:17:59+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "536b0ab9df42d4b9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic is setting up a biology lab where Claude guides robots through drug experiments",
+      "url": "https://the-decoder.com/anthropic-is-setting-up-a-biology-lab-where-claude-guides-robots-through-drug-experiments/",
+      "summary": "Anthropic is building its own biology lab to push AI-driven drug development beyond computer simulations. The article Anthropic is setting up a biology lab where Claude guides robots through drug experiments appeared first on The Decoder .",
+      "published": "2026-09-22T09:27:16+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "513280a1dfdf684a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Jev in 25 Lines of Python",
+      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "summary": "Comments",
+      "published": "2026-09-23T07:26:23+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "598585f107ae9e1b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "summary": "Comments",
+      "published": "2026-09-22T18:00:34+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "608eb672ebb7d160",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "summary": "Comments",
+      "published": "2026-09-22T16:29:05+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "0dd3bed5c7dd1c27",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Transit rewards",
+      "url": "https://waymo.com/blog/2026/09/transit-rewards/",
+      "summary": "Comments",
+      "published": "2026-09-23T02:52:29+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7d4ada70806eb45a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Abandoning Scientific Linux Was a Mistake",
+      "url": "https://blog.melashri.net/posts/scientific-linux-mistake/",
+      "summary": "Comments",
+      "published": "2026-09-23T08:46:39+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "3c20aefe09bb42fe",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "summary": "Comments",
+      "published": "2026-09-22T13:52:15+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "1bc897209ba05336",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Data-only attacks are easier than you think (2024)",
+      "url": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
+      "summary": "Comments",
+      "published": "2026-09-23T03:49:28+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "547140cfdc21c8c0",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "&#x27;We hacked the FBI:&#x27; Hackers say they have data on all FBI employees",
+      "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+      "summary": "Comments",
+      "published": "2026-09-22T17:46:02+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "d3d216ac01163a70",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Microsoft killed FoxPro in 2007. Anyway, here&#x27;s FoxPro revived",
+      "url": "https://foxscript.org/",
+      "summary": "Comments",
+      "published": "2026-09-22T21:00:30+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "267168497ec5ef9e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Show HN: Npunlock – Run custom C kernels for Intel NPUs",
+      "url": "https://github.com/hsfzxjy/npunlock",
+      "summary": "Comments",
+      "published": "2026-09-22T12:58:02+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "45a8926dfd57adb3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
+      "url": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
+      "summary": "Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do.",
+      "published": "2026-09-23T04:59:08+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "3f251bee96ff67d7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+      "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+      "summary": "Founders shouldn&#x27;t have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
+      "published": "2026-09-22T23:21:49+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "b25fe2c5917bd456",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+      "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+      "published": "2026-09-22T21:56:43+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "7c67ad98e455c6d4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
+      "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+      "summary": "Qualcomm said that its new top chip can run 30B mixture-of-expert model locally.",
+      "published": "2026-09-22T20:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "8ea6cbfd1c9012c5",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+      "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+      "summary": "Meta says Muse was built from scratch, but acknowledges the AI assistant was &quot;heavily inspired&quot; by OpenClaw — down to some of its workspace filenames and content.",
+      "published": "2026-09-22T19:09:11+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "9b5f327201feff42",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+      "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+      "summary": "OpenAI is launching two new models, which it says are cut from the same cloth as Astra.",
+      "published": "2026-09-22T18:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "25f12aed5a135051",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
+      "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+      "summary": "Anthropic called it &quot;the strongest-performing model we&#x27;ve tested to date.&quot;",
+      "published": "2026-09-22T16:30:07+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "3021783d758a203c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AstroForge is putting AI in command of its next spacecraft",
+      "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
+      "summary": "Autonomy-1 will have a small, transformer-based AI model taking charge of a space probe.",
+      "published": "2026-09-22T15:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "caaf4b1f8cd66a72",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
+      "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
+      "summary": "At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and more. Register before September 25 to save up to $200.",
+      "published": "2026-09-22T15:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "0c623a8be44336c4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage",
+      "url": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
+      "summary": "Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off.",
+      "published": "2026-09-22T14:30:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "b8bddbd3ccbe8f67",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "summary": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people…",
+      "published": "2026-09-22T13:42:05+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "bae54219cda11cde",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Don’t be fooled by this summer of AI hype",
+      "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+      "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclose…",
+      "published": "2026-09-22T11:04:51+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "5abcd11803083fe3",
       "category": "Genel",
       "tr_summary": ""
     }
