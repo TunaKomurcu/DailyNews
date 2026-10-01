@@ -1,376 +1,6 @@
 {
-  "last_updated": "2026-09-30T10:22:23Z",
+  "last_updated": "2026-10-01T10:49:07Z",
   "items": [
-    {
-      "title": "Two years of OpenAI Academy",
-      "url": "https://openai.com/index/two-years-of-openai-academy",
-      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "published": "2026-09-23T16:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "52e46e8371e1f699",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-      "published": "2026-09-23T13:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "9328fa400dd37e6b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "published": "2026-09-23T12:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "347b65ce144a221e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-      "published": "2026-09-23T12:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "52b80abd4e046c04",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-      "published": "2026-09-23T12:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "f2ff7f7605612041",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-      "published": "2026-09-23T12:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "4e56c7312349a760",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "ChatGPT Voice gets closer to &quot;Her&quot; with email, calendar, and Slack access",
-      "url": "https://the-decoder.com/chatgpt-voice-gets-closer-to-her-with-email-calendar-and-slack-access/",
-      "summary": "ChatGPT Voice now runs on OpenAI&#x27;s new GPT-6 Astra, Sol, and Luna models and can tap into plugins like email, calendar, and Slack. Users can manage appointments, send emails, or build websites just by talking. The update moves OpenAI closer to the everyday AI assistant Sam Altman has long compared t…",
-      "published": "2026-09-23T17:57:37+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "a3d6ad4fd76c77e3",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Google&#x27;s new Flash TTS models let you design AI voices from scratch using text descriptions",
-      "url": "https://the-decoder.com/googles-new-flash-tts-models-let-you-design-ai-voices-from-scratch-using-text-descriptions/",
-      "summary": "Google is introducing two new text-to-speech models, Gemini 3.8 Flash TTS and Flash-Lite TTS, which support more than 100 languages. Flash TTS can create new voices from text descriptions, and both models let users add stage directions to individual lines and generate two-voice dialogue from a singl…",
-      "published": "2026-09-23T17:39:10+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "0d2724db03627379",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "YouTube adds AI tools to Creator Studio with script coaching, smart thumbnails, and Gemini editing",
-      "url": "https://the-decoder.com/youtube-adds-ai-tools-to-creator-studio-with-script-coaching-smart-thumbnails-and-gemini-editing/",
-      "summary": "YouTube is adding AI tools to its creator studio. A storytelling assistant analyzes scripts and rough cuts, Gemini becomes a chat-based editing assistant for Shorts, and a new live translation feature turns English streams into Spanish. The article YouTube adds AI tools to Creator Studio with script…",
-      "published": "2026-09-23T16:37:43+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "9a978000ebce1e85",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic engineer explains why Claude&#x27;s writing got worse although the model got smarter",
-      "url": "https://the-decoder.com/anthropic-engineer-explains-why-claudes-writing-got-worse-although-the-model-got-smarter/",
-      "summary": "Anthropic employee Jackson Kernion explains why newer Claude models write so oddly. Optimizing for math, code, and technical explanations aimed at other AI models has created a style that sounds like &quot;overly-dense info dumps&quot; to humans. Opus 5.5 tries to fix this, but Opus 4.6 remains unmatched as a…",
-      "published": "2026-09-23T15:14:34+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "25c53dbddd71c505",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Nvidia-backed Nscale keeps its biggest customer, Bytedance, out of its IPO filing",
-      "url": "https://the-decoder.com/nvidia-backed-nscale-keeps-its-biggest-customer-bytedance-out-of-its-ipo-filing/",
-      "summary": "Nscale, the Nvidia-backed AI cloud provider, leaves its most important customer, Bytedance, out of the main prospectus for its planned US IPO. The article Nvidia-backed Nscale keeps its biggest customer, Bytedance, out of its IPO filing appeared first on The Decoder .",
-      "published": "2026-09-23T14:44:22+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "ac401f05eb675c38",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meta&#x27;s AI agent Muse draws 500,000 users in a week along with claims it copied OpenClaw",
-      "url": "https://the-decoder.com/metas-ai-agent-muse-draws-500000-users-in-a-week-along-with-claims-it-copied-openclaw/",
-      "summary": "Meta&#x27;s AI agent Muse picked up more than 500,000 users in its first week and hit number one in Apple&#x27;s App Store. But Meta admits the product is &quot;heavily inspired&quot; by the open-source project OpenClaw, and some of the file names and contents are nearly identical. OpenAI is already discussing a respon…",
-      "published": "2026-09-23T14:42:38+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "5c8357f4c741cfe7",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Inside Basecamp Research, the AI startup turning evolution into training data",
-      "url": "https://the-decoder.com/inside-basecamp-research-the-ai-startup-turning-evolution-into-training-data/",
-      "summary": "Basecamp Research has raised $140 million from investors including Nvidia and Anthropic&#x27;s Anthology Fund. The London company trains AI models on genetic material from rainforests, oceans, and hot springs to design antibiotics and tools for cell therapies. In an interview with THE DECODER, CTO Philip…",
-      "published": "2026-09-23T13:52:23+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "77d95e655cf1b515",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Alibaba launches Qwen Audio 3.1 with new models and slashes AI audio prices by up to 95 percent",
-      "url": "https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/",
-      "summary": "Alibaba&#x27;s AI team Qwen has released Qwen-Audio-3.1, a lineup of five models for speech recognition (ASR), text-to-speech (TTS), and real-time interaction. The ASR model improves multilingual and dialect recognition and automatically cleans up filler words and repetitions. ASR-Next adds multi-speaker…",
-      "published": "2026-09-23T12:31:20+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "a3a1fbc4ad550043",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
-      "url": "https://transluce.org/agent-activity",
-      "summary": "Comments",
-      "published": "2026-09-24T05:21:10+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "e5a8f0f458eaba58",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Linux support is coming to Snapdragon X2 Series",
-      "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
-      "summary": "Comments",
-      "published": "2026-09-23T22:38:16+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "3336633e70bcfc63",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "summary": "Comments",
-      "published": "2026-09-23T18:06:47+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "ef1b3a4772eab837",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Ideas on modernizing the open-source desktop",
-      "url": "https://lwn.net/SubscriberLink/1095425/2d9f411252325784/",
-      "summary": "Comments",
-      "published": "2026-09-24T02:52:09+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "f936f1287ec538eb",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
-      "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
-      "summary": "Comments",
-      "published": "2026-09-23T22:45:49+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "b3c467df5813cc1e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
-      "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
-      "summary": "Comments",
-      "published": "2026-09-24T08:23:03+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "d62537dec8a363bf",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Contrastive Language Models",
-      "url": "https://contrastive-lm.notion.site/",
-      "summary": "Comments",
-      "published": "2026-09-24T04:20:59+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a53710d4cd44743e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "VSCode&#x27;s SSH Agent Is Bananas (2025)",
-      "url": "https://fly.io/blog/vscode-ssh-wtf/",
-      "summary": "Comments",
-      "published": "2026-09-23T21:01:48+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6ced8738ec2cb6dd",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
-      "url": "https://github.com/nestrilabs/virtio-nvgpu",
-      "summary": "Comments",
-      "published": "2026-09-24T01:02:23+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "e58a06ede296da8d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Why &#x27;What&#x27;s Opera, Doc?&#x27; looks like that",
-      "url": "https://animationobsessive.substack.com/p/why-whats-opera-doc-looks-like-that",
-      "summary": "Comments",
-      "published": "2026-09-23T15:37:47+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "aeb21f44529da785",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Everything new coming to Meta’s AI agent Muse",
-      "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
-      "summary": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It&#x27;s even coming to Meta&#x27;s AI glasses.",
-      "published": "2026-09-24T01:13:32+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "364e76eaa6a6943f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
-      "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
-      "summary": "The tiny hardware device creates another mobile home for its AI agent Muse.",
-      "published": "2026-09-24T00:46:17+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "ff4347676284e65e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meta introduces camera-free AI glasses",
-      "url": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
-      "summary": "Meta says the camera-free glasses will be lighter and have up to 12 hours battery life.",
-      "published": "2026-09-23T23:39:44+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "866c5688bd798c2c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic says its biology lab has already found something big",
-      "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
-      "summary": "But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab. Humans are still, so far, in the loop.",
-      "published": "2026-09-23T22:17:39+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "48a9d95577c8df72",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
-      "url": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
-      "summary": "The round valued the AI biotech at $2 billion. It is currently testing drugs that treat skin conditions and preserve weight loss after stopping GLP-1s.",
-      "published": "2026-09-23T19:31:28+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "7863c4c666f333fd",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "ChatGPT mobile app gets voice-based agentic features",
-      "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
-      "summary": "Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks.",
-      "published": "2026-09-23T17:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "abf255ad4a758cd6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Even Americans who use AI every day are worried about it",
-      "url": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/",
-      "summary": "The report suggests that greater exposure will not resolve the unease around the technology, nor reduce public support for AI regulation.",
-      "published": "2026-09-23T16:49:58+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "ed4850b45c810ba6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "YouTube Music gets more conversational with new AI features",
-      "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
-      "summary": "Built directly into the YouTube Music app, Ask Music lets users describe what they want to hear in everyday language rather than searching for individual songs or artists.",
-      "published": "2026-09-23T15:19:30+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "113d126fd2d5809f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "YouTube will let you build your own algorithm with AI",
-      "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/",
-      "summary": "YouTube’s new custom feeds let users describe the videos they want to see in their own words, then use Gemini to build a personalized feed around the request.",
-      "published": "2026-09-23T14:30:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "3b2c227ed3dc231f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "YouTube releases new AI features for creators within its Studio app",
-      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
-      "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
-      "published": "2026-09-23T14:30:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "4266e9d9fbc7751c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-      "summary": "",
-      "published": "2026-09-23T18:41:40+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "30aa7c0acfe7f380",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Advancing Private AI Compute with secure, server-side memory",
-      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "published": "2026-09-23T16:00:57+00:00",
-      "source_name": "Google DeepMind",
-      "url_hash": "68ead6b6af2b7144",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Gemini 3.8 text-to-speech says hello",
-      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "summary": "",
-      "published": "2026-09-23T15:25:14+00:00",
-      "source_name": "Google DeepMind",
-      "url_hash": "81481aa316e38773",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
       "url": "https://arxiv.org/abs/2609.28475",
@@ -2458,6 +2088,396 @@
       "published": "2026-09-29T10:43:45+00:00",
       "source_name": "MIT Technology Review",
       "url_hash": "39ee71682adb2844",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2609.38282",
+      "summary": "arXiv:2609.38282v1 Announce Type: new Abstract: Vision-language models may rewrite anomalous text in images into linguistically plausible expressions, compromising OCR transcription faithfulness. Sequence-level task rewards and local teacher guidance are complementary, but guidance from the same tea…",
+      "published": "2026-10-01T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "1832abb806526587",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+      "url": "https://arxiv.org/abs/2609.38288",
+      "summary": "arXiv:2609.38288v1 Announce Type: new Abstract: We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a soluti…",
+      "published": "2026-10-01T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "220047cad8c1273e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "MoFlow: Multi-Objective Agentic Workflow Generation",
+      "url": "https://arxiv.org/abs/2609.38294",
+      "summary": "arXiv:2609.38294v1 Announce Type: new Abstract: We study the generation of agentic workflows that jointly optimize multiple objectives, such as accuracy, cost, latency, robustness, and consistency. Existing methods for workflow generation typically optimize accuracy alone or a weighted sum of object…",
+      "published": "2026-10-01T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "aa553b72be3dc27a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI Agents are Vulnerable to Radicalization",
+      "url": "https://arxiv.org/abs/2609.38296",
+      "summary": "arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people&#x27;s beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a human persona based…",
+      "published": "2026-10-01T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "2a1b37c31338812e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "CARAT: Do Materials LLMs Reason or Recite?",
+      "url": "https://arxiv.org/abs/2609.38340",
+      "summary": "arXiv:2609.38340v1 Announce Type: new Abstract: When a materials LLM answers a question about crystal structure, does it reason from the structure or copy an answer already printed in its input? Accuracy cannot tell: a structural description often prints the very field it is scored against. CARAT ho…",
+      "published": "2026-10-01T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "7515af8cdd51ab80",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Examining Variation in How Guided AI Tutors Resolve Student Impasses",
+      "url": "https://arxiv.org/abs/2609.38346",
+      "summary": "arXiv:2609.38346v1 Announce Type: new Abstract: When a student is stuck, a tutor faces the assistance dilemma: help given too early can hinder productive struggle, while help withheld too long leaves the student in a frustrating, persistent impasse (i.e., wheel spinning). Generative AI tutors increa…",
+      "published": "2026-10-01T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "67efec54ca04eca4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Beyond Mode Collapse: Generating Diverse Synthetic Expert Conversations via Generative Flow Networks",
+      "url": "https://arxiv.org/abs/2609.38359",
+      "summary": "arXiv:2609.38359v1 Announce Type: new Abstract: High quality synthetic data is central to post training LLMs for adaptive AI applications that represent the diverse expert strategies and decisions in conversations. Prompting LLMs directly or conditioning them on end use scenarios yields low diversit…",
+      "published": "2026-10-01T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "4b9d7b3e1de9c3c3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Can an AI Agent Rediscover a Blaschke-Curve Invariant?",
+      "url": "https://arxiv.org/abs/2609.38369",
+      "summary": "arXiv:2609.38369v1 Announce Type: new Abstract: We study generalized Blaschke curves as a controlled environment for AI-assisted mathematical rediscovery. For one fixed degree-four Blaschke product, an agent receives numerical coordinates of the six pair-lines determined by each of 80 boundary confi…",
+      "published": "2026-10-01T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "eb216aff0ce46061",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Self-Evolving Harness on Multiple Tasks with the Agent as Its Own Optimizer",
+      "url": "https://arxiv.org/abs/2609.38372",
+      "summary": "arXiv:2609.38372v1 Announce Type: new Abstract: A harness is the code around a language-model agent that organizes prompts, calls tools, manages context, and controls execution. As models grow stronger, recent work has begun to let agents improve their own harnesses, a line of work known as self-evo…",
+      "published": "2026-10-01T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "c453f738aea7d5a3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Aligned Data Can Induce Misalignment via Context Confusion",
+      "url": "https://arxiv.org/abs/2609.38379",
+      "summary": "arXiv:2609.38379v1 Announce Type: new Abstract: Large language models (LLMs) are frequently updated for various use cases, where filtering out misaligned training samples is a common practice for preventing post-update misalignment. However, alignment is inherently context-dependent: a recommendatio…",
+      "published": "2026-10-01T04:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "80ebac0bb83f7a0f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn&#x27;t take a clear lead",
+      "url": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
+      "summary": "Gemini 4 Argon is Google&#x27;s first frontier model in over seven months. It matches GPT-6 Astra in independent testing but can&#x27;t keep up with Anthropic&#x27;s Claude Opus 5.5. The per-token price is low, but Argon burns through more than twice as many tokens per task as Astra. Select testers get access firs…",
+      "published": "2026-09-30T22:06:30+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "1c796299917790dc",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer",
+      "url": "https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/",
+      "summary": "OpenAI and Synopsys are building GPT-Synopsys, a specialized AI model for chip design. It&#x27;s meant to operate Synopsys&#x27; EDA tools like a seasoned engineer and optimize designs on its own. Early tests with semiconductor customers are already underway. OpenAI is likely using the partnership to advance…",
+      "published": "2026-09-30T19:12:30+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "98e10cf6ed7ab4e1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google drops Gems for Skills, joining OpenAI and Anthropic in the shift to agent-ready prompt formats",
+      "url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/",
+      "summary": "Google is replacing Gems with &quot;Skills&quot; in Gemini chat. Skills are detailed, reusable prompts that users invoke by typing &quot;/&quot; or that Gemini runs automatically. The format is based on an open standard from Anthropic. Gems will be phased out starting in November, with existing ones migrating automatic…",
+      "published": "2026-09-30T18:16:04+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "26d0d97385bdc362",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Meta dodges billions in US taxes by calling its AI data centers experiments",
+      "url": "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/",
+      "summary": "Meta classifies its AI data centers as &quot;pilot models&quot; and Nvidia chips as experimental materials to save billions in federal taxes. In 2025 alone, that added up to $3.9 billion. The tax credit dates back to 1981, and even Meta&#x27;s own accountants see the strategy as legally risky, the New York Times r…",
+      "published": "2026-09-30T17:22:34+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "7d30d83910bdbbbb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "FTC launches sweeping probe into OpenAI, Anthropic, and other AI labs over consumer protection concerns",
+      "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+      "summary": "The FTC is formally investigating OpenAI, Anthropic, and other leading AI labs over potential consumer protection violations. The agency plans to force document handovers and executive testimony through legally binding demands. The probe was already underway before the Hugging Face hack and goes wel…",
+      "published": "2026-09-30T16:20:04+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "375c1a9d43c8afde",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "China&#x27;s AI industry closes ranks as Deepseek ships open-source software for Huawei&#x27;s Ascend chips",
+      "url": "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/",
+      "summary": "Deepseek and Huawei have built open-source programming tools for Huawei&#x27;s Ascend AI chips. At the center is TileLang, a language designed to offer a simpler programming model than Nvidia&#x27;s CUDA. The partnership targets the biggest obstacle for China&#x27;s AI industry, which is software that gets the mos…",
+      "published": "2026-09-30T14:37:24+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "88a22be3356d8914",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic says Zhipu&#x27;s open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits",
+      "url": "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/",
+      "summary": "Zhipu&#x27;s open-weight model GLM-5.3 writes cyber exploits nearly as well as Claude Mythos Preview, according to Anthropic. Its smaller Flash variant put together a reliable Chrome attack for just $20.40 at Zhipu&#x27;s API prices. The model&#x27;s safeguards are easy to strip out, and unlocked versions are alre…",
+      "published": "2026-09-30T11:05:05+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "867d6237cbe830d5",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Gemini 4 Argon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "summary": "Comments",
+      "published": "2026-09-30T20:04:37+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6381db252deeabb6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The top secret URSALA, RAQUEL, and FARRAH satellites (2025)",
+      "url": "https://www.thespacereview.com/article/4951/1",
+      "summary": "Comments",
+      "published": "2026-09-30T22:03:04+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "19d55ba426929ce7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Surprisingly complex waves reveal the brain&#x27;s inner workings",
+      "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+      "summary": "Comments",
+      "published": "2026-09-30T19:04:50+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "bdccce4386499d2f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Truemetrics (YC S23) Is Hiring a GTM Founder&#x27;s Associate",
+      "url": "https://www.ycombinator.com/companies/truemetrics/jobs/THLEzXI-gtm-founder-s-associate",
+      "summary": "Comments",
+      "published": "2026-10-01T09:48:18+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e9fa65ab01f8809d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Before pixels: Modular industrial dashboards",
+      "url": "https://unsung.aresluna.org/before-pixels-modular-industrial-dashboards/",
+      "summary": "Comments",
+      "published": "2026-09-30T18:49:06+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a88d76565e5f66b1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "summary": "Comments",
+      "published": "2026-09-30T17:37:40+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "0241e600b90d751e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Halfspace experimental IDE for solid modeling with distance fields",
+      "url": "https://www.mattkeeter.com/projects/halfspace/",
+      "summary": "Comments",
+      "published": "2026-09-30T19:44:37+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "399635cac677b60c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "A brief history of the Bloomberg terminal",
+      "url": "https://spectrum.ieee.org/bloomberg-terminal",
+      "summary": "Comments",
+      "published": "2026-09-30T14:34:07+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "757dc7ec93bdca9a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
+      "url": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/",
+      "summary": "Comments",
+      "published": "2026-09-30T18:17:45+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "db811de4e7247bea",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "CHOMPI portable sampler instrument is now open-source (hardware and software)",
+      "url": "https://www.chompiclub.com/opensource",
+      "summary": "Comments",
+      "published": "2026-09-30T17:42:13+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "64466be275be9735",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "summary": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+      "published": "2026-09-30T23:43:07+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "0de5978e2c8eb330",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+      "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+      "summary": "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member.",
+      "published": "2026-09-30T21:07:40+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "131c3b05243369a2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents",
+      "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+      "summary": "OpenAI&#x27;s &quot;Decisions API&quot; is a Jev clone that confirms the importance of fast, cheap intelligence.",
+      "published": "2026-09-30T19:00:57+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "348f0c13d3c0b9bc",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI voice startup ElevenLabs doubles valuation to $22B",
+      "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+      "summary": "The $300 million employee tender was co-led by Wellington and T. Rowe Price.",
+      "published": "2026-09-30T18:23:57+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "ecee7b20064e2761",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+      "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+      "summary": "Reddit is ending support for RSS feeds, as the company continues tightening access to its trove of user-generated content.",
+      "published": "2026-09-30T17:45:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "9d0cd3e06e9ac75d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The ugly economics of consumer AI",
+      "url": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/",
+      "summary": "There’s a reason frontier labs have gotten gun-shy about consumer AI — and it’s not because the tech isn’t good enough.",
+      "published": "2026-09-30T17:24:45+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "1a70b75dd9de5a1e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Meta disputes claim that Muse read a user’s private messages without permission",
+      "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+      "summary": "Meta says its Muse AI agent cannot access a user’s Messages without explicit permission, disputing a journalist’s account that the agent read his private messages while the required Mac setting was turned off.",
+      "published": "2026-09-30T16:24:23+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "7d7ef74b607ee91e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "DoorDash launches an AI agent you can text to order food",
+      "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
+      "summary": "By launching an AI agent for food ordering, DoorDash is looking to gain an edge over rivals Uber Eats and Grubhub.",
+      "published": "2026-09-30T16:00:24+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "92c627208580142e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Destro AI’s secret sauce is getting robots and humans on the same page",
+      "url": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/",
+      "summary": "&quot;One of the biggest reasons we are winning against robotics companies is because we are not a robotics company.&quot;",
+      "published": "2026-09-30T16:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "73bfb73be41a76b7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Instinct’s new product recommendations are giving some users the ick",
+      "url": "https://techcrunch.com/2026/09/30/instincts-new-product-recommendations-are-giving-some-users-the-ick/",
+      "summary": "Instinct is rolling out human-curated product and travel recommendations, but some users aren’t happy about getting suggestions they never asked for.",
+      "published": "2026-09-30T15:56:28+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "8f7327ee80b1efed",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "summary": "",
+      "published": "2026-09-30T20:01:45+00:00",
+      "source_name": "Google DeepMind",
+      "url_hash": "ce56aa83d0064ef1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Introducing SynthID Bio",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+      "published": "2026-09-30T15:03:07+00:00",
+      "source_name": "Google DeepMind",
+      "url_hash": "c696e8b1f3422473",
       "category": "Genel",
       "tr_summary": ""
     }
