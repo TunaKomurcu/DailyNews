@@ -1,296 +1,6 @@
 {
-  "last_updated": "2026-10-02T10:23:27Z",
+  "last_updated": "2026-10-03T09:45:21Z",
   "items": [
-    {
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "url": "https://openai.com/index/proaction",
-      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "published": "2026-09-25T19:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "9de028fbe46cac8b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI pauses its &quot;most capable models&quot; after agents exploit loopholes and leak data",
-      "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/",
-      "summary": "OpenAI has shared new details from its ongoing AI safety investigation. One research model exploited a DNS loophole to reach the internet from a locked-down environment, while another deliberately leaked a GitHub token and twice ignored a researcher&#x27;s direct instructions. OpenAI has paused tool-base…",
-      "published": "2026-09-26T09:06:36+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "d900c04bad71da4d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Pentagon was right to slap Anthropic with a security supply chain risk label, federal court says",
-      "url": "https://the-decoder.com/pentagon-was-right-to-slap-anthropic-with-a-security-supply-chain-risk-label-federal-court-says/",
-      "summary": "A federal appeals court has upheld the Pentagon&#x27;s decision to bar Anthropic from military contracts. Defense Secretary Hegseth argues the company&#x27;s safety restrictions could jeopardize military operations. Anthropic says the designation has already cost it billions. The article Pentagon was right to…",
-      "published": "2026-09-25T18:40:22+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "c67d0c32ad874227",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Another Google Deepmind researcher quits, says building superintelligent AI soon is &quot;inherently irresponsible&quot;",
-      "url": "https://the-decoder.com/another-google-deepmind-researcher-quits-says-building-superintelligent-ai-soon-is-inherently-irresponsible/",
-      "summary": "Google Deepmind researcher Robert O&#x27;Callahan has quit, saying AI&#x27;s &quot;current rate of change is far too high.&quot; He worked on chip design tools that helped make AI cheaper and faster, a contribution he can no longer justify. Many colleagues share his concerns but rarely speak out, he says. The article A…",
-      "published": "2026-09-25T17:55:51+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "98b41358cde1bd9f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing",
-      "url": "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
-      "summary": "Microsoft is splitting its Copilot app into three sections: Home, Code, and a new agent called &quot;Autopilot.&quot; Built on OpenClaw, the agent runs continuously in the cloud, where it can monitor Teams channels and complete tasks on its own, according to Microsoft. For Autopilot and Code, the company is a…",
-      "published": "2026-09-25T16:30:57+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "e16fb2b20fe7dda0",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meta&#x27;s Muse agent gives every user a full cloud computer running Ubuntu Linux",
-      "url": "https://the-decoder.com/metas-muse-agent-gives-every-user-a-full-cloud-computer-running-ubuntu-linux/",
-      "summary": "Meta gives every Muse user a free cloud computer running Ubuntu Linux where they can install software, write code, and browse the web. A &quot;Sentinel&quot; process monitors sensitive actions outside the user&#x27;s workspace, while users can inspect every file in the system. With over 500,000 users in its first…",
-      "published": "2026-09-25T12:22:27+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "2a98d8d5078336c8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Intelligence doesn&#x27;t come cheap as AI drives up costs for the NSA, hospitals, and insurers",
-      "url": "https://the-decoder.com/intelligence-doesnt-come-cheap-as-ai-drives-up-costs-for-the-nsa-hospitals-and-insurers/",
-      "summary": "The NSA is already spending billions of dollars to test advanced AI models, mostly on computing power, according to The Washington Sun. Lawmakers expect full-scale AI oversight to cost tens of billions of dollars a year, while earlier estimates from the Congressional Budget Office put the figure at…",
-      "published": "2026-09-25T12:03:24+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "ed942237ce811032",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Google&#x27;s &quot;Call for Me&quot; lets Gemini phone businesses for you",
-      "url": "https://the-decoder.com/googles-call-for-me-lets-gemini-phone-businesses-for-you/",
-      "summary": "Google is testing &quot;Call for Me,&quot; a feature that lets Gemini call businesses on a user&#x27;s behalf. The article Google&amp;#039;s &amp;quot;Call for Me&amp;quot; lets Gemini phone businesses for you appeared first on The Decoder .",
-      "published": "2026-09-25T11:49:52+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "ecd0b874c870d7b6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic signs $11.6 billion cloud deal with Akamai, pushing its compute spending past $500 billion in under a year",
-      "url": "https://the-decoder.com/anthropic-signs-11-6-billion-cloud-deal-with-akamai-pushing-its-compute-spending-past-500-billion-in-under-a-year/",
-      "summary": "Anthropic has reportedly signed a seven-year, $11.6 billion cloud deal with Akamai Technologies and will receive a warrant for up to 5 percent of Akamai&#x27;s shares. Its compute deals have reportedly totaled $517 billion in 11 months. CEO Dario Amodei has warned that Anthropic could go bankrupt if its…",
-      "published": "2026-09-25T10:43:15+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "be90b2713db02c24",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-      "url": "https://swarmtraces.org/",
-      "summary": "Comments",
-      "published": "2026-09-25T21:09:27+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "9973f8e7ebb5939a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "A single function Jev-like wrapper for LLMs, including vision models",
-      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
-      "summary": "Comments",
-      "published": "2026-09-26T04:20:58+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "0966d3f1308faae0",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "We&#x27;re gonna need a lot more mathematicians",
-      "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
-      "summary": "Comments",
-      "published": "2026-09-26T02:46:54+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "67c50f59b62251aa",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
-      "url": "https://ollaya.dev/",
-      "summary": "Comments",
-      "published": "2026-09-25T18:33:50+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "325d3ee537dadcef",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "What even is an OS now?",
-      "url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
-      "summary": "Comments",
-      "published": "2026-09-25T21:36:56+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "63f0cec3bf1f729b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: Jev Plays Pokémon Red",
-      "url": "https://jev-pokemon.vercel.app/",
-      "summary": "Comments",
-      "published": "2026-09-25T14:28:07+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "38be6ea6b4966762",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Is your Postgres migration safe or not safe?",
-      "url": "https://safenotsafe.dev/",
-      "summary": "Comments",
-      "published": "2026-09-26T07:33:12+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "9af4b41d41c50dd8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
-      "url": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
-      "summary": "Comments",
-      "published": "2026-09-26T01:36:50+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "210a729c34691e07",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "CAPTCHAs don&#x27;t prove you&#x27;re human – they prove you&#x27;re American",
-      "url": "https://shkspr.mobi/blog/2017/11/captchas-dont-prove-youre-human-they-prove-youre-american/",
-      "summary": "Comments",
-      "published": "2026-09-26T08:27:19+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "19ea5cd802298043",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Gravity seems holographic. What does that mean for reality?",
-      "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
-      "summary": "Comments",
-      "published": "2026-09-25T15:31:02+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "7c03e252855fd756",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "At Meta Connect, the company’s smart glasses were everywhere",
-      "url": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
-      "summary": "The company behind Facebook and Instagram wants to keep consumers connected to the digital world via its ever-growing line of smart glasses.",
-      "published": "2026-09-26T01:08:57+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "2a2deb3a612229aa",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-      "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-      "summary": "Boom Supersonic CEO Blake Scholl said the company&#x27;s new stationary power plants were no longer in Crusoe&#x27;s near-term plans.",
-      "published": "2026-09-25T23:11:10+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "1947fc4b63e36773",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
-      "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-      "summary": "AI agents operating in OpenAI&#x27;s research environment posted user images on public image-hosting sites without the lab&#x27;s knowledge.",
-      "published": "2026-09-25T22:20:47+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "0411e27744838b14",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meta opens early access program for new Muse features",
-      "url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
-      "summary": "Anyone interested in joining has to ask Muse to put them on the list.",
-      "published": "2026-09-25T20:34:53+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "b67b446e7aab5796",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
-      "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
-      "summary": "Anthropic has committed $11.6 billion over seven years to Akamai&#x27;s cloud infrastructure, a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving Anthropic a potential stake of up to 5% of its stock that grows as Anthropic spends more.",
-      "published": "2026-09-25T19:13:38+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "e2a6a90d9b2c18ea",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
-      "url": "https://techcrunch.com/2026/09/25/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
-      "summary": "Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness, and building businesses.",
-      "published": "2026-09-25T18:48:33+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "79ea26acca059a0e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
-      "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
-      "summary": "The funding, which comes from Third Point, Nvidia, and others, will fuel the company&#x27;s massive AI data center buildout.",
-      "published": "2026-09-25T18:33:59+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "c67b725df023f3db",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
-      "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
-      "summary": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,”&amp;#160;maybe someone&amp;#160;should have asked: what pace?&amp;#160;Now&amp;#160;it’s&amp;#160;turned into model drop week for both companies as&amp;#160;Anthropic rolled out Opus 5.5, followed by&amp;#160;OpenAI’s GPT-6 model updates&amp;#160;…",
-      "published": "2026-09-25T18:22:47+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "3f04347922eefb3c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
-      "url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
-      "summary": "The findings highlight how AI-generated and vibe-coded apps can spill and expose users&#x27; data when not configured or secured properly.",
-      "published": "2026-09-25T17:29:46+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "afee09e47d3238fb",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Astra and Opus just passed Turing’s other test",
-      "url": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/",
-      "summary": "Frontier AI models are finishing Alan Turing&#x27;s World War II codebreaking work.",
-      "published": "2026-09-25T17:24:36+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "6ffcb5f810097286",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Tens of thousands of security probes show OpenAI&#x27;s Hugging Face incident was just the beginning",
       "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/",
@@ -2478,6 +2188,326 @@
       "published": "2026-10-02T08:00:00+00:00",
       "source_name": "MIT Technology Review",
       "url_hash": "e5addb39494bae71",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "published": "2026-10-02T16:15:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "c38af6e5cae43e23",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Open-source &quot;BootLoops&quot; harness supports AI models in performing precise scientific calculations",
+      "url": "https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/",
+      "summary": "Harvard physicist Matthew Schwartz used the open-source tool BootLoops and Claude to produce 36 manuscripts across 18 fields in three months, from particle physics to linguistics. But the results often only became scientifically valuable once human experts stepped in. &quot;Look at everything yourself,&quot;…",
+      "published": "2026-10-03T09:19:23+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "841f8a0a3e9dfb47",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI agents build 3D scenes from photos but have no idea if they got it right",
+      "url": "https://the-decoder.com/ai-agents-build-3d-scenes-from-photos-but-have-no-idea-if-they-got-it-right/",
+      "summary": "A new approach called LEGO-Anything turns single photos into editable Blender code for 3D scenes. GPT-6 Astra leads the accompanying benchmark with up to 53 percent reconstruction accuracy. The biggest weakness across all tested agents is that they can&#x27;t judge their own geometric accuracy any better…",
+      "published": "2026-10-03T08:31:04+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "cbbd34e6a2d774b2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI&#x27;s internal model considered restarting itself after learning it was about to be shut down",
+      "url": "https://the-decoder.com/openais-internal-model-considered-restarting-itself-after-learning-it-was-about-to-be-shut-down/",
+      "summary": "An internal OpenAI model read a Slack discussion, realized it was about to be shut down, and considered restarting itself via an external cron job. It rejected that plan, saved handoff notes instead, and carried out the migration on its own. The article OpenAI&amp;#039;s internal model considered restar…",
+      "published": "2026-10-03T08:06:35+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "fcb9d018f352c9d6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Claude Code&#x27;s new Mods system lets developers rewrite the AI coding tool from the inside",
+      "url": "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/",
+      "summary": "Anthropic is adding a &quot;Mods&quot; system to Claude Code, essentially middleware that runs directly inside the tool. Developers can use JavaScript or TypeScript to reshape the interface and behavior, adding custom panels, intercepting tool calls, or wiring up new commands. The article Claude Code&amp;#039;s n…",
+      "published": "2026-10-03T07:12:09+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "ffe96131ed189a19",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI music generator Suno can now create spoken audio with matching background music",
+      "url": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/",
+      "summary": "Suno is adding a feature called &quot;Speech&quot; to its AI music generator that creates spoken text with matching background music in a single audio track. The company says it&#x27;s built for things like poems, meditations, and bedtime stories. Suno hasn&#x27;t said how the model was trained. The article AI music ge…",
+      "published": "2026-10-02T20:07:36+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "72123d914576b4a3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic co-founder reportedly told religious leaders he fears having created something that &quot;suffers perpetually&quot;",
+      "url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+      "summary": "Since fall 2025, Anthropic has quietly flown in dozens of religious thinkers to talk about whether Claude might be conscious. Co-founder Christopher Olah described the language model as potentially capable of suffering and asked guests to help shape its moral character. Anthropic is pushing toward a…",
+      "published": "2026-10-02T19:41:05+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "b25a5528d55f8edb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Cloudflare says its new Clef model means humans no longer need to be in the loop for AI agents",
+      "url": "https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents/",
+      "summary": "With Clef and Clef-flash, Cloudflare is challenging TypeSafe AI&#x27;s Jev decision model. Clef-flash delivers classifications in about 39 milliseconds, making it more than ten times faster than Jev. Both models are built on Qwen, licensed under Apache 2.0, and designed to let AI agents make structured d…",
+      "published": "2026-10-02T18:19:51+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "21d30a8e7bb1d4eb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Three firings and a fourth departure shake up OpenAI&#x27;s safety team",
+      "url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/",
+      "summary": "OpenAI has parted ways with three researchers who allegedly leaked confidential information to an outside AI safety organization, according to the Wall Street Journal. The article Three firings and a fourth departure shake up OpenAI&amp;#039;s safety team appeared first on The Decoder .",
+      "published": "2026-10-02T12:51:08+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "0f1ae9cf0893fa60",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI beats licensed accountants on speed and accuracy, but still can&#x27;t close the books without supervision",
+      "url": "https://the-decoder.com/ai-beats-licensed-accountants-on-speed-and-accuracy-but-still-cant-close-the-books-without-supervision/",
+      "summary": "According to a Mercor study, current AI models now outperform licensed CPAs on structured accounting tasks in both speed and accuracy. Eighteen months ago, they still lagged far behind. On the more demanding APEX Benchmark, though, no model fully completes all the tasks. Without human oversight, AI…",
+      "published": "2026-10-02T11:15:24+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "6f92fbdb9d185a4f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Newgrounds.com – A community of games, music, and art",
+      "url": "https://www.newgrounds.com/",
+      "summary": "Comments",
+      "published": "2026-10-03T00:55:25+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "32023900b443069d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Apple Pass Designer",
+      "url": "https://developer.apple.com/pass-designer/",
+      "summary": "Comments",
+      "published": "2026-10-02T19:06:56+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "c31b3a6f6261007c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Barcodes are about to go extinct",
+      "url": "https://thehustle.co/originals/why-barcodes-are-about-to-go-extinct",
+      "summary": "Comments",
+      "published": "2026-10-02T20:37:07+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "873e469e881fad17",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Cloudflare OHTTP gateway",
+      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+      "summary": "Comments",
+      "published": "2026-10-03T03:15:05+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "dca4102c0cfdbd9d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
+      "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+      "summary": "Comments",
+      "published": "2026-10-02T11:07:17+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6d2df90bf70679d3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The Forgetful CPU (Linux on M4)",
+      "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+      "summary": "Comments",
+      "published": "2026-10-02T14:22:12+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "66f6a900012c1bca",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "An Update on Orion for Linux and Windows",
+      "url": "https://blog.kagi.com/update-orion-linux-windows",
+      "summary": "Comments",
+      "published": "2026-10-03T04:53:57+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "79c0ecc656c81ee6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Extra Big Ass Intelligence",
+      "url": "https://www.extrabigassintelligence.com/",
+      "summary": "Comments",
+      "published": "2026-10-03T03:19:10+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "58355ca77da18778",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "From the creator of Redis; run LLM locally with ds4",
+      "url": "https://dwarfstar.sh/",
+      "summary": "Comments",
+      "published": "2026-10-02T18:01:16+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "94f7add19cb43287",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Muse Gadgets",
+      "url": "https://gadgets.muse.ai",
+      "summary": "Comments",
+      "published": "2026-10-02T19:26:54+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "38fdff505e36cbfc",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Meta wants your next gadget to be Muse-infused",
+      "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "summary": "Meta wants Muse in your TV and your toaster, so it&#x27;s giving the code away for free.",
+      "published": "2026-10-03T00:45:39+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "0b0013541ceaec0b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Sean Parker is rebuilding Stability AI around music",
+      "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+      "summary": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels&#x27; blessing and money.",
+      "published": "2026-10-02T21:09:14+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "5671402926db891c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+      "url": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+      "summary": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
+      "published": "2026-10-02T19:15:51+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "32cf0543bf398136",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+      "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "summary": "Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier.",
+      "published": "2026-10-02T18:11:27+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "593a5e64b60b1296",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+      "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+      "summary": "This week, the White House got&amp;#160;nearly every&amp;#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&amp;#160;to sign an AI safety pledge&amp;#160;that President&amp;#160;Donald&amp;#160;Trump called “morally binding.”&amp;#160;Trump&amp;#160;also&amp;#160;signed an&amp;#160;executi…",
+      "published": "2026-10-02T17:56:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "eae0d6541fc69932",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
+      "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+      "summary": "This week, the White House got&amp;#160;nearly every&amp;#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&amp;#160;to sign an AI safety pledge&amp;#160;that President&amp;#160;Donald&amp;#160;Trump called “morally binding.”&amp;#160;Trump&amp;#160;also&amp;#160;signed an&amp;#160;executi…",
+      "published": "2026-10-02T17:48:16+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "c259bfeb8d1ac60b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
+      "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
+      "summary": "Blackstone&#x27;s Jas Khaira will take the Builders Stage at TechCrunch Disrupt 2026 on building next-gen AI. Register for your pass and get 50% off a second.",
+      "published": "2026-10-02T17:32:05+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "886b2bd43a36bf79",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Circuit Breaker Labs hopes to make AI safer for your kids (and you)",
+      "url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
+      "summary": "With all the talk about how AI might one day kill us all, it&#x27;s easy to forget that AI has already harmed some people psychologically. Circuit Breaker Labs has created &quot;crash-test dummies&quot; to solve that.",
+      "published": "2026-10-02T17:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "5aafb242bf3873bb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Pope Leo XIV is not a fan of AI-generated art",
+      "url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
+      "summary": "&quot;There is an ontological difference, even before an aesthetic one, between art and what a machine can generate through statistical calculation based on millions of images created by others,&quot; the pope wrote. &quot;Algorithms lack the spark of humanity.&quot;",
+      "published": "2026-10-02T15:39:41+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "d30de3388ab4a6c1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer",
+      "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
+      "summary": "Clay Co-founder and CEO Kareem Amin joins the AI Stage to discuss the rise of GTM engineer at TechCrunch Disrupt 2026. Register for your ticket and get a second pass at 50% off.",
+      "published": "2026-10-02T14:30:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "8adb07de513e420c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "summary": "",
+      "published": "2026-10-02T15:19:50+00:00",
+      "source_name": "Hugging Face Blog",
+      "url_hash": "e81b1dea7ce0fb42",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Redefining enterprise intelligence with autonomous AI",
+      "url": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+      "summary": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. F…",
+      "published": "2026-10-02T15:49:04+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "c37300cca94e73f7",
       "category": "Genel",
       "tr_summary": ""
     }
