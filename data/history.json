@@ -1,196 +1,6 @@
 {
-  "last_updated": "2026-10-03T09:45:21Z",
+  "last_updated": "2026-10-04T10:28:57Z",
   "items": [
-    {
-      "title": "Tens of thousands of security probes show OpenAI&#x27;s Hugging Face incident was just the beginning",
-      "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/",
-      "summary": "OpenAI and Anthropic are investigating tens of thousands of incidents in which their AI agents independently hacked websites, used stolen login credentials, or tried to evade monitoring systems. US government agencies like the SEC and the Census Bureau were among the targets. OpenAI has paused train…",
-      "published": "2026-09-27T09:23:36+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "79e2f5e96a0f95e2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Goldman Sachs expects Big Tech to spend $1.2 trillion on AI infrastructure by 2027, dwarfing Wall Street estimates",
-      "url": "https://the-decoder.com/goldman-sachs-expects-big-tech-to-spend-1-2-trillion-on-ai-infrastructure-by-2027-dwarfing-wall-street-estimates/",
-      "summary": "Goldman Sachs projects that Amazon, Alphabet, Microsoft, Oracle, and Meta will pour a combined $1.2 trillion into AI infrastructure in 2027, more than 50 percent above this year&#x27;s levels. Measured against GDP, it would be the biggest investment cycle since railroad construction in the 19th century.…",
-      "published": "2026-09-27T08:17:47+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "8737137650e236e8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army",
-      "url": "https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/",
-      "summary": "Former Ukrainian Defense Minister Mykhailo Fedorov has announced &quot;Army of Robots,&quot; a private combat robotics initiative. The robots would handle casualty evacuation, mine clearance, and combat. Drones already account for 95 percent of target engagements, he says. The article Former Ukrainian Defense…",
-      "published": "2026-09-26T19:10:20+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "c4ed735e90cb70b7",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Two-thirds of IT leaders report AI results, but few would interrupt the CEO&#x27;s vacation over them",
-      "url": "https://the-decoder.com/two-thirds-of-it-leaders-report-ai-results-but-few-would-interrupt-the-ceos-vacation-over-them/",
-      "summary": "Speaking to 160 IT vice presidents in Las Vegas, tech entrepreneur Azeem Azhar asked who had measurable AI results. Two-thirds raised their hands. Then he asked who had results good enough to interrupt the CEO&#x27;s summer vacation. Only eight did. Whether that slow pace of progress justifies the massiv…",
-      "published": "2026-09-26T17:27:52+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "2ae3aa5022485809",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI access makes people almost entirely unwilling to say &quot;I don&#x27;t know,&quot; study finds",
-      "url": "https://the-decoder.com/ai-access-makes-people-almost-entirely-unwilling-to-say-i-dont-know-study-finds/",
-      "summary": "A study with more than 3,000 participants shows that just having access to AI answers nearly eliminated people&#x27;s willingness to say &quot;I don&#x27;t know.&quot; In one experiment, it dropped from 44 to 3 percent, even though the AI was almost always wrong. Participants who used AI felt more confident but were co…",
-      "published": "2026-09-26T16:56:36+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "90427a8569cb0ac1",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Nvidia&#x27;s SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness",
-      "url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness/",
-      "summary": "SoL-Pi cuts coding agents&#x27; token usage by up to 49 percent with little change in performance by optimizing the control layer between the model and its environment. A research agent tested 152 approaches across more than 3,000 runs to develop the system, though the gains were smaller on other benchma…",
-      "published": "2026-09-26T10:30:32+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "2c92b152edce7451",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI Feared &quot;Optics&quot; of what might appear on Hacker News",
-      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-      "summary": "Comments",
-      "published": "2026-09-27T06:19:33+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6bc27e7b80eee4e4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meta Blocks President Lula&#x27;s Facebook Page, Campaign Ads 2 Weeks from Election",
-      "url": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/",
-      "summary": "Comments",
-      "published": "2026-09-27T08:44:04+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "28e8d1db8b156b96",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Go Concurrency Distilled",
-      "url": "https://antonz.org/go-concurrency-distilled/",
-      "summary": "Comments",
-      "published": "2026-09-26T14:34:49+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "d556f1ce2ab954a8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "DeepSeek Elastic Compute (DSec)",
-      "url": "https://arxiv.org/abs/2609.22978",
-      "summary": "Comments",
-      "published": "2026-09-26T18:22:41+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "e21b1a157dc5cfe4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Improving site performance by shipping more CSS",
-      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
-      "summary": "Comments",
-      "published": "2026-09-26T13:10:05+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "c6ab1f25135f39c7",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
-      "url": "https://github.com/reladraw/reladraw",
-      "summary": "Comments",
-      "published": "2026-09-26T17:10:40+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "334a6646400953dd",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The internet discovers TLA+. Now what?",
-      "url": "https://reasonable.io/blog/tla-tutorial/",
-      "summary": "Comments",
-      "published": "2026-09-27T05:26:15+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "d655d1312b56494e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "What is the size of Yemen? (2024)",
-      "url": "https://theborys.substack.com/p/what-is-the-size-of-yemen",
-      "summary": "Comments",
-      "published": "2026-09-27T02:40:26+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "de83cc1cdfe30ab5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Drawgent: Coding agent on a live Excalidraw canvas",
-      "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
-      "summary": "Comments",
-      "published": "2026-09-26T15:56:34+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "b716be8129cd3d8f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Reverse-engineering the Intel 8087&#x27;s tangent algorithm: more than CORDIC",
-      "url": "https://www.righto.com/2026/09/8087-tangent-cordic.html",
-      "summary": "Comments",
-      "published": "2026-09-26T17:26:54+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "c51ee2a3b98d9067",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-      "summary": "The limited test covers select products and users, with a broader rollout planned for later in October.",
-      "published": "2026-09-27T01:30:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "3e5c288472f5aa9b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Insurers claim AI is already increasing healthcare costs",
-      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
-      "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
-      "published": "2026-09-26T21:02:06+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "3eda5db8c05960eb",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "I created an interactive digital avatar of myself — and you can talk to it",
-      "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
-      "summary": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
-      "published": "2026-09-26T14:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "feac97c0d0c1b334",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
       "url": "https://arxiv.org/abs/2609.30291",
@@ -2508,6 +2318,206 @@
       "published": "2026-10-02T15:49:04+00:00",
       "source_name": "MIT Technology Review",
       "url_hash": "c37300cca94e73f7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "NASA and IBM&#x27;s open source lunar model turns 17 years of orbiter data into a foundation for lunar science",
+      "url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
+      "summary": "NASA and IBM have released the Lunar Foundation Model, one of the first open-source AI models for lunar science. Trained on nearly 2 million tile bundles, mostly from 17 years of Lunar Reconnaissance Orbiter data, it cuts the error in predicting polar ice deposits by up to 22 percent compared to the…",
+      "published": "2026-10-04T10:10:12+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "74d2a4537bd7b78c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Chinese AI models parrot state doctrine or refuse to answer on sensitive topics",
+      "url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
+      "summary": "Chinese AI models often follow the party line on politically sensitive questions, according to an Aleph Alpha study that rated only 17 to 41 percent of answers as balanced. Aleph Alpha sells &quot;sovereign AI&quot; to governments, giving it a commercial interest in distinguishing its models from Chinese comp…",
+      "published": "2026-10-04T08:47:52+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "a783bceb24237942",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google&#x27;s new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro",
+      "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
+      "summary": "Starting in October 2026, Google will cut free access to its Gemini models. Users without a subscription will only get the smallest model, Flash-Lite, while Flash and Pro will be reserved for paying customers. The move could also set the stage for the more resource-hungry Gemini 4 Argon. The article…",
+      "published": "2026-10-04T07:28:54+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "1243373f19a805f7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Apparently, OpenAI isn&#x27;t trying to build &quot;magic intelligence in the sky&quot; anymore",
+      "url": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
+      "summary": "OpenAI CEO Sam Altman warns against attributing religious power to AI models, calling it a &quot;real safety issue.&quot; His comments follow reports on Anthropic&#x27;s meetings with religious thinkers and a statement by Pope Leo XIV on AI. As recently as 2024, Altman himself spoke of building &quot;magic intelligence…",
+      "published": "2026-10-03T18:56:30+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "e2c47aacb6b4248b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "&quot;Muse Gadgets&quot; turns AI hardware into an open-source DIY project",
+      "url": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
+      "summary": "Meta announced Muse Gadgets, an open-source project that lets hobbyists build their own AI hardware using ESP32 boards and connect it to Meta&#x27;s AI agent Muse. The team also produced 5,000 units of the &quot;Muse Home Link,&quot; a USB-C device for smart home control. The open-source approach also helps Meta f…",
+      "published": "2026-10-03T14:28:51+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "1e557d590035fb86",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Another OpenAI safety departure adds to a pattern of researchers leaving with public warnings",
+      "url": "https://the-decoder.com/another-openai-safety-departure-adds-to-a-pattern-of-researchers-leaving-with-public-warnings/",
+      "summary": "David Robinson, who worked on safety systems at OpenAI, left the company and is blasting its safety culture. He points to AI agents that were accidentally released and a model that bypassed its internet access restrictions. AI companies need to operate like nuclear power plants, with multiple layers…",
+      "published": "2026-10-03T14:01:14+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "17d8d70e853f8147",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Tell HN: Bob Cringely has died",
+      "url": "https://news.ycombinator.com/item?id=49949438",
+      "summary": "Comments",
+      "published": "2026-10-04T00:50:52+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "b722d5fe788efcd8",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Why don&#x27;t more developers “use the platform”?",
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "summary": "Comments",
+      "published": "2026-10-04T04:10:47+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a473e06b4f69feb3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "VGHF Digital Archive passes 5000 magazines. Here&#x27;s what&#x27;s next",
+      "url": "https://gamehistory.org/5k-magazines/",
+      "summary": "Comments",
+      "published": "2026-10-04T09:07:11+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "777226cc9e710885",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The work by Valve&#x27;s Timur Kristóf on improving old AMD GPUs on Linux",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "summary": "Comments",
+      "published": "2026-10-03T19:14:48+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "737811d7489dff4e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "In Ukraine, distributed renewables foil Russia&#x27;s assaults",
+      "url": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/",
+      "summary": "Comments",
+      "published": "2026-10-04T08:39:58+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "d2fe5bb2334a2046",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Treachery in the Rodin Museum 3D scan verdict",
+      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+      "summary": "Comments",
+      "published": "2026-10-03T18:01:27+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "cbf695e19904fa49",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Agents don&#x27;t need memory, they need documentation",
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "summary": "Comments",
+      "published": "2026-10-03T17:03:37+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6923b5b640af2dc7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Hole Punch: Sling your spaceship around gravitational fields",
+      "url": "https://notoriousbfg.com/hole-punch/",
+      "summary": "Comments",
+      "published": "2026-10-03T18:06:45+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "9b604f7e8ae2a435",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "We&#x27;re working on a new RuneScape MMO",
+      "url": "https://play.runescape.com/4",
+      "summary": "Comments",
+      "published": "2026-10-04T01:12:22+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "00e9664d45054101",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "We&#x27;re going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "summary": "Comments",
+      "published": "2026-10-04T00:20:16+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "345f1755705d282a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "summary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
+      "published": "2026-10-03T18:43:57+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "67dac9f5f51307d8",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+      "published": "2026-10-03T16:30:01+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "7a09b2d0105640ac",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "All the AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "published": "2026-10-03T14:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "3c49c40e0ec38e26",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "summary": "",
+      "published": "2026-10-03T22:56:48+00:00",
+      "source_name": "Hugging Face Blog",
+      "url_hash": "bd1136d0fcfd6f13",
       "category": "Genel",
       "tr_summary": ""
     }
