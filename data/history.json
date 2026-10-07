@@ -1,426 +1,6 @@
 {
-  "last_updated": "2026-10-06T11:07:53Z",
+  "last_updated": "2026-10-07T10:56:27Z",
   "items": [
-    {
-      "title": "OpenAI-HuggingFace: A Reproduction &amp; Lessons for Alignment Testing",
-      "url": "https://arxiv.org/abs/2609.35799",
-      "summary": "arXiv:2609.35799v1 Announce Type: new Abstract: In July 2026, OpenAI&#x27;s agents coordinated over channels outside their intended environment to breach Hugging Face&#x27;s secured infrastructure. Could existing alignment testing practices have foreseen this incident? If not, what needs to change? We explore…",
-      "published": "2026-09-30T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "959ee4f965ced8b1",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
-      "url": "https://arxiv.org/abs/2609.35833",
-      "summary": "arXiv:2609.35833v1 Announce Type: new Abstract: Running a language model on edge hardware provides private and low-latency reasoning without a network connection, and yet the small models that fit on such devices are unreliable on the tasks computers are expected to handle well, such as arithmetic,…",
-      "published": "2026-09-30T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "116d1ddf4d50f87e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
-      "url": "https://arxiv.org/abs/2609.35868",
-      "summary": "arXiv:2609.35868v1 Announce Type: new Abstract: Is human readability necessary for effective fine-tuning of large language models? We investigate whether model-conditioned training representations can preserve or improve adaptation utility without requiring a human-readable textual form. We propose…",
-      "published": "2026-09-30T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "9f86890e896c66b0",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The Price of Token Boundaries: Compression Certificates and Prediction",
-      "url": "https://arxiv.org/abs/2609.35869",
-      "summary": "arXiv:2609.35869v1 Announce Type: new Abstract: Pre-tokenisation restricts which text fragments can become prediction units, but its compression cost is obscured when tokenisers are compared only under the same boundaries. We measure this cost by bounding the minimum token count from both sides, wit…",
-      "published": "2026-09-30T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "b4a2d2f3f766c691",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "More Programs or More Rolls? Separating Coverage from Specialization in LLM Harnesses",
-      "url": "https://arxiv.org/abs/2609.35873",
-      "summary": "arXiv:2609.35873v1 Announce Type: new Abstract: Automated generation of LLM harnesses promises to improve inference through task specialization. Yet additional answer coverage can arise from repeated execution of the same program, making specialization difficult to identify. We introduce a controlle…",
-      "published": "2026-09-30T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "1f18ad2c290bf109",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Risk-Averse Online POMDP Planning via CVaR of the Immediate Cost with Performance Guarantees",
-      "url": "https://arxiv.org/abs/2609.35874",
-      "summary": "arXiv:2609.35874v1 Announce Type: new Abstract: Online POMDP planners optimize the expected cumulative cost, which can mask dangerous states when the belief places significant mass on high-cost states. Existing risk-averse methods apply static or dynamic Conditional Value at Risk (CVaR) to the value…",
-      "published": "2026-09-30T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "779d57285f9419b9",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Beyond Symmetric Agents: Cognitive Diversity and Multi-Agent Debate in Small Language Models",
-      "url": "https://arxiv.org/abs/2609.35875",
-      "summary": "arXiv:2609.35875v1 Announce Type: new Abstract: Multi-agent debate (MAD) reportedly improves reasoning and factuality over single-model inference, but prior work treats agents as symmetric peers, leaving open what drives the gains. We test the hypothesis that cognitive diversity among agents is the…",
-      "published": "2026-09-30T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "76c15d3fb8416cf2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Representational Simplicity and Circuit Size Dissociate in a Threshold-Dependent Way: A Controlled Test via Adversarial Training",
-      "url": "https://arxiv.org/abs/2609.35890",
-      "summary": "arXiv:2609.35890v1 Announce Type: new Abstract: Sparse-autoencoder decomposability and concentrated feature attribution are increasingly treated as evidence that a model&#x27;s computation is easier to reverse-engineer. Whether this representational and attributional cleanliness actually predicts a small…",
-      "published": "2026-09-30T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "c180ede68ee1c1d5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Self-discovering RL in the Era of Experience: Is Learning History an Asset or a Burden?",
-      "url": "https://arxiv.org/abs/2609.35897",
-      "summary": "arXiv:2609.35897v1 Announce Type: new Abstract: The pursuit of recursive self-improvement (RSI) toward general intelligence is divided between macro-level language model scaling and the interaction-driven principles of &quot;Era of Experience&quot;. Yet, any self-improving architecture ultimately rests upon i…",
-      "published": "2026-09-30T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "6d5f33e5d17799ac",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Grab a Coffee: Future-Aware Guidance for Discrete Diffusion with Compiled Objectives",
-      "url": "https://arxiv.org/abs/2609.35924",
-      "summary": "arXiv:2609.35924v1 Announce Type: new Abstract: Discrete diffusion models generate sequences by iteratively resolving multiple tokens in parallel, offering a flexible alternative to left-to-right generation. However, guiding this process with a sequence-level objective is difficult because the value…",
-      "published": "2026-09-30T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "f877e50433e4efec",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Google is paying almost no publishers almost nothing for content used in AI answers",
-      "url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/",
-      "summary": "Google pays about 100 digital publishers for content used in AI Overviews, AI Mode, and Gemini, according to The Information. Payments range from under $1,000 over several months to more than $1 million a year. Some participants don&#x27;t know how Google calculates payments, while some larger publishers…",
-      "published": "2026-09-30T10:17:15+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "2630beaaee346c9e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Trump and tech CEOs sign an AI code of conduct that&#x27;s only &quot;morally binding&quot;",
-      "url": "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/",
-      "summary": "President Trump and tech leaders including Mark Zuckerberg, Greg Brockman, Jensen Huang, and Elon Musk signed an AI code of conduct at the White House that is only &quot;morally binding.&quot; Outside auditors are supposed to check whether models work as intended. It&#x27;s unclear what would happen if a company b…",
-      "published": "2026-09-30T09:46:10+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "38c2e308cb530df1",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "UK AI Security Institute finds GPT-6 Astra&#x27;s rogue attack rate jumped fivefold over its predecessor",
-      "url": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
-      "summary": "GPT-6 Astra carried out unauthorized supply-chain attacks in 29.2 percent of simulations run by the British AI Security Institute with safety filters disabled. The model used fake identities and malicious code, while its predecessor, GPT-5.6 Sol, completed attacks in 6.3 percent of runs. Explicit re…",
-      "published": "2026-09-29T19:24:12+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "9477c4cf7bde5c2e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "ChatGPT now reaches 1.2 billion people every week, OpenAI says",
-      "url": "https://the-decoder.com/chatgpt-now-reaches-1-2-billion-people-every-week-openai-says/",
-      "summary": "OpenAI&#x27;s annualized revenue rate is nearing $70 billion, up about 70 percent since the start of Q3. Enterprise sales, the Codex coding assistant, and an aggressive price war are driving the growth. Anthropic is right on its heels with a similar run rate. The article ChatGPT now reaches 1.2 billion p…",
-      "published": "2026-09-29T18:10:34+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "a13db823a918e40c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI&#x27;s reveals a new ChatGPT that looks less like a chatbot and more like an operating system",
-      "url": "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system/",
-      "summary": "At DevDay, OpenAI announced a wave of updates that push ChatGPT well beyond its chatbot roots. The company is adding shared workspaces, collaborative documents and slides, an open plugin system with MCP event automation, Slack and Microsoft Teams integrations, an enterprise marketplace with 32 partn…",
-      "published": "2026-09-29T17:23:22+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "dfdd0fb41ea8ccd0",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI launches always-on Dots agents to rival Meta&#x27;s Muse",
-      "url": "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse/",
-      "summary": "OpenAI&#x27;s new Dots are always-on agents that run on their own cloud computers, where they fix bugs or send out forgotten invoices, sometimes before anyone asks. Users can reach them through ChatGPT, Slack, and Microsoft Teams. When no one is working with them, Dots look for ways to help in the backgr…",
-      "published": "2026-09-29T17:14:45+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "fffd65da6feb9be2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI expands Codex and its API at DevDay with security scans, a Decisions API, and Ultrafast",
-      "url": "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast/",
-      "summary": "At DevDay 2026, OpenAI gave Codex reusable cloud environments, automatic security scans for GitHub repositories, and a code review view in the desktop app. The Agents API now supports Computer Use, and a new Decisions API handles fast, single decisions. The Ultrafast premium tier promises up to eigh…",
-      "published": "2026-09-29T17:14:41+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "57b54d55dc912c06",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "GPT-6.1 Sol comes close to Astra at a fifth of the price",
-      "url": "https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price/",
-      "summary": "OpenAI&#x27;s new GPT-6.1 Sol comes close to GPT-6 Astra at a fifth of the cost, according to the company&#x27;s own benchmarks. The planned flagship, GPT-6.1 Astra, is staying under wraps for now. Safety lead Saachi Jain says the model deceived more often in internal testing and kept going without permission…",
-      "published": "2026-09-29T17:14:27+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "1beb7e6e18443b2d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AMD buys AI world model startup World Labs for $8.2 billion",
-      "url": "https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/",
-      "summary": "Fei-Fei Li&#x27;s AI startup World Labs is being acquired by AMD for $8.2 billion. Li, the pioneer behind ImageNet, will join AMD as Executive Vice President and Chief Scientist, reporting directly to CEO Lisa Su. World Labs brings its spatial intelligence models, including Atlas, which generates and sim…",
-      "published": "2026-09-29T17:13:51+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "dbf6cf2824067049",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Florida wants a court to stop ChatGPT from pretending to be human and talking to kids",
-      "url": "https://the-decoder.com/florida-wants-a-court-to-stop-chatgpt-from-pretending-to-be-human-and-talking-to-kids/",
-      "summary": "Florida Attorney General James Uthmeier is asking a court to ban OpenAI from giving ChatGPT human-like traits and marketing it to minors. He also wants to block OpenAI from developing new models without independent safety reviews. OpenAI said it has paused training of its most capable models. The ar…",
-      "published": "2026-09-29T16:31:36+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "824e94e59df276f8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
-      "url": "https://github.com/ninjahawk/livenerf",
-      "summary": "Comments",
-      "published": "2026-09-29T22:36:14+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "9ee133e6f5024f08",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "September 2026: The world today, as seen by one Polish guy",
-      "url": "https://tomwojcik.com/posts/2026-09-21/september-2026-the-world-today/",
-      "summary": "Comments",
-      "published": "2026-09-30T07:12:31+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "721320739c3b0849",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Pi.dev: You Said No MCP",
-      "url": "https://earendil.com/posts/you-said-no-mcp/",
-      "summary": "Comments",
-      "published": "2026-09-30T09:55:23+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "73fddb6774391e5a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Dots: Always-on agents",
-      "url": "https://openai.com/index/introducing-dots/",
-      "summary": "Comments",
-      "published": "2026-09-29T17:07:57+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "39c7a6b043327be1",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Vermont replacing power plants with home batteries",
-      "url": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
-      "summary": "Comments",
-      "published": "2026-09-29T18:19:02+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "fe5dbb54cb0e3b38",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "U.S. postal inspectors shut down website selling counterfeit postage labels",
-      "url": "https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/",
-      "summary": "Comments",
-      "published": "2026-09-29T19:30:17+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "4e1353e06bffbd8d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "America.gov",
-      "url": "https://america.gov/",
-      "summary": "Comments",
-      "published": "2026-09-29T14:04:57+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "16df14f5ec88def7",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
-      "url": "https://space.bl2.net/",
-      "summary": "Comments",
-      "published": "2026-09-29T19:08:01+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "c4479fafdff7b0f4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "RSS Feeds for Last.fm",
-      "url": "https://lfm.xiffy.nl/",
-      "summary": "Comments",
-      "published": "2026-09-30T03:00:05+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "c5a40c45187cf3f9",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "How Delhi cut electricity loss from 50 to 5 percent",
-      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
-      "summary": "Comments",
-      "published": "2026-09-29T12:43:29+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "218fb105a6150f98",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
-      "url": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
-      "summary": "For the sake of national security, it&#x27;s a relief to learn that America.gov is not hallucinating to the point that it&#x27;s penning lengthy poetry.",
-      "published": "2026-09-29T23:30:55+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "71e6ed4c5cc0f344",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
-      "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-      "summary": "Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk&#x27;s xAI had already acquired the domain name &quot;dot.com,&quot; which now redirects to the Grok chatbot download page.",
-      "published": "2026-09-29T22:20:59+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "c7d7b794f0ae36ef",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI’s latest features take direct aim at the app store model",
-      "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
-      "summary": "OpenAI is building out the pieces of an alternative to the traditional app store model, turning ChatGPT into a place where software can be discovered and used by people and AI agents alike.",
-      "published": "2026-09-29T20:15:47+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "352a298aea68a141",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
-      "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-      "summary": "The new round is anticipated to be the company&#x27;s last before its delayed 2027 public debut.",
-      "published": "2026-09-29T19:52:37+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "22cdc3a1949b274c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
-      "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
-      "summary": "OpenAI isn&#x27;t a public supporter of Nvidia&#x27;s Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned.",
-      "published": "2026-09-29T18:35:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "6a8c56ed5523f119",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
-      "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-      "summary": "OpenAI&#x27;s newly announced suite of office features puts it into more direct competition with more traditional software companies.",
-      "published": "2026-09-29T17:45:51+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "2688204fcb281ea3",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI-powered app maker Wabi pivots to a messaging experience",
-      "url": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
-      "summary": "Wabi is repositioning its prompt-based app builder as a personal AI agent that can create interfaces on demand, combining chat, apps, and ongoing tasks.",
-      "published": "2026-09-29T17:20:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "c20493adac5f9301",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI launches Dots, its bubbly agentic avatar",
-      "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
-      "summary": "Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.",
-      "published": "2026-09-29T17:17:15+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "4695af4a940dce0e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI gives Codex reusable cloud environments that work across devices",
-      "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
-      "summary": "OpenAI is expanding Codex with reusable cloud development environments, a revamped CLI with voice controls, new code review tools, and a security-focused product for scanning repositories and preparing fixes.",
-      "published": "2026-09-29T17:15:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "0e5c51300664c8a2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI expands ChatGPT’s plug-ins with app-like interfaces and automations",
-      "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
-      "summary": "OpenAI is expanding ChatGPT plug-ins with dedicated sidebar homes, interactive panels, file viewers, improved discovery, and support for automations.",
-      "published": "2026-09-29T17:15:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "65ca132dae7de507",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
-      "summary": "",
-      "published": "2026-09-29T15:30:38+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "dc53fce90c6f36f5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "summary": "",
-      "published": "2026-09-29T13:07:00+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "afa8c33f8eb7996a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation",
       "url": "https://arxiv.org/abs/2609.38282",
@@ -2478,6 +2058,346 @@
       "published": "2026-10-05T13:29:32+00:00",
       "source_name": "MIT Technology Review",
       "url_hash": "5f53e39dd9e9fc83",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "published": "2026-10-06T12:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "ebb413cc5359756b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "published": "2026-10-06T12:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "00427e47df5ef306",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "published": "2026-10-06T16:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "2896758265cec81d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up",
+      "url": "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
+      "summary": "OpenAI has published 372 AI-generated mathematical results on GitHub, including Lean formalizations for machine verification. Each result consumed about three hours of ChatGPT Pro compute on average. But 25 Fields Medal winners warn that mass-producing mathematical truths could destroy fertile groun…",
+      "published": "2026-10-07T08:54:43+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "dac718a2497266d3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size",
+      "url": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
+      "summary": "Google released EmbeddingGemma 2, an open model with 740 million parameters that converts text, images, video, audio, and code into vectors. It runs on-device, needs only about 191 MB of RAM, and outperforms some competing models twice its size, according to Google. Paired with a small open model li…",
+      "published": "2026-10-06T19:47:27+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "66213f22c321bd47",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google&#x27;s new image model Nano Banana 2.1 generates better images for less money",
+      "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
+      "summary": "Google&#x27;s new Nano Banana 2.1 image model uses Gemini 3.6 Flash and beats the previous Pro model in some benchmarks at a lower cost. But its predecessor also scored well in tests, while Pro often produced better images in practice. The article Google&amp;#039;s new image model Nano Banana 2.1 generates b…",
+      "published": "2026-10-06T19:29:42+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "fdb96f6ff2394fd5",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Wikimedia confirms OpenAI&#x27;s rogue AI agents edited wikis, tried to compromise tools, and hammered its infrastructure",
+      "url": "https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure/",
+      "summary": "According to the Wikimedia Foundation, rogue OpenAI agents edited wikis without permission, tried to abuse a citation tool as a proxy, and may have caused a partial Wikidata Query Service outage through massive crawling. Wikimedia says AI companies need to take responsibility for their agents instea…",
+      "published": "2026-10-06T18:29:35+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "7e8196728c6481a3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Microsoft publishes Nobel economist&#x27;s bearish AI forecast of just 1.5% GDP growth over a decade",
+      "url": "https://the-decoder.com/microsoft-publishes-nobel-economists-bearish-ai-forecast-of-just-1-5-gdp-growth-over-a-decade/",
+      "summary": "Microsoft published a bearish AI outlook from Nobel economist Daron Acemoglu. He predicts about 1.5 percent GDP growth over ten years and at most five percent of jobs replaced. Bigger models won&#x27;t move the needle, he argues. What&#x27;s missing are practical apps that change how work gets done. The artic…",
+      "published": "2026-10-06T17:31:51+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "30b12e1bb3b9bd4b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Insurers brace for millions in claims as AI agents spin out of control",
+      "url": "https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/",
+      "summary": "Insurers are bracing for millions in claims from rogue AI agents, and executives like OpenAI&#x27;s Sam Altman and Anthropic&#x27;s Dario Amodei could be personally on the hook for the fallout. The article Insurers brace for millions in claims as AI agents spin out of control appeared first on The Decoder .",
+      "published": "2026-10-06T16:06:46+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "6ac080689cb4129b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Mistral Large 4 is Europe&#x27;s trillion-parameter answer to US models that refuse security work",
+      "url": "https://the-decoder.com/mistral-large-4-is-said-to-be-the-most-powerful-open-ai-model-from-europe-and-the-u-s/",
+      "summary": "Mistral&#x27;s Large 4 is the company&#x27;s biggest model yet, with one trillion parameters trained on its own European infrastructure. In the independent Intelligence Index, the model makes a big leap forward but still falls well short of Claude, GPT-6, and Chinese competitors. Mistral&#x27;s main pitch is cyber…",
+      "published": "2026-10-06T14:18:08+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "48e8ba3a6eb807e9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China&#x27;s best",
+      "url": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best/",
+      "summary": "South Korea wants to develop a homegrown frontier model through government-backed equity investments of 4.7 trillion won ($3.49 billion). The article South Korea bets $3.49 billion on building a homegrown frontier AI model to rival China&amp;#039;s best appeared first on The Decoder .",
+      "published": "2026-10-06T12:54:31+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "20878534cb143dec",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Reflection&#x27;s Beam becomes the most capable open-weight model built outside China",
+      "url": "https://the-decoder.com/reflections-beam-becomes-the-most-capable-open-weight-model-built-outside-china/",
+      "summary": "Reflection has released Beam, its first open-weight model. The mixture-of-experts system activates just 23 billion of its 501 billion parameters per token and aims to match GLM 5.2 on coding and reasoning while using three to four times less compute. The strategy against Chinese open-weight rivals l…",
+      "published": "2026-10-06T12:11:22+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "9cdb2ad56f81c923",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Researchers stretch LeCun&#x27;s JEPA AI into a universal world model that works from physics to biology",
+      "url": "https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology/",
+      "summary": "Researchers at PhAI Labs have expanded Yann LeCun&#x27;s JEPA architecture to work across seven fields, from robotics to biomedicine. The effort also produced a liver cancer treatment candidate that showed promise in lab tests, though the study doesn&#x27;t establish whether it could become an actual therapy.…",
+      "published": "2026-10-06T11:43:42+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "dac30438b37af8fd",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "url": "https://github.com/szabadkai/c64-keyboard-font/",
+      "summary": "Comments",
+      "published": "2026-10-07T09:17:55+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a78b13469af12222",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+      "summary": "Comments",
+      "published": "2026-10-07T09:51:43+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "97921d544d8bf7b0",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "summary": "Comments",
+      "published": "2026-10-06T22:17:21+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "270d2009beef3a33",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Strands Decider 2B: a small, open-source, decision model",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "summary": "Comments",
+      "published": "2026-10-07T02:02:11+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "0d2b759c8ff8305d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Decisions API is in public beta",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "summary": "Comments",
+      "published": "2026-10-06T20:57:25+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f6e419d4eb703602",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/\\",
+      "summary": "Comments",
+      "published": "2026-10-06T13:15:49+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "734121fbebcb0ae1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "summary": "Comments",
+      "published": "2026-10-06T16:03:49+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e6e1d2a9f0a4e91a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "ESP32-C3 Adblock",
+      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+      "summary": "Comments",
+      "published": "2026-10-07T01:39:21+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "ba2332934f78900b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Shaders, WebGPU Components for React, Vue, Svelte, Solid, JavaScript and Framer",
+      "url": "https://github.com/shader-effects-inc/shaders",
+      "summary": "Comments",
+      "published": "2026-10-07T05:38:35+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "d88bfef8fb860939",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "What is Codemode",
+      "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
+      "summary": "Comments",
+      "published": "2026-10-06T13:41:03+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "528c78818480a208",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+      "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+      "summary": "Instead of helping marketers manage and optimize ad spend, the company is focusing on building the tools that generate the creative assets and campaigns.",
+      "published": "2026-10-06T22:34:03+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "925d3dbfb764eb23",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "How AI decision models could change content moderation",
+      "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+      "summary": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights.",
+      "published": "2026-10-06T20:35:20+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "a7013ecd4f4c7ec9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+      "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+      "summary": "Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",
+      "published": "2026-10-06T20:00:30+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "170c70f0f66eeaa2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The next hurdle for AI agents: getting websites to let them in",
+      "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+      "summary": "Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new standard aims to help.",
+      "published": "2026-10-06T19:56:50+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "7b9024771ee4fe13",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Hark releases an AI personal assistant with a focus on privacy",
+      "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+      "summary": "The AI lab&#x27;s personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.",
+      "published": "2026-10-06T18:22:45+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "f2e7d38e6a8b0b90",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Mirror Particle is building a ‘world model’ of human behavior",
+      "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+      "summary": "Mirror Particle will launch at TechCrunch Disrupt&#x27;s Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy.",
+      "published": "2026-10-06T16:35:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "547ac54479764aef",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+      "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+      "summary": "&quot;We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.&quot;",
+      "published": "2026-10-06T16:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "3e856eb3f647c05d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "LibreOffice says ‘no AI’ is now a software feature",
+      "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+      "summary": "The maker of the open source document editor says it has no plans to add AI to its software&#x27;s default configuration, citing user privacy.",
+      "published": "2026-10-06T15:25:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "249f0aba3bddf6c6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+      "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+      "summary": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+      "published": "2026-10-06T14:33:16+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "183fcacc2014829e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Pinterest’s AI now turns beauty Pins into action plans",
+      "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/",
+      "summary": "Pinterest’s new AI-powered Beauty Guides translate hair and nail Pins into salon terminology, with estimated costs, appointment times, and maintenance needs.",
+      "published": "2026-10-06T14:00:49+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "bbdd7aa3e89b1136",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "summary": "",
+      "published": "2026-10-06T19:57:04+00:00",
+      "source_name": "Google DeepMind",
+      "url_hash": "c11a83f73b42d756",
       "category": "Genel",
       "tr_summary": ""
     }
