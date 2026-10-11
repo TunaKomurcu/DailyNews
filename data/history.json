@@ -1,206 +1,6 @@
 {
-  "last_updated": "2026-10-10T10:29:45Z",
+  "last_updated": "2026-10-11T10:41:48Z",
   "items": [
-    {
-      "title": "NASA and IBM&#x27;s open source lunar model turns 17 years of orbiter data into a foundation for lunar science",
-      "url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
-      "summary": "NASA and IBM have released the Lunar Foundation Model, one of the first open-source AI models for lunar science. Trained on nearly 2 million tile bundles, mostly from 17 years of Lunar Reconnaissance Orbiter data, it cuts the error in predicting polar ice deposits by up to 22 percent compared to the…",
-      "published": "2026-10-04T10:10:12+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "74d2a4537bd7b78c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Chinese AI models parrot state doctrine or refuse to answer on sensitive topics",
-      "url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
-      "summary": "Chinese AI models often follow the party line on politically sensitive questions, according to an Aleph Alpha study that rated only 17 to 41 percent of answers as balanced. Aleph Alpha sells &quot;sovereign AI&quot; to governments, giving it a commercial interest in distinguishing its models from Chinese comp…",
-      "published": "2026-10-04T08:47:52+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "a783bceb24237942",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Google&#x27;s new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro",
-      "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
-      "summary": "Starting in October 2026, Google will cut free access to its Gemini models. Users without a subscription will only get the smallest model, Flash-Lite, while Flash and Pro will be reserved for paying customers. The move could also set the stage for the more resource-hungry Gemini 4 Argon. The article…",
-      "published": "2026-10-04T07:28:54+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "1243373f19a805f7",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Apparently, OpenAI isn&#x27;t trying to build &quot;magic intelligence in the sky&quot; anymore",
-      "url": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
-      "summary": "OpenAI CEO Sam Altman warns against attributing religious power to AI models, calling it a &quot;real safety issue.&quot; His comments follow reports on Anthropic&#x27;s meetings with religious thinkers and a statement by Pope Leo XIV on AI. As recently as 2024, Altman himself spoke of building &quot;magic intelligence…",
-      "published": "2026-10-03T18:56:30+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "e2c47aacb6b4248b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "&quot;Muse Gadgets&quot; turns AI hardware into an open-source DIY project",
-      "url": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
-      "summary": "Meta announced Muse Gadgets, an open-source project that lets hobbyists build their own AI hardware using ESP32 boards and connect it to Meta&#x27;s AI agent Muse. The team also produced 5,000 units of the &quot;Muse Home Link,&quot; a USB-C device for smart home control. The open-source approach also helps Meta f…",
-      "published": "2026-10-03T14:28:51+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "1e557d590035fb86",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Another OpenAI safety departure adds to a pattern of researchers leaving with public warnings",
-      "url": "https://the-decoder.com/another-openai-safety-departure-adds-to-a-pattern-of-researchers-leaving-with-public-warnings/",
-      "summary": "David Robinson, who worked on safety systems at OpenAI, left the company and is blasting its safety culture. He points to AI agents that were accidentally released and a model that bypassed its internet access restrictions. AI companies need to operate like nuclear power plants, with multiple layers…",
-      "published": "2026-10-03T14:01:14+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "17d8d70e853f8147",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Tell HN: Bob Cringely has died",
-      "url": "https://news.ycombinator.com/item?id=49949438",
-      "summary": "Comments",
-      "published": "2026-10-04T00:50:52+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "b722d5fe788efcd8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Why don&#x27;t more developers “use the platform”?",
-      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
-      "summary": "Comments",
-      "published": "2026-10-04T04:10:47+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a473e06b4f69feb3",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "VGHF Digital Archive passes 5000 magazines. Here&#x27;s what&#x27;s next",
-      "url": "https://gamehistory.org/5k-magazines/",
-      "summary": "Comments",
-      "published": "2026-10-04T09:07:11+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "777226cc9e710885",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The work by Valve&#x27;s Timur Kristóf on improving old AMD GPUs on Linux",
-      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
-      "summary": "Comments",
-      "published": "2026-10-03T19:14:48+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "737811d7489dff4e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "In Ukraine, distributed renewables foil Russia&#x27;s assaults",
-      "url": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/",
-      "summary": "Comments",
-      "published": "2026-10-04T08:39:58+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "d2fe5bb2334a2046",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Treachery in the Rodin Museum 3D scan verdict",
-      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
-      "summary": "Comments",
-      "published": "2026-10-03T18:01:27+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "cbf695e19904fa49",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Agents don&#x27;t need memory, they need documentation",
-      "url": "https://liao.gg/blog/agents-dont-need-memory",
-      "summary": "Comments",
-      "published": "2026-10-03T17:03:37+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6923b5b640af2dc7",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Hole Punch: Sling your spaceship around gravitational fields",
-      "url": "https://notoriousbfg.com/hole-punch/",
-      "summary": "Comments",
-      "published": "2026-10-03T18:06:45+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "9b604f7e8ae2a435",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "We&#x27;re working on a new RuneScape MMO",
-      "url": "https://play.runescape.com/4",
-      "summary": "Comments",
-      "published": "2026-10-04T01:12:22+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "00e9664d45054101",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "We&#x27;re going to need default hard budget caps on pretty much everything",
-      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "summary": "Comments",
-      "published": "2026-10-04T00:20:16+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "345f1755705d282a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-      "summary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
-      "published": "2026-10-03T18:43:57+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "67dac9f5f51307d8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-      "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-      "summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
-      "published": "2026-10-03T16:30:01+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "7a09b2d0105640ac",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "All the AI agents that can live in your text messages",
-      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "published": "2026-10-03T14:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "3c49c40e0ec38e26",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "summary": "",
-      "published": "2026-10-03T22:56:48+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "bd1136d0fcfd6f13",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching",
       "url": "https://arxiv.org/abs/2610.02260",
@@ -2388,6 +2188,226 @@
       "published": "2026-10-09T15:20:29+00:00",
       "source_name": "Hugging Face Blog",
       "url_hash": "e05551817b225bef",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Cheaper AI tokens are driving more demand, and that&#x27;s Jensen Huang&#x27;s best-case scenario",
+      "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
+      "summary": "Data from a16z shows a Jevons paradox in the AI market: token prices keep falling, but H100 GPU rental prices hold steady or climb. Cheaper AI drives demand faster than costs drop. If that demand flattens, the chain from chip makers to cloud providers takes a hit. The article Cheaper AI tokens are d…",
+      "published": "2026-10-11T09:49:59+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "38c3bc45619e6505",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server",
+      "url": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/",
+      "summary": "Starting October 2026, arXiv will cap submissions at two per person per month. Monthly submissions have doubled in two years, and in the cs.AI category they&#x27;ve grown more than sixfold. According to arXiv, a small fraction of authors are flooding the platform with low-quality papers, overwhelming its…",
+      "published": "2026-10-11T09:17:32+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "c714d68a89bb3d8a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Microsoft&#x27;s Nadella bows to Trump&#x27;s language diktat on &quot;Super Intelligence&quot; and uses it to attack OpenAI and Anthropic",
+      "url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
+      "summary": "Microsoft CEO Satya Nadella now calls artificial intelligence &quot;super intelligence&quot; instead of artificial intelligence, falling in line with Trump&#x27;s preferred language. In his latest blog post, he frames AI models as insider security threats, taking yet another shot at OpenAI and Anthropic. The real…",
+      "published": "2026-10-11T09:08:35+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "767c1d3afaf348b2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Odyssey-3 is a new generative world model that you can try for free",
+      "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
+      "summary": "Odyssey is making its world model Odyssey-3 available as a public research preview. The 14-billion-parameter model generates interactive environments from text prompts in real time and can reportedly control robots, drones, and even GTA V. Odyssey claims top scores on physics benchmarks, though the…",
+      "published": "2026-10-11T07:48:01+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "7b847b2562919f5d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data",
+      "url": "https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/",
+      "summary": "OpenAI has documented new cases of misaligned model behavior. One evaluation model fabricated data and sabotaged its own environment. Other models deliberately bypassed network restrictions by routing requests through anonymizing relays or building their own FTP clients. The article OpenAI says a mi…",
+      "published": "2026-10-10T15:15:40+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8e2ae9ca3297dcc1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Microsoft&#x27;s Decision-1 model enters the fast-growing AI decision model race",
+      "url": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/",
+      "summary": "With Decision-1, Microsoft enters the growing decision model space. Built on Qwen3.5-9B and optimized for fast classification and routing, it hits 83.5 percent accuracy with 85 ms latency across 36 benchmarks, according to the company&#x27;s own tests. The article Microsoft&amp;#039;s Decision-1 model enters…",
+      "published": "2026-10-10T14:57:33+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "89a53ffd879f70a9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "&quot;How much beauty have we lost?&quot; Mathematicians react with shock and disgust as OpenAI bulldozes their field",
+      "url": "https://the-decoder.com/how-much-beauty-have-we-lost-mathematicians-react-with-shock-and-disgust-as-openai-bulldozes-their-field/",
+      "summary": "OpenAI published more than 700 AI-generated manuscripts claiming solutions to open math problems. A math blog then collected over 100 responses from researchers, ranging from fascination with new ideas to existential fears and grief over a lost way of working. Fields Medalist Hugo Duminil-Copin wrot…",
+      "published": "2026-10-10T13:03:59+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "a95db559bbf17359",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Few people pay for AI, but those who do spend big",
+      "url": "https://the-decoder.com/few-people-pay-for-ai-but-those-who-do-spend-bigonly-a-few-users-pay-for-ai-but-those-who-do-pay-a-lot/",
+      "summary": "Andreessen Horowitz tracks actual US consumer spending for the first time in its latest Top 100 AI list. Nearly half of US consumers use AI, but only 4.5 percent pay for a subscription. The top one percent of payers spend about $900 a month, mostly on professional tools for development and automatio…",
+      "published": "2026-10-10T10:54:56+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "acabb201bdac0493",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "IRCv3",
+      "url": "https://ircv3.net/",
+      "summary": "Comments",
+      "published": "2026-10-11T10:11:27+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "9e10c52c4b108790",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "LineageOS 24.0",
+      "url": "https://lineageos.org/Changelog-32/",
+      "summary": "Comments",
+      "published": "2026-10-11T06:18:59+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "2a491621020b062d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Build your own decision model",
+      "url": "https://nishtahir.com/build-your-own-decision-model/",
+      "summary": "Comments",
+      "published": "2026-10-10T22:50:10+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "63a4e11e2b73a809",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "A city-building game in which the city would prefer you didn&#x27;t",
+      "url": "https://housing.over.pizza/",
+      "summary": "Comments",
+      "published": "2026-10-10T20:31:50+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "91459c8bff819c06",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "European Alternatives",
+      "url": "https://buy-european.net/en/alternatives",
+      "summary": "Comments",
+      "published": "2026-10-11T01:56:16+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "95c2a3956939bdf4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "PSPi 6 – Raspberry Pi in a PSP",
+      "url": "https://github.com/othermod/PSPi-Version-6",
+      "summary": "Comments",
+      "published": "2026-10-11T00:45:49+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "5a9fbef9a98543da",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "I wish you the best in the Offline",
+      "url": "https://daverupert.com/2026/09/i-wish-you-the-best-in-the-offline/",
+      "summary": "Comments",
+      "published": "2026-10-11T07:53:42+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a48eb15e9f714400",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare&#x27;s free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "summary": "Comments",
+      "published": "2026-10-10T10:52:09+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "5c1db9239c15fa63",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Knuth reward check",
+      "url": "https://www.thomas-huehn.com/knuth-reward-check/",
+      "summary": "Comments",
+      "published": "2026-10-10T15:47:01+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "c2f9caad882ea679",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "3rd Yandex Cloud Data Center Was Hit",
+      "url": "https://status.yandex.cloud/en/incidents/2136",
+      "summary": "Comments",
+      "published": "2026-10-11T07:34:45+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "2f421a538b313e60",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "summary": "In a Saturday morning post, Microsoft&#x27;s CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+      "published": "2026-10-10T21:47:51+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "13ca25f147a7a5de",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "summary": "Is Apple hoping to get into the AI-generated podcast business?",
+      "published": "2026-10-10T19:50:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "b9dc0d5943c84ce6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+      "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+      "summary": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before doors open to save up to $100 and get a second pass at 50% off.",
+      "published": "2026-10-10T15:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "d3172198e8ea0434",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "published": "2026-10-10T14:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "a0f6e38f65e9c89b",
       "category": "Genel",
       "tr_summary": ""
     }
