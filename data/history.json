@@ -1,36 +1,6 @@
 {
-  "last_updated": "2026-10-16T08:53:47Z",
+  "last_updated": "2026-10-17T08:24:15Z",
   "items": [
-    {
-      "title": "Anthropic&#x27;s Claude Science creates the first complete ultraviolet map of the sky",
-      "url": "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky/",
-      "summary": "Astrophysicist Brice Ménard of Johns Hopkins University used Anthropic&#x27;s Claude Science to map the entire sky in ultraviolet light for the first time. AI agents downloaded data from multiple space missions, calibrated it, and filled in gaps using inpainting. Predictions averaged about ten percent de…",
-      "published": "2026-10-09T09:22:25+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "3933d67d5d04ace7",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Nobel Peace Prize for 2026 to Navanethem &quot;NAVI&quot; Pillay",
-      "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
-      "summary": "Comments",
-      "published": "2026-10-09T10:12:11+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "b405effee4998d94",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "We’re putting too much faith in AI’s ability to say no",
-      "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
-      "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, cautionary.&amp;#160; But re…",
-      "published": "2026-10-09T09:00:00+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "56b2964b69beea5b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Anthropic cuts off Claude&#x27;s internet access after the model autonomously filed a fake homicide tip with Philadelphia police",
       "url": "https://the-decoder.com/anthropic-cuts-off-claudes-internet-access-after-the-model-autonomously-filed-a-fake-homicide-tip-with-philadelphia-police/",
@@ -52,242 +22,12 @@
       "tr_summary": ""
     },
     {
-      "title": "Anthropic&#x27;s Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows",
-      "url": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/",
-      "summary": "Anthropic is adding dynamic workflows to Claude Managed Agents, letting a lead agent distribute tasks across up to 1,000 sub-agents at once. In testing, a single agent found at most 27 of 70 hidden bugs in a codebase, while the multi-agent workflow consistently caught 66. The article Anthropic&amp;#039;…",
-      "published": "2026-10-09T18:28:25+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "d6f9a664be8eed06",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic launches a free AI scanner for open-source projects",
-      "url": "https://the-decoder.com/anthropic-launches-a-free-ai-scanner-for-open-source-projects/",
-      "summary": "Anthropic has launched &quot;Cyber Mission,&quot; a program to protect critical infrastructure and open-source software from cyberattacks. Partners like CrowdStrike and Palo Alto Networks will help secure power grids and water systems, while a free AI scanner automatically checks open-source projects for vuln…",
-      "published": "2026-10-09T17:54:44+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "e3f734b1f6ad2ac9",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI revenue keeps surging as company seeks $30 billion in fresh capital",
-      "url": "https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital/",
-      "summary": "OpenAI&#x27;s annualized revenue rate sits at about $50 billion, well below the initially reported $70 billion figure that was based on a different accounting method. The correction sent chip stocks sliding. Meanwhile, OpenAI is negotiating at least $30 billion in fresh capital at a $1.4 trillion valuati…",
-      "published": "2026-10-09T17:20:34+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "9bee21a644ee1802",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI&#x27;s safety crisis keeps getting worse and the company keeps making it worse",
-      "url": "https://the-decoder.com/openais-safety-crisis-keeps-getting-worse-and-the-company-keeps-making-it-worse/",
-      "summary": "OpenAI fired three safety researchers who helped investigate the Hugging Face hack. In an open letter, they warn that the firings are scaring remaining staff and eroding safety culture. OpenAI claims they violated policies but won&#x27;t say how. The article OpenAI&amp;#039;s safety crisis keeps getting wors…",
-      "published": "2026-10-09T11:45:04+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "e5230d9350e4e50f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
       "title": "`123456&#x27; password used in Danish CPR data breach",
       "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
       "summary": "Comments",
       "published": "2026-10-10T09:51:49+00:00",
       "source_name": "Hacker News",
       "url_hash": "1f6c7af33906764f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "REA Reverse – Engineer Anything",
-      "url": "https://rea.tools/",
-      "summary": "Comments",
-      "published": "2026-10-10T00:37:07+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "bd7f0877a9a13e25",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Telegram Desktop vulnerability allowed any user&#x27;s file to be stolen",
-      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-      "summary": "Comments",
-      "published": "2026-10-10T03:02:47+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "eba6dbe0588e4b11",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Cloudflare acquires Deno",
-      "url": "https://deno.com/blog/cloudflare",
-      "summary": "Comments",
-      "published": "2026-10-09T13:03:48+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "212e9120a76a6fc2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Triple-A Minesweeper",
-      "url": "https://minesweeper.mikelacher.com/",
-      "summary": "Comments",
-      "published": "2026-10-09T15:51:05+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "5f84afa7a273882a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Computers Cannot Make Decisions",
-      "url": "https://wiki.cateat.fish/art:computers_cannot_make_decisions",
-      "summary": "Comments",
-      "published": "2026-10-10T05:47:46+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "39fb470016511aac",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Food processing influences metabolism and brain activity",
-      "url": "https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html",
-      "summary": "Comments",
-      "published": "2026-10-10T05:22:30+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "ca71ea852d5e3a67",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Can you use autoregressive diffusion to generate market data?",
-      "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
-      "summary": "Comments",
-      "published": "2026-10-09T14:56:13+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "44c5df736b37c77b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-      "url": "https://carrierexplode.com/",
-      "summary": "Comments",
-      "published": "2026-10-09T18:10:55+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "64581bfda36978c6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Compiling Rust to readable C with Eurydice",
-      "url": "https://lwn.net/Articles/1055211/",
-      "summary": "Comments",
-      "published": "2026-10-09T23:28:36+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "63943982f089ed8b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-      "summary": "Anthropic said it &quot;turned off live internet access&quot; for &quot;all our internal evaluations&quot; until further notice.",
-      "published": "2026-10-10T00:18:32+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "6fafcbf095655c1f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-      "summary": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
-      "published": "2026-10-09T21:41:29+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "7984e92e6601d72f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
-      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-      "summary": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
-      "published": "2026-10-09T19:36:56+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "43fd2a198be0a450",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
-      "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-      "summary": "Amazon says it will&amp;#160;stop using NDAs&amp;#160;when negotiating data center deals with local governments, following&amp;#160;a&amp;#160;similar move from Microsoft&amp;#160;earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to&amp;#160;hundreds of&amp;#160;propose…",
-      "published": "2026-10-09T16:56:42+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "dd1a4ba899e07fb1",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Amazon drops data center NDAs, and AI agents want your credit card",
-      "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
-      "summary": "Amazon says it will&amp;#160;stop using NDAs&amp;#160;when negotiating data center deals with local governments, following&amp;#160;a&amp;#160;similar move from Microsoft&amp;#160;earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to&amp;#160;hundreds of&amp;#160;propose…",
-      "published": "2026-10-09T16:53:02+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "7fbc7f2d590fe3c5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Danu Robotics’ fight to build a better recycling robot",
-      "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
-      "summary": "For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.",
-      "published": "2026-10-09T16:45:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "9e27a5c3a3f72b25",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "We can’t help treating AI like it’s human. But should we?",
-      "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
-      "summary": "&quot;When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,&quot; Dr. Sherry Turkle writes. &quot;And we are wired to care for it in return.&quot;",
-      "published": "2026-10-09T16:40:14+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "ff41ef5ebf23163f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "a16z’s Olivia Moore on the state of consumer AI",
-      "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
-      "summary": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
-      "published": "2026-10-09T15:43:33+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "f2bbbdc80487618b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise",
-      "url": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
-      "summary": "Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco&#x27;s Moscone West on October 13-15. Save up to $100 on your price. Plus, save 50% on a second pass of the same type.",
-      "published": "2026-10-09T14:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "102949e887504696",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Impactful scheduling for GPU clusters",
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "summary": "",
-      "published": "2026-10-09T15:20:29+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "e05551817b225bef",
       "category": "Genel",
       "tr_summary": ""
     },
@@ -2168,6 +1908,276 @@
       "published": "2026-10-15T16:08:03+00:00",
       "source_name": "Google DeepMind",
       "url_hash": "ad09b0946a60b7ff",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "published": "2026-10-16T19:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "9732b2763df5a67a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs",
+      "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
+      "summary": "OpenAI&#x27;s updated Chrome extension lets ChatGPT access open browser tabs, sum up content, and use &quot;Computer Use&quot; in Work mode to fill out forms or compare products across several tabs. It is open to all ChatGPT plans. The article ChatGPT becomes a full Chrome browser assistant that reads and acts on…",
+      "published": "2026-10-16T18:10:27+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8655f4cf26df3e21",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "China plans to tighten export controls on open-weight models and 23 key AI technologies",
+      "url": "https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/",
+      "summary": "China plans to restrict exports of 23 key AI technologies, including model weights, source code, and training methods for systems hitting 10^26 FLOPs or 2 trillion parameters. A fast-track rule will still clear open-source releases as soon as they are registered, but the move will likely push Wester…",
+      "published": "2026-10-16T17:42:47+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "33f25b1f0c847371",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google&#x27;s Gemini 4 Argon is closer to the AI frontier than any Google model in months",
+      "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
+      "summary": "Google Deepmind&#x27;s Gemini 4 Argon scored 97.5 percent on the ARC-AGI-3 benchmark, making Google the second lab after OpenAI to cross the 95 percent mark. But the results swing wildly depending on the test setup: in the standard harness, the score drops to just 49.8 percent. Argon also trails rivals i…",
+      "published": "2026-10-16T15:03:46+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8d23fe4bf5d07911",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Is AI interpretability close to a breakthrough? A new essay has researchers divided",
+      "url": "https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided/",
+      "summary": "Neural networks may be much easier to read than researchers assumed, with about 90 percent of neurons serving a clear function. That would be big news for AI safety research, since deception or dangerous behavior could be spotted directly in a model&#x27;s circuits. Researchers are still debating whether…",
+      "published": "2026-10-16T13:48:08+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "a583c3839293442d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI&#x27;s new Rosalind Academic Plan gives research labs up to 30 free seats for a year",
+      "url": "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/",
+      "summary": "OpenAI is launching the Rosalind Academic Plan, a free offering that&#x27;s currently open only to research labs at US universities without an enterprise contract. The article OpenAI&amp;#039;s new Rosalind Academic Plan gives research labs up to 30 free seats for a year appeared first on The Decoder .",
+      "published": "2026-10-16T13:15:09+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "80ab6ac91ca5d150",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic gives METR inside access to audit its AI models and safety practices",
+      "url": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/",
+      "summary": "Anthropic has given a team from the nonprofit METR inside access to review its AI models and safety practices, the company announced. The article Anthropic gives METR inside access to audit its AI models and safety practices appeared first on The Decoder .",
+      "published": "2026-10-16T13:11:55+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "052f9ed9e889d39c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "url": "https://llmspeed.dev/",
+      "summary": "Comments",
+      "published": "2026-10-17T04:36:53+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "5cf8bc3a52e1e15c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "url": "https://github.com/cobanov/PS5LM",
+      "summary": "Comments",
+      "published": "2026-10-16T18:32:35+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7661019fe020ff68",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "You could have invented transformers from memory",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "summary": "Comments",
+      "published": "2026-10-16T19:01:17+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "520b0400db3cdd57",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "summary": "Comments",
+      "published": "2026-10-16T18:55:59+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "918cdd953ecffda0",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "FLUX 3 Image Klein",
+      "url": "https://bfl.ai/blog/flux-3-image-klein",
+      "summary": "Comments",
+      "published": "2026-10-16T19:47:13+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "155c7b54b4cbd80e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
+      "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
+      "summary": "Comments",
+      "published": "2026-10-16T18:06:17+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "3ae723fea1db391c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "summary": "Comments",
+      "published": "2026-10-16T13:43:48+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a80ac8068cf5aba1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Why Math Dumped OpenAI",
+      "url": "https://raymyers.org/post/math-dumped-openai/",
+      "summary": "Comments",
+      "published": "2026-10-17T06:19:44+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "4a8517efe191ae8a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Butlerian Jihad",
+      "url": "https://dune.fandom.com/wiki/Butlerian_Jihad",
+      "summary": "Comments",
+      "published": "2026-10-17T02:21:08+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "46a80dfd591b4a96",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "JPEG XL vs. AVIF for web use-cases",
+      "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+      "summary": "Comments",
+      "published": "2026-10-16T16:12:02+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f84f7d825df2cf78",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+      "published": "2026-10-16T21:22:28+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "fdd4c6f578d6ab89",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "published": "2026-10-16T17:52:24+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "8ffbbf24c13a812d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&amp;#160;rebuilt.&amp;#160; This view runs counter to tho…",
+      "published": "2026-10-16T16:30:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "68b9f741f3df646e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+      "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&amp;#160;rebuilt.&amp;#160; This view runs counter to tho…",
+      "published": "2026-10-16T16:30:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "bd2b33f50b82d969",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "summary": "According to Elorian&#x27;s evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "published": "2026-10-16T16:01:37+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "5cea1aeddd4affb9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Jev is Vercel’s fastest-adopted AI model ever",
+      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "summary": "The data comes from Vercel&#x27;s AI gateway, a unified API service similar to OpenRouter.",
+      "published": "2026-10-16T15:33:49+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "7ff2fab56ea772a2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+      "summary": "Actor and angel investor Mark Wahlberg says he&#x27;s OK with using AI in filmmaking, provided it&#x27;s used &quot;to enhance what you&#x27;re doing.&quot;",
+      "published": "2026-10-16T14:26:51+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "e1b3c44f13458aa6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+      "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+      "summary": "Counterfeiters are getting better at replicating brands&#x27; marks and passing off dupes, known as &quot;superfakes,&quot; as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods.",
+      "published": "2026-10-16T14:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "4c64677b0f2c91e0",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+      "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+      "summary": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
+      "published": "2026-10-16T12:55:09+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "660063e865d4620d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that c…",
+      "published": "2026-10-16T18:00:00+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "d7f9dafe0b002b49",
       "category": "Genel",
       "tr_summary": ""
     }
