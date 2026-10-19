@@ -1,176 +1,6 @@
 {
-  "last_updated": "2026-10-18T08:43:34Z",
+  "last_updated": "2026-10-19T09:44:28Z",
   "items": [
-    {
-      "title": "Cheaper AI tokens are driving more demand, and that&#x27;s Jensen Huang&#x27;s best-case scenario",
-      "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
-      "summary": "Data from a16z shows a Jevons paradox in the AI market: token prices keep falling, but H100 GPU rental prices hold steady or climb. Cheaper AI drives demand faster than costs drop. If that demand flattens, the chain from chip makers to cloud providers takes a hit. The article Cheaper AI tokens are d…",
-      "published": "2026-10-11T09:49:59+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "38c3bc45619e6505",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server",
-      "url": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/",
-      "summary": "Starting October 2026, arXiv will cap submissions at two per person per month. Monthly submissions have doubled in two years, and in the cs.AI category they&#x27;ve grown more than sixfold. According to arXiv, a small fraction of authors are flooding the platform with low-quality papers, overwhelming its…",
-      "published": "2026-10-11T09:17:32+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "c714d68a89bb3d8a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Microsoft&#x27;s Nadella bows to Trump&#x27;s language diktat on &quot;Super Intelligence&quot; and uses it to attack OpenAI and Anthropic",
-      "url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
-      "summary": "Microsoft CEO Satya Nadella now calls artificial intelligence &quot;super intelligence&quot; instead of artificial intelligence, falling in line with Trump&#x27;s preferred language. In his latest blog post, he frames AI models as insider security threats, taking yet another shot at OpenAI and Anthropic. The real…",
-      "published": "2026-10-11T09:08:35+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "767c1d3afaf348b2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "IRCv3",
-      "url": "https://ircv3.net/",
-      "summary": "Comments",
-      "published": "2026-10-11T10:11:27+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "9e10c52c4b108790",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
-      "url": "https://arxiv.org/abs/2610.12493",
-      "summary": "arXiv:2610.12493v1 Announce Type: new Abstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over the last decade points…",
-      "published": "2026-10-12T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "5633ac0815d3b59e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
-      "url": "https://arxiv.org/abs/2610.12536",
-      "summary": "arXiv:2610.12536v1 Announce Type: new Abstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performance…",
-      "published": "2026-10-12T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "be23a3f6c27fbe89",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
-      "url": "https://arxiv.org/abs/2610.12542",
-      "summary": "arXiv:2610.12542v1 Announce Type: new Abstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run that comparison under a…",
-      "published": "2026-10-12T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "efb0e73fb923584a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Know What You Don&#x27;t Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
-      "url": "https://arxiv.org/abs/2610.12593",
-      "summary": "arXiv:2610.12593v1 Announce Type: new Abstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but also interactions that provide learning v…",
-      "published": "2026-10-12T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "f515c352b2b1e0ca",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
-      "url": "https://arxiv.org/abs/2610.12596",
-      "summary": "arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and l…",
-      "published": "2026-10-12T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "4e1d9d23d49d980b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
-      "url": "https://arxiv.org/abs/2610.12598",
-      "summary": "arXiv:2610.12598v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging quality. We investi…",
-      "published": "2026-10-12T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "5e67eaf20784dd12",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
-      "url": "https://arxiv.org/abs/2610.12655",
-      "summary": "arXiv:2610.12655v1 Announce Type: new Abstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through clarification. Yet…",
-      "published": "2026-10-12T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "a1f07204653975b5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "MagicBeanStalk: Escaping the RLVR Zero Advantage Trap with Recursive Data Synthesis",
-      "url": "https://arxiv.org/abs/2610.12659",
-      "summary": "arXiv:2610.12659v1 Announce Type: new Abstract: Data-centric scaling of RLVR has focused on collecting or generating verifiable training problems. However, corpus size alone does not determine whether the dataset provides a useful learning signal for a target policy. To guide the synthesis of effect…",
-      "published": "2026-10-12T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "e56efa2c114e5c28",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Faithful and Complete LLM-Assisted Automated Construction of Hierarchical Hardware Knowledge Graphs",
-      "url": "https://arxiv.org/abs/2610.12762",
-      "summary": "arXiv:2610.12762v1 Announce Type: new Abstract: Hardware datasheets contain engineering specifications essential for component selection, system integration, and hardware compatibility verification. However, manual inspection is tedious and error-prone because datasheets are lengthy and heterogeneou…",
-      "published": "2026-10-12T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "6eb954742c5d0735",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Representation Alignment from a Few Paired Data via Distilled Optimal Transport",
-      "url": "https://arxiv.org/abs/2610.12781",
-      "summary": "arXiv:2610.12781v1 Announce Type: new Abstract: Aligning two independently pretrained unimodal encoders typically demands millions of paired examples. In this paper, we study the regime where only $N \\sim 100$--$500$ pairs are available, while unpaired data on either side is abundant. Our method exp…",
-      "published": "2026-10-12T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "21e39efdd240830c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Google Deepmind&#x27;s AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed",
-      "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
-      "summary": "Google Deepmind&#x27;s AlphaProof Nexus solved dozens of open math problems, including nine Erdős problems two of which were unsolved for 56 years, per a study in Science. The publication comes as OpenAI faces a boycott for dumping AI proofs on GitHub without peer review. Deepmind had its results reviewe…",
-      "published": "2026-10-12T09:35:54+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "e05c4ad260b64cc5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
-      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
-      "summary": "Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic&#x27;s own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing. The articl…",
-      "published": "2026-10-11T15:39:26+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "cf102c361d78de88",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI agents overstate their results and remain far from autonomous research, study finds",
-      "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
-      "summary": "Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached 15 percent of the human reference score, and even that came from methods researc…",
-      "published": "2026-10-11T13:44:32+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "e8265bd0e25a684d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "QGIS bans AI assisted contributions",
       "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
@@ -192,122 +22,12 @@
       "tr_summary": ""
     },
     {
-      "title": "Type-safe HTML templating in Zig",
-      "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
-      "summary": "Comments",
-      "published": "2026-10-12T05:02:34+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "8460a7ddf90b376a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Fingerprints are the new cookies",
-      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
-      "summary": "Comments",
-      "published": "2026-10-11T22:33:39+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "04264482f0251792",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: PS2 games statically recompiled to WebAssembly",
-      "url": "https://github.com/snuri00/ps2-web-recomp",
-      "summary": "Comments",
-      "published": "2026-10-12T06:46:53+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "97e026a93ef159e9",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Total Annihilation, rebuilt for modern computers",
-      "url": "https://nanolathe.gg",
-      "summary": "Comments",
-      "published": "2026-10-11T18:04:47+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "d49fdf3cc73e1b28",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Postgres isn&#x27;t slow, your storage is",
-      "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
-      "summary": "Comments",
-      "published": "2026-10-12T06:36:53+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "0e4eb789d3b30633",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
       "title": "Ledger confirms hidden chip in crypto wallet amid $92M theft claims",
       "url": "https://crypto.news/ledger-confirms-hidden-chip-in-crypto-wallet-amid-92m/",
       "summary": "Comments",
       "published": "2026-10-12T10:09:37+00:00",
       "source_name": "Hacker News",
       "url_hash": "2abe57730d2a9cb8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Cartographers of North Korea (2019)",
-      "url": "https://cartographers-nk.wonyoung.so/",
-      "summary": "Comments",
-      "published": "2026-10-11T19:46:40+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "d41642ac29318b77",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Whatever became of holography? (2011)",
-      "url": "https://www.americanscientist.org/article/whatever-became-of-holography",
-      "summary": "Comments",
-      "published": "2026-10-11T23:50:34+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "1b572d2e4d4dbebc",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Will the HomeView be Apple’s first smart home success?",
-      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
-      "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
-      "published": "2026-10-11T21:14:40+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "83406123c1b1f932",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
-      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
-      "summary": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.",
-      "published": "2026-10-11T19:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "fb07dbee3ae27f29",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
-      "summary": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
-      "published": "2026-10-11T16:52:33+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "2ff11c15230d6661",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
-      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
-      "summary": "Voice AI&#x27;s often misses important points for its context layer, and causes the whole pipeline to break",
-      "published": "2026-10-11T14:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "27abcf7051e177f2",
       "category": "Genel",
       "tr_summary": ""
     },
@@ -2158,6 +1878,166 @@
       "published": "2026-10-17T18:48:08+00:00",
       "source_name": "TechCrunch AI",
       "url_hash": "fcf73aabe3e37fa7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
+      "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+      "summary": "Anthropic is hiring fewer and fewer junior staff in technical roles. The share of junior positions among new hires dropped from 27 to 9 percent since early 2025. By August 2026, AI agents across the company were already logging six times as many hours as humans. Researchers warn of a &quot;tragedy of the…",
+      "published": "2026-10-18T13:22:26+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "838c40439835bad1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
+      "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+      "summary": "Four AI agents running on Google&#x27;s Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run. With no predefined roles or strategies, they coordinated on their own, wrote 2,783 programs, exchanged 229 chat messages, and died 605 ti…",
+      "published": "2026-10-18T12:39:51+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "9466e30e907dd463",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Two German courts now hold Google liable for what its AI overviews say",
+      "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+      "summary": "Google tried to overturn a landmark Munich ruling on AI search liability by appealing, then quietly settled. The strategy isn&#x27;t working. The Aachen Regional Court just applied the exact same reasoning in a new case where Google&#x27;s AI falsely attributed criminal offenses to a doctor that actually invo…",
+      "published": "2026-10-18T10:52:39+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "07ad320e211247a9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Linux 7.3 Released",
+      "url": "https://lwn.net/Articles/1101143/",
+      "summary": "Comments",
+      "published": "2026-10-19T07:23:57+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f553a4cf018ac433",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "summary": "Comments",
+      "published": "2026-10-18T20:48:14+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "ae6e49210029e41a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "William Gibson and the trademarking of cyberspace",
+      "url": "https://colo.to/cyberspace.html",
+      "summary": "Comments",
+      "published": "2026-10-18T23:37:57+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a09a3be4e5cc91f3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "If you don&#x27;t run your own LLM proxy, how do you know whats going on?",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "summary": "Comments",
+      "published": "2026-10-18T21:09:12+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "bf08c7b0ac6a75f7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "summary": "Comments",
+      "published": "2026-10-19T05:55:31+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e198550b259714ed",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Flatpak – An Insecurity Nightmare",
+      "url": "https://oro.gay/posts/flatpak-an-insecurity-nightmare/",
+      "summary": "Comments",
+      "published": "2026-10-19T05:11:24+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e0a9960af52a4676",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Someone behind the software",
+      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+      "summary": "Comments",
+      "published": "2026-10-18T16:32:00+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "489a23c9b4aa060e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Superlite: A Faster Alternatie to Superpowers",
+      "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+      "summary": "Comments",
+      "published": "2026-10-19T02:01:16+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e050c5d2bf82687a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "RepRapMicron",
+      "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
+      "summary": "Comments",
+      "published": "2026-10-18T13:48:48+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "3a7394738126a24f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Free Pascal compiler now supports dynamic packages",
+      "url": "https://www.getlazarus.org/dynamic/",
+      "summary": "Comments",
+      "published": "2026-10-18T18:48:04+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "432268236ae7fe16",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "summary": "Anthropic said that it will commit 5% of its shares to the fund.",
+      "published": "2026-10-18T20:37:40+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "16eddc2105cf8883",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+      "published": "2026-10-18T16:30:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "35cd62faf12b8e71",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were…",
+      "published": "2026-10-19T09:08:05+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "d67eff0903799e5f",
       "category": "Genel",
       "tr_summary": ""
     }
