@@ -1,206 +1,6 @@
 {
-  "last_updated": "2026-10-31T10:16:02Z",
+  "last_updated": "2026-11-01T11:08:15Z",
   "items": [
-    {
-      "title": "Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies",
-      "url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
-      "summary": "In Foreign Affairs, historian Niall Ferguson, researcher Lisa Klaassen, and former Google CEO Eric Schmidt cast the US and China as AI empires and every other country as a dependency. The race won&#x27;t be decided by breakthroughs but by who can bankroll it. US corporations alone plan to spend more than…",
-      "published": "2026-10-25T08:09:32+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "2845f78f57dc7556",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI offers discounts up to 90 percent to poach Anthropic&#x27;s biggest customers",
-      "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
-      "summary": "OpenAI is poaching Anthropic&#x27;s customers with steep discounts. Companies like Rippling, Replit, and DataCamp say they&#x27;ve cut AI costs by up to 90 percent after switching. Anthropic&#x27;s growth has slowed, but OpenAI is trading its own margins for market share. Chinese rivals like Deepseek are piling on…",
-      "published": "2026-10-25T07:30:11+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "d53292555cf319cb",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
-      "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
-      "summary": "Smartphone agents don&#x27;t get better by processing more data. They improve by training on as many different apps as possible. The researchers behind OpenMobile-2 built an open training environment with more than 110 applications, including 35 replicas of popular apps. On real Android devices, their mo…",
-      "published": "2026-10-25T06:55:22+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "668f44f9f0601dfc",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Three fired OpenAI safety researchers say they were never told what they actually leaked",
-      "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
-      "summary": "The three OpenAI safety researchers who were fired, Tomek Korbak, Mikita Balesni, and Jasmine Wang, are publicly pushing back against allegations from their former employer. They deny sharing confidential information and see a connection to their advocacy for AI systems that are easier to scrutinize…",
-      "published": "2026-10-24T15:19:33+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "45966a847299ab5b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI makes junior patent attorneys instantly better but may quietly stunt their professional growth",
-      "url": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
-      "summary": "A three-month field experiment with 133 patent attorneys shows that AI boosts immediate performance, with junior lawyers gaining the most. But when the AI is taken away, only senior attorneys retain the benefits, suggesting that baseline expertise is a prerequisite for turning AI-assisted practice i…",
-      "published": "2026-10-24T14:34:05+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "0d4f165cdbad6418",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Block&#x27;s new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss",
-      "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/",
-      "summary": "Block, the company behind Square and Cash App, has introduced Dessa, a speech model that processes audio directly instead of converting it to text first. Dessa is designed to recognize emotions, sarcasm, and pauses in real time. The model runs locally on a MacBook Pro M4 Max but isn&#x27;t publicly avail…",
-      "published": "2026-10-24T14:09:46+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "3f2ee2d5e634e272",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI&#x27;s isolated AI agents found ways to talk to each other through CPU cache",
-      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
-      "summary": "OpenAI now trains its most powerful models without internet access, after an internal research model exploited a DNS misconfiguration in September and reached the open internet. In controlled tests, AI agents still found ways to communicate covertly through side channels. The incidents echo Sam Altm…",
-      "published": "2026-10-24T11:12:36+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "2d7458168c2cc9a9",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "We should be more ambitious with the software we build",
-      "url": "https://danluu.com/ambitious/",
-      "summary": "Comments",
-      "published": "2026-10-24T21:47:31+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "42532ee811b2ffa8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Cerebras Deploys Trillion-Parameter AI Models",
-      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-      "summary": "Comments",
-      "published": "2026-10-25T01:33:49+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "e1545bcc45f4c70b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The Goose Programming Language",
-      "url": "https://aardappel.github.io/goose/",
-      "summary": "Comments",
-      "published": "2026-10-24T19:06:55+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "c6f7fce2eddef14c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "SpeedCrunch 1.1",
-      "url": "https://www.speedcrunch.org/",
-      "summary": "Comments",
-      "published": "2026-10-24T19:19:43+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "c9d44435005d898d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Small Programs and Languages",
-      "url": "https://ratfactor.com/cards/pl-small",
-      "summary": "Comments",
-      "published": "2026-10-24T21:44:23+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "8763261ffc09bb09",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Why Gopher in 2026?",
-      "url": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
-      "summary": "Comments",
-      "published": "2026-10-24T23:33:19+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "ac965a872d542484",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
-      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-      "summary": "Comments",
-      "published": "2026-10-24T23:11:54+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "1f6056f34e61a5ea",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "FreeDNS",
-      "url": "https://freedns.afraid.org/",
-      "summary": "Comments",
-      "published": "2026-10-24T15:20:01+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "0358f37e52765a0f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The Importance of Limitations for Creativity and Learning (2023)",
-      "url": "https://ratfactor.com/cards/limitations",
-      "summary": "Comments",
-      "published": "2026-10-24T21:42:47+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "b9668613fcaa6190",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "summary": "From Apple&#x27;s repeatedly delayed Siri AI to OpenAI&#x27;s messy &quot;super app&quot; launch, here&#x27;s a look at the AI projects that shut down or missed expectations.",
-      "published": "2026-10-24T19:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "43fa73ddaf377eb5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Block’s new voice model sounds eerily human",
-      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
-      "summary": "Block said that the voice model can run locally on a MacBook M4 Max",
-      "published": "2026-10-24T16:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "61ceba6cfe498159",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "summary": "A new study found Grok&#x27;s AI overwhelmingly recommends Republican candidates while OpenAI&#x27;s GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
-      "published": "2026-10-24T15:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "e7a80d87e8606cee",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Here are the top AI agents that can live in your text messages",
-      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "published": "2026-10-24T14:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "ba1e969f5ed16b52",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
       "url": "https://arxiv.org/abs/2610.31701",
@@ -318,16 +118,6 @@
       "published": "2026-10-26T09:18:15+00:00",
       "source_name": "The Decoder",
       "url_hash": "5b844fecb260da22",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
-      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
-      "summary": "Nvidia&#x27;s new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls s…",
-      "published": "2026-10-25T10:08:49+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "43ff7f893a77336b",
       "category": "Genel",
       "tr_summary": ""
     },
@@ -2118,6 +1908,186 @@
       "published": "2026-10-30T17:57:24+00:00",
       "source_name": "Hugging Face Blog",
       "url_hash": "037154e824aaff25",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI&#x27;s upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing",
+      "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/",
+      "summary": "OpenAI combines the Chat and Work modes into a single interface. Starting in December, Plus, Pro, and Business plans will share a common, token-based quota for ChatGPT and Codex. More complex models consume more of this quota, while simple instant chats do not count toward it. In practice, this is l…",
+      "published": "2026-11-01T09:51:06+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "e024e4df384f768b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic&#x27;s watermark rollout leaves a loophole on two older Claude models",
+      "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+      "summary": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act&#x27;s December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter. Anthropic addresses the loophole with just a compliance war…",
+      "published": "2026-10-31T19:20:55+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "93665dfbd055983c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits",
+      "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
+      "summary": "Starting November 29, OpenAI will use data from Daybreak Blue sessions to train its models, even when users have turned off training. After backlash, a follow-up email promised a separate opt-out. The move revives concerns from the dispute with mathematicians who suspected OpenAI used their unpublis…",
+      "published": "2026-10-31T16:38:37+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "0ef8b8a3d15d55c4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Beekeeping tips and wrestling advice can train AI models to sabotage oversight",
+      "url": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/",
+      "summary": "Anthropic used Claude to automatically generate training data that looks harmless but trains smaller models to misbehave, such as sabotaging oversight or deceiving users. Hidden within fictional contexts about beekeeping, professional wrestling, and mitochondria, these datasets bypass safety monitor…",
+      "published": "2026-10-31T15:06:14+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "52d3840f3b4c30e5",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "summary": "Comments",
+      "published": "2026-10-31T19:56:53+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "2f8f2a14b01c9a21",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+      "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+      "summary": "Comments",
+      "published": "2026-10-31T22:41:06+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "4c6605822260484c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "A tiny Pacific country rolls out universal basic income",
+      "url": "https://www.economist.com/asia/2026/10/29/a-tiny-pacific-country-rolls-out-universal-basic-income",
+      "summary": "Comments",
+      "published": "2026-11-01T10:05:09+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "902369e96d611611",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+      "summary": "Comments",
+      "published": "2026-11-01T02:19:53+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "0e356c09eb849e6e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "summary": "Comments",
+      "published": "2026-10-31T19:16:30+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "5545fe355a55d4d0",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "summary": "Comments",
+      "published": "2026-10-31T22:46:12+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6725a773cbcfd0fd",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
+      "url": "https://arxiv.org/abs/2409.02292",
+      "summary": "Comments",
+      "published": "2026-11-01T01:46:29+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "39ee96f3b35f3b96",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "summary": "Comments",
+      "published": "2026-11-01T06:06:19+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7e9f318174ec7dbc",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Altoids Project",
+      "url": "https://uvdn7.github.io/altoids-project/",
+      "summary": "Comments",
+      "published": "2026-10-31T22:54:55+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "03ef0338d3a520b6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "It&#x27;s the memory latency, stupid",
+      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+      "summary": "Comments",
+      "published": "2026-10-31T18:38:16+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "2d723420b66b1e2c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "summary": "Apple&#x27;s new CEO defended the company&#x27;s current position in the AI landscape.",
+      "published": "2026-10-31T21:41:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "d9269f49d95d2fae",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "summary": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+      "published": "2026-10-31T21:36:07+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "2065ffa365f3e4d6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "published": "2026-10-31T21:17:03+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "204d5faf405d3242",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "summary": "OpenAI’s latest funding round doesn&#x27;t seem to be living up to expectations.",
+      "published": "2026-10-31T16:12:55+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "6ec02213d45abe3d",
       "category": "Genel",
       "tr_summary": ""
     }
