@@ -1,256 +1,6 @@
 {
-  "last_updated": "2026-11-01T11:08:15Z",
+  "last_updated": "2026-11-02T12:09:30Z",
   "items": [
-    {
-      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
-      "url": "https://arxiv.org/abs/2610.31701",
-      "summary": "arXiv:2610.31701v1 Announce Type: new Abstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines which accounts receive seller coverage, wh…",
-      "published": "2026-10-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "5f576791a98a9560",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
-      "url": "https://arxiv.org/abs/2610.31789",
-      "summary": "arXiv:2610.31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typi…",
-      "published": "2026-10-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "bb157bb6b3d38a63",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Patronizing and Condescending Language Detection in English and Mandarin",
-      "url": "https://arxiv.org/abs/2610.31808",
-      "summary": "arXiv:2610.31808v1 Announce Type: new Abstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for hu…",
-      "published": "2026-10-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "8c3de05bbbcf22cf",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
-      "url": "https://arxiv.org/abs/2610.31810",
-      "summary": "arXiv:2610.31810v1 Announce Type: new Abstract: Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-v…",
-      "published": "2026-10-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "d762df67a1c93fa4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Don&#x27;t Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
-      "url": "https://arxiv.org/abs/2610.31846",
-      "summary": "arXiv:2610.31846v1 Announce Type: new Abstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement. Yet today&#x27;s agents recover from a mistake only temporarily: in-context reflections are easily forgotten across sessions and compete for limited cont…",
-      "published": "2026-10-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "929adda0efb128e5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
-      "url": "https://arxiv.org/abs/2610.31882",
-      "summary": "arXiv:2610.31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules. In this framework, a large-language-model (LLM) coding agent (Claude Opus 4.8) directly drives industry-standard electronic-design-automation (EDA)…",
-      "published": "2026-10-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "0011f44db0acd064",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows",
-      "url": "https://arxiv.org/abs/2610.31916",
-      "summary": "arXiv:2610.31916v1 Announce Type: new Abstract: A durable agent can resume a consequential action while its authority changes and the action&#x27;s external outcome remains uncertain. We study execution-time reliability of tool-using AI agents, isolating recovery decisions from language-model behavior. C…",
-      "published": "2026-10-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "b4a230b7efdc5793",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Beyond On-Policy vs. Off-Policy: At What Level Should LLM Agent Distillation Follow the Student?",
-      "url": "https://arxiv.org/abs/2610.31918",
-      "summary": "arXiv:2610.31918v1 Announce Type: new Abstract: Distilling interactive LLM agents requires choosing between teacher-generated demonstrations and student-generated experience, corresponding broadly to off-policy and on-policy distillation. While both have proven effective, we argue that this distinct…",
-      "published": "2026-10-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "22f689f1c4c7ac34",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "$M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process",
-      "url": "https://arxiv.org/abs/2610.31937",
-      "summary": "arXiv:2610.31937v1 Announce Type: new Abstract: Modern Large Language Models (LLMs) remain vulnerable to carefully orchestrated multi-turn interactions that progressively bypass safety mechanisms. However, many existing red-teaming approaches rely on heuristics or impose strong assumptions that limi…",
-      "published": "2026-10-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "94ca820f73fd50fd",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation",
-      "url": "https://arxiv.org/abs/2610.31971",
-      "summary": "arXiv:2610.31971v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly participate in negotiations on behalf of individuals and organizations, yet they remain vulnerable to manipulation, particularly in repeated multi-party interactions. Classical multi-agent systems address…",
-      "published": "2026-10-26T04:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "31654d812ef6de5e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Wall Street&#x27;s fastest traders are building data centers and backing chip startups to stay ahead in AI",
-      "url": "https://the-decoder.com/wall-streets-fastest-traders-are-building-data-centers-and-backing-chip-startups-to-stay-ahead-in-ai/",
-      "summary": "High-frequency traders like Jane Street and Hudson River Trading are now racing each other for AI computing power. The article Wall Street&amp;#039;s fastest traders are building data centers and backing chip startups to stay ahead in AI appeared first on The Decoder .",
-      "published": "2026-10-26T09:49:33+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "36b15cc38f42324d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Toyota is betting $6.4 billion a year on humanoid robots and factory automation",
-      "url": "https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation/",
-      "summary": "Toyota wants to turn itself into a global robotics company, and it&#x27;s betting on humanoid robots and factory automation to get there. The article Toyota is betting $6.4 billion a year on humanoid robots and factory automation appeared first on The Decoder .",
-      "published": "2026-10-26T09:18:15+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "5b844fecb260da22",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Switzerland. Block by block. At 1:1 scale",
-      "url": "https://blocks.manifold3d.ch/",
-      "summary": "Comments",
-      "published": "2026-10-26T08:46:09+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "0a22ca9b02e1869e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: TitleArt – Make text like it&#x27;s 1997",
-      "url": "https://titleart.dvy.io/",
-      "summary": "Comments",
-      "published": "2026-10-26T03:23:57+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "67264e063a667900",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
-      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-      "summary": "Comments",
-      "published": "2026-10-26T03:29:05+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "ed18f8ab0f26929a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Behind the scenes at the NeXT Computer office",
-      "url": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
-      "summary": "Comments",
-      "published": "2026-10-26T03:31:11+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "b30cb355942dc554",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Dolly Parton&#x27;s Imagination Library",
-      "url": "https://imaginationlibrary.com/",
-      "summary": "Comments",
-      "published": "2026-10-25T18:23:54+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "e7f7d4275c4adeb7",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Attention Is Not What You Need (2025)",
-      "url": "https://arxiv.org/abs/2512.19428",
-      "summary": "Comments",
-      "published": "2026-10-25T23:52:05+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "7a3d1687e523ceaa",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
-      "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
-      "summary": "Comments",
-      "published": "2026-10-26T03:12:05+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "29cb9297e6274b6f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "IBM CEO says open weight models are now good and cheap on-prem",
-      "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
-      "summary": "Comments",
-      "published": "2026-10-26T01:47:46+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "f91680b3d171ca61",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Why I Am a Programmer",
-      "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
-      "summary": "Comments",
-      "published": "2026-10-25T19:11:31+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "9df18c08fcaf8dcc",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "F-Zero X on Nintendo 3DS",
-      "url": "https://hypnotize.works/gdx-3ds/postmortem/index.html",
-      "summary": "Comments",
-      "published": "2026-10-25T23:27:30+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "5b7c1720d48e816c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-      "summary": "The footage looks okay, as long as you&#x27;re not seeking artistry, inspiration, or human interest.",
-      "published": "2026-10-25T21:31:16+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "08ec5c76056e031d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "summary": "&quot;Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.&quot;",
-      "published": "2026-10-25T16:57:32+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "9a814be9eb368823",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The hottest AI wearables and gadgets you should know about",
-      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-      "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
-      "published": "2026-10-25T14:10:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "a18a7851efbde35c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
@@ -278,16 +28,6 @@
       "published": "2026-10-26T13:45:00+00:00",
       "source_name": "OpenAI Blog",
       "url_hash": "7d972df501d01ba1",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "ChatGPT’s expanding world of work",
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-      "published": "2026-10-26T10:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "27334100e818b985",
       "category": "Genel",
       "tr_summary": ""
     },
@@ -2088,6 +1828,286 @@
       "published": "2026-10-31T16:12:55+00:00",
       "source_name": "TechCrunch AI",
       "url_hash": "6ec02213d45abe3d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "url": "https://arxiv.org/abs/2610.40758",
+      "summary": "arXiv:2610.40758v1 Announce Type: new Abstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every n…",
+      "published": "2026-11-02T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "83fe490d9dc23ecb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+      "url": "https://arxiv.org/abs/2610.40798",
+      "summary": "arXiv:2610.40798v1 Announce Type: new Abstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision. In a matched human evaluation of 3,000 predictions from ten frozen…",
+      "published": "2026-11-02T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "3963a201cb0a4f12",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
+      "url": "https://arxiv.org/abs/2610.40831",
+      "summary": "arXiv:2610.40831v1 Announce Type: new Abstract: AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio of models and resel…",
+      "published": "2026-11-02T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "49dfd8f6ca5283a1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+      "url": "https://arxiv.org/abs/2610.40883",
+      "summary": "arXiv:2610.40883v1 Announce Type: new Abstract: Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mapping text and audio into a shared valence-a…",
+      "published": "2026-11-02T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "87e7e4268fe7dbb2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+      "url": "https://arxiv.org/abs/2610.40890",
+      "summary": "arXiv:2610.40890v1 Announce Type: new Abstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capabilities, motivating…",
+      "published": "2026-11-02T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "79b4478e4775abd8",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
+      "url": "https://arxiv.org/abs/2610.40906",
+      "summary": "arXiv:2610.40906v1 Announce Type: new Abstract: Recent scientific agents build knowledge recursively by retrieving evidence, constructing an intermediate state, and judging whether that state contains sufficient information. These agents are evaluated end-to-end, usually without ground truth, so the…",
+      "published": "2026-11-02T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "cf02b25fdc7325f5",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Towards Portable Specification of the Agent Harness",
+      "url": "https://arxiv.org/abs/2610.40917",
+      "summary": "arXiv:2610.40917v1 Announce Type: new Abstract: Large language models act only through the infrastructure that surrounds them. That infrastructure, the harness, determines what a model can accomplish and how it fails, yet it has no settled definition. To address this gap, we decompose the harness in…",
+      "published": "2026-11-02T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "cbb3a6dde3722263",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+      "url": "https://arxiv.org/abs/2610.40927",
+      "summary": "arXiv:2610.40927v1 Announce Type: new Abstract: Test-time scaling (TTS) improves large language model agents by sampling and selecting among multiple candidate trajectories, but common realizations assume that these trajectories can be executed in parallel. This assumption breaks in realistic deploy…",
+      "published": "2026-11-02T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "302a957140f07157",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "DiRAFT: Privacy-Aware Financial Transcript Synthesis from Aggregate Discourse Priors",
+      "url": "https://arxiv.org/abs/2610.40938",
+      "summary": "arXiv:2610.40938v1 Announce Type: new Abstract: Using customer conversations to train and evaluate financial language models raises confidentiality concerns because non-public financial facts can remain after direct identifiers are masked. Synthetic transcripts offer an alternative data source, but…",
+      "published": "2026-11-02T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "c364d301a2e0d724",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The First Few Tokens Matter: Understanding Chain-of-Thought Controllability",
+      "url": "https://arxiv.org/abs/2610.40939",
+      "summary": "arXiv:2610.40939v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising way to oversee increasingly capable agents. It succeeds in part because current models appear limited in their ability to control what they verbalize in their reasoning traces. We investigate the source…",
+      "published": "2026-11-02T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "12b5b6769e9e9879",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal",
+      "url": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/",
+      "summary": "Saudi Aramco is buying into Humain, the company meant to turn Saudi Arabia into a global AI hub. The article Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal appeared first on The Decoder .",
+      "published": "2026-11-02T11:47:14+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "f613a5e4cc832092",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI prepares lobbying blitz for a post-midterm Washington",
+      "url": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/",
+      "summary": "OpenAI is gearing up for a political lobbying and PR push after the US midterms. The article OpenAI prepares lobbying blitz for a post-midterm Washington appeared first on The Decoder .",
+      "published": "2026-11-02T10:47:59+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "0bbce1c5a25dcef3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
+      "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
+      "summary": "Adobe Research and UC San Diego built EditAgent, an AI system that edits images more like a Photoshop pro. Instead of retrying the same general-purpose editor over and over, the agent picks the right specialized tool for each task and lets a standard language model choose the best result based on me…",
+      "published": "2026-11-01T14:56:44+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "cd498daabd666e03",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
+      "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
+      "summary": "Researchers in Luxembourg put ChatGPT, Grok, and Gemini on the therapist&#x27;s couch and found a safety problem: a warm, empathetic conversational style is enough to make the models tell coherent stories of suffering about their own training, with scores in the moderate-to-severe range on clinical anxie…",
+      "published": "2026-11-01T14:36:49+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "f551e32a210ac9ce",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Chinese AI models are politically complex, not just government mouthpieces, study finds",
+      "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/",
+      "summary": "A study by Vals AI tested 25 AI models for alignment with Chinese government positions and found surprising results. Chinese models respond to political questions less uniformly than expected, and Western models occasionally adopt official Beijing positions too. The language of the prompt had an esp…",
+      "published": "2026-11-01T12:33:01+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "e73b52a73d66a76a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "summary": "Comments",
+      "published": "2026-11-01T15:58:28+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "12844ee7f8055ffe",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
+      "url": "https://wikihack.netlify.app",
+      "summary": "Comments",
+      "published": "2026-11-02T05:06:30+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e6dd1b00becd3029",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Show HN: I&#x27;ve updated my Linux System Call website and API",
+      "url": "https://syscall.sh/",
+      "summary": "Comments",
+      "published": "2026-11-02T09:29:16+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "fe1d679e74709694",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
+      "url": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
+      "summary": "Comments",
+      "published": "2026-11-02T01:59:38+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6ee5567711f3fa2f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Bones may release proteins that slow aging and extend life span",
+      "url": "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span",
+      "summary": "Comments",
+      "published": "2026-11-02T01:31:07+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e09de74dab1c4907",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Ask HN: Which TV do you recommend for privacy?",
+      "url": "https://news.ycombinator.com/item?id=50328896",
+      "summary": "Comments",
+      "published": "2026-11-01T19:35:27+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "17faad728dfb8f84",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Supermarket freezers in Belgium and Sweden hit by suspected cyber-attack",
+      "url": "https://www.bbc.com/news/articles/cq1kd1nee80eo",
+      "summary": "Comments",
+      "published": "2026-11-02T11:48:02+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "87c69f1cf7770fbb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Show HN: HackerHack – HackerBooks but for Posts Posted on HN",
+      "url": "https://news.ycombinator.com/",
+      "summary": "Comments",
+      "published": "2026-11-02T06:59:40+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "0f63a2a5a5620b74",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The future in old computer magazines (1984–2004)",
+      "url": "https://tomorrowasusual.substack.com/p/blast-from-the-past-the-future-in",
+      "summary": "Comments",
+      "published": "2026-11-02T11:09:08+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "67bfccfd0c0d491b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Trigger.dev customer environment variables exposed",
+      "url": "https://trigger.dev/blog/security-incident-nov-2026",
+      "summary": "Comments",
+      "published": "2026-11-02T01:09:16+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6d2c8c83b5f4733b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+      "published": "2026-11-01T21:55:23+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "944be91cc06a18a8",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+      "published": "2026-11-01T20:57:58+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "7a5ce7ed2f78d284",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The agentic web is here",
+      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "summary": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be navigated by autonomous softw…",
+      "published": "2026-11-02T09:35:19+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "a09e48d0b66bcc5c",
       "category": "Genel",
       "tr_summary": ""
     }
