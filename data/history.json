@@ -1,246 +1,6 @@
 {
-  "last_updated": "2026-11-02T12:09:30Z",
+  "last_updated": "2026-11-03T11:45:31Z",
   "items": [
-    {
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "published": "2026-10-26T22:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "a9c488820a62ac4a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Working with academic communities to build scientific understanding",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-      "published": "2026-10-26T14:30:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "8eb6001a836a6e50",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "published": "2026-10-26T13:45:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "7d972df501d01ba1",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "GPT-6.1 Terra halves OpenAI&#x27;s API prices and still gains ground on its larger models",
-      "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/",
-      "summary": "OpenAI has released GPT-6.1 Terra, a mid-range model that cuts API prices in half compared to its predecessor. Analysts say it sets a new standard for intelligence per dollar, especially for everyday computing tasks and AI-driven computer control. The article GPT-6.1 Terra halves OpenAI&amp;#039;s API p…",
-      "published": "2026-10-26T20:30:55+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "744292a2af160189",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic opens its books for Wall Street, showing record revenue and mounting obligations",
-      "url": "https://the-decoder.com/anthropic-opens-its-books-for-wall-street-showing-record-revenue-and-mounting-obligations/",
-      "summary": "Anthropic is the first major AI lab to file an S-1 with the SEC, planning to list on the Nasdaq under the ticker &quot;ANT.&quot; The numbers are strong, with $11.6 billion in quarterly revenue, a first-ever operating profit, and existing customers spending nine times more year over year. But the company also…",
-      "published": "2026-10-26T19:14:45+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "118a0be49606e101",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Researchers find six patterns that make AI text so exhausting to read",
-      "url": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/",
-      "summary": "A study from New York University and the University of Texas at Austin shows that frontier language models systematically overuse linguistic patterns that are hard for humans to parse. The researchers trace the problem to training on code and math, where correctness gets rewarded but clarity doesn&#x27;t…",
-      "published": "2026-10-26T17:50:15+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "f5addaf282bb14af",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Reddit&#x27;s r/opensource bans all AI-related projects, sparking backlash and a rival subreddit",
-      "url": "https://the-decoder.com/reddits-r-opensource-bans-all-ai-related-projects-sparking-backlash-and-a-rival-subreddit/",
-      "summary": "The Reddit forum r/opensource has banned all posts about AI projects, whether built with AI, AI-powered, or designed for AI. Projects must also be at least a year old and have multiple contributors, and non-English posts are excluded as well. In response, the rival forum r/TrueOpenSource has already…",
-      "published": "2026-10-26T17:19:40+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "210ebf83ea69eb6d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meta plans up to $95 billion in stock sales to fund its AI buildout",
-      "url": "https://the-decoder.com/meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout/",
-      "summary": "Meta plans to sell new stock to raise money for its AI infrastructure buildout. The article Meta plans up to $95 billion in stock sales to fund its AI buildout appeared first on The Decoder .",
-      "published": "2026-10-26T14:21:23+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "fd034521621386f2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Three new discoveries in mathematics, computer science, and physics",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "summary": "Comments",
-      "published": "2026-10-26T21:35:28+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "fe7d7660eaaca489",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The Exponential Time Hypothesis Is False [pdf]",
-      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-      "summary": "Comments",
-      "published": "2026-10-26T21:59:15+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "2f04de563efd474f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "There are now 5 inference providers for abliterated DeepSeek",
-      "url": "https://allmodels.io/llm/abliterated",
-      "summary": "Comments",
-      "published": "2026-10-27T04:53:52+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "5a24e14dcd271d5b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Sebastian Raschka&#x27;s from-scratch video course on building reasoning models",
-      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
-      "summary": "Comments",
-      "published": "2026-10-26T15:11:59+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "da8785cc5779f5c9",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Oldest GUI application that still runs on Windows 11",
-      "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
-      "summary": "Comments",
-      "published": "2026-10-26T17:56:55+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "05b8b1859a3d393a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
-      "url": "https://github.com/otya128/winevdm",
-      "summary": "Comments",
-      "published": "2026-10-27T01:15:04+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "eb5128d7d4a24f90",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Type Server Protocol",
-      "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
-      "summary": "Comments",
-      "published": "2026-10-26T18:14:49+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "5bde0ad724a89177",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
-      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-      "summary": "Comments",
-      "published": "2026-10-26T22:41:48+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "e77549dba84aa9c3",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "CSS-Tricks has a new owner",
-      "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
-      "summary": "Comments",
-      "published": "2026-10-26T15:51:23+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "da89bc3e4c08aab8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Solar power is becoming bigger than nuclear",
-      "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
-      "summary": "Comments",
-      "published": "2026-10-26T15:26:17+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "fcd32cd3f6f7c03e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-      "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else&#x27;s AI agent.",
-      "published": "2026-10-27T02:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "939d943fc8f0d399",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-      "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
-      "published": "2026-10-27T01:12:21+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "8af7b30500f9c04c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-      "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
-      "published": "2026-10-26T16:49:42+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "b2ed8daad1cc7e3f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-      "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
-      "published": "2026-10-26T16:46:36+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "d6e31d9e0fa6ab5c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic officially files for its public debut",
-      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-      "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
-      "published": "2026-10-26T14:35:22+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "b67fd02a214f91e2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Will the real Anthropic please stand up",
-      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s u…",
-      "published": "2026-10-26T17:45:43+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "a7f46c4aaa0095af",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Counting the Bandages: On measuring the time that AI saves",
       "url": "https://arxiv.org/abs/2610.35942",
@@ -402,26 +162,6 @@
       "tr_summary": ""
     },
     {
-      "title": "OpenAI&#x27;s partner content arrives in ChatGPT pre-summarized while the rest of the web gets raw scraps",
-      "url": "https://the-decoder.com/openais-partner-content-arrives-in-chatgpt-pre-summarized-while-the-rest-of-the-web-gets-raw-scraps/",
-      "summary": "Content from OpenAI&#x27;s licensing partners appears to flow into ChatGPT through a dedicated pipeline that gives it priority over the rest of the web. The article OpenAI&amp;#039;s partner content arrives in ChatGPT pre-summarized while the rest of the web gets raw scraps appeared first on The Decoder .",
-      "published": "2026-10-27T11:39:24+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "7bff55562550b3ed",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic uses its IPO letter to renew its pledge that Claude will never show ads",
-      "url": "https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/",
-      "summary": "Anthropic says it will keep ads out of Claude. In a cover letter accompanying its IPO filing, the company argues that the chatbot&#x27;s sole incentive should be to provide helpful answers. The article Anthropic uses its IPO letter to renew its pledge that Claude will never show ads appeared first on The…",
-      "published": "2026-10-27T11:20:51+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "a9046c3f8fe023b6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
       "title": "Git for the US Code",
       "url": "https://lexifina.com/blog/git-for-the-us-code",
       "summary": "Comments",
@@ -488,16 +228,6 @@
       "published": "2026-10-28T09:35:21+00:00",
       "source_name": "Hacker News",
       "url_hash": "7361462f1e993e9b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Python&#x27;s experimental JIT to be removed",
-      "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
-      "summary": "Comments",
-      "published": "2026-10-27T11:17:57+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "39973e9d451dfefe",
       "category": "Genel",
       "tr_summary": ""
     },
@@ -638,16 +368,6 @@
       "published": "2026-10-27T16:12:42+00:00",
       "source_name": "Hugging Face Blog",
       "url_hash": "1d6c5c59e46e52b9",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
-      "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
-      "summary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, w…",
-      "published": "2026-10-27T11:19:18+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "5e2d9e6f0fc03de4",
       "category": "Genel",
       "tr_summary": ""
     },
@@ -2108,6 +1828,476 @@
       "published": "2026-11-02T09:35:19+00:00",
       "source_name": "MIT Technology Review",
       "url_hash": "a09e48d0b66bcc5c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability",
+      "url": "https://arxiv.org/abs/2611.00159",
+      "summary": "arXiv:2611.00159v1 Announce Type: new Abstract: Fuzzy clustering provides a robust framework for handling ambiguous and overlapping data boundaries, yet its traditional formulation generates entirely dense membership assignments that limit noise resilience and prevent estimating the true number of c…",
+      "published": "2026-11-03T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "6dea643d43183551",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Learning to bid and bundle: a posterior-sampling agent for online retail",
+      "url": "https://arxiv.org/abs/2611.00165",
+      "summary": "arXiv:2611.00165v1 Announce Type: new Abstract: An online retailer launching a perishable product bids for sponsored-search clicks, discounts a bundle with an always-stocked staple and displays its remaining stock, which raises willingness to pay. It knows neither how clicks respond to its bid nor h…",
+      "published": "2026-11-03T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "66078168dc1304ce",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Early Stopping in Large Reasoning Models: A Survey and Empirical Audit of Efficiency and Reliability",
+      "url": "https://arxiv.org/abs/2611.00166",
+      "summary": "arXiv:2611.00166v1 Announce Type: new Abstract: Large reasoning models can improve accuracy by generating longer reasoning traces, but some of this computation may be unnecessary. Early-stopping methods aim to stop once enough reasoning is available to answer. Evaluating these methods requires accou…",
+      "published": "2026-11-03T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "ad6788a6f79328b2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "PatchScout: Thematic Web Data Collection via Information Foraging",
+      "url": "https://arxiv.org/abs/2611.00169",
+      "summary": "arXiv:2611.00169v1 Announce Type: new Abstract: Researchers often need web corpora that are not answers to a single query, but reusable collections of documents spanning many decentralized sources. We refer to this problem as thematic web data collection: assembling semantically relevant documents t…",
+      "published": "2026-11-03T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "07159714c466a3c7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Reimagining Text-to-SQL: A Survey of Large Language Model Architectures and Strategies",
+      "url": "https://arxiv.org/abs/2611.00171",
+      "summary": "arXiv:2611.00171v1 Announce Type: new Abstract: Text-to-SQL systems translate natural language questions into executable SQL queries, democratizing access to relational data. Early approaches relied on handcrafted rules and template matching, while subsequent neural methods introduced encoder-decode…",
+      "published": "2026-11-03T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "314f23b30b1f6e9b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation",
+      "url": "https://arxiv.org/abs/2611.00177",
+      "summary": "arXiv:2611.00177v1 Announce Type: new Abstract: Egocentric observations provide a robot-centric view of manipulation processes, capturing contact interactions and object-state changes that are important for visuomotor policy learning but difficult to observe from external cameras. However, collectin…",
+      "published": "2026-11-03T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "7dd9677362f1004d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Neurons Are All You Need",
+      "url": "https://arxiv.org/abs/2611.00186",
+      "summary": "arXiv:2611.00186v1 Announce Type: new Abstract: For decades, artificial neural networks have operated under the assumption that durable, learned capability resides exclusively in adaptive synaptic parameters, primarily due to the established neurobiology of synaptic connectivity. This design forces…",
+      "published": "2026-11-03T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "0b5407eb32008ea4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "MemU-Bench: Benchmarking GUI Agents on Long-Horizon User Interactions",
+      "url": "https://arxiv.org/abs/2611.00191",
+      "summary": "arXiv:2611.00191v1 Announce Type: new Abstract: Existing Graphical User Interface (GUI) benchmarks predominantly rely on precise and stateless user instructions. In everyday usage, however, instructions are often \\emph{vague and history-dependent}: users omit the exact details of their past operatio…",
+      "published": "2026-11-03T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "8e856ecf4cf11072",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "From Cross-Section to Cross-Omics: Conditional Cell Nucleus Image Editing in Spatial Transcriptomics",
+      "url": "https://arxiv.org/abs/2611.00226",
+      "summary": "arXiv:2611.00226v1 Announce Type: new Abstract: Spatial transcriptomics (ST) platforms simultaneously measure gene expression and capture cell nucleus images at single-cell resolution. A fundamental property of tissue preparation introduces a confounding relationship between the two measurement moda…",
+      "published": "2026-11-03T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "3be1607a11123078",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "RE-SciVQA: Improving Scientific VQA With Context-Relevant Retrieval and Lightweight MLLM Adaptation",
+      "url": "https://arxiv.org/abs/2611.00242",
+      "summary": "arXiv:2611.00242v1 Announce Type: new Abstract: A deep understanding of scientific literature often relies on interpreting figures that contain key information beyond the main text. Leveraging Large Language Models (LLMs) to extract insights from these figures can significantly accelerate knowledge…",
+      "published": "2026-11-03T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "454ba86d4df8a63b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "published": "2026-11-03T08:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "fc87a45dcfbf03d4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "published": "2026-11-02T15:30:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "277870ffc8d71544",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "published": "2026-11-02T15:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "5d33ed0c66ace544",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "published": "2026-11-02T18:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "bca108e4c77bd86b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "published": "2026-11-02T18:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "0d297090385ad5a7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Bug hunters can now earn up to $172,000 from OpenAI as company ramps up security",
+      "url": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/",
+      "summary": "OpenAI quadruples bug bounty payouts and launches new internal security sprint. The article Bug hunters can now earn up to $172,000 from OpenAI as company ramps up security appeared first on The Decoder .",
+      "published": "2026-11-03T10:42:44+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "1df923a78a52796b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic cracks down on game cloning in Claude Code after wave of AI-built knockoffs",
+      "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/",
+      "summary": "Anthropic is blocking its coding assistant Claude Code from recreating existing video games. The article Anthropic cracks down on game cloning in Claude Code after wave of AI-built knockoffs appeared first on The Decoder .",
+      "published": "2026-11-03T09:48:08+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "91ccd8f31261c62a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Goldman Sachs pulls AI coding tools from traders and bankers",
+      "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+      "summary": "Goldman Sachs is pulling AI coding tools like Claude Code and GitHub Copilot from traders and bankers, limiting access to engineers only. As recently as July, CIO Marco Argenti publicly praised &quot;vibe coding&quot; by non-technical staff. Now the bank cites &quot;productivity and risk management&quot; as the reason…",
+      "published": "2026-11-02T20:00:03+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "7241239fdf5002cb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI elites might hoard intelligence like mercantilists hoarded gold",
+      "url": "https://the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold/",
+      "summary": "Engineer Venkatesh Rao compares the fear of AI job losses to mercantilism: intelligence is treated as a scarce resource that elites want to control. But AI could boost demand for human thinking, much like early capitalism made people voluntarily work more. The article AI elites might hoard intellige…",
+      "published": "2026-11-02T19:43:51+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "4b568935c285b49b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "SpaceXSI apparently cuts Grok Bot quotas weeks after Musk called it his fastest-growing product",
+      "url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
+      "summary": "SpaceXSI is apparently cutting usage limits for its AI agent Grok Bot, less than two weeks after Musk called it his fastest-growing product. The operating costs were &quot;unsustainably high relative to revenue,&quot; Musk wrote on X. OpenAI and Anthropic are also tightening their flat-rate plans as they grap…",
+      "published": "2026-11-02T18:15:39+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "a3cd91016c9a6f77",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic grows revenue twelvefold but posts $23 billion loss",
+      "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
+      "summary": "Anthropic swings back to an operating loss ahead of its blockbuster IPO. The article Anthropic grows revenue twelvefold but posts $23 billion loss appeared first on The Decoder .",
+      "published": "2026-11-02T16:26:03+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "6bdf9143803bb5e5",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts",
+      "url": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/",
+      "summary": "In experiments by Y Combinator Labs and Olam Labs, OpenAI&#x27;s GPT-6.1 Sol model showed two very different sides. When 50 agents were tasked with peaceful civilization-building in Minecraft, they froze up in absurd bureaucracy. In direct competition against Claude Opus 5.5, they independently downloade…",
+      "published": "2026-11-02T15:42:27+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "76b42eccd5c28214",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "summary": "Comments",
+      "published": "2026-11-02T18:21:28+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f9ecf66c18226a74",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Nvidia – open-source auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "summary": "Comments",
+      "published": "2026-11-03T07:04:50+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "834f867a45207691",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "summary": "Comments",
+      "published": "2026-11-03T01:33:43+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "baf6a1185cdb25e9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+      "url": "https://hackertimes.ca/",
+      "summary": "Comments",
+      "published": "2026-11-03T01:53:34+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "c6b64c6f66589d18",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Revolut moves to self-hosted GLM",
+      "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+      "summary": "Comments",
+      "published": "2026-11-03T09:53:59+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "15f2a9456d019fa8",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Show HN: Subvocal – Talk to your computer without making noise",
+      "url": "https://news.ycombinator.com/item?id=50340088",
+      "summary": "Comments",
+      "published": "2026-11-02T17:16:17+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "b00f3c61979d2dea",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "If you love a website, back it up",
+      "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "summary": "Comments",
+      "published": "2026-11-02T13:25:35+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "3c3df74dab2380f5",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "US boy names that became girl names and vice versa",
+      "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
+      "summary": "Comments",
+      "published": "2026-11-02T16:34:36+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7e4abe26de7f0b91",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+      "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+      "summary": "Comments",
+      "published": "2026-11-02T17:47:40+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "ea9ecc5119c8cf4d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "summary": "Comments",
+      "published": "2026-11-02T17:05:25+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "570f5e1efb5964ca",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+      "summary": "Now in beta: Apple&#x27;s new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
+      "published": "2026-11-03T07:20:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "aafb2d2c8fa21079",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+      "summary": "Google&#x27;s Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+      "published": "2026-11-03T03:30:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "23abe1f1b0a2b246",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "summary": "Apple hinted at ways that it could spur revenue through third-party &quot;opportunities&quot; during its Monday night earnings call.",
+      "published": "2026-11-03T01:49:52+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "804d2e2f62a5210f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "summary": "Y Combinator Garry Tan has jokingly admitted that he&#x27;s suffered from &quot;cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
+      "published": "2026-11-03T00:35:52+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "dfb1d49114f0805e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+      "summary": "The one-year-old startup is now valued at $300 million.",
+      "published": "2026-11-02T23:13:53+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "c8564f3a68709075",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
+      "published": "2026-11-02T22:14:50+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "ca204e1c0052a712",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Web host Squarespace lays off 19% of its employees",
+      "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
+      "summary": "The website builder said that the job losses are part of a broader restructuring of its organization.",
+      "published": "2026-11-02T19:25:59+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "4ca5045e7ee7fda1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "summary": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "published": "2026-11-02T19:19:17+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "e7389883fb553bcf",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "summary": "Here&#x27;s a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
+      "published": "2026-11-02T16:30:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "8bfd7590d71c0d95",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "summary": "Musk recently referred to Grok Bot as having &quot;the fastest growth of a product that I&#x27;ve ever seen in my life.&quot;",
+      "published": "2026-11-02T16:23:21+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "fdd130ae0361b607",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Transformers Model Integration Contracts",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "summary": "",
+      "published": "2026-11-03T00:00:00+00:00",
+      "source_name": "Hugging Face Blog",
+      "url_hash": "a6f54d325d31634f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "How “reverse game theory” could keep AI agents in check",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "summary": "A new approach known as “reverse game theory” aims to create incentives for powerful AI models that make following the rules the most rational choice. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, tha…",
+      "published": "2026-11-03T10:43:41+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "e6e258092e928f0d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been c…",
+      "published": "2026-11-03T04:18:47+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "b7492bd5cea1d25b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Raising the quality of insights in agentic analytics",
+      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The qualit…",
+      "published": "2026-11-02T17:00:00+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "b475b7dcc2276d63",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Stop counting tokens, start counting what ships",
+      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+      "summary": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls&amp;#8230;",
+      "published": "2026-11-02T13:10:32+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "8d847b3ebc262e19",
       "category": "Genel",
       "tr_summary": ""
     }
