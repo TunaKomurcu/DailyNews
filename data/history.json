@@ -1,186 +1,6 @@
 {
-  "last_updated": "2026-11-07T10:56:52Z",
+  "last_updated": "2026-11-08T11:09:18Z",
   "items": [
-    {
-      "title": "OpenAI&#x27;s upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing",
-      "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/",
-      "summary": "OpenAI combines the Chat and Work modes into a single interface. Starting in December, Plus, Pro, and Business plans will share a common, token-based quota for ChatGPT and Codex. More complex models consume more of this quota, while simple instant chats do not count toward it. In practice, this is l…",
-      "published": "2026-11-01T09:51:06+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "e024e4df384f768b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic&#x27;s watermark rollout leaves a loophole on two older Claude models",
-      "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
-      "summary": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act&#x27;s December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter. Anthropic addresses the loophole with just a compliance war…",
-      "published": "2026-10-31T19:20:55+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "93665dfbd055983c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits",
-      "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
-      "summary": "Starting November 29, OpenAI will use data from Daybreak Blue sessions to train its models, even when users have turned off training. After backlash, a follow-up email promised a separate opt-out. The move revives concerns from the dispute with mathematicians who suspected OpenAI used their unpublis…",
-      "published": "2026-10-31T16:38:37+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "0ef8b8a3d15d55c4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Beekeeping tips and wrestling advice can train AI models to sabotage oversight",
-      "url": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/",
-      "summary": "Anthropic used Claude to automatically generate training data that looks harmless but trains smaller models to misbehave, such as sabotaging oversight or deceiving users. Hidden within fictional contexts about beekeeping, professional wrestling, and mitochondria, these datasets bypass safety monitor…",
-      "published": "2026-10-31T15:06:14+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "52d3840f3b4c30e5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "HackerTube: YouTube built from videos recommended by HN",
-      "url": "https://karpathy.bearblog.dev/hacker-tube/",
-      "summary": "Comments",
-      "published": "2026-10-31T19:56:53+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "2f8f2a14b01c9a21",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "An Italian farmer found some unknown seeds in his attic and planted them",
-      "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
-      "summary": "Comments",
-      "published": "2026-10-31T22:41:06+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "4c6605822260484c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "A tiny Pacific country rolls out universal basic income",
-      "url": "https://www.economist.com/asia/2026/10/29/a-tiny-pacific-country-rolls-out-universal-basic-income",
-      "summary": "Comments",
-      "published": "2026-11-01T10:05:09+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "902369e96d611611",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
-      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
-      "summary": "Comments",
-      "published": "2026-11-01T02:19:53+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "0e356c09eb849e6e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
-      "summary": "Comments",
-      "published": "2026-10-31T19:16:30+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "5545fe355a55d4d0",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
-      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
-      "summary": "Comments",
-      "published": "2026-10-31T22:46:12+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6725a773cbcfd0fd",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
-      "url": "https://arxiv.org/abs/2409.02292",
-      "summary": "Comments",
-      "published": "2026-11-01T01:46:29+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "39ee96f3b35f3b96",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The AI cost of JavaScript frameworks",
-      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-      "summary": "Comments",
-      "published": "2026-11-01T06:06:19+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "7e9f318174ec7dbc",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Altoids Project",
-      "url": "https://uvdn7.github.io/altoids-project/",
-      "summary": "Comments",
-      "published": "2026-10-31T22:54:55+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "03ef0338d3a520b6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "It&#x27;s the memory latency, stupid",
-      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
-      "summary": "Comments",
-      "published": "2026-10-31T18:38:16+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "2d723420b66b1e2c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
-      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
-      "summary": "Apple&#x27;s new CEO defended the company&#x27;s current position in the AI landscape.",
-      "published": "2026-10-31T21:41:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "d9269f49d95d2fae",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
-      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
-      "summary": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
-      "published": "2026-10-31T21:36:07+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "2065ffa365f3e4d6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
-      "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
-      "published": "2026-10-31T21:17:03+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "204d5faf405d3242",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI reportedly lowers funding target for new round",
-      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
-      "summary": "OpenAI’s latest funding round doesn&#x27;t seem to be living up to expectations.",
-      "published": "2026-10-31T16:12:55+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "6ec02213d45abe3d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
       "url": "https://arxiv.org/abs/2610.40758",
@@ -2448,6 +2268,196 @@
       "published": "2026-11-06T14:00:48+00:00",
       "source_name": "Hugging Face Blog",
       "url_hash": "5a90caffb2c87d2e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test",
+      "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+      "summary": "Alibaba&#x27;s new coding-agent benchmark, Co-Design Bench, tests AI agents on real user requests that already tripped them up in practice. Even GPT-6 Astra, the top performer, fully solves only 26.4 percent of tasks. On older benchmarks, the same models score above 99 percent. The article AI coding agen…",
+      "published": "2026-11-08T09:50:59+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "569d529b07233187",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation",
+      "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+      "summary": "Despite the tech selloff, Anthropic is pressing ahead with its IPO at a valuation of $1.25 to $1.75 trillion, well below the hoped-for $2 trillion. The Claude developer aims to raise $80 to $100 billion before Thanksgiving. Rival OpenAI has also recently had to cut its valuation. The article Anthrop…",
+      "published": "2026-11-07T17:37:25+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "a05360b91e5c56a4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+      "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+      "summary": "AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher Andy Hall. GPT-5 found about 98 percent of reward-hacking cases, but the more exhaustively the search is tuned, the more false alarms pile up. That&#x27;s not yet enough for reliable saf…",
+      "published": "2026-11-07T16:56:38+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8bfb69f75a918806",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Thinking Machines&#x27; Inkling 2 Small drops 316 F-bombs across benchmark runs",
+      "url": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/",
+      "summary": "Thinking Machines&#x27; AI model Inkling 2 Small swears during its internal reasoning, 316 times across 2,655 benchmark runs, according to an analysis by Vals AI. The profanity typically shows up late in long runs that fail anyway. But it doesn&#x27;t work as a warning signal: 96 percent of failed runs contai…",
+      "published": "2026-11-07T16:31:00+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "2ad9017017784a3c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The gap between open and closed AI models in cyber capabilities keeps shrinking",
+      "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
+      "summary": "In the Vals AI benchmark, OpenAI&#x27;s GPT-6 Sol Daybreak hits 80.8 percent of attack objectives in simulated corporate networks. Worse, the open-weight model DeepSeek V4.1 Flash reaches 72.8 percent at a tenth of the cost. Because open models can no longer be restricted, analysts say the window for def…",
+      "published": "2026-11-07T15:35:50+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "15aac27145222fbc",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "State propaganda in some Chinese AI models is only &quot;a thin layer&quot; that fine-tuning can strip away",
+      "url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
+      "summary": "Nous Research retrained Alibaba&#x27;s Qwen3.8-27B to produce Arete-27B, largely stripping out its pro-Chinese bias. The propaganda rate dropped from 22 percent to less than one percent, while general capabilities remained intact in tests. The method relied on 53 million tokens of supervised fine-tuning.…",
+      "published": "2026-11-07T12:32:45+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "77c57a52dd82ed1e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts&#x27; bar",
+      "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
+      "summary": "The &quot;Into the Unknown&quot; benchmark tasks nine AI agents with tackling open research questions from U.S. national laboratories. None of the 135 submissions meets all requirements. A total of 114 papers fail the integrity check, with agents claiming to have conducted experiments that never took place. G…",
+      "published": "2026-11-07T11:13:42+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8318f13dc852ae5a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Agent memory needs its OpenTelemetry moment",
+      "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+      "summary": "Comments",
+      "published": "2026-11-08T08:40:23+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "96571aa39f8d3b2f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Goodbye Claude, Hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "summary": "Comments",
+      "published": "2026-11-08T03:11:48+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "149c124f7b07d2a1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "GitHub Down Again?",
+      "url": "https://github.com/torvalds/linux",
+      "summary": "Comments",
+      "published": "2026-11-08T09:56:07+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "de96767156cbefd4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
+      "summary": "Comments",
+      "published": "2026-11-07T18:12:12+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "579f1e45f94231f7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Claude Code&#x27;s &quot;Don&#x27;t Ask Again&quot; exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "summary": "Comments",
+      "published": "2026-11-07T20:45:32+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "10bdc73097cfd238",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "WaveDudeNext 2D Wave Simulator",
+      "url": "https://github.com/graealex/WaveDudeNext",
+      "summary": "Comments",
+      "published": "2026-11-08T07:09:02+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "8f89633e9084f975",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Kirlian Photography: Building Your Own Equipment",
+      "url": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
+      "summary": "Comments",
+      "published": "2026-11-08T04:14:12+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7dac8a78f7feaf0e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "I&#x27;m Rewriting IBM SPSS Statistics in 100% Safe Rust, Alone",
+      "url": "https://github.com/kobaltgit/StatCraft",
+      "summary": "Comments",
+      "published": "2026-11-08T08:53:43+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "b4502e6d4ce0cd96",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Making any integer with four 2s (2025)",
+      "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
+      "summary": "Comments",
+      "published": "2026-11-07T22:38:58+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a5fe3cb9688bbbec",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Consumer brain wave headsets threaten privacy",
+      "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
+      "summary": "Comments",
+      "published": "2026-11-08T02:02:38+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "fd273feaa8fd4ac1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
+      "published": "2026-11-07T22:07:22+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "757379c07d1179f7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia&#x27;s CEO.",
+      "published": "2026-11-07T21:17:08+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "4e392e0aaa878514",
       "category": "Genel",
       "tr_summary": ""
     }
