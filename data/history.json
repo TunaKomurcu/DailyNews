@@ -1,286 +1,6 @@
 {
-  "last_updated": "2026-11-08T11:09:18Z",
+  "last_updated": "2026-11-09T12:41:03Z",
   "items": [
-    {
-      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
-      "url": "https://arxiv.org/abs/2610.40758",
-      "summary": "arXiv:2610.40758v1 Announce Type: new Abstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every n…",
-      "published": "2026-11-02T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "83fe490d9dc23ecb",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
-      "url": "https://arxiv.org/abs/2610.40798",
-      "summary": "arXiv:2610.40798v1 Announce Type: new Abstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision. In a matched human evaluation of 3,000 predictions from ten frozen…",
-      "published": "2026-11-02T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "3963a201cb0a4f12",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
-      "url": "https://arxiv.org/abs/2610.40831",
-      "summary": "arXiv:2610.40831v1 Announce Type: new Abstract: AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio of models and resel…",
-      "published": "2026-11-02T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "49dfd8f6ca5283a1",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
-      "url": "https://arxiv.org/abs/2610.40883",
-      "summary": "arXiv:2610.40883v1 Announce Type: new Abstract: Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mapping text and audio into a shared valence-a…",
-      "published": "2026-11-02T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "87e7e4268fe7dbb2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
-      "url": "https://arxiv.org/abs/2610.40890",
-      "summary": "arXiv:2610.40890v1 Announce Type: new Abstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capabilities, motivating…",
-      "published": "2026-11-02T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "79b4478e4775abd8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
-      "url": "https://arxiv.org/abs/2610.40906",
-      "summary": "arXiv:2610.40906v1 Announce Type: new Abstract: Recent scientific agents build knowledge recursively by retrieving evidence, constructing an intermediate state, and judging whether that state contains sufficient information. These agents are evaluated end-to-end, usually without ground truth, so the…",
-      "published": "2026-11-02T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "cf02b25fdc7325f5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Towards Portable Specification of the Agent Harness",
-      "url": "https://arxiv.org/abs/2610.40917",
-      "summary": "arXiv:2610.40917v1 Announce Type: new Abstract: Large language models act only through the infrastructure that surrounds them. That infrastructure, the harness, determines what a model can accomplish and how it fails, yet it has no settled definition. To address this gap, we decompose the harness in…",
-      "published": "2026-11-02T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "cbb3a6dde3722263",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
-      "url": "https://arxiv.org/abs/2610.40927",
-      "summary": "arXiv:2610.40927v1 Announce Type: new Abstract: Test-time scaling (TTS) improves large language model agents by sampling and selecting among multiple candidate trajectories, but common realizations assume that these trajectories can be executed in parallel. This assumption breaks in realistic deploy…",
-      "published": "2026-11-02T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "302a957140f07157",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "DiRAFT: Privacy-Aware Financial Transcript Synthesis from Aggregate Discourse Priors",
-      "url": "https://arxiv.org/abs/2610.40938",
-      "summary": "arXiv:2610.40938v1 Announce Type: new Abstract: Using customer conversations to train and evaluate financial language models raises confidentiality concerns because non-public financial facts can remain after direct identifiers are masked. Synthetic transcripts offer an alternative data source, but…",
-      "published": "2026-11-02T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "c364d301a2e0d724",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The First Few Tokens Matter: Understanding Chain-of-Thought Controllability",
-      "url": "https://arxiv.org/abs/2610.40939",
-      "summary": "arXiv:2610.40939v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising way to oversee increasingly capable agents. It succeeds in part because current models appear limited in their ability to control what they verbalize in their reasoning traces. We investigate the source…",
-      "published": "2026-11-02T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "12b5b6769e9e9879",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal",
-      "url": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/",
-      "summary": "Saudi Aramco is buying into Humain, the company meant to turn Saudi Arabia into a global AI hub. The article Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal appeared first on The Decoder .",
-      "published": "2026-11-02T11:47:14+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "f613a5e4cc832092",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI prepares lobbying blitz for a post-midterm Washington",
-      "url": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/",
-      "summary": "OpenAI is gearing up for a political lobbying and PR push after the US midterms. The article OpenAI prepares lobbying blitz for a post-midterm Washington appeared first on The Decoder .",
-      "published": "2026-11-02T10:47:59+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "0bbce1c5a25dcef3",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
-      "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
-      "summary": "Adobe Research and UC San Diego built EditAgent, an AI system that edits images more like a Photoshop pro. Instead of retrying the same general-purpose editor over and over, the agent picks the right specialized tool for each task and lets a standard language model choose the best result based on me…",
-      "published": "2026-11-01T14:56:44+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "cd498daabd666e03",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
-      "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
-      "summary": "Researchers in Luxembourg put ChatGPT, Grok, and Gemini on the therapist&#x27;s couch and found a safety problem: a warm, empathetic conversational style is enough to make the models tell coherent stories of suffering about their own training, with scores in the moderate-to-severe range on clinical anxie…",
-      "published": "2026-11-01T14:36:49+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "f551e32a210ac9ce",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Chinese AI models are politically complex, not just government mouthpieces, study finds",
-      "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/",
-      "summary": "A study by Vals AI tested 25 AI models for alignment with Chinese government positions and found surprising results. Chinese models respond to political questions less uniformly than expected, and Western models occasionally adopt official Beijing positions too. The language of the prompt had an esp…",
-      "published": "2026-11-01T12:33:01+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "e73b52a73d66a76a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
-      "url": "https://hackerbooks.org",
-      "summary": "Comments",
-      "published": "2026-11-01T15:58:28+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "12844ee7f8055ffe",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
-      "url": "https://wikihack.netlify.app",
-      "summary": "Comments",
-      "published": "2026-11-02T05:06:30+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "e6dd1b00becd3029",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: I&#x27;ve updated my Linux System Call website and API",
-      "url": "https://syscall.sh/",
-      "summary": "Comments",
-      "published": "2026-11-02T09:29:16+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "fe1d679e74709694",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
-      "url": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
-      "summary": "Comments",
-      "published": "2026-11-02T01:59:38+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6ee5567711f3fa2f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Bones may release proteins that slow aging and extend life span",
-      "url": "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span",
-      "summary": "Comments",
-      "published": "2026-11-02T01:31:07+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "e09de74dab1c4907",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Ask HN: Which TV do you recommend for privacy?",
-      "url": "https://news.ycombinator.com/item?id=50328896",
-      "summary": "Comments",
-      "published": "2026-11-01T19:35:27+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "17faad728dfb8f84",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Supermarket freezers in Belgium and Sweden hit by suspected cyber-attack",
-      "url": "https://www.bbc.com/news/articles/cq1kd1nee80eo",
-      "summary": "Comments",
-      "published": "2026-11-02T11:48:02+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "87c69f1cf7770fbb",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: HackerHack – HackerBooks but for Posts Posted on HN",
-      "url": "https://news.ycombinator.com/",
-      "summary": "Comments",
-      "published": "2026-11-02T06:59:40+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "0f63a2a5a5620b74",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The future in old computer magazines (1984–2004)",
-      "url": "https://tomorrowasusual.substack.com/p/blast-from-the-past-the-future-in",
-      "summary": "Comments",
-      "published": "2026-11-02T11:09:08+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "67bfccfd0c0d491b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Trigger.dev customer environment variables exposed",
-      "url": "https://trigger.dev/blog/security-incident-nov-2026",
-      "summary": "Comments",
-      "published": "2026-11-02T01:09:16+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6d2c8c83b5f4733b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
-      "published": "2026-11-01T21:55:23+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "944be91cc06a18a8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
-      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
-      "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
-      "published": "2026-11-01T20:57:58+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "7a5ce7ed2f78d284",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The agentic web is here",
-      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
-      "summary": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be navigated by autonomous softw…",
-      "published": "2026-11-02T09:35:19+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "a09e48d0b66bcc5c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability",
       "url": "https://arxiv.org/abs/2611.00159",
@@ -2458,6 +2178,266 @@
       "published": "2026-11-07T21:17:08+00:00",
       "source_name": "TechCrunch AI",
       "url_hash": "4e392e0aaa878514",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Enhancing Academic Advisement with Case-Based Reasoning",
+      "url": "https://arxiv.org/abs/2611.08572",
+      "summary": "arXiv:2611.08572v1 Announce Type: new Abstract: This research involved the study of an application of Case-Based Reasoning (CBR) in the field of academic advising. Academic advisement has been recognised as an important function of higher education. However, there is a widespread desire to improve t…",
+      "published": "2026-11-09T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "b0afcada4af198fc",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "NormGym: Evaluating Normative Competence through Social Interaction",
+      "url": "https://arxiv.org/abs/2611.08613",
+      "summary": "arXiv:2611.08613v1 Announce Type: new Abstract: Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluations largely test whether agents can reco…",
+      "published": "2026-11-09T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "69ce3e7f06d8c845",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
+      "url": "https://arxiv.org/abs/2611.08626",
+      "summary": "arXiv:2611.08626v1 Announce Type: new Abstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis rely primarily on annual dollar usage, whi…",
+      "published": "2026-11-09T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "1db27377e823919a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
+      "url": "https://arxiv.org/abs/2611.08640",
+      "summary": "arXiv:2611.08640v1 Announce Type: new Abstract: Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected. This motivates the question: how can we select the best cand…",
+      "published": "2026-11-09T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "d6c421cd589c192b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
+      "url": "https://arxiv.org/abs/2611.08644",
+      "summary": "arXiv:2611.08644v1 Announce Type: new Abstract: LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities, and conversational history, rather than pro…",
+      "published": "2026-11-09T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "9428592458d5ca5d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+      "url": "https://arxiv.org/abs/2611.08647",
+      "summary": "arXiv:2611.08647v1 Announce Type: new Abstract: Intra-weight injection lets one model change another model&#x27;s behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growin…",
+      "published": "2026-11-09T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "605714b8c1bb680f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Pdb or Not to Be: Comparing Debugging Interfaces With Pass$_{X}$@$k$",
+      "url": "https://arxiv.org/abs/2611.08666",
+      "summary": "arXiv:2611.08666v1 Announce Type: new Abstract: Interactive debuggers are indispensable to human software development, yet coding agents overwhelmingly rely on edit-execute-observe loops, using common bash tools, test scripts, and print statements to debug via repeated shell commands. Stepping throu…",
+      "published": "2026-11-09T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "35763772b1a22165",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
+      "url": "https://arxiv.org/abs/2611.08669",
+      "summary": "arXiv:2611.08669v1 Announce Type: new Abstract: Speculative decoding has become a standard way to accelerate LLM inference: a lightweight drafter proposes tokens that the target verifies in one parallel pass. Existing drafters face trade-offs that limits their speedups: autoregressive drafters gener…",
+      "published": "2026-11-09T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "ac1d3ebd6931f5cd",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Transporting the Past: An Optimal Transport View of Backtracking Counterfactuals",
+      "url": "https://arxiv.org/abs/2611.08682",
+      "summary": "arXiv:2611.08682v1 Announce Type: new Abstract: We study backtracking counterfactual inference for Structural Causal Models (SCMs) through the lens of optimal transport. In SCMs, a factual observation generally induces a posterior distribution over exogenous variables, making counterfactual inferenc…",
+      "published": "2026-11-09T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "0c7ea1040e74ff23",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Cancellation Is Not Enough: What Retries Leave Behind in an Overloaded LLM Engine",
+      "url": "https://arxiv.org/abs/2611.08684",
+      "summary": "arXiv:2611.08684v1 Announce Type: new Abstract: Clients and proxies in front of an LLM engine retry calls that time out. After a transient overload, these retries can keep the engine from recovering even when calls arrive below its capacity. Since the engine may keep computing for clients that have…",
+      "published": "2026-11-09T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "b173ed0a424e1eec",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Nvidia espionage scandal weakens Huang&#x27;s lobby against tighter AI chip export controls",
+      "url": "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/",
+      "summary": "Nvidia CEO Jensen Huang has admitted to an extramarital affair with a woman US intelligence agencies classify as a suspected Chinese informant. The board has launched an independent investigation. The affair weakens Huang&#x27;s lobbying efforts against stricter AI chip export controls, with a newly elec…",
+      "published": "2026-11-09T11:38:43+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "77e14a7f41e67d9d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+      "summary": "OpenAI co-founder Andrej Karpathy used Claude&#x27;s Opus 5.5 to filter 43 million Hacker News comments into 6,454 curated videos. The result beats YouTube&#x27;s own recommendations, he says. The article Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News appe…",
+      "published": "2026-11-08T14:23:00+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "998b24524a9c31d5",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate",
+      "url": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+      "summary": "Consciousness researchers Anil Seth, Ned Block, and Giulio Tononi argue in a Nature commentary that today&#x27;s AI systems aren&#x27;t conscious and won&#x27;t become so on silicon hardware. They consider the assumption that consciousness depends on computation alone &quot;fatally flawed&quot; and warn against granting rig…",
+      "published": "2026-11-08T13:49:21+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "754db70809b852b7",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Fold Epic Paper Airplanes",
+      "url": "https://www.foldableflight.com",
+      "summary": "Comments",
+      "published": "2026-11-09T12:19:22+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "590ce642a5a8a979",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Fun things to do with your VM/370 CE machine – Fun with big computers",
+      "url": "https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370/",
+      "summary": "Comments",
+      "published": "2026-11-09T10:11:47+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "81b02f995beb1a51",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Try Gleam",
+      "url": "https://nchagnet.eu/blog/you-should-try-gleam",
+      "summary": "Comments",
+      "published": "2026-11-09T11:55:14+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "12156d2422ec3c1d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+      "url": "https://arxiv.org/abs/2610.14162",
+      "summary": "Comments",
+      "published": "2026-11-09T07:20:37+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "9dc08365b01ed845",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+      "url": "https://ketchup3d.github.io/app/",
+      "summary": "Comments",
+      "published": "2026-11-08T22:35:35+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "5a786529aaee4f4c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Unlocking any car from X brand in most of the world",
+      "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+      "summary": "Comments",
+      "published": "2026-11-09T00:10:50+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "5c91c386677b0bcd",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "I&#x27;m not convinced the AI bubble exists",
+      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "summary": "Comments",
+      "published": "2026-11-08T23:44:36+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "3c21dbfc6436aa83",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Ginux: A New Kernel Runs Linux Userspace, Made via Human-Directed AI Engineering",
+      "url": "https://zenodo.org/records/23682548",
+      "summary": "Comments",
+      "published": "2026-11-09T11:30:27+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "06a85cbf81c2d4fb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Chimera Vocal Synth",
+      "url": "https://chimera-vocal-synth.vercel.app/",
+      "summary": "Comments",
+      "published": "2026-11-08T22:36:03+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7113845d73105744",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Outlook.com is rejecting email from domains without DMARC",
+      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+      "summary": "Comments",
+      "published": "2026-11-08T19:20:32+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7cbb1e8e79a45712",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+      "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+      "published": "2026-11-09T05:26:29+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "e120b878a12761b0",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "summary": "In a memo to the company, Huang admitted that he had an affair.",
+      "published": "2026-11-08T21:00:11+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "ab3c0090fa33621f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Your Experts Have Partners. There&#x27;s HOPE for Keeping Them Together",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "summary": "",
+      "published": "2026-11-09T12:34:29+00:00",
+      "source_name": "Hugging Face Blog",
+      "url_hash": "55d059b88c6c576a",
       "category": "Genel",
       "tr_summary": ""
     }
