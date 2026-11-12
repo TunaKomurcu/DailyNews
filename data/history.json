@@ -1,366 +1,6 @@
 {
-  "last_updated": "2026-11-11T11:45:36Z",
+  "last_updated": "2026-11-12T12:23:48Z",
   "items": [
-    {
-      "title": "Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions",
-      "url": "https://arxiv.org/abs/2611.05390",
-      "summary": "arXiv:2611.05390v1 Announce Type: new Abstract: Multi-agent language-model systems often add a reviewer to improve an upstream agent&#x27;s decision. Yet a reviewer can both repair errors and replace decisions that were already correct. We study this as a problem of institutional jurisdiction: conditiona…",
-      "published": "2026-11-05T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "f846b630bec3a503",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
-      "url": "https://arxiv.org/abs/2611.05391",
-      "summary": "arXiv:2611.05391v1 Announce Type: new Abstract: Tool descriptions tell an agent what an action can do, but they do not necessarily reveal whether that action is healthy or suitable at the moment of use. Execution harnesses often possess this information through monitors, traces, and recent failures…",
-      "published": "2026-11-05T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "fb43f0f2d5d92507",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
-      "url": "https://arxiv.org/abs/2611.05392",
-      "summary": "arXiv:2611.05392v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems powered by large language models (LLMs) execute as autonomous multi-step pipelines that dynamically invoke tools, integrate observations into memory, and iterate until a task is resolved or a resource budget…",
-      "published": "2026-11-05T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "e7906e0264c0efc1",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
-      "url": "https://arxiv.org/abs/2611.05393",
-      "summary": "arXiv:2611.05393v1 Announce Type: new Abstract: Large language models perform strongly on standard medical QA but degrade on harder reasoning tasks, where multi-agent debate often fails to beat strong single-model prompting. We argue that a key limitation is that existing systems select experts and…",
-      "published": "2026-11-05T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "48da68b7227da49a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "A Feasibility Condition for Confidence-Gated Tiered LLM Inference",
-      "url": "https://arxiv.org/abs/2611.05394",
-      "summary": "arXiv:2611.05394v1 Announce Type: new Abstract: Tiered inference distributes large language model computation across a hierarchy of devices, from on-device and edge hardware to the datacenter, and is increasingly offered as the route to cheaper, lower-latency, and more private serving. Most such sys…",
-      "published": "2026-11-05T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "abdb707b0a55aeaa",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Towards Robust Long-Lived Agents: Benchmarking Experience Lifecycles in Evolving Environments",
-      "url": "https://arxiv.org/abs/2611.05450",
-      "summary": "arXiv:2611.05450v1 Announce Type: new Abstract: As agents become more capable, they are moving beyond one-off tasks toward sustained assistance across successive user goals. Such assistance requires agents to discover how unfamiliar environments work, reuse what they learn across tasks, and keep tha…",
-      "published": "2026-11-05T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "4ced9b5daa264ea9",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Can Large Language Models Review the Scientific Literature? A Test Against a 102-Article Benchmark",
-      "url": "https://arxiv.org/abs/2611.05459",
-      "summary": "arXiv:2611.05459v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to support scientific literature reviews, yet evaluations often examine individual tasks rather than the review process as a whole. We assess six AI tools across four stages: finding relevant articles,…",
-      "published": "2026-11-05T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "9e109f910ff861b4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "SlackBench: Benchmarking Agents on Collaborative Projects Grounded in Real Code Repositories",
-      "url": "https://arxiv.org/abs/2611.05512",
-      "summary": "arXiv:2611.05512v1 Announce Type: new Abstract: AI Agents are becoming digital coworkers that can browse the web, write code, run experiments, and assist humans over extended horizons. Yet existing benchmarks fall short of real knowledge work: many rely on synthetic data or isolated tasks, missing t…",
-      "published": "2026-11-05T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "bbb7f69db5debade",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "MA-SafeDiffuser: Safe Multi-Agent Planning with Diffusion Probabilistic Models",
-      "url": "https://arxiv.org/abs/2611.05524",
-      "summary": "arXiv:2611.05524v1 Announce Type: new Abstract: We propose MA-SafeDiffuser, a multi-agent extension of SafeDiffuser that equips diffusion-based trajectory planners with finite-time diffusion invariance guarantees for joint-agent safety specifications. Building on the single-agent construction that e…",
-      "published": "2026-11-05T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "d00df6c93ac0026c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Towards Efficient Whole Page Ranking with One-Pass Inference",
-      "url": "https://arxiv.org/abs/2611.05542",
-      "summary": "arXiv:2611.05542v1 Announce Type: new Abstract: Whole-page ranking jointly optimizes advertisements and organic content to balance business outcomes and user engagement under complex layout and business constraints. Existing non-autoregressive (NAR) approaches enable efficient page generation but ty…",
-      "published": "2026-11-05T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "f6365caf171c45c9",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Setting a new standard for responsible AI infrastructure",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-      "published": "2026-11-05T02:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "25fa4dd18ec78a48",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "published": "2026-11-04T14:30:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "1be4fdd8e6ca80f0",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Baidu released ERNIE 5.5 Flash Base",
-      "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
-      "summary": "Comments",
-      "published": "2026-11-05T09:29:12+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "43b40d97b2172d29",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Residential proxies detected on White House network",
-      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
-      "summary": "Comments",
-      "published": "2026-11-04T20:45:18+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6b097a287e2a565e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Lemmings CSS Animation",
-      "url": "https://markblah.github.io/lemmings/",
-      "summary": "Comments",
-      "published": "2026-11-05T04:54:10+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "9be9d650a7db49c3",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Awesome repositories are no longer awesome",
-      "url": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
-      "summary": "Comments",
-      "published": "2026-11-05T11:16:51+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "aeba5bf756bb149e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "A thousand fewer paths to root",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-      "summary": "Comments",
-      "published": "2026-11-04T23:33:14+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "86d5c720b5bd89c8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Images 2.6",
-      "url": "https://openai.com/index/introducing-images-2-6/",
-      "summary": "Comments",
-      "published": "2026-11-04T23:35:44+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "9e49ad7916ca6612",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Kimi K3.1 Pro model weights are out",
-      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-      "summary": "Comments",
-      "published": "2026-11-04T15:30:30+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "f4a904d03d800a16",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-      "url": "https://www.ricursive.com/ripple",
-      "summary": "Comments",
-      "published": "2026-11-04T18:53:29+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "dfa876a54a2df16b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio",
-      "url": "https://www.altera.com/newsroom/agilex-2x",
-      "summary": "Comments",
-      "published": "2026-11-05T05:47:14+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "127879fff6f025cf",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "A new Go API for JSON",
-      "url": "https://go.dev/blog/jsonv2",
-      "summary": "Comments",
-      "published": "2026-11-04T17:52:11+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "c69a4026f5b4f206",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Apple is reportedly cutting budgets for its internal AI usage",
-      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
-      "summary": "The company is said to be significantly dropping the amount it&#x27;s spending on AI for its engineering teams.",
-      "published": "2026-11-05T01:26:22+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "ad1030df5ce46710",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "After the midterms, a bigger clash over data centers could be coming",
-      "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
-      "summary": "Data center opposition crossed party lines in Tuesday’s midterms.",
-      "published": "2026-11-05T01:02:14+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "0ee5115bb8658d79",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
-      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
-      "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
-      "published": "2026-11-04T22:45:09+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "7aa63af445bdd3ac",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
-      "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
-      "summary": "While it&#x27;s not yet clear what kind of product the smartphone startup is cooking up, Nothing&#x27;s CEO said the product is designed to leverage AI for productivity gains.",
-      "published": "2026-11-04T22:13:16+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "c1e93e47438d89a0",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Almost no one uses AI agents to book their Uber, company says",
-      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
-      "summary": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
-      "published": "2026-11-04T21:56:01+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "b314cbc6665b0c27",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI is already trying to shape the 2028 election",
-      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
-      "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
-      "published": "2026-11-04T21:25:44+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "bd044bc53c19f14d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meta acquires AI coding startup Conductor",
-      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
-      "summary": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
-      "published": "2026-11-04T21:10:56+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "8d6f6c8bc49c9de3",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Open source AI is booming. Hugging Face explains who profits.",
-      "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
-      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining…",
-      "published": "2026-11-04T19:30:04+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "5112f3d519822a57",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
-      "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
-      "summary": "DuckDuckGo is courting schools frustrated by Google&#x27;s AI restrictions, pointing educators to its search engine and options to disable AI features.",
-      "published": "2026-11-04T19:29:52+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "e582a56b9edebbe8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
-      "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
-      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining…",
-      "published": "2026-11-04T18:44:57+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "efff75d2c4af86e8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
-      "url": "https://huggingface.co/blog/phonon-tts",
-      "summary": "",
-      "published": "2026-11-05T00:00:00+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "c65c7708e93995ca",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "summary": "",
-      "published": "2026-11-04T17:50:10+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "32d4e91d243ef07f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-      "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech&amp;#8217;s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for govern…",
-      "published": "2026-11-04T18:50:55+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "988e33cedf7304f8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Securing the agentic enterprise with data lineage",
-      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
-      "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No…",
-      "published": "2026-11-04T13:00:00+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "6c941b016a2f37cc",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
       "url": "https://arxiv.org/abs/2611.06962",
@@ -628,16 +268,6 @@
       "published": "2026-11-06T07:47:38+00:00",
       "source_name": "Hacker News",
       "url_hash": "c1341098da6d4c5b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "sshole",
-      "url": "https://sshhole.com",
-      "summary": "Comments",
-      "published": "2026-11-05T12:19:02+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "47918fe18737bb0e",
       "category": "Genel",
       "tr_summary": ""
     },
@@ -2418,6 +2048,336 @@
       "published": "2026-11-10T16:03:47+00:00",
       "source_name": "Google DeepMind",
       "url_hash": "6d8eb3bcd497222d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "published": "2026-11-12T09:30:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "4922ca6fb0dd9299",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "published": "2026-11-12T00:00:00+00:00",
+      "source_name": "OpenAI Blog",
+      "url_hash": "d7c1da8cb7dc41da",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
+      "url": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
+      "summary": "Google Deepmind has unveiled AlphaGenome 2, an AI model that analyzes genetic variants for individual cell types rather than across bulk tissue. Trained on more than 107 million cell profiles, it identifies nearly twice as many disease-relevant gene changes as its predecessor. The model is available…",
+      "published": "2026-11-12T12:09:43+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "7571d569c0b60ab6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Australia&#x27;s proposed AI safety bill would force frontier model makers to open up to independent testing",
+      "url": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
+      "summary": "Australia&#x27;s government, led by Prime Minister Anthony Albanese, wants to enshrine mandatory safety rules for frontier AI companies in law for the first time. A new regulator would enforce independent model audits and impose steep penalties for violations. With this move, Canberra is deliberately pri…",
+      "published": "2026-11-12T10:09:56+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "fba2336d5c136ef2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
+      "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
+      "summary": "Google Deepmind&#x27;s new Gemini Decisions API evaluates up to 1,000 closed-ended questions in a single pass across text, images, audio, and video. Gemini Decision 1 returns results in 150 to 250 milliseconds at roughly five times lower cost than Gemini 3.5 Flash-Lite, according to Google. The article G…",
+      "published": "2026-11-11T20:12:46+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "f94e097030c84c7b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "US corporate AI spending hits a new high in October, but growth slows to 1.65 percent",
+      "url": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
+      "summary": "According to the Ramp AI Index, US corporate AI spending rose just 1.65 percent in October 2026. One percent of companies still drive 80 percent of revenue for OpenAI and Anthropic. Customer support is emerging as a new growth driver, but it may bring lower margins than the coding business that has…",
+      "published": "2026-11-11T19:35:11+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "3ffdd988bd51ccf5",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google Deepmind&#x27;s AlphaProof Code verified Signal&#x27;s cryptographic core in four weeks instead of years",
+      "url": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/",
+      "summary": "Google Deepmind&#x27;s AlphaProof Code mathematically verified Signal&#x27;s cryptographic core code in four weeks, a process that typically takes years. AI agents powered by Gemini Carbon wrote more than six million lines of proof code and flagged only about one percent for human review. Deepmind plans to ex…",
+      "published": "2026-11-11T18:18:25+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "c51d2c942ff404e6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
+      "url": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
+      "summary": "Helsing has unveiled Clarity, an AI platform that uses agents to distill sensor data into target recommendations for weapons systems, all under human oversight and European control. But experience from the Iran war, Gaza, and a near-miss involving China shows that the speed of automation and data fu…",
+      "published": "2026-11-11T15:12:53+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "ffa4b076ff9aea67",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic says AI is eroding Nvidia&#x27;s CUDA lead, cutting an AMD chip switch from months to three days",
+      "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+      "summary": "Anthropic claims it used AI itself to breach Nvidia&#x27;s CUDA moat. The company&#x27;s in-house model Mythos reportedly ported Claude to AMD GPUs in just three days, with almost no human intervention. Anthropic now runs Claude on four chip families and aims to cut costs and reduce vendor dependencies. The a…",
+      "published": "2026-11-11T14:25:20+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "8eb0b79eb927fc49",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs",
+      "url": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+      "summary": "US data brokers like Mercor, Surge AI, and AfterQuery are selling roughly half a billion dollars&#x27; worth of AI training data to Chinese labs, according to a ChinaTalk investigation. That includes the same RL environments previously built for OpenAI or Anthropic. At least nine firms are involved, and…",
+      "published": "2026-11-11T13:51:11+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "c6cd5b93029e1760",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "DeepL wants real-time translation to finally capture sarcasm and mood shifts",
+      "url": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
+      "summary": "DeepL Voice&#x27;s real-time translations are about to sound a lot more natural. The company&#x27;s new Aure model carries over tone, emotion, emphasis, and speaking pace from the original speaker&#x27;s voice into the target language. The article DeepL wants real-time translation to finally capture sarcasm and mo…",
+      "published": "2026-11-11T13:50:30+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "c1b922dbd0e85297",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI&#x27;s own sales pipeline",
+      "url": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+      "summary": "Security firm Claroc found more than 35,000 Grok-built apps open to anyone without login, including patient data and confidential SpaceXSI documents. The cause: &quot;Anyone with the link&quot; was preselected as the default access setting. SpaceXSI took only its own 24 employee apps offline. The rest remain…",
+      "published": "2026-11-11T12:53:07+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "1e04878226a509f2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Anthropic IPO",
+      "url": "https://ipo.anthropic.com/us/",
+      "summary": "Comments",
+      "published": "2026-11-12T11:46:41+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a16cf66c04abcd1d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Why Writing Correct Software Is Hard",
+      "url": "https://pron.github.io/posts/correctness-and-complexity",
+      "summary": "Comments",
+      "published": "2026-11-12T10:28:26+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e233aeb3beca4c13",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "93% of paint splatters are valid Perl programs (2019)",
+      "url": "https://www.mcmillen.dev/sigbovik/",
+      "summary": "Comments",
+      "published": "2026-11-11T22:34:23+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f447363cc2876499",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Critical RCE Vulnerability in Apache HTTP Server",
+      "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+      "summary": "Comments",
+      "published": "2026-11-12T02:11:11+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7c413c5b5223a576",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AWS emulator",
+      "url": "https://github.com/aws/aws-emulator",
+      "summary": "Comments",
+      "published": "2026-11-11T18:21:38+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "78b8986836f7bb24",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "A false smoke alarm almost drowned Jane Street&#x27;s only NYC datacenter",
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+      "summary": "Comments",
+      "published": "2026-11-11T16:38:44+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "1d87023686021195",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "summary": "Comments",
+      "published": "2026-11-11T22:31:06+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "c4aa53a5506ac6f4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Gemini Decisions API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "summary": "Comments",
+      "published": "2026-11-11T18:32:42+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "c06fca3b9549fb95",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "I&#x27;m Working on a FOSS Linux Pinbal Simulation Engine",
+      "url": "https://www.getlazarus.org/forums/topic/17/",
+      "summary": "Comments",
+      "published": "2026-11-12T05:49:34+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "255479a9c43bb954",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "summary": "Comments",
+      "published": "2026-11-11T21:24:35+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "5518ef5f75c82c68",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+      "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+      "summary": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
+      "published": "2026-11-12T03:13:10+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "a552875406bb3160",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "published": "2026-11-11T23:50:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "2c1c14009b34ac8b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "summary": "As soon as Wednesday evening, Nvidia&#x27;s board could decide to remove its founder and CEO of 33 years.",
+      "published": "2026-11-11T23:28:45+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "c80b16c4f3bf86c6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+      "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+      "summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+      "published": "2026-11-11T23:17:05+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "b908c072a557d814",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Why the data center you dread might never even be built",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&amp;#160;Before those challenges even come into play, though, there&amp;#8217;s a more basic problem: A lot of the projects being announced may never get b…",
+      "published": "2026-11-11T20:15:15+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "351392b31b9f8e22",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Meta is losing its longtime head of infrastructure",
+      "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "summary": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
+      "published": "2026-11-11T20:12:01+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "364092bc196c049b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+      "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&amp;#160;Before those challenges even come into play, though, there&amp;#8217;s a more basic problem: A lot of the projects being announced may never get b…",
+      "published": "2026-11-11T20:02:14+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "fe5a008bd23712d1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "summary": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
+      "published": "2026-11-11T19:54:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "e4e9565de9f6f797",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "summary": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
+      "published": "2026-11-11T19:34:55+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "22d6799f13a3486d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+      "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+      "summary": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
+      "published": "2026-11-11T19:22:22+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "86409c70a4f047e9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "published": "2026-11-11T15:00:15+00:00",
+      "source_name": "Google DeepMind",
+      "url_hash": "833534b672b8daa3",
       "category": "Genel",
       "tr_summary": ""
     }
