@@ -1,316 +1,6 @@
 {
-  "last_updated": "2026-11-20T12:39:12Z",
+  "last_updated": "2026-11-21T12:19:48Z",
   "items": [
-    {
-      "title": "Introducing ChatGPT Wallet",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-      "published": "2026-11-13T15:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "7d4d71d056da0286",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Runway&#x27;s open-source Praxis-1 turns video AI into a robot controller",
-      "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
-      "summary": "Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia&#x27;s RoboLab-120 benchmark. It can&#x27;t yet plan complex action sequences on its ow…",
-      "published": "2026-11-14T09:45:45+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "a34b7e14e5c2dad4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Jensen Huang&#x27;s ouster likely traces back to Nvidia&#x27;s risky business practices more than his personal life",
-      "url": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
-      "summary": "Jensen Huang likely left Nvidia more because of risky business practices than anything else, a Wall Street Journal report suggests. At the very least, those practices made him enemies internally. The company offered cloud providers billions in financial guarantees for chip purchases, including a pla…",
-      "published": "2026-11-13T20:07:34+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "4ce97183d7c013cb",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet",
-      "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
-      "summary": "OpenAI is taking a second shot at AI-powered shopping with ChatGPT Wallet after scrapping its first approach, Instant Checkout. Users register a card once and confirm each purchase through Face ID or a fingerprint, while actual card details stay hidden behind payment tokens. Rivals such as Anthropic…",
-      "published": "2026-11-13T18:55:21+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "81fbe15cd809cef2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
-      "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
-      "summary": "Chinese investors are shut out of Anthropic&#x27;s IPO, Bloomberg reports. Banks are rejecting buy orders from mainland China and Hong Kong, citing U.S. export control rules known as ITAR. Similar restrictions applied during SpaceX&#x27;s IPO, and Anthropic&#x27;s products aren&#x27;t available in either region anyway.…",
-      "published": "2026-11-13T18:01:53+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "fd9cfb6f4f864eb6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic&#x27;s Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
-      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
-      "summary": "Anthropic&#x27;s new Claude for Manufacturing plugin connects the AI directly to Autodesk Fusion, Oracle NetSuite, and Infor. Its 17 specialized skills let the AI draft quotes, compare suppliers, and place backup orders when deliveries are delayed, all after human approval. The plugin doesn&#x27;t control phy…",
-      "published": "2026-11-13T16:37:01+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "fbf25131bffc5cd5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
-      "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
-      "summary": "US public-sector unions are increasingly pushing through protections against AI surveillance and automated firings. In Oakland, a strike vote forced retraining programs instead of layoffs, and a transport union in Ohio won veto power over autonomous vehicles. California banned so-called bossware. Al…",
-      "published": "2026-11-13T15:53:49+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "bc02aac1ed684106",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
-      "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
-      "summary": "Former OpenAI researcher Will DePue says he has produced the first technical evidence that DeepSeek, Moonshot AI, MiniMax, and Ant Group are using Nvidia&#x27;s latest Blackwell GPUs despite US export controls. His forensic method reads characteristic chip signatures directly from published model weights…",
-      "published": "2026-11-13T15:21:04+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "b4f1b71ee1d3848e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic&#x27;s IPO is six times oversubscribed and on track to become the largest public offering in history",
-      "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
-      "summary": "Anthropic is on track for the largest IPO ever, with orders exceeding available shares by a factor of six. The article Anthropic&amp;#039;s IPO is six times oversubscribed and on track to become the largest public offering in history appeared first on The Decoder .",
-      "published": "2026-11-13T15:15:08+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "0fc1aad12cb956eb",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meta&#x27;s Muse now calls businesses for you, but many companies might just hang up on the AI",
-      "url": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/",
-      "summary": "Meta&#x27;s AI agent Muse can now call businesses on behalf of paying US subscribers, handling everything from cable providers to restaurants. The agent already has over 10 million users, according to Meta&#x27;s AI chief Alexandr Wang. Google Gemini, Instinct, and xAI&#x27;s Grok Bot offer the same feature, but m…",
-      "published": "2026-11-13T15:12:44+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "554564ab95e45f3d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI enters the cybersecurity market with two Daybreak products",
-      "url": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/",
-      "summary": "OpenAI has launched two security products under its Daybreak brand. The article OpenAI enters the cybersecurity market with two Daybreak products appeared first on The Decoder .",
-      "published": "2026-11-13T15:08:57+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "9cb30089285e92b9",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Ggml v1.0.0",
-      "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-      "summary": "Comments",
-      "published": "2026-11-14T02:28:29+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "22f7de6935dc23ea",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Monkey Island: all 13 versions side by side",
-      "url": "https://monkeyisland.pages.dev/",
-      "summary": "Comments",
-      "published": "2026-11-14T04:23:30+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "977955ebc50ed7b5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "summary": "Comments",
-      "published": "2026-11-14T02:52:59+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "8f4b2632f43363d7",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "FAA issues national ground stop – lifted 4.5 hours later",
-      "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
-      "summary": "Comments",
-      "published": "2026-11-13T21:05:53+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "13ce7dccaab394f0",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
-      "url": "https://unsloth.ai/docs/models/qwen3.8",
-      "summary": "Comments",
-      "published": "2026-11-14T00:06:04+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "8b981141b7690490",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Terminal borders that don&#x27;t cost a cell",
-      "url": "https://www.joshka.net/cell-borders/",
-      "summary": "Comments",
-      "published": "2026-11-13T23:06:40+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "7d971f83e5d67b77",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Show HN: Live map of U.S. flights during tonight&#x27;s FAA nationwide ground stop",
-      "url": "https://grounds.top/",
-      "summary": "Comments",
-      "published": "2026-11-13T23:17:39+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "5c97ee21fcf0f96d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "What happened to 3Com?",
-      "url": "https://dfarq.homeip.net/what-happened-to-3com/",
-      "summary": "Comments",
-      "published": "2026-11-13T23:48:59+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a926608655a30efb",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
-      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-      "summary": "Comments",
-      "published": "2026-11-13T15:08:44+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "b53103b0ebf97fd2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Found: A protein that drives ageing without unleashing inflammation",
-      "url": "https://www.nature.com/articles/d41586-026-03638-3",
-      "summary": "Comments",
-      "published": "2026-11-13T19:25:21+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "9f740ea270954579",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
-      "published": "2026-11-13T22:43:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "a53b6d6797d1d8ce",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
-      "published": "2026-11-13T19:37:57+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "b96c8f1ce3eaba55",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-      "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
-      "published": "2026-11-13T18:40:30+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "6669a4d19d8d9722",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-      "summary": "ChatGPT Wallet lets AI agents shop and check out on users&#x27; behalf, starting with a limited rollout to U.S. Pro subscribers.",
-      "published": "2026-11-13T16:00:12+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "cd336cbdb7962f39",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "published": "2026-11-13T15:58:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "73b823aa24f5b8c8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
-      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
-      "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
-      "published": "2026-11-13T14:44:48+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "69a4be7aab7399d4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
-      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-      "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country&#x27;s startup ecosystem are worried about the impact of his departure.",
-      "published": "2026-11-13T12:52:19+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "cea0e000c38dfa2e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "summary": "",
-      "published": "2026-11-13T18:00:39+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "cdc8eef67bc55a0d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "XYBench: Helping with the problem behind the question",
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "summary": "",
-      "published": "2026-11-13T17:02:35+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "96c7f67bef86f831",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "summary": "",
-      "published": "2026-11-13T14:05:22+00:00",
-      "source_name": "Hugging Face Blog",
-      "url_hash": "6841e619fcd7e8d9",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Firm linked to Jensen Huang&#x27;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
       "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
@@ -2468,6 +2158,266 @@
       "published": "2026-11-19T16:59:23+00:00",
       "source_name": "TechCrunch AI",
       "url_hash": "c12b546d5a71cb45",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+      "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+      "summary": "Anthropic mathematician Levent Alpöge says he used Claude to prove the Riemann hypothesis, math&#x27;s most famous open problem for 167 years, with a proof formalized in Lean that spans over 250,000 pages. Just hours later, Stanford researchers published an independent, entirely human competing proof, an…",
+      "published": "2026-11-21T11:19:49+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "4b0f784ca73798b3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+      "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+      "summary": "Thinking Machines has released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token. This lets the model reason internally for longer without generating extra text. On Artificial Analysis&#x27;s Intelligence Index, it ties with Qwen3.8 27B at roughly six times lo…",
+      "published": "2026-11-21T10:33:02+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "1b8efb1a8b4ef88b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+      "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+      "summary": "The Nasdaq 100 has slipped into a bear market after its worst weekly loss since the Covid-19 crisis. Nvidia plunged 14 percent as the SEC reviews its accounting, and Anthropic lost nearly all of its gains a day after its record IPO. AI doubts, scandals, rising interest rates, and political headwinds…",
+      "published": "2026-11-21T10:27:44+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "3e8676f6e4ce6838",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+      "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
+      "summary": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, d…",
+      "published": "2026-11-21T09:17:24+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "a77dba5f1ed5aa15",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
+      "url": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
+      "summary": "OpenAI has significantly strengthened safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol. In adaptive red-teaming tests, the success rate for extracting protected reasoning fell from 54 percent to 0.2 percent. The company is also suspending thousands to tens of thous…",
+      "published": "2026-11-20T20:31:50+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "47b162bdc526f25e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
+      "url": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
+      "summary": "Signal is blocking screenshots to stop AI agents like Apple&#x27;s Siri AI, Google&#x27;s Gemini Intelligence, and Meta&#x27;s Muse from reading private chats. The app calls it an &quot;existential threat&quot; to privacy, but admits its protections remain incomplete, including on macOS. Apple, Google, and Microsoft should…",
+      "published": "2026-11-20T19:50:27+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "eaebba57ed4200fc",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google&#x27;s Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
+      "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
+      "summary": "Google is bringing &quot;Computer Use&quot; to Gemini for Mac, letting the AI operate desktop apps, local files, and websites in an isolated background window with a live preview while users keep working. The article Google&amp;#039;s Gemini can now run Mac apps and finish desktop chores in the background while y…",
+      "published": "2026-11-20T18:50:31+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "20c57fb82fd66b15",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others",
+      "url": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
+      "summary": "A Bloomberg News analysis of 10 million job postings suggests AI is compounding China&#x27;s already weak labor market. Entry-level workers and the creative industry are feeling the shift most, with more than 90% of Chinese micro-dramas now produced using AI. Former central bank adviser Cai Fang warns th…",
+      "published": "2026-11-20T15:56:03+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "c5740d6d6179322c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Apple joins the race for AI agents that control your device while raising new barriers for competitors",
+      "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+      "summary": "After Meta, OpenAI, Anthropic, and Google launched their own AI agents, Apple is now building one too - while making it harder for rivals to access its devices. The article Apple joins the race for AI agents that control your device while raising new barriers for competitors appeared first on The De…",
+      "published": "2026-11-20T15:03:25+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "92f225d6d88edcc4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Nvidia bets at least $500 million on Inception&#x27;s diffusion models to strengthen its open-source Nemotron lineup",
+      "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
+      "summary": "Nvidia is close to acquiring AI startup Inception for at least $500 million, according to The Information. The company is just two years old and builds language models based on diffusion processes, an alternative approach to the token-by-token generation used by models like ChatGPT. The deal would b…",
+      "published": "2026-11-20T14:53:50+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "46d8bcc90ca22e11",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "summary": "Comments",
+      "published": "2026-11-20T18:33:14+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "cb5e6e91712c9ca4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+      "url": "https://alpo.ge/remark.pdf",
+      "summary": "Comments",
+      "published": "2026-11-20T14:16:21+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "3b3270b0917323ae",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Inkling 2 Mini",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "summary": "Comments",
+      "published": "2026-11-20T20:12:19+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "89c1b5008b7af961",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "RCE in Gnupg",
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+      "summary": "Comments",
+      "published": "2026-11-21T08:32:58+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "b8606c68272e2ff2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "url": "http://ricapar.net/ClawDOS/",
+      "summary": "Comments",
+      "published": "2026-11-21T05:38:01+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "bc4ea20c927d277c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "We promoted developers into architects without informing them",
+      "url": "https://manidoraisamy.com/developer-to-architect.html",
+      "summary": "Comments",
+      "published": "2026-11-20T18:17:51+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "c884460ec18c9cae",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+      "summary": "Comments",
+      "published": "2026-11-20T17:21:36+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a5368ddb02b51560",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "NINLIVE: The Nine Inch Nails live archive",
+      "url": "https://ninlive.com/",
+      "summary": "Comments",
+      "published": "2026-11-20T22:30:47+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e1c97d950edb3018",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Clojure will affect the way you think about programming (2017)",
+      "url": "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/",
+      "summary": "Comments",
+      "published": "2026-11-21T02:40:39+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "fe15c21a8715941c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Surprisingly Adorable Insect Portraits",
+      "url": "https://amateurphotographer.com/latest/these-astonishing-insect-portraits-reveal-a-hidden-world-you-never-knew-existed/",
+      "summary": "Comments",
+      "published": "2026-11-21T06:44:14+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "784c995a07e77d4e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here&#x27;s what the startup is building.",
+      "published": "2026-11-20T19:53:41+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "05d06a2ae37185a1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there&#x27;s a competing human solution, too.",
+      "published": "2026-11-20T19:32:08+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "81e856d23e6ca940",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Chips can survive the space environment — can their financing?",
+      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "summary": "Lenders don&#x27;t want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+      "published": "2026-11-20T17:40:01+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "fc059eec5b023eb8",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+      "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed…",
+      "published": "2026-11-20T14:55:44+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "bbcc1ed9f7950c3b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Six AI-powered gadgets that could make your home office smarter",
+      "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+      "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
+      "published": "2026-11-20T14:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "4d2d20d171989c2f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The most misunderstood graph in AI just got a major update",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time…",
+      "published": "2026-11-20T18:15:15+00:00",
+      "source_name": "MIT Technology Review",
+      "url_hash": "001e6b6e613bbaaf",
       "category": "Genel",
       "tr_summary": ""
     }
