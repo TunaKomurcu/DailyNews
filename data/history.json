@@ -1,206 +1,6 @@
 {
-  "last_updated": "2026-11-21T12:19:48Z",
+  "last_updated": "2026-11-22T12:23:11Z",
   "items": [
-    {
-      "title": "Firm linked to Jensen Huang&#x27;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
-      "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
-      "summary": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang&#x27;s former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller Culper Research estimates Nvidia&#x27;s actual China revenue share exceeds 20 percent,…",
-      "published": "2026-11-15T11:35:12+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "3515a31ed9232149",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Australia&#x27;s central bank finds AI hitting young workers first, especially in software and customer service",
-      "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
-      "summary": "Australia&#x27;s central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15- to 24-year-olds in those fields have dropped more sharply than among older worke…",
-      "published": "2026-11-15T10:45:58+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "5849c3c3ddfec16f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
-      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
-      "summary": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5. The sample deployment runs on 194 Huawei Ascend chips, and Meituan makes no ment…",
-      "published": "2026-11-15T10:06:06+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "db313f233dd8bfe1",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic CEO Amodei admits &quot;there&#x27;s a huge uncertainty in what&#x27;s going to happen next year&quot; days before a record IPO",
-      "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
-      "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute &#x27;the deepest business dilemma&#x27; his company faces. Anthropic&#x27;s commitments now total nearly $901 billion, and it&#x27;s still far from clear whether future revenue will justify those costs. The planned I…",
-      "published": "2026-11-14T19:05:17+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "d88d73c27122c445",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
-      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
-      "summary": "For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google&#x27;s Gemini 4 Carbon and Anthropic&#x27;s Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The articl…",
-      "published": "2026-11-14T16:48:01+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "9c80a75d7edca31c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
-      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
-      "summary": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop &quot;think hard&quot; and start at Medium effort. The article Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 appeared…",
-      "published": "2026-11-14T16:42:56+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "9bcf5b71412aba7c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "SpaceX catches the Starship to end Flight 15",
-      "url": "https://www.spacex.com/launches/starship-flight-15",
-      "summary": "Comments",
-      "published": "2026-11-14T21:22:24+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "79b046481bd48da6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Why did some Apollo missions carry a grenade launcher?",
-      "url": "https://space.stackexchange.com/questions/37775",
-      "summary": "Comments",
-      "published": "2026-11-15T09:06:43+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "6921618a4fcf3aa8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Lovable apps expose passport details and more than 200K private messages",
-      "url": "https://www.crissyfield.de/research/lovable-en/",
-      "summary": "Comments",
-      "published": "2026-11-14T17:43:10+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "94aa6d9b525a12a4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Court denies motion to dismiss DRAM price fixing case",
-      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-      "summary": "Comments",
-      "published": "2026-11-15T01:18:36+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "88ae2cfdd6f59272",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Disk encryption on NetBSD – achieving secrecy",
-      "url": "https://netbsd.org/~nia/disk-encrypt/",
-      "summary": "Comments",
-      "published": "2026-11-15T05:29:54+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "1093309b494ccc9a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "How did Woz write the Apple 1 BASIC before building the computer?",
-      "url": "https://retrocomputing.stackexchange.com/questions/17957",
-      "summary": "Comments",
-      "published": "2026-11-14T22:22:49+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "04d059df669879a5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "My favourite modern NES games",
-      "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
-      "summary": "Comments",
-      "published": "2026-11-15T02:41:25+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "2b72b271581ba0ed",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "KDE: The documentary [video]",
-      "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
-      "summary": "Comments",
-      "published": "2026-11-14T13:43:28+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "94b61c00d4a22219",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "A family tree of software job titles",
-      "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-      "summary": "Comments",
-      "published": "2026-11-14T17:45:19+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a21cc815013d30aa",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "PyPI&#x27;s redesigned project pages with clearer security signals are now live",
-      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-      "summary": "Comments",
-      "published": "2026-11-14T15:40:52+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "9ed594075d0bf1a5",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Where was Nvidia’s security team?",
-      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
-      "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which…",
-      "published": "2026-11-15T00:08:07+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "a8381ccf0f4a6c26",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
-      "published": "2026-11-14T21:41:22+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "e86112d5f8734949",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "summary": "From Apple&#x27;s repeatedly delayed Siri AI to OpenAI&#x27;s messy &quot;super app&quot; launch, here&#x27;s a look at the AI projects that shut down or missed expectations.",
-      "published": "2026-11-14T17:30:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "0dac5bc8bd77a78d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-      "published": "2026-11-14T16:34:15+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "8097820885cc543d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
       "url": "https://arxiv.org/abs/2611.17338",
@@ -2418,6 +2218,206 @@
       "published": "2026-11-20T18:15:15+00:00",
       "source_name": "MIT Technology Review",
       "url_hash": "001e6b6e613bbaaf",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
+      "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+      "summary": "Security researchers at Dragos used two million fake AI requests to uncover serious vulnerabilities in the AI supply chain, finding at least three compromised providers, hundreds of stolen AWS keys, and marketplace resellers who were simply reading customer requests. OpenRouter responded by removing…",
+      "published": "2026-11-22T12:07:56+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "be2721eef93582e6",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Lean and Mathlib community officially confirms Levent Alpöge&#x27;s proof of the Riemann hypothesis is correct",
+      "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+      "summary": "The Lean and Mathlib community has officially confirmed Levent Alpöge&#x27;s proof of the Riemann hypothesis as correct. Dozens of independent verifiers checked the 17 million lines of computer code. The solution arrived years earlier than expected: Terence Tao had predicted it wouldn&#x27;t happen until arou…",
+      "published": "2026-11-22T11:08:31+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "90b5b151d6473634",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+      "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+      "summary": "OpenAI&#x27;s GPT-6.2 Astra and Sol give much shorter, more direct answers than their predecessors, but they are also less willing to admit uncertainty. Anthropic&#x27;s Claude models score well ahead on transparency. The article GPT-6.2 Astra and Sol get to the point faster but score lower on transparency th…",
+      "published": "2026-11-22T09:41:37+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "7f95ea087cae71a3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Nvidia researchers argue huge AI context windows are a dead end",
+      "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+      "summary": "Nvidia researchers argue that language models often don&#x27;t need their full context windows—which are slow, expensive, and prone to errors—and propose an alternative. In tests, periodic summaries and targeted keyword search usually matched full-context results at a fraction of the cost. The team even…",
+      "published": "2026-11-21T16:23:45+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "0a04003cba71b6ac",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Silicon Valley&#x27;s growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+      "url": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+      "summary": "A Buddhist monastery in Vermont called Maple wants to establish itself as Silicon Valley&#x27;s spiritual authority while creating its own AI god. According to a New Yorker report, leader Soryu Forall&#x27;s group records every breath its members take to train an AI in his image. Former members report manipul…",
+      "published": "2026-11-21T16:04:29+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "c08177968139f00b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+      "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+      "summary": "OpenAI has released new prompt templates for GPT-6.2 Astra and Sol meant to fix common model behaviors such as overly brief answers, unnecessary follow-up questions, and excessive testing when coding. The API is changing as well, since editing a conversation&#x27;s history can discard reasoning content a…",
+      "published": "2026-11-21T13:32:35+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "864f2f5a6c2bda06",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "summary": "Comments",
+      "published": "2026-11-22T04:04:56+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e2495912c5fa2d7d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Lean verification of the Riemann Hypothesis",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "summary": "Comments",
+      "published": "2026-11-21T14:36:45+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "bf485886c9d7da81",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
+      "url": "https://arxiv.org/abs/2606.14068",
+      "summary": "Comments",
+      "published": "2026-11-22T09:18:36+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "48435cfc749a851e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Sandwich Simulator",
+      "url": "https://stulle.app/",
+      "summary": "Comments",
+      "published": "2026-11-22T00:07:59+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e87c04860704351e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "summary": "Comments",
+      "published": "2026-11-21T18:02:19+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6c69e97c5257c80c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Show HN: The Riemann Proof Handbook",
+      "url": "https://github.com/tamnd/riemann-handbook",
+      "summary": "Comments",
+      "published": "2026-11-22T05:46:30+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "212b109585530bd2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Detonating a pile of lead azide",
+      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+      "summary": "Comments",
+      "published": "2026-11-21T13:23:14+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "cf85127411206c4e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Data Processing Incidents on Inference Providers",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "summary": "Comments",
+      "published": "2026-11-22T02:14:14+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "b9d1c9e9c4cc8c6b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Notes on the discrete Fourier transform (DFT)",
+      "url": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
+      "summary": "Comments",
+      "published": "2026-11-22T06:52:25+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "e0e6f4639044a70b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Fast-Anything: Don&#x27;t rewrite it in Rust. Rewrite the 5% that&#x27;s slow",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "summary": "Comments",
+      "published": "2026-11-22T04:10:09+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "2a3dc20019c6a4be",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "summary": "Signal is limiting users&#x27; ability to take screenshots in both its Android and iOS apps.",
+      "published": "2026-11-21T21:37:10+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "7289e21f33e265e9",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "A tale of two Nvidias",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "published": "2026-11-21T21:07:42+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "8ed913cfa76c678b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "published": "2026-11-21T17:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "d15566b2aef3b460",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "summary": "An actor has licensed his face to a microdrama startup — in a trend that&#x27;s already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "published": "2026-11-21T16:00:00+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "53e893a48ca02ab2",
       "category": "Genel",
       "tr_summary": ""
     }
