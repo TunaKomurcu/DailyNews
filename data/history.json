@@ -1,306 +1,6 @@
 {
-  "last_updated": "2026-11-22T12:23:11Z",
+  "last_updated": "2026-11-23T14:14:24Z",
   "items": [
-    {
-      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
-      "url": "https://arxiv.org/abs/2611.17338",
-      "summary": "arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled sensitivity intervention moves hard-drop…",
-      "published": "2026-11-16T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "f5dc4cd120b45659",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
-      "url": "https://arxiv.org/abs/2611.17339",
-      "summary": "arXiv:2611.17339v1 Announce Type: new Abstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small models practitioners actually ship on-device, Phi-3-mini…",
-      "published": "2026-11-16T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "5b66b471dda6a306",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
-      "url": "https://arxiv.org/abs/2611.17340",
-      "summary": "arXiv:2611.17340v1 Announce Type: new Abstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters. This pool complicates adapter selectio…",
-      "published": "2026-11-16T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "e6b637328ef2109d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
-      "url": "https://arxiv.org/abs/2611.17341",
-      "summary": "arXiv:2611.17341v1 Announce Type: new Abstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient admissions and ask an LLM to infer a…",
-      "published": "2026-11-16T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "5cc536aed4b9c933",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "An Operationalization of Opaque Serial Depth",
-      "url": "https://arxiv.org/abs/2611.17495",
-      "summary": "arXiv:2611.17495v1 Announce Type: new Abstract: Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability. We operationalize a measure that serves as a proxy for the amount of unverbalized serial cognitio…",
-      "published": "2026-11-16T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "5da9a95de14e592d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Advancing Quantization for R&amp;R Models with Microscaling Formats",
-      "url": "https://arxiv.org/abs/2611.17501",
-      "summary": "arXiv:2611.17501v1 Announce Type: new Abstract: Recommendation and Ranking (R&amp;amp;R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to precision loss. Unlike Large Language Models (LLMs) that frequently tolerate quantization-induced…",
-      "published": "2026-11-16T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "c0fb3abdbf393ee0",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
-      "url": "https://arxiv.org/abs/2611.17515",
-      "summary": "arXiv:2611.17515v1 Announce Type: new Abstract: Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London silver-fixing litigation, in a market simulation built from real case transcripts. Across 260 simula…",
-      "published": "2026-11-16T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "963bbe19ff67ab44",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
-      "url": "https://arxiv.org/abs/2611.17524",
-      "summary": "arXiv:2611.17524v1 Announce Type: new Abstract: A small labelled dataset is memorized long before the training budget runs out, and the one-hot labels that remain to be fitted then mostly sharpen confidence. Model annealing spends the rest of the budget on review and consolidation, relearning from t…",
-      "published": "2026-11-16T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "f50e63d8425077c4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Astrocyte Biocomputing: Astrocytic Contributions to Neural Network Computation",
-      "url": "https://arxiv.org/abs/2611.17532",
-      "summary": "arXiv:2611.17532v1 Announce Type: new Abstract: Conductors are critical for the performance of an orchestra even though they do not emit sound. Basic research and clinical studies in the last decade are revealing that astrocytes may be the &quot;conductors&quot; of the &quot;orchestra&quot; that is the brain network: a…",
-      "published": "2026-11-16T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "b5369aae98685522",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
-      "url": "https://arxiv.org/abs/2611.17539",
-      "summary": "arXiv:2611.17539v1 Announce Type: new Abstract: Autonomous crystal-structure determination from powder X-ray diffraction (pXRD) remains a key bottleneck for self-driving materials laboratories. We formulate the task of pXRD structure determination as a verifiable agentic search problem: candidate st…",
-      "published": "2026-11-16T05:00:00+00:00",
-      "source_name": "arXiv AI",
-      "url_hash": "d6f2a3136b4179e3",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "published": "2026-11-16T09:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "ff7833693fa2a067",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The King’s Trust and OpenAI launch £1m partnership",
-      "url": "https://openai.com/index/the-kings-trust-and-openai",
-      "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
-      "published": "2026-11-16T00:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "60f3c7381bc61eae",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "A step toward defining the Standard Model on a lattice",
-      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
-      "published": "2026-11-15T22:00:01+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "2e8f421d2ee2a3df",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Our new blog for science",
-      "url": "https://openai.com/index/our-new-blog-for-science",
-      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
-      "published": "2026-11-15T22:00:00+00:00",
-      "source_name": "OpenAI Blog",
-      "url_hash": "33b95c2112c46efd",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Anthropic&#x27;s Claude Fable 5.2 doesn&#x27;t generate images, it paints them",
-      "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
-      "summary": "Anthropic&#x27;s Claude Fable 5.2 doesn&#x27;t generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, complete with bristle texture and paint application. A single photoreal…",
-      "published": "2026-11-15T15:42:03+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "1c0f67ec97e321b7",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Coffeehouses and the Rise of Science [pdf]",
-      "url": "https://www.monirbounadi.com/Bounadi_JMP.pdf",
-      "summary": "Comments",
-      "published": "2026-11-16T11:03:16+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a9dde42fea5a11c4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Doing Show HN generates a ton of automated email pitches",
-      "url": "https://petervandijck.com/post/pbrgs-ev0bc",
-      "summary": "Comments",
-      "published": "2026-11-16T11:00:02+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "9484d13a0719ab02",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "How to make almost anything",
-      "url": "https://pub.cba.mit.edu/863.26/site/",
-      "summary": "Comments",
-      "published": "2026-11-16T05:50:37+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "626dccd60cd8f73a",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
-      "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
-      "summary": "Comments",
-      "published": "2026-11-16T11:39:31+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "7ed8340b8b818806",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Universal XSS in uBlock Origin from website-driven element picker",
-      "url": "https://iter.ca/post/ubo-uxss/",
-      "summary": "Comments",
-      "published": "2026-11-16T02:04:48+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "9b09620054bd9f2b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Qwen4-Max",
-      "url": "https://qwen.ai/blog?id=qwen4-max",
-      "summary": "Comments",
-      "published": "2026-11-16T02:14:44+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "756563a4144915c6",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Old Bitly links are being hijacked",
-      "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
-      "summary": "Comments",
-      "published": "2026-11-15T22:11:43+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "4a41bfb9fc315bc4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "What&#x27;s Next for Nvidia?",
-      "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
-      "summary": "Comments",
-      "published": "2026-11-15T23:55:55+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "87d2912ca1d33f52",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
-      "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-      "summary": "Comments",
-      "published": "2026-11-16T00:21:54+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "69159b88e2cd0a1f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "It&#x27;s always DNS, so why are we running our own?",
-      "url": "https://s2.dev/blog/dns-server",
-      "summary": "Comments",
-      "published": "2026-11-16T09:19:38+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "2d36b1f863bf7ddf",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
-      "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
-      "summary": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
-      "published": "2026-11-16T12:30:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "67067103992ebfe0",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Apple launches new app to study how people use AI for health",
-      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
-      "summary": "Apple&#x27;s new app for a study will answer everyday medical questions",
-      "published": "2026-11-16T01:30:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "a22318abd9f9f947",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
-      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
-      "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
-      "published": "2026-11-15T23:30:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "04196bef9b67627d",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
-      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
-      "summary": "&quot;Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.&quot;",
-      "published": "2026-11-15T21:56:35+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "9bfb2ab667837ec0",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
-      "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
-      "summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
-      "published": "2026-11-15T20:20:57+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "e13a4bd95b8b6ac7",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Agents Cannot Hand Over What They Have Not Yet Understood",
       "url": "https://arxiv.org/abs/2611.18642",
@@ -708,16 +408,6 @@
       "published": "2026-11-16T16:04:28+00:00",
       "source_name": "MIT Technology Review",
       "url_hash": "7f5c627298368a7e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Building AI that can work across the enterprise",
-      "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-      "summary": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a de…",
-      "published": "2026-11-16T13:00:00+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "3f40ae984dddf975",
       "category": "Genel",
       "tr_summary": ""
     },
@@ -2418,6 +2108,296 @@
       "published": "2026-11-21T16:00:00+00:00",
       "source_name": "TechCrunch AI",
       "url_hash": "53e893a48ca02ab2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
+      "url": "https://arxiv.org/abs/2611.26663",
+      "summary": "arXiv:2611.26663v1 Announce Type: new Abstract: Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. We crossed AI partnership (one versus two) with behavioral formation (calibrated to average human behavior versus customized…",
+      "published": "2026-11-23T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "cd02a86f341630ad",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation",
+      "url": "https://arxiv.org/abs/2611.26717",
+      "summary": "arXiv:2611.26717v1 Announce Type: new Abstract: Synthesizing relational training data such as knowledge graphs with a large language model typically emits structured objects one at a time, which keeps each object valid but leaves the relationships between them ungrounded. We study an alternative par…",
+      "published": "2026-11-23T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "585cc50ff286833b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
+      "url": "https://arxiv.org/abs/2611.26722",
+      "summary": "arXiv:2611.26722v1 Announce Type: new Abstract: To autonomously execute multi-step tasks, enterprise agents must reliably interact with tools, call APIs, or query databases, making tool-calling a fundamental capability of AI models. Supervised fine-tuning (SFT) optimises for producing the correct ca…",
+      "published": "2026-11-23T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "2ffd747d4cc71821",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
+      "url": "https://arxiv.org/abs/2611.26782",
+      "summary": "arXiv:2611.26782v1 Announce Type: new Abstract: Molecular dynamics (MD) simulation resolves atomic-scale motion and predicts the structural, mechanical, and dynamic properties of materials, making it cen- tral to materials design and discovery. Yet an MD study requires an expert-driven workflow: des…",
+      "published": "2026-11-23T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "461a81e08dcc750a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Beyond Final Answers: Interpretable Tumor Immune Microenvironment Reasoning from H&amp;E and mIF",
+      "url": "https://arxiv.org/abs/2611.26794",
+      "summary": "arXiv:2611.26794v1 Announce Type: new Abstract: Readouts of the tumor immune microenvironment (TIME), such as CD8+ T-cell density, intra-epithelial infiltration and the Ki67 index, combine tissue architecture from H&amp;amp;E with cell phenotypes from multiplex immunofluorescence (mIF). Multimodal large…",
+      "published": "2026-11-23T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "ba63b85712814233",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Memorization and Generalization in Generative Models: A Perspective From Energy-based Modeling and Associative Memory",
+      "url": "https://arxiv.org/abs/2611.26797",
+      "summary": "arXiv:2611.26797v1 Announce Type: new Abstract: Generative models now write working code, produce realistic images, and hold long conversations, yet the mechanisms behind their intelligence still evade our understanding. This thesis explores that puzzle through Associative Memory (AM), in which patt…",
+      "published": "2026-11-23T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "9e7d1b0c4460f6f1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Beyond Demographic Discrimination: Benchmarking Normative-Descriptive Calibration in LLMs",
+      "url": "https://arxiv.org/abs/2611.26870",
+      "summary": "arXiv:2611.26870v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed in socially consequential settings, where they must distinguish between normative reasoning (what should happen) and descriptive reasoning (what is likely to happen). Most fairness benchmarks evalu…",
+      "published": "2026-11-23T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "03465724b88b0cc0",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Towards Robust Partial-Edit Deepfake Localization: An edit and Generator Conditioned Analysis",
+      "url": "https://arxiv.org/abs/2611.26903",
+      "summary": "arXiv:2611.26903v1 Announce Type: new Abstract: Partial-edit deepfake localization aims to identify manipulated regions within otherwise authentic speech. Recent systems report strong overall results, but aggregate scores do not reveal whether this performance holds across different editing conditio…",
+      "published": "2026-11-23T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "d255db050aaeae04",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers",
+      "url": "https://arxiv.org/abs/2611.26906",
+      "summary": "arXiv:2611.26906v1 Announce Type: new Abstract: Large language model (LLM) theorem solvers differ in both proving capability and inference cost. Applying an expensive solver to every subgoal wastes computation when cheaper models are sufficient, while always starting from the cheapest solver wastes…",
+      "published": "2026-11-23T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "7afd1e283c6656dc",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress",
+      "url": "https://arxiv.org/abs/2611.26910",
+      "summary": "arXiv:2611.26910v1 Announce Type: new Abstract: LLM agents are expected to improve themselves from their own experience across episodes, with fixed weights. Self-improvement in an embodied world cannot be read from one measure. Existing benchmarks measure task progress, world-knowledge question answ…",
+      "published": "2026-11-23T05:00:00+00:00",
+      "source_name": "arXiv AI",
+      "url_hash": "9727016a4ca8e93e",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Meta&#x27;s Alexandr Wang warns the AI industry isn&#x27;t ready for what&#x27;s coming after Riemann breakthrough",
+      "url": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/",
+      "summary": "Meta&#x27;s Chief AI Officer Alexandr Wang sees the recent AI-assisted proof sketch of the Riemann Hypothesis as a clear sign that superintelligence is right around the corner. The article Meta&amp;#039;s Alexandr Wang warns the AI industry isn&amp;#039;t ready for what&amp;#039;s coming after Riemann breakthrough a…",
+      "published": "2026-11-23T13:59:36+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "5c1593eb53c40483",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "US spies tracked Nvidia scandal figure&#x27;s ties to Chinese intelligence for over a year",
+      "url": "https://the-decoder.com/us-spies-tracked-nvidia-scandal-figures-ties-to-chinese-intelligence-for-over-a-year/",
+      "summary": "US intelligence agencies tracked contacts between Alice Huang and China&#x27;s Ministry of State Security for over a year, the New York Times reports. The surveillance ran parallel to her secret affair with then-Nvidia CEO Jensen Huang. Federal investigators are now looking into whether a network of comp…",
+      "published": "2026-11-23T13:45:32+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "4cdaecd6d033a517",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
+      "url": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
+      "summary": "OpenAI&#x27;s GPT-6.2 Astra independently produced a machine-verifiable Lean proof of Smoktunowicz&#x27;s gap theorem, the first of its kind according to Vals AI. The model chose its own approach because key foundations were missing from Mathlib. On Autoform-Hard, Astra now leads the leaderboard with 49 of 56…",
+      "published": "2026-11-23T12:17:01+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "1833b139f3c79668",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+      "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+      "summary": "A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets in a messy daily workflow. Even Opus 5.5 and Astra fall far short, solving fewer…",
+      "published": "2026-11-22T15:15:48+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "24945882501cb72a",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Perplexity&#x27;s new Monitor API turns web search from a one-off query into a nonstop watchdog",
+      "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+      "summary": "Perplexity is launching a Monitor API that searches the web on a schedule and alerts agents via webhook only when relevant changes occur. Its own decision model filters out unimportant results. For Perplexity, the API is part of a broader strategy to stand out from an increasingly interchangeable ch…",
+      "published": "2026-11-22T14:20:28+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "e7b883768e2e6dc2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://z.ai/blog/glm-5.4",
+      "summary": "Comments",
+      "published": "2026-11-23T10:06:43+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f1db7ce98881d890",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Jensen Huang Reinstated as Nvidia CEO",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "summary": "Comments",
+      "published": "2026-11-23T14:01:23+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "3b38f7127b86a94d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
+      "url": "https://github.com/mikuta0407/win4wine",
+      "summary": "Comments",
+      "published": "2026-11-23T12:28:11+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "d497cc3428644548",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "The next circle of security hell",
+      "url": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
+      "summary": "Comments",
+      "published": "2026-11-23T11:34:16+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "de0f31745cc5ebed",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "summary": "Comments",
+      "published": "2026-11-23T03:49:24+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "b7cf04a84828baaf",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Free alternative TV network built from the Internet Archive&#x27;s forgotten videos",
+      "url": "https://spelunkr.tv",
+      "summary": "Comments",
+      "published": "2026-11-23T01:13:51+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "eab63579d6f6bbeb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Nospeaker ─ Make your MacBook&#x27;s trackpad talk using its haptic motor",
+      "url": "https://github.com/os6/nospeaker",
+      "summary": "Comments",
+      "published": "2026-11-23T11:31:54+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "20d4c8c8afcf099b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Show HN: News Blocklist – a DNS blocklist of 14k news and current-affairs sites",
+      "url": "https://github.com/ruairidhflint/news-blocklist",
+      "summary": "Comments",
+      "published": "2026-11-23T13:02:52+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "88f77e76b0ee1a3b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Yes, 17M lines of Lean is a lot",
+      "url": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/",
+      "summary": "Comments",
+      "published": "2026-11-23T05:00:49+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "f66d96ccd108a3f5",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "A Beginner&#x27;s Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "summary": "Comments",
+      "published": "2026-11-22T21:01:16+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a9f7ae49b5fbd4f4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+      "published": "2026-11-23T01:25:53+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "04e5e033b7998e4f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "published": "2026-11-22T21:14:07+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "90468db0d5a9c8d3",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "summary": "Journalist Paris Marx unpacks his new book &quot;Hyperscale.&quot;",
+      "published": "2026-11-22T18:08:43+00:00",
+      "source_name": "TechCrunch AI",
+      "url_hash": "b51af88d58d8138d",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "How to build and maintain an agentic evaluation",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "summary": "",
+      "published": "2026-11-23T00:00:00+00:00",
+      "source_name": "Hugging Face Blog",
+      "url_hash": "00d52199bef25f9e",
       "category": "Genel",
       "tr_summary": ""
     }
