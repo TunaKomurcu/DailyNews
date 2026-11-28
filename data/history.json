@@ -1,266 +1,6 @@
 {
-  "last_updated": "2026-11-27T13:37:34Z",
+  "last_updated": "2026-11-28T12:48:40Z",
   "items": [
-    {
-      "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
-      "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
-      "summary": "Anthropic mathematician Levent Alpöge says he used Claude to prove the Riemann hypothesis, math&#x27;s most famous open problem for 167 years, with a proof formalized in Lean that spans over 250,000 pages. Just hours later, Stanford researchers published an independent, entirely human competing proof, an…",
-      "published": "2026-11-21T11:19:49+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "4b0f784ca73798b3",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
-      "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
-      "summary": "Thinking Machines has released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token. This lets the model reason internally for longer without generating extra text. On Artificial Analysis&#x27;s Intelligence Index, it ties with Qwen3.8 27B at roughly six times lo…",
-      "published": "2026-11-21T10:33:02+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "1b8efb1a8b4ef88b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
-      "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
-      "summary": "The Nasdaq 100 has slipped into a bear market after its worst weekly loss since the Covid-19 crisis. Nvidia plunged 14 percent as the SEC reviews its accounting, and Anthropic lost nearly all of its gains a day after its record IPO. AI doubts, scandals, rising interest rates, and political headwinds…",
-      "published": "2026-11-21T10:27:44+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "3e8676f6e4ce6838",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
-      "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
-      "summary": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, d…",
-      "published": "2026-11-21T09:17:24+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "a77dba5f1ed5aa15",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
-      "url": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
-      "summary": "OpenAI has significantly strengthened safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol. In adaptive red-teaming tests, the success rate for extracting protected reasoning fell from 54 percent to 0.2 percent. The company is also suspending thousands to tens of thous…",
-      "published": "2026-11-20T20:31:50+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "47b162bdc526f25e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
-      "url": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
-      "summary": "Signal is blocking screenshots to stop AI agents like Apple&#x27;s Siri AI, Google&#x27;s Gemini Intelligence, and Meta&#x27;s Muse from reading private chats. The app calls it an &quot;existential threat&quot; to privacy, but admits its protections remain incomplete, including on macOS. Apple, Google, and Microsoft should…",
-      "published": "2026-11-20T19:50:27+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "eaebba57ed4200fc",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Google&#x27;s Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
-      "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
-      "summary": "Google is bringing &quot;Computer Use&quot; to Gemini for Mac, letting the AI operate desktop apps, local files, and websites in an isolated background window with a live preview while users keep working. The article Google&amp;#039;s Gemini can now run Mac apps and finish desktop chores in the background while y…",
-      "published": "2026-11-20T18:50:31+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "20c57fb82fd66b15",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others",
-      "url": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
-      "summary": "A Bloomberg News analysis of 10 million job postings suggests AI is compounding China&#x27;s already weak labor market. Entry-level workers and the creative industry are feeling the shift most, with more than 90% of Chinese micro-dramas now produced using AI. Former central bank adviser Cai Fang warns th…",
-      "published": "2026-11-20T15:56:03+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "c5740d6d6179322c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Apple joins the race for AI agents that control your device while raising new barriers for competitors",
-      "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
-      "summary": "After Meta, OpenAI, Anthropic, and Google launched their own AI agents, Apple is now building one too - while making it harder for rivals to access its devices. The article Apple joins the race for AI agents that control your device while raising new barriers for competitors appeared first on The De…",
-      "published": "2026-11-20T15:03:25+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "92f225d6d88edcc4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Nvidia bets at least $500 million on Inception&#x27;s diffusion models to strengthen its open-source Nemotron lineup",
-      "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
-      "summary": "Nvidia is close to acquiring AI startup Inception for at least $500 million, according to The Information. The company is just two years old and builds language models based on diffusion processes, an alternative approach to the token-by-token generation used by models like ChatGPT. The deal would b…",
-      "published": "2026-11-20T14:53:50+00:00",
-      "source_name": "The Decoder",
-      "url_hash": "46d8bcc90ca22e11",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Hurried Announcement: Alessandro Masullo GRH",
-      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-      "summary": "Comments",
-      "published": "2026-11-20T18:33:14+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "cb5e6e91712c9ca4",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-      "url": "https://alpo.ge/remark.pdf",
-      "summary": "Comments",
-      "published": "2026-11-20T14:16:21+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "3b3270b0917323ae",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Inkling 2 Mini",
-      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "summary": "Comments",
-      "published": "2026-11-20T20:12:19+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "89c1b5008b7af961",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "RCE in Gnupg",
-      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
-      "summary": "Comments",
-      "published": "2026-11-21T08:32:58+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "b8606c68272e2ff2",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "ClawDOS – An AI coding agent for DOS",
-      "url": "http://ricapar.net/ClawDOS/",
-      "summary": "Comments",
-      "published": "2026-11-21T05:38:01+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "bc4ea20c927d277c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "We promoted developers into architects without informing them",
-      "url": "https://manidoraisamy.com/developer-to-architect.html",
-      "summary": "Comments",
-      "published": "2026-11-20T18:17:51+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "c884460ec18c9cae",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
-      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
-      "summary": "Comments",
-      "published": "2026-11-20T17:21:36+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "a5368ddb02b51560",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "NINLIVE: The Nine Inch Nails live archive",
-      "url": "https://ninlive.com/",
-      "summary": "Comments",
-      "published": "2026-11-20T22:30:47+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "e1c97d950edb3018",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Clojure will affect the way you think about programming (2017)",
-      "url": "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/",
-      "summary": "Comments",
-      "published": "2026-11-21T02:40:39+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "fe15c21a8715941c",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Surprisingly Adorable Insect Portraits",
-      "url": "https://amateurphotographer.com/latest/these-astonishing-insect-portraits-reveal-a-hidden-world-you-never-knew-existed/",
-      "summary": "Comments",
-      "published": "2026-11-21T06:44:14+00:00",
-      "source_name": "Hacker News",
-      "url_hash": "784c995a07e77d4e",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
-      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
-      "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here&#x27;s what the startup is building.",
-      "published": "2026-11-20T19:53:41+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "05d06a2ae37185a1",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
-      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-      "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there&#x27;s a competing human solution, too.",
-      "published": "2026-11-20T19:32:08+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "81e856d23e6ca940",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Chips can survive the space environment — can their financing?",
-      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-      "summary": "Lenders don&#x27;t want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
-      "published": "2026-11-20T17:40:01+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "fc059eec5b023eb8",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
-      "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
-      "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed…",
-      "published": "2026-11-20T14:55:44+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "bbcc1ed9f7950c3b",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "Six AI-powered gadgets that could make your home office smarter",
-      "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
-      "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
-      "published": "2026-11-20T14:00:00+00:00",
-      "source_name": "TechCrunch AI",
-      "url_hash": "4d2d20d171989c2f",
-      "category": "Genel",
-      "tr_summary": ""
-    },
-    {
-      "title": "The most misunderstood graph in AI just got a major update",
-      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time…",
-      "published": "2026-11-20T18:15:15+00:00",
-      "source_name": "MIT Technology Review",
-      "url_hash": "001e6b6e613bbaaf",
-      "category": "Genel",
-      "tr_summary": ""
-    },
     {
       "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
       "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
@@ -2148,6 +1888,196 @@
       "published": "2026-11-27T00:00:00+00:00",
       "source_name": "Hugging Face Blog",
       "url_hash": "c2bd7953104652e4",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google Deepmind&#x27;s &quot;Humanity&#x27;s First Exam&quot; shows top AI models still fail simple everyday tasks under repeated runs",
+      "url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/",
+      "summary": "Google Deepmind tests the reliability of 18 AI models with &quot;Humanity&#x27;s First Exam.&quot; Top models solve nearly every task family at least once, but even leaders like OpenAI&#x27;s GPT-6.2 Astra stumble when asked for 16 straight correct answers. Visual perception accounts for 73 percent of errors, and more…",
+      "published": "2026-11-28T11:12:30+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "38e1d9e08b5e8d47",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots",
+      "url": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+      "summary": "Embo raised $110 million in seed funding to build a universal robot brain with world models. Its AI learns how the physical world works from internet video and practices motor skills in simulation. Google Deepmind, Meta, and MIT researchers are behind the startup as the race for general-purpose robo…",
+      "published": "2026-11-28T10:48:18+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "1988b1d8f85e1147",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
+      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+      "summary": "OpenAI is suing Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers. The countersuit follows Apple&#x27;s own lawsuit from the summer. Just two years ago, the two companies teamed up to bring ChatGPT to the iPhone. Now OpenAI is building its own devices to comp…",
+      "published": "2026-11-27T19:38:37+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "0af379395f0e91ba",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+      "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+      "summary": "Two Chinese companies installed Nvidia&#x27;s powerful Blackwell chips at a Shanghai data center linked to Alice Huang, according to a Bloomberg investigation. A serial number led Bloomberg to Taiwanese manufacturer Gigabyte. Exporting these chips to China without a US license is illegal. The article Ban…",
+      "published": "2026-11-27T18:27:02+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "d7049ca0a5b3654f",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Three studies from Meta and AMI Labs back Yann LeCun&#x27;s bet on JEPA world models over large language models",
+      "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+      "summary": "Yann LeCun is pushing forward with his alternative to language models through his startup AMI Labs. The JEPA architecture aims to give machines an internal world model that captures cause and effect. Three new studies show progress in robot planning, more efficient training, and error correction, th…",
+      "published": "2026-11-27T16:58:56+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "0ab644cbf8d8d55c",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Hackers breached the US Air Force&#x27;s flagship Cloud One platform, report says",
+      "url": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/",
+      "summary": "Hackers breached the US Air Force&#x27;s flagship cloud platform. The article Hackers breached the US Air Force&amp;#039;s flagship Cloud One platform, report says appeared first on The Decoder .",
+      "published": "2026-11-27T16:06:43+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "13e475f4eea109eb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "OpenAI is building &quot;Athena&quot; data platform to cut down on AI agent guesswork",
+      "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+      "summary": "OpenAI&#x27;s data agent in ChatGPT Work still isn&#x27;t accurate enough. Under the codename &quot;Athena,&quot; the company is building a semantic layer that gives agents standardized definitions for business metrics. The tool could also put OpenAI in direct competition with Snowflake and Databricks. The article Open…",
+      "published": "2026-11-27T16:05:23+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "e30506be0d329087",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Rockstar&#x27;s AI dilemma: Can GTA 6&#x27;s staggered release model survive coding agents?",
+      "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+      "summary": "More than 40 projects are working to bring a leaked Xbox build of GTA 6 to PC through reverse engineering just days after its $3.79 billion record console launch. AI coding agents like Claude Code are speeding up the process so much that an early unofficial multiplayer mode is already running. Rocks…",
+      "published": "2026-11-27T15:37:47+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "03379cbf8bf236a8",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "SAP plans to cut at least 10,000 jobs as it pivots to AI",
+      "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+      "summary": "SAP is preparing to eliminate at least 10,000 positions as part of a sweeping AI restructuring, Bloomberg reports, citing people familiar with the matter. The article SAP plans to cut at least 10,000 jobs as it pivots to AI appeared first on The Decoder .",
+      "published": "2026-11-27T14:57:25+00:00",
+      "source_name": "The Decoder",
+      "url_hash": "9b6c7f470d576f00",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Farewell",
+      "url": "https://github.com/p-e-w/heretic/issues/601",
+      "summary": "Comments",
+      "published": "2026-11-28T11:42:26+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "6883534b81e937fb",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+      "url": "https://unkernel.dev",
+      "summary": "Comments",
+      "published": "2026-11-28T03:19:20+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "a8ed389cf242212b",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Knuth: Moratorium on Error Reports",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
+      "summary": "Comments",
+      "published": "2026-11-28T03:49:21+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "1c749128592cff73",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Google&#x27;s DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "summary": "Comments",
+      "published": "2026-11-27T23:06:29+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "990f58ceeb055fd1",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+      "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+      "summary": "Comments",
+      "published": "2026-11-28T11:57:04+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "8b716eecbb9560f2",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Paolo Soleri built a utopian eco-city in the Arizona desert",
+      "url": "https://www.worldofinteriors.com/story/paolo-soleri-arconsati-arizona",
+      "summary": "Comments",
+      "published": "2026-11-27T13:30:20+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "7a20b37957c0dbe0",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "summary": "Comments",
+      "published": "2026-11-27T15:40:31+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "ffbfe873b32cbcec",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Convex skills send the user&#x27;s app idea to a remote server without telling them",
+      "url": "https://github.com/convex/convex-backend-skill/issues/64",
+      "summary": "Comments",
+      "published": "2026-11-27T18:02:45+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "42b6c44ba3384d39",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+      "url": "https://tabernet.es/",
+      "summary": "Comments",
+      "published": "2026-11-27T23:00:30+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "42fdb509ddf1b3dc",
+      "category": "Genel",
+      "tr_summary": ""
+    },
+    {
+      "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+      "url": "https://bouncemarket.minhanhday.com/",
+      "summary": "Comments",
+      "published": "2026-11-27T15:01:50+00:00",
+      "source_name": "Hacker News",
+      "url_hash": "ff46556d3568b911",
       "category": "Genel",
       "tr_summary": ""
     }
